@@ -347,6 +347,33 @@
 
 	</GroundCompany>
 
+	<GroundCompany Name="AT_KT_Company">
+		<variant_Of_Existing_Type>AT_ST_Company</variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_AT_KT_WALKER_COMPANY</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_ATKT
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_ATST_COMPANY
+		TEXT_TOOLTIP_ATKT_HEALTH
+		TEXT_TOOLTIP_ATKT_MOVE
+		TEXT_TOOLTIP_ATKT_WEAP1
+		TEXT_TOOLTIP_ATKT_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_CRUSH
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_ATKT.tga</Icon_Name>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Company_Units>AT_KT_Walker, AT_KT_Walker, AT_KT_Walker, AT_KT_Walker</Company_Units>
+
+	</GroundCompany>
+
 	<GroundCompany Name="1L_Tank_Company">
 
 		<Text_ID>TEXT_UNIT_1L_TANK_COMPANY </Text_ID>

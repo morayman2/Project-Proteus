@@ -126,6 +126,11 @@ TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in 
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
 TEXT_TOOLTIP_ATAT_IC,The Ion refit Imperial AT-AT was an uncommon variation that replaced it's super heavy laser cannons with heavy ion cannons. Although ion cannons were rarely found aboard ground vehicles, some minor warlords converted a small number of its All Terrain Armored Transport fleet into mobile, ion cannons. The warlords deployed the All Terrain Ion Cannon for the mobile defense of strategic locations, though less effectively than the more heavily modified AT-IC.
 TEXT_TOOLTIP_ATAT_IC_WEAP1,1x Super Heavy AV Ion Cannon: 4 / 2.0s / 480m
+TEXT_TOOLTIP_ATKT,
+TEXT_TOOLTIP_ATKT_HEALTH,Health: 155 (Light Vehicle)
+TEXT_TOOLTIP_ATKT_MOVE,Speed: 1 | Turn: 4.0 
+TEXT_TOOLTIP_ATKT_WEAP1,2x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
+TEXT_TOOLTIP_ATKT_WEAP2,1x FC-1 Flechette Launcher (AI): 1 / 10.0s / 240m
 TEXT_TOOLTIP_ATOT,Troop walker developed during the Clone Wars to bring a larger amount of troops into the battlefield than other Republic walkers. While best known as open-topped for behind-lines use, an armored cover is applied for combat or more varied environmental conditions. Able to deploy infantry.
 TEXT_TOOLTIP_ATOT_COMPANY,Company: 2x AT-OT Walker
 TEXT_TOOLTIP_ATOT_DEPLOY,Deploys: 1x Dragon Trooper Pack
@@ -205,8 +210,8 @@ TEXT_TOOLTIP_DOMINA_TAGGE,The youngest child of Sanya Tagge, Domina was sent awa
 TEXT_TOOLTIP_ETA2,A Kuat-designed interceptor that shares traits with the Sienar TIE line. Its stripped-down defenses allow for very impressive flight performance at the cost of durability, with weapon systems that allow it to excel against heavier fighters.
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +20%
-TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human Imperial politician and later starfighter ace. Ryad's political position helped establish wealth and influence; over time she developed an interest in starfighters and eventually used her connection to take up starfighter pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron known as Red Star Squadron, which went onto hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
+TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
@@ -326,6 +331,8 @@ TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
 TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
+TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
+TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
