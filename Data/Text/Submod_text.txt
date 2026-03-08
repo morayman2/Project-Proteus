@@ -165,7 +165,7 @@ TEXT_TOOLTIP_ATKT,
 TEXT_TOOLTIP_ATKT_HEALTH,Health: 155 (Light Vehicle)
 TEXT_TOOLTIP_ATKT_MOVE,Speed: 1 | Turn: 4.0 
 TEXT_TOOLTIP_ATKT_WEAP1,2x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
-TEXT_TOOLTIP_ATKT_WEAP2,1x FC-1 Flechette Launcher (AI): 1 / 10.0s / 240m
+TEXT_TOOLTIP_ATKT_WEAP2,1x FC-1 Flechette Launcher (AI): 1 / 2.0s / 240m
 TEXT_TOOLTIP_ATOT,Troop walker developed during the Clone Wars to bring a larger amount of troops into the battlefield than other Republic walkers. While best known as open-topped for behind-lines use, an armored cover is applied for combat or more varied environmental conditions. Able to deploy infantry.
 TEXT_TOOLTIP_ATOT_COMPANY,Company: 2x AT-OT Walker
 TEXT_TOOLTIP_ATOT_DEPLOY,Deploys: 1x Dragon Trooper Pack

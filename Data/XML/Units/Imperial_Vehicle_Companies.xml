@@ -366,7 +366,7 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_ATKT.tga</Icon_Name>
 
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
