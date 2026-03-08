@@ -619,7 +619,7 @@
 	</HeroUnit>
 
 	<HeroCompany Name="Argor_Team">
-	<Text_ID>TEXT_HERO_DEMOS</Text_ID>
+		<Text_ID>TEXT_HERO_DEMOS</Text_ID>
 		<Icon_Name>i_button_demos.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>50</Damage>
@@ -1329,5 +1329,58 @@
 		<SFXEvent_Fleet_Move>Unit_Move_Rbann</SFXEvent_Fleet_Move>
 	</HeroCompany>
 	
+	<HeroUnit Name="Zeven_Mallat">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_MALLAT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_MALLAT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_ZEVEN_MALLAT.tga</Icon_Name> <!-- Insert Icon here -->
+		
+		<Ranking_In_Category>10</Ranking_In_Category>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+		
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit> <!-- Stealth heroes spawn in orbit -->
+
+		<Abilities SubObjectList="Yes">
+			<System_Spy_Ability Name="System_Spy">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Special_Structures>Yes</See_Special_Structures>
+				<See_Minor_Stealth_Heroes>Yes</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>Yes</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+
+			<Galactic_Stealth_Ability Name="Spy_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	<HeroCompany Name="Mallat_Team">
+		<Variant_Of_Existing_Type>Non_Combat_Hero_Template_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_MALLAT</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_SPY
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_MALLAT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_ZEVEN_MALLAT.tga</Icon_Name> <!-- Insert Icon here -->
+
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Zeven_Mallat</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany>
 	
 </Proteus_Heroes>

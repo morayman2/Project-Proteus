@@ -28,6 +28,7 @@ TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_DOMINA_TAGGE,Domina Tagge
 TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_KLEMP,Klemp
+TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
 TEXT_HERO_TEZRIN,Dongal Tezrin
@@ -223,6 +224,7 @@ TEXT_TOOLTIP_LAC_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
 TEXT_TOOLTIP_LAC_PD,Point-Defense: 1 / 0.45s / 1.5km
 TEXT_TOOLTIP_LAC_SHIELD,Shields: 450 / [9/R] (Corvette)
 TEXT_TOOLTIP_LAC_WEAP1,5x Medium Dual Rapid Laser Cannons: 6 / 5.0s / 3.5km
+TEXT_TOOLTIP_MALLAT,An ISB agent still in active service to the Empire by 16ABY. In that same year, he responded to a request from Grand Moff Gann of Sector 5 for information on the Yevetha.
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
