@@ -418,3 +418,17 @@ Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
 Z_TEXT_UNIT_STAR_DESTROYER_GLORY,Glory-class Star Destroyer
+TEXT_TOOLTIP_008_SPEEDER,A model of heavy combat repulsorlift released during the height of the Galactic Civil War. The 008 is popular with remote Imperial garrisons in the Rim as well as mercenary units who acquire the vehicles through questionable means. While it proved a potent combatant, its service history and reputation was marred by a design flaw that caused the craft to become unstable if both weapons were fired simultaneously.
+TEXT_TOOLTIP_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
+TEXT_TOOLTIP_008_SPEEDER_HEALTH,Health: 250 (Medium Vehicle)
+TEXT_TOOLTIP_008_SPEEDER_MOVE,Speed: 2.50 | Turn: 3.0
+TEXT_TOOLTIP_008_SPEEDER_WEAP1,1x AV Blaster Cannon: 4 / 2.0s / 400m
+TEXT_TOOLTIP_008_SPEEDER_WEAP2,1x AI Blaster Cannon: 2 / 1.0s / 320m
+TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
+TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
+TEXT_TOOLTIP_1HB_TANK,A variant of the more common Imperial-class 1-H Heavy Repuslortank that offered the same protection and speed with an alternative weapons loadout. This model excelled against other vehicles but was vulnerable to infantry attacks.
+TEXT_TOOLTIP_1HB_TANK_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
+TEXT_TOOLTIP_1HB_TANK_WEAP2,2x AV Blaster Cannons: 2 / 2.0s / 400m
+TEXT_TOOLTIP_1HB_TANK_WEAP3,1x Concussion Grenade: 2 / 2.5s / 320m
+TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
+TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
