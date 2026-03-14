@@ -8604,5 +8604,253 @@
 		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
+	
+	<!-- 008 Heavy Landspeeder -->
+
+	<HardPoint Name="HP_008_Lasers">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+
+        <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+		<Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>45.0</Fire_Cone_Width>
+        <Fire_Cone_Height>160.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_AV_Blaster_Green_Blue</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_T47_Airspeeder_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		
+		<!-- 008 values for overcharge ability on main gun -->
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> .75 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+    </HardPoint>
+	
+	<HardPoint Name="HP_008_Turret">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+		
+		<Model_To_Attach>EV_008_Landspeeder_Turret.alo</Model_To_Attach>
+		<Attachment_Bone>B_TURRET_ATTACH</Attachment_Bone>
+		
+        <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_AOE_AI_Blaster_Green_Blue</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>320.0</Fire_Range_Distance>
+
+		<Fire_SFXEvent>Unit_AT_RT_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 20.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+
+    	<!-- 008 cost for overcharge ability on secondary gun since main is 2x -->
+        <Power_To_Weapons_Mode_Weapon_Delay_Multiplier> 4.0 </Power_To_Weapons_Mode_Weapon_Delay_Multiplier>
+	</HardPoint>
+	
+	<!-- 1-H Heavy Repulsortank Type B -->
+		
+	<HardPoint Name="HP_1HB_AV_Turret">
+
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>1.0</Health>
+
+		<Model_To_Attach>T_Heavy_Repulsortank_00.alo</Model_To_Attach>
+		<Attachment_Bone>TURRET_ATTACH</Attachment_Bone>
+
+		<Fire_Bone_A>FB_00</Fire_Bone_A>
+		<Fire_Bone_B>FB_00</Fire_Bone_B>
+		<Fire_Cone_Width>30.0</Fire_Cone_Width>
+		<Fire_Cone_Height>160.0</Fire_Cone_Height>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>TURRET</Turret_Bone_Name>
+		<Barrel_Bone_Name>BARREL</Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_AV_Beam_Red_Blue</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>12</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.01</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>320.0</Fire_Range_Distance>
+		
+		<Fire_SFXEvent>Unit_TX_130_Top_Turret</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 2.5 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 2.5</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 0.01 </Fire_Inaccuracy_Distance>
+
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+	</HardPoint>
+	
+		<HardPoint Name="HP_1HB_AV_Sponson_Green_Left">
+
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>1.0</Health>
+
+		<Model_To_Attach>T_Heavy_Repulsortank_02.alo</Model_To_Attach>
+		<Attachment_Bone>GUN_MOUNT_L_ATTACH</Attachment_Bone>
+
+		<Fire_Bone_A>FB_00</Fire_Bone_A>
+		<Fire_Bone_B>FB_00</Fire_Bone_B>
+		<Fire_Cone_Width>30.0</Fire_Cone_Width>
+		<Fire_Cone_Height>160.0</Fire_Cone_Height>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>GUN</Turret_Bone_Name>
+		<Barrel_Bone_Name>FB_00</Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_AV_Blaster_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
+
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+	</HardPoint>
+	
+	<HardPoint Name="HP_1HB_AV_Sponson_Red_Right">
+
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>1.0</Health>
+
+		<Model_To_Attach>T_Heavy_Repulsortank_01.alo</Model_To_Attach>
+		<Attachment_Bone>GUN_MOUNT_R_ATTACH</Attachment_Bone>
+
+		<Fire_Bone_A>FB_00</Fire_Bone_A>
+		<Fire_Bone_B>FB_00</Fire_Bone_B>
+		<Fire_Cone_Width>30.0</Fire_Cone_Width>
+		<Fire_Cone_Height>160.0</Fire_Cone_Height>
+		<Is_Turret>Yes</Is_Turret>
+		<Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+		<Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees>360.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>GUN</Turret_Bone_Name>
+		<Barrel_Bone_Name>FB_00</Barrel_Bone_Name>
+		<Fire_Projectile_Type>Proj_AV_Blaster_Red</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tie_Crawler_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 20.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 40.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance>Structure, 5.0 </Fire_Inaccuracy_Distance>
+
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+	</HardPoint>
+	
+		<HardPoint Name="HP_1HB_AI_GRENADE">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+		<Health>150.0</Health>
+
+		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
+
+		<Model_To_Attach>T_Heavy_Repulsortank_05</Model_To_Attach>
+		<Attachment_Bone>GRENADE_LAUNCHER_ATTACH</Attachment_Bone>
+		<Collision_Mesh>Collision</Collision_Mesh>
+
+		<Fire_Bone_A>FB_00</Fire_Bone_A>
+		<Fire_Bone_B>FB_00</Fire_Bone_B>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+		<Fire_Cone_Width>120.0</Fire_Cone_Width>
+		<Fire_Cone_Height>450.0</Fire_Cone_Height>
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+		<Is_Turret> Yes </Is_Turret>
+		<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+		<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+		<Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+		<Turret_Rotate_Extent_Degrees> 80.0 </Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name> TURRET_00 </Turret_Bone_Name>
+		<Barrel_Bone_Name> BARREL_00 </Barrel_Bone_Name>
+
+		<Fire_Projectile_Type>Proj_Concussion_Grenade</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Mortar_Launcher_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Vehicle, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 10.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
+		
+		<Fire_Category_Restrictions> AirGunship, AirSpeeder </Fire_Category_Restrictions>
+	</HardPoint>
 
 </HardPoints>
