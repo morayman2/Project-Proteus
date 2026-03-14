@@ -57,7 +57,7 @@ return {
 		"DHC_Gunboat", "Proficient",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company",
         --Protectorate of Prakith added units 
-        "Red_Police_Company", "Imperial_Dark_Jedi_Company", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
+        "Red_Police_Company", "Imperial_Dark_Jedi_Company_Proteus", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
 		--Maelstrom Command added units
 		"Galleon",
 		"INT4_Company", "Swift_Assault_5_Company",
@@ -83,5 +83,7 @@ return {
 		"ULAV_Early_Company", "Skyhopper_Company",
 		--The Quintad added units
 		"Gozanti_Cruiser_Group", "LAC", "Procurator_Battlecruiser",
-		"PDF_Tactical_Unit_Company", 
+		"PDF_Tactical_Unit_Company",
+        --Lumiya's Sith added units
+		"Royal_Guard_Stormtrooper_Company", "Sith_Knight_Company",
 }
