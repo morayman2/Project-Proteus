@@ -5195,7 +5195,7 @@
 		<Min_Speed>1.22</Min_Speed>
 	</Container>
 
-<SpaceUnit Name="Shielded_TIE_Bomber">
+	<SpaceUnit Name="Shielded_TIE_Bomber">
 		<Variant_Of_Existing_Type>TIE_Bomber</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_SHIELDED_TIE_BOMBER</Text_ID>
@@ -5219,6 +5219,7 @@
 		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
 
 	</SpaceUnit>
+
 	<Squadron Name="Shielded_TIE_Bomber_Squadron">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
 
@@ -5242,6 +5243,7 @@
 		<Squadron_Units>Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber</Squadron_Units>
 		<Squadron_Units>Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber</Squadron_Units>
 	</Squadron>
+
 	<Container Name="Shielded_TIE_Bomber_Squadron_Container">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Container</Variant_Of_Existing_Type>
 
@@ -5262,6 +5264,7 @@
 		<!-- Same as unit -->
 		<Max_Speed>4.0</Max_Speed>
 	</Container>
+
 	<Squadron Name="Shielded_TIE_Bomber_Squadron_Double">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Double</Variant_Of_Existing_Type>
 
@@ -5288,6 +5291,7 @@
 		<Squadron_Units>Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber</Squadron_Units>
 		<Squadron_Units>Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber</Squadron_Units>
 	</Squadron>
+
 	<Container Name="Shielded_TIE_Bomber_Squadron_Double_Container">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Double_Container</Variant_Of_Existing_Type>
 
@@ -5308,6 +5312,7 @@
 		<!-- Same as unit -->
 		<Max_Speed>4.0</Max_Speed>
 	</Container>
+
 	<Squadron Name="Shielded_TIE_Bomber_Squadron_Half">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Half</Variant_Of_Existing_Type>
 
@@ -5330,6 +5335,7 @@
 		<Squadron_Units>Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber</Squadron_Units>
 		<Squadron_Units>Shielded_TIE_Bomber, Shielded_TIE_Bomber, Shielded_TIE_Bomber</Squadron_Units>
 	</Squadron>
+
 	<Container Name="Shielded_TIE_Bomber_Squadron_Half_Container">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Half_Container</Variant_Of_Existing_Type>
 
@@ -5351,7 +5357,7 @@
 		<Max_Speed>4.0</Max_Speed>
 	</Container>
 
-<SpaceUnit Name="Tie_Light_Bomber">
+	<SpaceUnit Name="Tie_Light_Bomber">
 		<Variant_Of_Existing_Type>TIE_Bomber</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_TIE_LIGHT_BOMBER</Text_ID>
@@ -5374,6 +5380,7 @@
 		HP_TIE_Bomber_00, HP_TIE_Light_Bomber_02, HP_TIE_Light_Bomber_03
 		</HardPoints>
 	</SpaceUnit>
+
 	<Squadron Name="TIE_Light_Bomber_Squadron">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
 
@@ -5396,6 +5403,7 @@
 		<Squadron_Units>Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber</Squadron_Units>
 		<Squadron_Units>Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber</Squadron_Units>
 	</Squadron>
+
 	<Container Name="TIE_Light_Bomber_Squadron_Container">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Container</Variant_Of_Existing_Type>
 
@@ -5415,6 +5423,7 @@
 		<!-- Same as unit -->
 		<Max_Speed>7.0</Max_Speed>
 	</Container>
+
 	<Squadron Name="TIE_Light_Bomber_Squadron_Double">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Double</Variant_Of_Existing_Type>
 
@@ -5440,6 +5449,7 @@
 		<Squadron_Units>Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber</Squadron_Units>
 		<Squadron_Units>Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber</Squadron_Units>
 	</Squadron>
+
 	<Container Name="TIE_Light_Bomber_Squadron_Double_Container">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Double_Container</Variant_Of_Existing_Type>
 
@@ -5459,6 +5469,7 @@
 		<!-- Same as unit -->
 		<Max_Speed>7.0</Max_Speed>
 	</Container>
+
 	<Squadron Name="TIE_Light_Bomber_Squadron_Half">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Half</Variant_Of_Existing_Type>
 
@@ -5480,6 +5491,7 @@
 		<Squadron_Units>Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber</Squadron_Units>
 		<Squadron_Units>Tie_Light_Bomber, Tie_Light_Bomber, Tie_Light_Bomber</Squadron_Units>
 	</Squadron>
+	
 	<Container Name="TIE_Light_Bomber_Squadron_Half_Container">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Half_Container</Variant_Of_Existing_Type>
 
@@ -5499,6 +5511,5 @@
 		<!-- Same as unit -->
 		<Max_Speed>7.0</Max_Speed>
 	</Container>
-
 	
 </Imperial_Vehicle_Companies>
