@@ -764,6 +764,8 @@
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_ATKT.tga</Icon_Name>
 
+		<Land_Model_Name>EV_AT-KT.alo</Land_Model_Name>
+
 		<Max_Speed>1.05</Max_Speed>
 		<OverrideAcceleration>1.05</OverrideAcceleration>
 		<OverrideDeceleration>1.05</OverrideDeceleration>
@@ -777,6 +779,10 @@
 			HP_ATKT_Flechette,
 			HP_ATKT_Side
 		</HardPoints>
+
+		<Death_Clone>Damage_Normal, AT_KT_Walker_Death_Clone_00</Death_Clone>
+		<Death_Clone>Damage_Normal, AT_KT_Walker_Death_Clone_01</Death_Clone>
+		<Death_Clone>Damage_Normal, AT_KT_Walker_Death_Clone_02</Death_Clone>
 
 		<Vehicle_Thief_Inside_Clone>AT_KT_Walker_Captured</Vehicle_Thief_Inside_Clone>
 
@@ -817,6 +823,53 @@
 			</Stun_Ability>
 		</Abilities>
 	</GroundVehicle>
+
+	<Death_Clone Name="AT_KT_Walker_Death_Clone_00">
+		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>1000.0</Presence_Range>
+	</Death_Clone>
+
+	<Death_Clone Name="AT_KT_Walker_Death_Clone_01">
+		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_YExtent_Offset> -15.0 </Custom_Hard_YExtent_Offset>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>1000.0</Presence_Range>
+	</Death_Clone>
+
+	<Death_Clone Name="AT_KT_Walker_Death_Clone_02">
+		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+		<Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<Presence_Range>1000.0</Presence_Range>
+	</Death_Clone>
 
 	<GroundVehicle Name="AT_KT_Walker_Captured">
 		<Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>

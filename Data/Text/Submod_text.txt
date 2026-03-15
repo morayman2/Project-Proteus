@@ -15,6 +15,7 @@ TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with
 TEXT_DISPLAY_TIERFON_CAPITAL,Construction Station: Tierfon Sector Fleet HQ
 TEXT_ECONOMY_BISCUIT_BARON,Biscuit Baron - Income
 TEXT_ENCYCLOPEDIA_BISCUIT_BARON,A popular casual dining franchise with a logo bearing the likeness of the late Baron Orman Tagge. One of the largest restaurant chains across the galaxy, Biscuit Baron is a symbol of TaggeCo's omnipresence and soft power and provides the House of Tagge with income and goodwill from the local population. Any assertions that their products can turn into ravenous bioweapons are vigorously disputed by TaggeCo's legal team.
+TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE,Apprentice
 TEXT_ENCYCLOPEDIA_CLASS_BARONESS,Baroness
 TEXT_ENCYCLOPEDIA_CLASS_PRIME_MINISTER,Prime Minister 
 TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
@@ -127,11 +128,6 @@ TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT,The end of the Clone Wars saw an explosion in 
 TEXT_TOOLTIP_ACCLAMATOR_I_SUPPORT_HULL,Hull: 1925 (Frigate)
 TEXT_TOOLTIP_ATAT_IC,The Ion refit Imperial AT-AT was an uncommon variation that replaced it's super heavy laser cannons with heavy ion cannons. Although ion cannons were rarely found aboard ground vehicles, some minor warlords converted a small number of its All Terrain Armored Transport fleet into mobile, ion cannons. The warlords deployed the All Terrain Ion Cannon for the mobile defense of strategic locations, though less effectively than the more heavily modified AT-IC.
 TEXT_TOOLTIP_ATAT_IC_WEAP1,1x Super Heavy AV Ion Cannon: 4 / 2.0s / 480m
-TEXT_TOOLTIP_ATKT,
-TEXT_TOOLTIP_ATKT_HEALTH,Health: 155 (Light Vehicle)
-TEXT_TOOLTIP_ATKT_MOVE,Speed: 1 | Turn: 4.0 
-TEXT_TOOLTIP_ATKT_WEAP1,2x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
-TEXT_TOOLTIP_ATKT_WEAP2,1x FC-1 Flechette Launcher (AI): 1 / 10.0s / 240m
 TEXT_TOOLTIP_ATOT,Troop walker developed during the Clone Wars to bring a larger amount of troops into the battlefield than other Republic walkers. While best known as open-topped for behind-lines use, an armored cover is applied for combat or more varied environmental conditions. Able to deploy infantry.
 TEXT_TOOLTIP_ATOT_COMPANY,Company: 2x AT-OT Walker
 TEXT_TOOLTIP_ATOT_DEPLOY,Deploys: 1x Dragon Trooper Pack
@@ -287,11 +283,24 @@ TEXT_TOOLTIP_SHADOW_ULAV,The ULAV is a small and fast but fragile landspeeder de
 TEXT_TOOLTIP_SHADOW_ULAV_COMPANY,Company: 4x Shadow Ultra-Light Assault Vehicle
 TEXT_TOOLTIP_SHADOW_VENGEANCE_DREADNOUGHT,The Vengeance-class was based on the standard Super Star Destroyer design, the Executor-class. As such, the ship class was approximately 19 kilometers long. In addition, because of its dimensions, the ship class sometimes possessed the standard classification of a space station. Coated in black stygian-triprismatic polymer at the request of Cronal, this vessel was nearly invisible to the naked eye in deep space.
 TEXT_TOOLTIP_SHADOW_VIGIL,A Kuat Drive Yards design in the Star Destroyer line, the Vigil shared many design elements with other Star Destroyers, although its lower command bridge gave it a smaller, harder-to-hit profile. Because of its size, it mostly served as a patrol vessel. Effective against medium sized targets in groups. Coated in black stygian-triprismatic polymer at the request of Cronal, this vessel was almost impossible to detect at sensor range and nearly invisible to the naked eye in deep space.
+TEXT_TOOLTIP_SITH_ASSASSIN,Masters of subterfuge, Sith Assassins work unseen on the battlefield until they sense weakness, at which point they pounce on their enemy. Sith Assassins in Revan's Empire to the Sith Triumvirate used both lightsabers for elite members and a mix of quarterstaffs and blaster weaponry for lower ranks. They would be used by the Triumvirate to great effect to ruthlessly hunt down Jedi.
+TEXT_TOOLTIP_SITH_ASSASSIN_HEALTH,Health: 80 [2%/5s] (Hero)
+TEXT_TOOLTIP_SITH_ASSASSIN_MOVE,Speed: 1.5
+TEXT_TOOLTIP_SITH_ASSASSIN_WEAP1,1x Lightsaber: 1 / 0.4s / 1m
+TEXT_TOOLTIP_SITH_KNIGHT_COMPANY,A trio of Sith Knights that combine the schools of Assassin, Marauder, and Sorcerer, each able to weave terror on the battlefield in service to the Sith.
+TEXT_TOOLTIP_SITH_MARAUDER,The most ferocious Sith warriors, Marauders seek strength in war and their rage. Their unmatched aggression makes them fierce fighters that can cut through squads of enemy infantry with ease, and they are eager to clash their blades with any Jedi they encounter.
+TEXT_TOOLTIP_SITH_MARAUDER_HEALTH,Health: 90 [2%/5s] (Hero)
+TEXT_TOOLTIP_SITH_MARAUDER_MOVE,Speed: 1.3
+TEXT_TOOLTIP_SITH_MARAUDER_WEAP1,1x Lightsaber: 1 / 0.3s / 1m
 TEXT_TOOLTIP_SITH_SLAYER,The Sith Slayer was the rarest and most powerful droid of the Old Sith Empire. The brutal appearance belies surprising intelligence protected by thick layers of alchemical plating, making a terrifying opponent for enemy infantry and other light forces.
 TEXT_TOOLTIP_SITH_SLAYER_COMPANY,Company: 1x Sith Slayer
 TEXT_TOOLTIP_SITH_SLAYER_HEALTH,Health: 1425 [1%/5s] (Heavy Vehicle)
 TEXT_TOOLTIP_SITH_SLAYER_MOVE,Speed: 0.75 | Turn: 1.0
 TEXT_TOOLTIP_SITH_SLAYER_WEAP1,2x Heavy AI Blaster Cannons: 2 / 1.0s / 320m
+TEXT_TOOLTIP_SITH_SORCERER,A Sith Sorcerer was an individual who was proficient in the arts of Sith magic, using spells, talismans, or incantations to focus the power of the dark side. Their knowledge of the forbidden depths of the Force allows them to drain the life force of their foes to replenish their own vigor.
+TEXT_TOOLTIP_SITH_SORCERER_HEALTH,Health: 70 [2%/5s] (Hero)
+TEXT_TOOLTIP_SITH_SORCERER_MOVE,Speed: 1.2
+TEXT_TOOLTIP_SITH_SORCERER_WEAP1,1x Lightsaber: 1 / 0.5s / 1m
 TEXT_TOOLTIP_SITH_STRIDER,Designed to complement the hulking Sith Slayers and War Mammoths, the nimbler Sith Strider provides screening and antivehicle capabilities to its larger brethren. Though largely forgotten, many Sith holocrons contain the plans for these deadly droids.
 TEXT_TOOLTIP_SITH_STRIDER_COMPANY,Company: 3x Sith Strider
 TEXT_TOOLTIP_SITH_STRIDER_HEALTH,Health: 300 [2%/5s] (Medium Vehicle)
@@ -333,8 +342,6 @@ TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
 TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
-TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
-TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
@@ -381,7 +388,11 @@ TEXT_UNIT_SHADOW_ULAV,Shadow Ultra-Light Assault Vehicle
 TEXT_UNIT_SHADOW_ULAV_COMPANY,Shadow ULAV Company
 TEXT_UNIT_SHADOW_VENGEANCE_DREADNOUGHT,Shadow Vengeance Star Dreadnought
 TEXT_UNIT_SHADOW_VIGIL,Shadow Vigil Corvette
+TEXT_UNIT_SITH_ASSASSIN,Sith Assassin
+TEXT_UNIT_SITH_KNIGHT_COMPANY,Sith Knight Company
+TEXT_UNIT_SITH_MARAUDER,Sith Marauder
 TEXT_UNIT_SITH_SLAYER,Sith Slayer
+TEXT_UNIT_SITH_SORCERER,Sith Sorcerer
 TEXT_UNIT_SITH_STRIDER,Sith Strider
 TEXT_UNIT_SITH_STRIDER_COMPANY,Sith Strider Company
 TEXT_UNIT_SITH_WAR_MAMMOTH,Sith War Mammoth
