@@ -2752,5 +2752,566 @@
 
 		<Company_Units>AT_AT_WALKER_IC</Company_Units>
 	</GroundCompany>
+	
+	<!--008 Heavy Landspeeder, stats by Bucman and Coyote, model by Kubli and Kalani-->
+	
+	<GroundVehicle Name="008_Speeder">
+
+		<Text_ID>TEXT_UNIT_008_SPEEDER</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_008_SPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_008_SPEEDER_HEALTH
+		TEXT_TOOLTIP_008_SPEEDER_MOVE
+		TEXT_TOOLTIP_008_SPEEDER_WEAP1
+		TEXT_TOOLTIP_008_SPEEDER_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		</Encyclopedia_Text>
+		<Icon_Name> i_button_008icon.tga </Icon_Name>
+
+		<Land_Model_Name>EV_008_Landspeeder.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>60</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>2.50</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> 0.05833333333 </OverrideAcceleration>
+		<OverrideDeceleration> .35 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_MediumVehicle </Armor_Type>
+		<Tactical_Health>250</Tactical_Health>
+        <Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>13</Damage>
+		<AI_Combat_Power>84</AI_Combat_Power>
+		
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
+		<Affiliation>Empire, Pentastar, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Imperial_Proteus</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags>DoKite</Property_Flags>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+		
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>125</Score_Cost_Credits>
+
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, DAMAGE_TRACKING</LandBehavior>
+
+		<HardPoints>
+                HP_008_Lasers,
+                HP_008_Turret
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> HULL, B_TURRET_ATTACH </Target_Bones>
+		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_2M_Tank</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_2M_Tank</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_2M_Tank</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_2M_Tank</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_2M_Tank </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_2M_Tank</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_1MIHT_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_1MIHT_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_1MIHT_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<FormationSpacing> 1.1 </FormationSpacing>
+		<FormationOrder> 5 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient> .4 </SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient> .4 </MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient> .9 </MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance> 60 </SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>20.0</Overall_Length>
+		<Overall_Width>10.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<Deploys>No</Deploys>
+		<Movement_Animation_Speed> 2.30 </Movement_Animation_Speed>
+		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
+		<Sensor_Range>80</Sensor_Range>
+		<Behavior> SELECTABLE </Behavior>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 9999 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 2 </Turret_Targets_Anything_Else>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+		<Vehicle_Thief_Inside_Clone>008_Speeder_Captured</Vehicle_Thief_Inside_Clone>
+
+		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+		<!-- Enhanced sensors capability -->
+		<Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+   	<!-- Values for overcharge main gun are in 008 hardpoints -->
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</GroundVehicle>
+
+	<GroundVehicle Name="008_Speeder_Captured">
+		<Variant_Of_Existing_Type>008_Speeder</Variant_Of_Existing_Type>
+		
+		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	1.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>10</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_TANKOVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds> <!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+	<GroundCompany Name="008_Speeder_Company">
+
+		<Text_ID>TEXT_UNIT_008_SPEEDER_COMPANY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_008_SPEEDER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_008_SPEEDER_COMPANY
+		TEXT_TOOLTIP_008_SPEEDER_HEALTH
+		TEXT_TOOLTIP_008_SPEEDER_MOVE
+		TEXT_TOOLTIP_008_WEAP1
+		TEXT_TOOLTIP_008_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_008icon.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>700</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures> T_Ground_Heavy_Vehicle_Factory |  P_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus, Greater_Maldrood</Affiliation>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Light_Vehicles</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Pirate_Skiff</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Skiff</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>008_SPEEDER, 008_SPEEDER, 008_SPEEDER, 008_SPEEDER</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
+	</GroundCompany>
+	
+	<GroundVehicle Name="1HB_Tank">
+		<Text_ID>TEXT_UNIT_1HB_TANK</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_1HB_TANK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_1H_TANK_HEALTH
+		TEXT_TOOLTIP_1H_TANK_MOVE
+		TEXT_TOOLTIP_1HB_TANK_WEAP1
+		TEXT_TOOLTIP_1HB_TANK_WEAP2
+		TEXT_TOOLTIP_1HB_TANK_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_10
+		</Encyclopedia_Text>
+		<Icon_Name> i_button_1hb_tank.tga </Icon_Name>
+
+		<Land_Model_Name>EV_Heavy_Repulsortank.ALO</Land_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>1.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Size_Value>60</Size_Value>
+
+		<Mass>1.0</Mass>
+		<Max_Speed>1.50</Max_Speed>
+		<Max_Thrust>1.0</Max_Thrust>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .3 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+
+		<Armor_Type> ArmourG_HeavyVehicle </Armor_Type>
+		<Tactical_Health>375</Tactical_Health>
+        <Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Damage>13</Damage>
+		<AI_Combat_Power>132</AI_Combat_Power>
+		
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
+		<Affiliation>Empire, Pentastar, Greater_Maldrood, Zsinj_Empire, Eriadu_Authority, Imperial_Proteus</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Type>Hover</Type>
+		<CategoryMask> Vehicle | AntiVehicle </CategoryMask>
+		<Ranking_In_Category/>
+		<Property_Flags/>
+		<Weather_Category>Hover</Weather_Category>
+		<Visible_To_Enemies_When_Empty>true</Visible_To_Enemies_When_Empty>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
+		<Score_Cost_Credits>125</Score_Cost_Credits>
+
+		<LandBehavior>ABILITY_COUNTDOWN, AFFECTED_BY_SHIELD, HUNT, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, DAMAGE_TRACKING</LandBehavior>
+
+		<HardPoints>
+				HP_1HB_AV_Turret,
+                HP_1HB_AV_Sponson_Green_Left,
+                HP_1HB_AV_Sponson_Green_Right,
+				HP_1HB_AI_GRENADE,
+		</HardPoints>
+
+		<Lua_Script/>
+
+		<Garrison_Category/>
+		<Num_Garrison_Slots>0</Num_Garrison_Slots>
+		<Garrison_Bone_Names/>
+		<Garrison_Exit_Dist>20</Garrison_Exit_Dist>
+		<Garrison_Enter_Dist>0</Garrison_Enter_Dist>
+		<Garrison_Radius>50</Garrison_Radius>
+		<Num_Garrison_Guns>0</Num_Garrison_Guns>
+
+		<Target_Bones> Chassis, TURRET_ATTACH, GUN_MOUNT_L_ATTACH, GUN_MOUNT_R_ATTACH, GRENADE_LAUNCHER_ATTACH </Target_Bones>
+		<Ranged_Target_Z_Adjust>12.0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+		<SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
+
+		<SFXEvent_Select>Unit_Select_Armored_Vehicle</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Armored_Vehicle</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Vehicle</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Armored_Vehicle</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Armored_Vehicle</SFXEvent_Guard>
+		<SFXEvent_Assist_Move>Unit_Assist_Move_Armored_Vehicle</SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack>Unit_Assist_Attack_Armored_Vehicle</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_1HIHT_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_1HIHT_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_1HIHT_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Turret_Rotating_Loop> Vehicle_Turret_Motor </SFXEvent_Turret_Rotating_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<MovementClass>Hover</MovementClass>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+		<FormationSpacing> 1.1 </FormationSpacing>
+		<FormationOrder> 5 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<FormationRaggedness> 1 </FormationRaggedness>
+		<MaxJiggleDistance> 5 </MaxJiggleDistance>
+		<MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient> .4 </SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient> .4 </MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient> .9 </MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance> 60 </SecondaryTurnLookaheadDistance>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
+
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Targeting_Min_Attack_Distance>0.0</Targeting_Min_Attack_Distance>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>0.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Overall_Length>40.0</Overall_Length>
+		<Overall_Width>25.0</Overall_Width>
+		<Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>65.0, 65.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>2</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>2</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
+
+		<Deploys>No</Deploys>
+		<Movement_Animation_Speed> 2.30 </Movement_Animation_Speed>
+		<Shield_Armor_Type>ShieldG_LightVehicle</Shield_Armor_Type>
+		<Sensor_Range>80</Sensor_Range>
+		<Behavior> SELECTABLE </Behavior>
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+		<Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 9999 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 9999 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 2 </Turret_Targets_Anything_Else>
+		<Is_Squashable_By_Supercrusher>No</Is_Squashable_By_Supercrusher>
+		<Vehicle_Thief_Inside_Clone>1H_Tank_Captured</Vehicle_Thief_Inside_Clone>
+
+		<Death_Clone>Damage_Force_Telekinesis, Large_Explosion_Land</Death_Clone>
+		<Death_Clone>Damage_Crush, Large_Explosion_Land</Death_Clone>
+
+		<Abilities SubObjectList="Yes">
+			<!-- 10% Chance for Imperial series tanks -->
+			<!-- Redirect Blaster must appear in the special ability list before Absorb Blaster -->
+			<Redirect_Blaster_Ability Name="1H_Tank_Deflect_Blaster">
+				<Activation_Style>Take_Damage</Activation_Style>
+				<!-- Redirection chance is rolled first. If failed, we roll block chance. If failed, we take the damage. -->
+				<Redirect_Chance>0.0</Redirect_Chance>
+				<Block_Chance>0.10</Block_Chance>
+				<Reaction_Arc_In_Degrees>360.0</Reaction_Arc_In_Degrees>
+				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
+				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
+				<!-- We can block/redirect shots from the following units types: -->
+				<Applicable_Unit_Categories> Infantry | InfantryHero | Vehicle | VehicleHero | AirGunship | AirSpeeder | Structure </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Redirect_Blaster_Ability>
+		</Abilities>
+		
+	</GroundVehicle>
+
+	<GroundCompany Name="1HB_Tank_Company">
+
+		<Text_ID>TEXT_UNIT_1HB_TANK_COMPANY </Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_1HB_TANK
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_1H_TANK_HEALTH
+		TEXT_TOOLTIP_1H_TANK_MOVE
+		TEXT_TOOLTIP_1HB_TANK_WEAP1
+		TEXT_TOOLTIP_1HB_TANK_WEAP2
+		TEXT_TOOLTIP_1HB_TANK_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_10
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_1hb_tank.tga</Icon_Name>
+
+		<Damage>40</Damage>
+
+		<Ship_Class>tank</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>1100</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Slice_Cost_Credits/>
+		<Required_Special_Structures> A_Ground_Heavy_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap | Ubrikkian_HQ | Ubrikkian_HQ_Cheap</Required_Special_Structures>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Eriadu_Authority</Affiliation>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Tanks</Company_Transport_Unit> <!-- Replace with Box Sentinel when Extant -->
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Armored_Vehicle</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Armored_Vehicle</SFXEvent_Fleet_Move>
+
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>1HB_Tank, 1HB_Tank</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+	    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1110</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
+	</GroundCompany>
 
 </Imperial_Vehicle_Companies>

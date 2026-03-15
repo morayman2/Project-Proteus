@@ -207,8 +207,8 @@ TEXT_TOOLTIP_DOMINA_TAGGE,The youngest child of Sanya Tagge, Domina was sent awa
 TEXT_TOOLTIP_ETA2,A Kuat-designed interceptor that shares traits with the Sienar TIE line. Its stripped-down defenses allow for very impressive flight performance at the cost of durability, with weapon systems that allow it to excel against heavier fighters.
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +20%
-TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human Imperial politician and later starfighter ace. Ryad's political position helped establish wealth and influence; over time she developed an interest in starfighters and eventually used her connection to take up starfighter pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron known as Red Star Squadron, which went onto hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
+TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human Imperial politician and later starfighter ace. Ryad's political position helped establish wealth and influence; over time she developed an interest in starfighters and eventually used her connection to take up starfighter pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron known as Red Star Squadron, which went onto hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
@@ -420,3 +420,17 @@ Z_TEXT_UNIT_MISSILE_BOAT_RESEARCH,Reverse-engineer the Missile Boat
 Z_TEXT_UNIT_MTC_RESEARCH,Reverse-engineer the Modular Taskforce Cruiser
 Z_TEXT_UNIT_SCIMITAR_RESEARCH,Reverse-engineer the Scimitar Assault Bomber
 Z_TEXT_UNIT_STAR_DESTROYER_GLORY,Glory-class Star Destroyer
+TEXT_TOOLTIP_008_SPEEDER,A model of heavy combat repulsorlift released during the height of the Galactic Civil War. The 008 is popular with remote Imperial garrisons in the Rim as well as mercenary units who acquire the vehicles through questionable means. While it proved a potent combatant, its service history and reputation was marred by a design flaw that caused the craft to become unstable if both weapons were fired simultaneously.
+TEXT_TOOLTIP_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
+TEXT_TOOLTIP_008_SPEEDER_HEALTH,Health: 250 (Medium Vehicle)
+TEXT_TOOLTIP_008_SPEEDER_MOVE,Speed: 2.50 | Turn: 3.0
+TEXT_TOOLTIP_008_SPEEDER_WEAP1,1x AV Blaster Cannon: 4 / 2.0s / 400m
+TEXT_TOOLTIP_008_SPEEDER_WEAP2,1x AI Blaster Cannon: 2 / 1.0s / 320m
+TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
+TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
+TEXT_TOOLTIP_1HB_TANK,A variant of the more common Imperial-class 1-H Heavy Repuslortank that offered the same protection and speed with an alternative weapons loadout. This model excelled against other vehicles but was vulnerable to infantry attacks.
+TEXT_TOOLTIP_1HB_TANK_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
+TEXT_TOOLTIP_1HB_TANK_WEAP2,2x AV Blaster Cannons: 2 / 2.0s / 400m
+TEXT_TOOLTIP_1HB_TANK_WEAP3,1x Concussion Grenade: 2 / 2.5s / 320m
+TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
+TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
