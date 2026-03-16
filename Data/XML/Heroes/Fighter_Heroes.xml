@@ -11897,7 +11897,7 @@
 		<CategoryMask>Wall</CategoryMask>
 
 		<Text_ID>TEXT_HERO_RED_STAR</Text_ID>
-		<Build_Initially_Locked>No</Build_Initially_Locked> <!-- change this after -->
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Icon_Name>I_BUTTON_IRAN_RYAD_SET.TGA</Icon_Name>
 		<Tech_Level>0</Tech_Level>
