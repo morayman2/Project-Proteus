@@ -86,4 +86,7 @@ return {
 		"PDF_Tactical_Unit_Company",
         --Lumiya's Sith added units
 		"Royal_Guard_Stormtrooper_Company", "Sith_Knight_Company",
+		
+		--idk for what group
+		"Victory_II_Carrier",
 }

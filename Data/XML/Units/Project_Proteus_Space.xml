@@ -4416,7 +4416,7 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
-		<HardPoints> HP_TIE_Interceptor_Ion_00, HP_TIE_Interceptor_Ion_01, HP_Ion_Interceptor_00</HardPoints>
+		<HardPoints> HP_TIE_Interceptor_00, HP_TIE_Interceptor_01, HP_Ion_Interceptor_00</HardPoints>
 	</SpaceUnit>
 
 	<Squadron Name="TIE_Interceptor_Ion_Squadron">
