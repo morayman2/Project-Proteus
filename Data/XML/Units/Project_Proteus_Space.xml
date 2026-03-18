@@ -7877,7 +7877,7 @@
 
 	</Container>
 
-	<Squadron Name="TIE_gt_Squadron_Double">
+	<Squadron Name="TIE_gt_Torps_Squadron_Double">
 
 		<Text_ID>TEXT_TIE_GT_TORPS_SQUADRON2</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBLIGHT</Encyclopedia_Unit_Class>
