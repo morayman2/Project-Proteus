@@ -183,7 +183,7 @@ MB_LAND_PLANET_BYSS_02,A team of New Republic commandos led by Lando Calrissian 
 MT_FOTG_SPACE_CORUSCANT_EVACUATION,Evacuation of Coruscant
 MT_FOTG_SPACE_KATANA_BATTLE,Battle for the Katana Fleet
 MT_LAND_PLANET_BYSS_02,Battle of Byss
-SET_YOUR_GAME_LANGUAGE_TO_ENGLISH_IF_YOU_READ_THIS,This mod updated to version 3.5.1 on Feb 5th 2025. Saves from earlier versions won't work.
+SET_YOUR_GAME_LANGUAGE_TO_ENGLISH_IF_YOU_READ_THIS,This mod updated to version 3.5.1 on Feb 6th 2026.
 TEXT_A_WING_SQUADRON,A-wing Squadron
 TEXT_A_WING_SQUADRON_HALF,A-wing Squadron 1/2
 TEXT_A_WING_SQUADRON2,A-wing Squadron x2
@@ -7714,7 +7714,7 @@ TEXT_TOOLTIP_HEAVY_ESPO_WEAP3,1x CR-24 Flame Rifle: 10 / 5.5s / 220m
 TEXT_TOOLTIP_HEAVY_ESPO_WEAP4,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HEGGEL,Heggel was the admiral in charge of the Trax Sector Group. A stern man, he often put pressure on his subordinates like Captain Resner to achieve the results he desired.
 TEXT_TOOLTIP_HERA,The daughter of a Twi'lek general, Hera had a long history with the Rebellion. She formed her own small group on Lothal before joining and eventually leading Phoenix Cell, going on to be a key member of the Alliance
-TEXT_TOOLTIP_HESTIV,Hestiv was the competent and loyal commander at Yaga Minor where he maintained good relations with the local Yagai. He reluctantly supported Admiral Pellaeon's peace initiative and search for a copy of the Caamas document.
+TEXT_TOOLTIP_HESTIV,Hestiv was an Imperial High General in charge of the defenses at Yaga Minor and the Ubiqtorate base located there. Hestiv had a cordial personality and maintained good relations with the native Yagai, and was also a personal friend of Admiral Gilad Pellaeon. He reluctantly supported Pellaeon's peace initiative and search for a copy of the Caamas document.
 TEXT_TOOLTIP_HILMA,Hilma and her twin brother Sven are the heirs of Sélima Kim, the matriarch of a diversified crime organization. They keep their identity secret and accompany their fleet as common pirates.
 TEXT_TOOLTIP_HILMA_SQUADRON,Fighters: 7 / 14
 TEXT_TOOLTIP_HISSA,The ambitious near-human protégé of Quarsh Panaka, Hissa was one of the few aliens to become a Grand Moff. In the power struggle following the death of Emperor Palpatine, Hissa headed the Central Committee of Grand Moffs, one of the most prominent movements opposing Ysanne Isard.
