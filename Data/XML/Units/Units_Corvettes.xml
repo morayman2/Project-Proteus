@@ -3600,7 +3600,7 @@
 	
 	<SpaceUnit Name="IPV4">
 		<Variant_Of_Existing_Type>IPV1</Variant_Of_Existing_Type>
-		<Affiliation>Eriadu_Authority</Affiliation>
+		<Affiliation>Eriadu_Authority, Imperial_Proteus</Affiliation>
 		<Text_ID>TEXT_UNIT_IPV4</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_IPV4
