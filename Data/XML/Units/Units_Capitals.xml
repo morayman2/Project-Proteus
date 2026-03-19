@@ -1839,12 +1839,13 @@
 
 		<Tech_Level>0</Tech_Level>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Affiliation>Pentastar, Warlords, Imperial_Proteus</Affiliation>
+		<Affiliation>Pentastar, Warlords, Imperial_Proteus, Greater_Maldrood</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Property_Flags>Boardable</Property_Flags>
 		
 		<Required_Special_Structures>
+		Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
 		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Capital_Category_Dummy,
 		</Required_Special_Structures>
@@ -2849,7 +2850,7 @@
 	<SpaceUnit Name="Secutor_Star_Destroyer">
 		<Variant_Of_Existing_Type>Template_Secutor_Star_Destroyer</Variant_Of_Existing_Type>
     
-        <Affiliation>Pentastar, Imperial_Proteus</Affiliation>
+        <Affiliation>Pentastar, Imperial_Proteus, Greater_Maldrood</Affiliation>
         <Tech_Level>0</Tech_Level>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>

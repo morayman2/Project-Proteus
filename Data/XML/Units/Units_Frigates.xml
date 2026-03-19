@@ -97,7 +97,7 @@
 		<AI_Combat_Power>543</AI_Combat_Power>
 		<Damage>30</Damage>
 
-		<Affiliation>Pentastar, Imperial_Proteus</Affiliation>
+		<Affiliation>Pentastar, Imperial_Proteus, Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
 		<Maintenance_Cost>15</Maintenance_Cost>
@@ -123,7 +123,8 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four
+		Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
 		</Required_Special_Structures>
@@ -1346,7 +1347,7 @@
 
 	<SpaceUnit Name="Gladiator_I">
 		<Variant_Of_Existing_Type>Template_Gladiator</Variant_Of_Existing_Type>
-		<Affiliation>Eriadu_Authority, Corporate_Sector, Imperial_Proteus</Affiliation>
+		<Affiliation>Eriadu_Authority, Corporate_Sector, Imperial_Proteus, Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -4034,7 +4035,7 @@
 		<AI_Combat_Power>996</AI_Combat_Power>
 		<Damage>30</Damage>
 
-		<Affiliation>Greater_Maldrood, Imperial_Proteus</Affiliation> <!-- ZC -->
+		<Affiliation>Greater_Maldrood, Imperial_Proteus, Empire</Affiliation> <!-- ZC -->
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>40</Override_Bounty_SP>
 		<Maintenance_Cost>29</Maintenance_Cost>
@@ -4978,7 +4979,7 @@
 		<Maintenance_Cost>15</Maintenance_Cost>
 		<Population_Value>7</Population_Value>
 		
-		<Affiliation>Imperial_Proteus</Affiliation>
+		<Affiliation>Imperial_Proteus, Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		
 		<Required_Special_Structures>
@@ -5536,7 +5537,7 @@
 	<SpaceUnit Name="Acclamator_I_Carrier">
 		<Variant_Of_Existing_Type>Template_Acclamator_I_Carrier</Variant_Of_Existing_Type>
 
-		<Affiliation>Imperial_Proteus, Zsinj_Empire</Affiliation>
+		<Affiliation>Imperial_Proteus, Zsinj_Empire, Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -6253,7 +6254,7 @@
 
 	<SpaceUnit Name="Victory_II_Star_Destroyer">
 		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
-		<Affiliation>Empire, Zsinj_Empire, Corporate_Sector, Imperial_Proteus</Affiliation> <!-- ZC -->
+		<Affiliation>Empire, Zsinj_Empire, Corporate_Sector, Imperial_Proteus, Greater_Maldrood</Affiliation> <!-- ZC -->
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
