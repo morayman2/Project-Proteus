@@ -116,15 +116,15 @@ return {
 
             UnitUtil.SetLockList("GREATER_MALDROOD", {
                 "TaggeCo_HQ",
-                "GormTalquist_HQ"
-            }, false)
-
-            UnitUtil.SetLockList("PENTASTAR", {
-                "TaggeCo_HQ",
                 "GormTalquist_HQ",
 				-- Historical-only units
 				"Victory_II_Star_Destroyer",
 				"Secutor_Star_Destroyer"
+            }, false)
+
+            UnitUtil.SetLockList("PENTASTAR", {
+                "TaggeCo_HQ",
+                "GormTalquist_HQ"
             }, false)
 
             UnitUtil.SetLockList("ZSINJ_EMPIRE", {
@@ -184,6 +184,20 @@ return {
                 "Adz_Patrol_Destroyer"
             })
         end
+
+        local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+        --if proteus == ("RAYTER" or "ELROOD" or "ISECTOR" or "TAGGE" or "BAKURA" or "TAPANI" or "PRAKITH" or "CATO_NEIMOIDIA") then
+        if proteus == "RAYTER" or proteus == "ELROOD" or proteus == "ISECTOR" or proteus == "TAGGE"
+            or proteus == "BAKURA" or proteus == "TAPANI" or proteus == "PRAKITH" or proteus == "CATO_NEIMOIDIA" then
+            UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                "IPV4"
+            })
+
+            UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+                "IPV1"
+            }, false)
+        end
+
     end,
     on_update = function(self, state_context)
     end,
