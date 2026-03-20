@@ -1,6 +1,6 @@
 return {
 	Spawn_Units = {
-		["Royal_Guard_Stormtrooper_Squad] = {
+		["ROYAL_GUARD_STORMTROOPER_SQUAD"] = {
 			DEFAULT = {Initial = 4, Reserve = 0},
 		}
 	},
