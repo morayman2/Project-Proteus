@@ -349,4 +349,25 @@
 		<Specific_Death_Anim_Index />
 	</Death_Clone>
 
+	<Death_Clone Name="Victory_I_Fleet_Destroyer_Death_Clone">
+		<Space_Model_Name>victory_i-class_victory_fleet_D.alo</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index/>
+	</Death_Clone>
+
+	<Death_Clone Name="Acclamator_Supercruiser_Death_Clone">
+		<Space_Model_Name>ev_acclamator_supercruiser_D.alo</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="Procurator_Death_Clone">
+		<Space_Model_Name>Procurator-class_battlecruiser_D.alo</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index/>
+	</Death_Clone>
+
 </Death_Clones_Space>

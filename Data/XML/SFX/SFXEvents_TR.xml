@@ -16504,7 +16504,7 @@
         <Localize> Yes </Localize>
         <Play_Sequentially> Yes </Play_Sequentially>
         <Overlap_Test> Unit_Pekt </Overlap_Test>
-        <Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+        <Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
     </SFXEvent>
 	
 	<!--***********************************************************-->
@@ -16582,7 +16582,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Select_Rep_LAC">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -16596,7 +16596,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Move_Rep_LAC">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -16610,7 +16610,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Assist_Move_Rep_LAC">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -16625,7 +16625,7 @@
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Attack_Rep_LAC">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -16641,7 +16641,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Assist_Attack_Rep_LAC">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -16658,7 +16658,7 @@
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Probability>60</Probability>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Guard_Rep_LAC">
 		<Use_Preset>Preset_UR</Use_Preset>
@@ -16672,7 +16672,7 @@
 		<Localize> Yes </Localize>
 		<Play_Sequentially> Yes </Play_Sequentially>
 		<Overlap_Test> Unit_Rep_LAC </Overlap_Test>
-		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 	<SFXEvent Name="Unit_Death_Rep_LAC">
 		<Use_Preset>Preset_URC</Use_Preset>
@@ -16734,5 +16734,1270 @@
 		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
 
+	<SFXEvent Name="Unit_AT_XT_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\AT_XT\AT_XT_Fire.wav
+		</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+    <!--**************************NTB-630**************************--> <!-- Battlefront 2 engine loop and 2017 flyby/laser SFX -->
+    <!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Ntb_630_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\ARC170\Arc_Laser1.wav
+			Data\Audio\SFX\ARC170\Arc_Laser2.wav
+		</Samples>
+		<Min_Pitch>112</Min_Pitch>
+		<Max_Pitch>112</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Ntb_630_Fly_By">
+		<Use_Preset>Preset_EGB</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\ARC170\Arc_FlyBy1.wav
+			Data\Audio\SFX\ARC170\Arc_FlyBy2.wav
+		</Samples>
+		<Min_Pitch>88</Min_Pitch>
+		<Max_Pitch>88</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Ntb_630_Cinematic_Engine_Loop"> <!-- Used by cinematic camera focus -->
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>Data\Audio\SFX\ARC170\Arc_Engine_Loop.wav</Samples>
+		<Min_Pitch>88</Min_Pitch>
+		<Max_Pitch>88</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="CIS_C9979_Health">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Healthstatus\C1_ENG.wav
+			Data\Audio\Space\C9979\Healthstatus\C2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="CIS_C9979_Move">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Move\M1_ENG.wav
+			Data\Audio\Space\C9979\Move\M2_ENG.wav
+			Data\Audio\Space\C9979\Move\M3_ENG.wav
+			Data\Audio\Space\C9979\Move\M4_ENG.wav
+			Data\Audio\Space\C9979\Move\M5_ENG.wav
+			Data\Audio\Space\C9979\Move\M6_ENG.wav
+			Data\Audio\Space\C9979\Move\M7_ENG.wav
+			Data\Audio\Space\C9979\Move\M8_ENG.wav
+			Data\Audio\Space\C9979\Move\M9_ENG.wav
+			Data\Audio\Space\C9979\Move\M10_ENG.wav
+			Data\Audio\Space\C9979\Move\M11_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="CIS_C9979_Select">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Select\S1_ENG.wav
+			Data\Audio\Space\C9979\Select\S2_ENG.wav
+			Data\Audio\Space\C9979\Select\S3_ENG.wav
+			Data\Audio\Space\C9979\Select\S4_ENG.wav
+			Data\Audio\Space\C9979\Select\S5_ENG.wav
+			Data\Audio\Space\C9979\Select\S6_ENG.wav
+			Data\Audio\Space\C9979\Select\S7_ENG.wav
+			Data\Audio\Space\C9979\Select\S8_ENG.wav
+			Data\Audio\Space\C9979\Select\S9_ENG.wav
+			Data\Audio\Space\C9979\Select\S10_ENG.wav
+			Data\Audio\Space\C9979\Select\S11_ENG.wav
+			Data\Audio\Space\C9979\Select\S12_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="CIS_C9979_Attack">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Attack\A1_ENG.wav
+			Data\Audio\Space\C9979\Attack\A2_ENG.wav
+			Data\Audio\Space\C9979\Attack\A3_ENG.wav
+			Data\Audio\Space\C9979\Attack\A4_ENG.wav
+			Data\Audio\Space\C9979\Attack\A5_ENG.wav
+			Data\Audio\Space\C9979\Attack\A6_ENG.wav
+			Data\Audio\Space\C9979\Attack\A7_ENG.wav
+			Data\Audio\Space\C9979\Attack\A8_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lupus_Idle_Engine_Loop">
+		<Use_Preset>Preset_EGL_Idle</Use_Preset>
+		<Samples>Data\Audio\SFX\Lupus\Lupus_Engine_Loop.wav</Samples>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lupus_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL</Use_Preset>
+		<Samples>Data\Audio\SFX\Lupus\Lupus_Engine_Loop.wav</Samples>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lupus_Cinematic_Engine_Loop">
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>Data\Audio\SFX\Lupus\Lupus_Engine_Loop.wav</Samples>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_AV_7_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\AV7\AV7_Fire1.wav
+			Data\Audio\SFX\AV7\AV7_Fire2.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***********************Clone Operator**********************--> <!-- RotS game CT voices used for enclosed vehicles -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Select\CO_S2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S13_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Select\CO_S1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S4_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S6_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S7_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S8_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S9_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S10_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S11_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S12_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S13_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S14_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Select\CO_S15_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Move\CO_Walker_FM_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M13_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_UTAT"> <!-- solely for no walker line -->
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Move\CO_M3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M13_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Move\CO_M1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M4_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M6_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M7_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M8_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M9_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M10_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M11_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M12_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M13_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M14_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Move\CO_M15_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Move_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist4_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist6_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist7_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist8_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Guard\CO_Guard1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Guard\CO_Guard2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A4_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A6_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A7_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A8_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A9_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A10_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A11_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A12_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A13_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A14_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Attack\CO_A15_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Attack_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist4_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist5_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist6_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist7_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Assist\CO_Assist8_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Barrage_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Ability\CO_Barrage1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Ability\CO_Barrage2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Deploy_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Ability\CO_Deploy1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Ability\CO_Deploy2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Defend_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Ability\CO_Defend1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Ability\CO_Defend2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Health_Low_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Health\CO_Low1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Low2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Low3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Low4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator_Health </Overlap_Test>
+		<Probability> 20 </Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Health_Critical_Clone_Operator">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Health\CO_Crit1_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Crit2_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Crit3_ENG.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Crit4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Operator_Health </Overlap_Test>
+		<Probability> 20 </Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Death_Clone_Operator">
+		<Use_Preset>Preset_DTH</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clone_Operator\Health\CO_Death1.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Death2.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Death3.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Death4.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Death5.wav
+			Data\Audio\Ground\Clone_Operator\Health\CO_Death6.wav
+		</Samples>
+		<Overlap_Test> Unit_Clone_Operator_Health </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M17_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S17_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Select\S18_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M17_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Guard\G1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Guard\G2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Guard\G3_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_target_turret_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Target\T1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Target\T1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Target\T1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Target\T1_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_low_health_Rep_y_wing">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L17_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L18_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L19_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L20_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L21_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L22_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L23_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L24_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L25_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L26_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L27_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L28_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L29_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L30_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L31_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L32_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L33_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L34_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L35_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L36_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L37_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L38_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L39_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L40_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L41_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L42_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L43_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L44_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L45_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_critical_health_Rep_y_wing">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L17_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L18_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L19_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L20_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L21_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L22_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L23_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L24_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L25_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L26_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L27_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L28_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L29_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L30_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L31_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L32_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L33_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L34_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L35_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L36_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L37_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L38_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L39_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L40_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L41_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L42_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L43_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L44_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Loosing\L45_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_enemy_low_health_Rep_y_wing">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W13_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_enemy_critical_health_Rep_y_wing">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Winning\W13_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_asteroids_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Asteroids\asteroids1_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_barc">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Speeders\move\scout_for_seppies_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_barc </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Complete_Clone_Trooper">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clonetrooper\select\S12_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Trooper </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Take_Cover_Clone_Trooper">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clonetrooper\Ability\Clone_Cover1_ENG.wav
+			Data\Audio\Ground\Clonetrooper\Ability\Clone_Cover2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Trooper </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Clone_Trooper">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Clonetrooper\move\M1_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M2_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M3_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M4_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M5_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M6_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M7_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M8_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M9_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M10_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M11_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M12_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M13_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M14_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M15_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M16_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M17_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M18_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M19_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M20_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M21_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M22_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M23_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M24_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M25_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M26_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M27_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M28_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M29_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M30_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M31_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M32_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M33_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M34_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M35_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M36_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M37_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M38_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M39_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M40_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M41_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M42_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M43_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M44_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M45_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M46_ENG.wav
+			Data\Audio\Ground\Clonetrooper\move\M47_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Clone_Trooper </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--************************Dark Jedi/Sith*********************-->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Dark_Jedi_Complete">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Select\S1_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S4_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Select">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Select\S1_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S2_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S3_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S4_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S5_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S6_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S7_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S8_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S9_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Select\S10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Move">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Move\M1_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M2_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M3_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M4_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M5_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M6_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M7_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M8_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Fleet_Move">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Move\M1_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M4_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A7_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Attack">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Attack\A1_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A2_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A3_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A4_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A5_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A6_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A7_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A8_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Attack\A9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Ability">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS,
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Attack\A4_ENG.wav
+			Data\Audio\Ground\Dark_Jedi\Move\M9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Low_Health">
+		<Use_Preset>Preset_DTH</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Health\LowHealth_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Probability> 50 </Probability>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Dark_Jedi_Death">
+		<Use_Preset>Preset_DTH</Use_Preset>
+		<Text_ID>
+			TEXT_SFX_GO_AWAY_ERRORS
+		</Text_ID>
+		<Samples>
+			Data\Audio\Ground\Dark_Jedi\Health\Death_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Probability> 25 </Probability>
+		<Overlap_Test> Unit_Dark_Jedi </Overlap_Test>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--*******************Lucrehulk (Neimoidian)******************--> <!-- GB Gunray lines -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S2_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S3_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S4_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S6_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S8_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S9_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M2_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M3_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M4_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M6_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M8_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M9_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Guard\Gunray_Guard1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Guard\Gunray_Guard2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A2_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A3_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A4_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A6_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A8_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A9_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--*************************Darth Maul************************--> <!-- BF 2017 VO with death sound from LEGO Star Wars 1 and Racer's Revenge -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S11_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S12_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S13_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S14_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S15_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Select\Maul_S16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M12_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M11_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M12_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M13_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M14_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M15_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Group_Move_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M11_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M12_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M13_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M14_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M15_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Move\Maul_M16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Guard\Maul_Guard1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Guard\Maul_Guard2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A11_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A12_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A13_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A14_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A15_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Group_Attack_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Group\Maul_Group10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A4_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A5_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A6_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A7_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A8_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A9_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A10_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A11_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A12_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A13_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A14_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A15_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Attack\Maul_A16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Choke_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Choke1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Choke2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Choke3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Choke4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Crush_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Crush1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Crush2_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Crush3_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Ability\Maul_Crush4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Maul </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Health_Low_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Health\Maul_Low1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Health\Maul_Low2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Maul_Health </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Health_Critical_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Health\Maul_Crit1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Health\Maul_Crit2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Maul_Health </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Death_Maul">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Health\Maul_Death1_ENG.wav
+			Data\Audio\Heroes\Hutt_Heroes\Darth_Maul\Health\Maul_Death2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Maul_Health </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
 
 </SFXEvents>

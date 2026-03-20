@@ -983,22 +983,22 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron_Double, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Torrent_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Starting_Spawned_Units_Tech_1> 2_Warpod_Squadron_Double, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Torrent_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_4>
 		
 		<Reserve_Spawned_Units_Tech_1> 2_Warpod_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_BTLB_Y_Wing_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_BTLB_Y_Wing_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> BTLB_Y_Wing_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> BTLB_Y_Wing_Squadron_Double, 3 </Reserve_Spawned_Units_Tech_4>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -1192,23 +1192,23 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
-		<Starting_Spawned_Units_Tech_1> PDF_Z95_Headhunter_Squadron_Double, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> PDF_Z95_Headhunter_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_1> Z95_Headhunter_Squadron_Double, 1 </Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_2> Z95_Headhunter_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
 		<Starting_Spawned_Units_Tech_4> Twin_Ion_Engine_Starfighter_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
-		<Reserve_Spawned_Units_Tech_1> PDF_Z95_Headhunter_Squadron_Double, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> PDF_Z95_Headhunter_Squadron_Double, 4 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_1> Z95_Headhunter_Squadron_Double, 4 </Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_2> Z95_Headhunter_Squadron_Double, 4 </Reserve_Spawned_Units_Tech_2>
 		<Reserve_Spawned_Units_Tech_4> Twin_Ion_Engine_Starfighter_Squadron_Double, 4 </Reserve_Spawned_Units_Tech_4>
 		
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_Arc_170_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Arc_170_Squadron, 4 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Arc_170_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Arc_170_Squadron, 4 </Reserve_Spawned_Units_Tech_4>
 
 		<Target_Bones>Root</Target_Bones>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
@@ -1412,12 +1412,12 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Squadron_Double, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_Arc_170_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Arc_170_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Arc_170_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Arc_170_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Torrent_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 1 </Starting_Spawned_Units_Tech_4>
 
 		<Starting_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_2> NTB_630_Squadron, 1 </Starting_Spawned_Units_Tech_2>
@@ -1426,12 +1426,12 @@
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_Arc_170_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Arc_170_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Arc_170_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Arc_170_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_4>
 
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 3 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Torrent_Squadron, 3 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 3 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron, 3 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 3 </Reserve_Spawned_Units_Tech_4>
 
 		<Reserve_Spawned_Units_Tech_1> Scurrg_H6_Prototype_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_2> NTB_630_Squadron, 2 </Reserve_Spawned_Units_Tech_2>
@@ -1561,14 +1561,14 @@
 		<Population_Value>15</Population_Value>
 
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Torrent_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 4 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Torrent_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 4 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron, 4 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 4 </Reserve_Spawned_Units_Tech_4>
 
 		<Icon_Name>I_BUTTON_VICTOR_CLASS.tga</Icon_Name>
 		<Lua_Script>GenericGameObject</Lua_Script>
@@ -1714,22 +1714,22 @@
 		</HardPoints>
 		
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 3 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Torrent_Squadron, 3 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 3 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron, 3 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 3 </Starting_Spawned_Units_Tech_4>
 		
 		<Starting_Spawned_Units_Tech_1> 2_Warpod_Squadron_Double, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> BTLB_Y_Wing_Squadron_Double, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 6 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Torrent_Squadron, 6 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 6 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Nimbus_V_Wing_Esk_Squadron, 6 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 6 </Reserve_Spawned_Units_Tech_4>
 		
 		<Reserve_Spawned_Units_Tech_1> 2_Warpod_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_BTLB_Y_Wing_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_BTLB_Y_Wing_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> BTLB_Y_Wing_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> BTLB_Y_Wing_Squadron_Double, 2 </Reserve_Spawned_Units_Tech_4>
 
 		<SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, null</SFXEvent_Hardpoint_Destroyed>
 
@@ -1960,22 +1960,22 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Squadron, 1 </Starting_Spawned_Units_Tech_1>
-		<Starting_Spawned_Units_Tech_2> Clone_Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_2> Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_4> Arc_170_Squadron, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Starting_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_1>
 		<Starting_Spawned_Units_Tech_2> Cloakshape_Stock_Squadron, 1 </Starting_Spawned_Units_Tech_2>
-		<Starting_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 1 </Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 1 </Starting_Spawned_Units_Tech_4>
 		
 		<Spawned_Squadron_Delay_Seconds> 15 </Spawned_Squadron_Delay_Seconds>
 		
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
-		<Reserve_Spawned_Units_Tech_2> Clone_Arc_170_Squadron, 2 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Arc_170_Squadron, 2 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_2> Arc_170_Squadron, 2 </Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_4> Arc_170_Squadron, 2 </Reserve_Spawned_Units_Tech_4>
 		
 		<Reserve_Spawned_Units_Tech_1> Cloakshape_Stock_Squadron, 2 </Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_2> Cloakshape_Stock_Squadron, 2 </Reserve_Spawned_Units_Tech_2>
-		<Reserve_Spawned_Units_Tech_4> Clone_Nimbus_V_Wing_Squadron, 2 </Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4> Nimbus_V_Wing_Esk_Squadron, 2 </Reserve_Spawned_Units_Tech_4>
 
 		<Target_Bones>TARGET_00</Target_Bones>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>

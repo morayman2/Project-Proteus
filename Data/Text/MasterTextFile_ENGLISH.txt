@@ -453,7 +453,7 @@ TEXT_CAMERA_HOME,Camera Home
 TEXT_CAMERA_RESET,Reset Camera
 TEXT_CAMERA_TETHER,Camera Tether
 TEXT_CAMPAIGN_DESCRIPTION_FULL_MAP,Contains all coded planets\n \n(Play as REBEL-slot faction)
-TEXT_CAMPAIGN_DESCRIPTION_GCMENU,Click "Start Game" below to enter the single-player Galactic Conquest menu.\n \nIf the menu sides are cut off, change to a 16:9 resolution in Options -> Video.
+TEXT_CAMPAIGN_DESCRIPTION_GCMENU,Click "Start Game" below to enter the single-player Galactic Conquest menu.
 TEXT_CAMPAIGN_DESCRIPTION_MAPTEST,4 planets; attack to test a map\n \n(Play as EMPIRE-slot faction)
 TEXT_CAMPAIGN_DESCRIPTION_MAPTEST_DEFEND,The AI will attack your planet immediately\n \n(Play as REBEL-slot faction)
 TEXT_CAMPAIGN_DIFFICULTY,Difficulty:
