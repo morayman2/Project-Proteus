@@ -86,7 +86,7 @@ return {
 		"PDF_Tactical_Unit_Company",
         --Lumiya's Sith added units
 		"Royal_Guard_Stormtrooper_Company", "Sith_Knight_Company",
-		--Rayder Sector added units
+		--Rayter Sector added units
 		"Bulwark_II", "Bulwark_III",
 		
 		--idk for what group
