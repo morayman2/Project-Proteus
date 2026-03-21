@@ -137,7 +137,7 @@ return {
 				"Imperial_AT_TE_Walker_Company", "Tracked_Mobile_Base_Company", "Tracked_Shield_Disabler_Company",
 				-- Space
 				"Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser", 
-				"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "DHC_Gunboat", "Immobilizer_418_Refit", 
+				"Gladiator_I", "Acclamator_II_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "DHC_Gunboat", "Immobilizer_418_Refit", 
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
 				"Communications_Battlecruiser", "Altor_Replenishment_Ship"
 			},
