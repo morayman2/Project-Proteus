@@ -896,5 +896,7 @@ return {
 --
 ["KLEMP_REBUKE"] = true,
 ["VICTORY_II_CARRIER"] = true,
+-- Sector
+["ACCLAMATOR_II_SUPERCRUISER"] = true,
 
 }

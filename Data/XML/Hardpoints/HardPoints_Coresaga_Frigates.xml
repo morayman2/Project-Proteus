@@ -9933,7 +9933,7 @@
 	</HardPoint>
 
 	<HardPoint Name="HP_Victory_Destroyer_ConcMissile_02">
-<Type> HARD_POINT_WEAPON_MISSILE </Type>
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
