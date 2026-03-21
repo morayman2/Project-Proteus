@@ -71,7 +71,7 @@ return {
 			"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company",
 			"AT_AA_Missile_Walker_Company", "Imperial_Flashblind_Company", "Imperial_TX130S_Company", "SPMAG_Walker_Company", "1M_Tank_Company", "1H_Tank_Company",
 			"PX4_Company", "Tracked_Mobile_Base_Company", "Lancet_Air_Artillery_Company", "AT_AT_Walker_IC_Company", 
-			"Pursuer_Enforcement_Ship_Group", "IPV1", "Lancer_Frigate_PDF", "Vigil", "Strike_Cruiser_Light", "Star_Galleon", "Ton_Falk_Escort_Carrier",
+			"Pursuer_Enforcement_Ship_Group", "IPV1", "Lancer_Frigate_PDF", "Bayonet_Cruiser", "Strike_Cruiser_Light", "Star_Galleon", "Ton_Falk_Escort_Carrier",
 			"Immobilizer_418", "Gladiator_II", "Vindicator_Cruiser", "Acclamator_I_Carrier", "Victory_II_Star_Destroyer", "Venator_8X", 
 			"Imperial_II_Star_Destroyer_Ion", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Destroyer",
 			"Altor_Replenishment_Ship", "Allegiance_Battlecruiser", "Legator_Star_Dreadnought", "Assertor_Star_Dreadnought"},
