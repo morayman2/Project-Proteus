@@ -247,7 +247,7 @@ TEXT_TIE_INTERCEPTOR_ION_SQUADRON2,Ion Refit TIE Interceptor Squadron x2
 TEXT_TIE_LIGHT_BOMBER_SQUADRON,TIE Light Bomber Squadron
 TEXT_TIE_LIGHT_BOMBER_SQUADRON_HALF,TIE Bomber Squadron 1/2
 TEXT_TIE_LIGHT_BOMBER2_SQUADRON,TIE Bomber Squadron x2
-TEXT_TOOLTIP_008_SPEEDER,A model of heavy combat repulsorlift released during the height of the Galactic Civil War. The 008 is popular with remote Imperial garrisons in the Rim as well as mercenary units who acquire the vehicles through questionable means. While it proved a potent combatant, its service history and reputation was marred by a design flaw that caused the craft to become unstable if both weapons were fired simultaneously.
+TEXT_TOOLTIP_008_SPEEDER,A model of heavy combat repulsorlift released during the height of the Galactic Civil War. The 008 was popular with remote Imperial garrisons in the Rim as well as mercenary units who acquire the vehicles through questionable means. While it proved a potent combatant, its service history and reputation was marred by a design flaw that caused the craft to become unstable if both weapons were fired simultaneously.
 TEXT_TOOLTIP_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
 TEXT_TOOLTIP_008_SPEEDER_HEALTH,Health: 250 (Medium Vehicle)
 TEXT_TOOLTIP_008_SPEEDER_MOVE,Speed: 2.50 | Turn: 3.0
@@ -303,6 +303,12 @@ TEXT_TOOLTIP_AV7_COMPANY,Company: 1x AV-7 Antivehicle Cannon
 TEXT_TOOLTIP_AV7_HEALTH,Health: 50 (Heavy Vehicle)
 TEXT_TOOLTIP_AV7_MOVE,Speed: 1.0 | Turn: 1.0 
 TEXT_TOOLTIP_AV7_WEAP1,1x Artillery Cannon: 1 / 8.333s / 1440m
+TEXT_TOOLTIP_BAYONET,An outdated Sienar light cruiser released shortly after the end of the Clone Wars. The design was never as popular as rival designs from Kuat and Damorian or even Sienar's venerable Marauder Cruiser line and was eventually supplanted by Kuat's Vigil Corvette. Despite its obsolesence, the Bayonet can still provide decent fire support against cruisers and fighers alike. 
+TEXT_TOOLTIP_BAYONET_HULL,Hull: 800 (Frigate)
+TEXT_TOOLTIP_BAYONET_MOVE,Speed: 3.0 | Accel: 0.175 | Turn: 0.3
+TEXT_TOOLTIP_BAYONET_SHIELD,Shields: 752 (12.5R) (Frigate)
+TEXT_TOOLTIP_BAYONET_WEAP1,4x Heavy Turbolasers: 2 / 5.0s / 8.1km
+TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.835s / 4.1km
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings, ARC-170s and NTB-630s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Defender models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BUILDLIMIT_BISCUIT_BARON,Build Limit: 1 | Total: ∞
@@ -529,6 +535,7 @@ TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
+TEXT_UNIT_BAYONET,Bayonet-class Light Cruiser
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
