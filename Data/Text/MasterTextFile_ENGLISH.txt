@@ -696,8 +696,7 @@ TEXT_CAMERA_HOME,Camera Home
 TEXT_CAMERA_RESET,Reset Camera
 TEXT_CAMERA_TETHER,Camera Tether
 TEXT_CAMPAIGN_DESCRIPTION_FULL_MAP,Contains all coded planets\n \n(Play as REBEL-slot faction)
-TEXT_CAMPAIGN_DESCRIPTION_GCMENU,Click "Start Game" below to enter the single-player Galactic Conquest menu.\n \nIf the menu sides are cut off, change to a 16:9 resolution in Options -> Video.
-TEXT_CAMPAIGN_DESCRIPTION_INSTANTACTION,Instantly build and battle with large, custom fleets of whatever size you like, for whichever factions you like. \n-----\nPlayable Factions: \n\n- New Republic\n\n- Galactic Empire\n\n- Hutt Cartels\n\n- Eriadu Authority\n\n- Greater Maldrood\n\n- Pentastar Alignment\n\n- Zsinj's Empire\n\n- Corporate Sector\n\n- Hapes Consortium\n\n- Empire of the Hand
+TEXT_CAMPAIGN_DESCRIPTION_GCMENU,Click "Start Game" below to enter the single-player Galactic Conquest menu.
 TEXT_CAMPAIGN_DESCRIPTION_MAPTEST,4 planets; attack to test a map\n \n(Play as EMPIRE-slot faction)
 TEXT_CAMPAIGN_DESCRIPTION_MAPTEST_DEFEND,The AI will attack your planet immediately\n \n(Play as REBEL-slot faction)
 TEXT_CAMPAIGN_DESCRIPTION_SURVIVAL,See how long you can last while fighting off increasingly difficult waves of enemy forces. \n-----\nPlayable Factions: \n\n- New Republic\n\n- Galactic Empire\n\n- Hutt Cartels\n\n- Eriadu Authority\n\n- Greater Maldrood\n\n- Pentastar Alignment\n\n- Zsinj's Empire\n\n- Corporate Sector\n\n- Hapes Consortium\n\n- Empire of the Hand

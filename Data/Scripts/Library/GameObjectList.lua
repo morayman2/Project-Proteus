@@ -895,5 +895,6 @@ return {
 ["DESANNE_DOMINION_DUMMY"] = true,
 --
 ["KLEMP_REBUKE"] = true,
+["VICTORY_II_CARRIER"] = true,
 
 }

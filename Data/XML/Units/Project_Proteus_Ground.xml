@@ -348,7 +348,7 @@
 		<Build_Cost_Credits>550</Build_Cost_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures>I_Ground_Light_Vehicle_Factory | KDY_HQ | Rothana_HQ</Required_Special_Structures>
+		<Required_Special_Structures>I_Ground_Light_Vehicle_Factory | E_Ground_Light_Vehicle_Factory | KDY_HQ </Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>no</Build_Initially_Locked>
@@ -359,7 +359,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Imperial_Proteus</Affiliation>
+		<Affiliation>Imperial_Proteus, Empire</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -709,7 +709,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<Death_Clone Name="AV_7_Death_Clone">
+	<Death_Clone Name="AV7_Death_Clone">
 		<Variant_Of_Existing_Type>AV_7</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
@@ -724,7 +724,7 @@
 		<IsDeathClone> true </IsDeathClone>
 		<Presence_Range>200.0</Presence_Range>
 	</Death_Clone>
-	<Death_Clone Name="AV_7_Deployed_Death_Clone">
+	<Death_Clone Name="AV7_Deployed_Death_Clone">
 		<Variant_Of_Existing_Type>AV_7</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
@@ -1637,7 +1637,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Sith_War_Mammoth, Commander_Sith_War_Mammoth_II</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Sith_War_Mammoth</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
 
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
@@ -1916,7 +1916,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Sith_Strider, Commander_Sith_Strider_III</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Sith_Strider</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
 
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
