@@ -291,6 +291,7 @@ return {
 			"1M_Tank_Company", "1H_Tank_Company",
 			"AT_AA_Walker_Company",  "Imperial_Light_Mobile_Artillery_Company", "Nemesis_Gunship_Company",  
 			"Heavy_Recovery_Vehicle_Company", "PX4_Company", "B5_Juggernaut_Company",
+			"Red_Star_Location_Set",
 			},
 			--LockList = {"Allegiance_Battlecruiser"},
 			FactionOverride = "Empire",
