@@ -123,7 +123,7 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRENTIOCH",
 			IntroHolo = "Utoxx_Prentioch_Loop"
 		},
-		["SECTOR_5"] = { --Zeven Mallat?
+		["SECTOR_5"] = { --Zeven Mallat? ; It's in now
 			FriendlyName = "Sector 5",
 			Planets = {"ODIK", "PRAKITH"},
 			LeaderTable = {"YZU_CONSTITUTION"},
@@ -131,15 +131,15 @@ return {
 			HeroList = {"Yzu_Constitution", "Foga_Brill_Team", "Gann_Team", "Mallat_Team"},
 			UnlockList = {
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company",  "64_Y_Swift_Repulsorlift_Sled_Company",
+				"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"Imperial_AT_PT_Company", "INT4_Company", "PX7_Company", "AT_DP_Company",
 				"Imperial_TNT_Company", "MAAT_Company", "Imperial_TX130T_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Flak_Walker_Company",
 				"Imperial_AT_TE_Walker_Company", "Tracked_Mobile_Base_Company", "Tracked_Shield_Disabler_Company",
 				-- Space
 				"Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser", 
-				"Gladiator_I", "Acclamator_II_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "DHC_Gunboat", "Immobilizer_418_Refit", 
+				"Gladiator_I", "Acclamator_II_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
-				"Communications_Battlecruiser", "Altor_Replenishment_Ship"
+				"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought"
 			},
 			--LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
