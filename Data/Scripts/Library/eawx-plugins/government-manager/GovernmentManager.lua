@@ -107,8 +107,8 @@ function GovernmentManager:UpdateDisplayContainer()
         or self.human == Find_Player("IMPERIAL_PROTEUS")
         then
             self.EMPIREGOV:UpdateDisplay()
-            if GlobalValue.Get("PROTEUS_GROUP_NAME") then
-                self:UpdateDisplayProteus()
+            if GlobalValue.Get("PROTEUS_GROUP_NAME") == "KUAT" then
+                self:UpdateProteusShipmarketDisplay()
             end
     elseif self.human == Find_Player("REBEL") then
         self.NRGOV:UpdateDisplay()
@@ -123,7 +123,7 @@ function GovernmentManager:UpdateDisplayContainer()
     end
 end
 
-function GovernmentManager:UpdateDisplayProteus()
+function GovernmentManager:UpdateProteusShipmarketDisplay()
 	local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
 	if self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus] then
 		local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
