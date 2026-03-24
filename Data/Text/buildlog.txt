@@ -1,1 +1,2 @@
-﻿
+﻿Duplicate identifier: TEXT_TOOLTIP_IRAN_RYAD
+Duplicate identifier: TEXT_TOOLTIP_TIE_INTERCEPTOR_ION

@@ -471,557 +471,6 @@
 		<Min_Speed>1.23</Min_Speed>
 	</Container>
 
-	<SpaceUnit Name="Missile_TIE_Fighter">
-		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
-		
-		<Text_ID>TEXT_UNIT_TIE_FIGHTER_MISSILE</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER.tga</Icon_Name>
-
-		<HardPoints> HP_TIE_00, HP_TIE_AFCM_01 </HardPoints>
-
-	</SpaceUnit>
-
-	<Squadron Name="Missile_TIE_Fighter_Squadron">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
-		
-		<Text_ID>TEXT_MISSILE_TIE_FIGHTER_SQUADRON</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_STATBLOCK_MISSILE_TIE_FIGHTER_SQUADRON
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE 
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER_ONE.tga</Icon_Name>
-
-		<Create_Team_Type>Missile_TIE_Fighter_Squadron_Container</Create_Team_Type>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-	</Squadron>
-
-	<Container Name="Missile_TIE_Fighter_Squadron_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Container</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_MISSILE_TIE_FIGHTER_SQUADRON</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
-		TEXT_STATBLOCK_MISSILE_TIE_FIGHTER_SQUADRON
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE 
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER_ONE.tga</Icon_Name>
-	</Container>
-
-	<Squadron Name="Missile_TIE_Fighter_Squadron_Double">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Double</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_MISSILE_TIE_FIGHTER_SQUADRON2</Text_ID><Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_MISSILE_TIE_FIGHTER_SQUADRON_DOUBLE
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE 
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER_TWO.tga</Icon_Name>
-
-		<Create_Team_Type>Missile_TIE_Fighter_Squadron_Double_Container</Create_Team_Type>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-	</Squadron>
-
-	<Container Name="Missile_TIE_Fighter_Squadron_Double_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Double_Container</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_MISSILE_TIE_FIGHTER_SQUADRON2</Text_ID><Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_MISSILE_TIE_FIGHTER_SQUADRON_DOUBLE
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE 
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER_TWO.tga</Icon_Name>
-	</Container>
-
-	<Squadron Name="Missile_TIE_Fighter_Squadron_Half">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Half</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_MISSILE_TIE_FIGHTER_SQUADRON_HALF</Text_ID><Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_MISSILE_TIE_FIGHTER_SQUADRON_HALF
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER_HALF.tga</Icon_Name>
-
-		<Create_Team_Type>Missile_TIE_Fighter_Squadron_Half_Container</Create_Team_Type>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-		<Squadron_Units>Missile_TIE_Fighter, Missile_TIE_Fighter, Missile_TIE_Fighter</Squadron_Units>
-	</Squadron>
-
-	<Container Name="Missile_TIE_Fighter_Squadron_Half_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Half_Container</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_MISSILE_TIE_FIGHTER_SQUADRON_HALF</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_MISSILE
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_MISSILE_TIE_FIGHTER_SQUADRON_HALF
-		TEXT_STATBLOCK_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_MISSILE_TIE_FIGHTER_HALF.tga</Icon_Name>
-	</Container>
-
-	<SpaceUnit Name="TIE_Fighter_BF2">
-		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_UNIT_TIE_FIGHTER_BF2</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2 
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2.tga</Icon_Name>
-
-		<Max_Speed>6.61</Max_Speed>
-		<Min_Speed>1.23</Min_Speed>
-		<Max_Rate_Of_Turn>3.75</Max_Rate_Of_Turn>
-		<Max_Lift>2.13</Max_Lift>
-		<Max_Thrust>2.13</Max_Thrust>
-		<OverrideAcceleration>2.13</OverrideAcceleration>
-		<OverrideDeceleration>1.07</OverrideDeceleration>
-
-        <Shield_Armor_Type>ShieldS_Fighter</Shield_Armor_Type>
-		<Max_Rate_Of_Roll>3.75</Max_Rate_Of_Roll>
-		<Shield_Points>5</Shield_Points>
-		<Shield_Refresh_Rate>0.25</Shield_Refresh_Rate>
-		<AI_Combat_Power>1.93</AI_Combat_Power>
-
-		<SpaceBehavior>HUNT, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
-
-		<HardPoints> HP_TIE_00, HP_TIE_BF2_00 </HardPoints>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</SpaceUnit>
-
-	<Squadron Name="TIE_Fighter_BF2_Squadron">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2 
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_ONE.tga</Icon_Name>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-
-		<Max_Squad_Size> 12 </Max_Squad_Size>
-		<Create_Team_Type>TIE_Fighter_BF2_Squadron_Container</Create_Team_Type>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Squadron>
-
-	<Container Name="TIE_Fighter_BF2_Squadron_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Container</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2 
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_ONE.tga</Icon_Name>
-
-		<!-- Same as unit -->
-		<Max_Speed>6.61</Max_Speed>
-		<Min_Speed>1.23</Min_Speed>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
-
-	<Squadron Name="TIE_Fighter_BF2_Squadron_Double">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Double</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON2</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_TWO.tga</Icon_Name>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-
-		<Max_Squad_Size> 24 </Max_Squad_Size>
-		<Create_Team_Type>TIE_Fighter_BF2_Squadron_Double_Container</Create_Team_Type>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Squadron>
-
-	<Container Name="TIE_Fighter_BF2_Squadron_Double_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Double_Container</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON2</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_TWO.tga</Icon_Name>
-
-		<!-- Same as unit -->
-		<Max_Speed>6.61</Max_Speed>
-		<Min_Speed>1.23</Min_Speed>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
-
-	<Squadron Name="TIE_Fighter_BF2_Squadron_Half">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Half</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_HALF
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE  
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_HALF.tga</Icon_Name>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-
-		<Max_Squad_Size> 6 </Max_Squad_Size>
-		<Create_Team_Type>TIE_Fighter_BF2_Squadron_Half_Container</Create_Team_Type>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Squadron>
-
-	<Container Name="TIE_Fighter_BF2_Squadron_Half_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Half_Container</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_HALF
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE  
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_HALF.tga</Icon_Name>
-
-		<!-- Same as unit -->
-		<Max_Speed>6.61</Max_Speed>
-		<Min_Speed>1.23</Min_Speed>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
-
-	<Squadron Name="TIE_Fighter_BF2_Squadron_Third">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Third</Variant_Of_Existing_Type>
-
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON_THIRD</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_THIRD
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_THIRD.tga</Icon_Name>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-
-		<Max_Squad_Size> 4 </Max_Squad_Size>
-		<Create_Team_Type>TIE_Fighter_BF2_Squadron_Third_Container</Create_Team_Type>
-		<Squadron_Units>TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2, TIE_Fighter_BF2</Squadron_Units>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Squadron>
-
-	<Container Name="TIE_Fighter_BF2_Squadron_Third_Container">
-		<Variant_Of_Existing_Type>TIE_Fighter_Squadron_Third_Container</Variant_Of_Existing_Type>
-		
-		<Text_ID>TEXT_TIE_FIGHTER_BF2_SQUADRON_THIRD</Text_ID>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TIE_FIGHTER_BF2
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_THIRD
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_BASE
-		TEXT_STATBLOCK_SHIELDED_TIE_FIGHTER_MOVE 
-		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
-		TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2
-		</Encyclopedia_Text>
-
-		<Icon_Name>I_BUTTON_TIE_FIGHTER_BF2_THIRD.tga</Icon_Name>
-
-		<!-- Same as unit -->
-		<Max_Speed>6.61</Max_Speed>
-		<Min_Speed>1.23</Min_Speed>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>TURBO</Type>
-
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<Recharge_Seconds>55</Recharge_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
-
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
 
 
 	<SpaceUnit Name="A9">
@@ -3198,6 +2647,8 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_tie_interceptor_armored_half.tga</Icon_Name>
 	</Container>
+
+
 
 	<SpaceUnit Name="Shielded_TIE_Interceptor">
 		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
@@ -39674,6 +39125,244 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
+	</Container>
+	
+		<SpaceUnit Name="Ixiyen_Fighter">
+
+		<Text_ID>TEXT_UNIT_IXIYEN_FIGHTER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTERHEAVY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_IXIYEN_FIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_IXIYEN_FIGHTER_BASE
+		TEXT_STATBLOCK_IXIYEN_FIGHTER_MOVE 
+		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1
+		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_IXIYEN_MKII_02.tga</Icon_Name>
+
+		<Space_Model_Name>Ixiyen_mkII_02_PP.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Size_Value>4</Size_Value>
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Mass>0.98</Mass>
+		<Max_Speed>8.33</Max_Speed>
+		<Min_Speed>1.15</Min_Speed>
+		<Max_Thrust>4.01</Max_Thrust>
+		<OverrideAcceleration>4.01</OverrideAcceleration>
+		<OverrideDeceleration>2.01</OverrideDeceleration>
+		<Max_Lift>4.01</Max_Lift>
+		<Max_Rate_Of_Turn>5.5</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>5.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<MoveAttackWhileStopped>True</MoveAttackWhileStopped>
+
+		<Shield_Armor_Type>ShieldS_Fighter</Shield_Armor_Type>
+		<Shield_Points>20</Shield_Points>
+		<Shield_Refresh_Rate>0.9</Shield_Refresh_Rate>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Tactical_Health>20</Tactical_Health>
+		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<Damage>1</Damage>
+		<AI_Combat_Power>8.83</AI_Combat_Power>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Maintenance_Cost>0</Maintenance_Cost>
+
+		<Ship_Class>fighter</Ship_Class>
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Ranking_In_Category/>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Create_Team>Yes</Create_Team>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+
+		<Population_Value>0</Population_Value>
+
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN </SpaceBehavior>
+
+		<HardPoints>
+			HP_Ixiyen_Laser_01,
+			HP_Ixiyen_Laser_02,
+			HP_Ixiyen_Torpedo,
+		</HardPoints>
+
+		<Target_Bones>COLLISON</Target_Bones>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Ground_Infantry_Turret_Target>yes</Ground_Infantry_Turret_Target>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Medium_Fighter_Explosion_Space</Death_Explosions>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Medium_Fighter_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<SFXEvent_Select> Unit_Select_Tie_Defender </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Tie_Defender </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Defender</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Tie_Defender </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Tie_Defender </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Tie_Defender </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Tie_Defender </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning/>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning/>
+		<SFXEvent_Health_Low_Warning/>
+		<SFXEvent_Health_Critical_Warning/>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_Laser_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_Missile_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_Torp_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Ion_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_Shields_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_Engines_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, null </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MASS_DRIVER, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Name/>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.5</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Guard_Chase_Range>200.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Targeting_Priority_Set>AntiFighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<MovementClass> Space </MovementClass>
+
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Build_Cost_Credits>100</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+	</SpaceUnit>
+
+	<Container Name="Ixiyen_Fighter_Squadron_Container">
+		<Text_ID>TEXT_IXIYEN_FIGHTER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_BTLA4_Y_WING
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_IXIYEN_SQUADRON
+		TEXT_STATBLOCK_IXIYEN_BASE 
+		TEXT_STATBLOCK_IXIYEN_MOVE
+		TEXT_STATBLOCK_IXIYEN_WEAP1
+		TEXT_STATBLOCK_IXIYEN_WEAP2
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_IXIYEN_ONE.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>6.46</Max_Speed>
+		<Min_Speed>1.37</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 	</Container>
 	
 </Units_Fighters>

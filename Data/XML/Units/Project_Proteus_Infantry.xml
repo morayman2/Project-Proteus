@@ -137,7 +137,7 @@
 				Banner_Sumptor, Iry_Danta, Irlyn_Resk,
 				Victor_Grieves, Fenris_Sarhl, Reikas, 
 				Brazack, Kayn_Somos, Cass_Maston, Netbers,
-				Ennix_Devian
+				Ennix_Devian,
 			Celebrate,
 				Template_Planetary_Shield_Death_Clone,
 				RB_CommandCenter_Death_Clone,
@@ -2457,7 +2457,7 @@
 				<Berserker_Damage_Range>12.0</Berserker_Damage_Range>
 				<Berserker_Duration_In_Secs>4.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Dark_Jedi, Sith_Assassin, Sith_Marauder, Sith_Sorcerer, Mandalorian_Knight_Duros, Mandalorian_Knight_Human, Mandalorian_Knight_Rodian, Mandalorian_Knight_Twilek, Mandalorian_Knight_Zeltron, Jedi_Padawan</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Dark_Jedi, Sith_Assassin, Sith_Marauder, Sith_Sorcerer, Jedi_Padawan</Excluded_Unit_Types>
 			</Berserker_Ability>
 		</Abilities>
 	</GroundInfantry>
@@ -2603,7 +2603,7 @@
 				<Berserker_Damage_Range>12.0</Berserker_Damage_Range>
 				<Berserker_Duration_In_Secs>4.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Dark_Jedi, Sith_Assassin, Sith_Marauder, Sith_Sorcerer, Mandalorian_Knight_Duros, Mandalorian_Knight_Human, Mandalorian_Knight_Rodian, Mandalorian_Knight_Twilek, Mandalorian_Knight_Zeltron, Jedi_Padawan</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Dark_Jedi, Sith_Assassin, Sith_Marauder, Sith_Sorcerer, Jedi_Padawan</Excluded_Unit_Types>
 			</Berserker_Ability>
 		</Abilities>
 	</GroundInfantry>
@@ -2719,10 +2719,6 @@
 
 				<Excluded_Unit_Types>
 					GuardianCorps,
-					Juggernaut_War_Droid,
-					Mark_I_Assault_Droid,
-					Mark_III_Assault_Droid,
-					Mark_IV_Assault_Droid,
 				</Excluded_Unit_Types>
 
 				<Duration_In_Seconds>5</Duration_In_Seconds>
@@ -2763,7 +2759,7 @@
 				<Berserker_Damage_Range>12.0</Berserker_Damage_Range>
 				<Berserker_Duration_In_Secs>4.0</Berserker_Duration_In_Secs>
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Dark_Jedi, Sith_Assassin, Sith_Marauder, Sith_Sorcerer, Mandalorian_Knight_Duros, Mandalorian_Knight_Human, Mandalorian_Knight_Rodian, Mandalorian_Knight_Twilek, Mandalorian_Knight_Zeltron, Jedi_Padawan</Excluded_Unit_Types>
+				<Excluded_Unit_Types>Jedi_Consular, Jedi_Guardian, Jedi_Sentinel, Dark_Jedi, Sith_Assassin, Sith_Marauder, Sith_Sorcerer, Jedi_Padawan</Excluded_Unit_Types>
 			</Berserker_Ability>
 		</Abilities>
 	</GroundInfantry>

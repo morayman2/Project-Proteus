@@ -97,7 +97,7 @@
 		<AI_Combat_Power>543</AI_Combat_Power>
 		<Damage>30</Damage>
 
-		<Affiliation>Pentastar, Imperial_Proteus</Affiliation>
+		<Affiliation>Pentastar, Imperial_Proteus, Empire</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>20</Override_Bounty_SP>
 		<Maintenance_Cost>15</Maintenance_Cost>
@@ -123,7 +123,8 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four
+		Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Pentastar_Shipyard_Level_Two | Pentastar_Shipyard_Level_Three | Pentastar_Shipyard_Level_Four,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
 		</Required_Special_Structures>
@@ -1346,7 +1347,7 @@
 
 	<SpaceUnit Name="Gladiator_I">
 		<Variant_Of_Existing_Type>Template_Gladiator</Variant_Of_Existing_Type>
-		<Affiliation>Eriadu_Authority, Corporate_Sector, Imperial_Proteus</Affiliation>
+		<Affiliation>Eriadu_Authority, Corporate_Sector, Imperial_Proteus, Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -4034,7 +4035,7 @@
 		<AI_Combat_Power>996</AI_Combat_Power>
 		<Damage>30</Damage>
 
-		<Affiliation>Greater_Maldrood, Imperial_Proteus</Affiliation> <!-- ZC -->
+		<Affiliation>Greater_Maldrood, Imperial_Proteus, Empire</Affiliation> <!-- ZC -->
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>40</Override_Bounty_SP>
 		<Maintenance_Cost>29</Maintenance_Cost>
@@ -4978,7 +4979,7 @@
 		<Maintenance_Cost>15</Maintenance_Cost>
 		<Population_Value>7</Population_Value>
 		
-		<Affiliation>Imperial_Proteus</Affiliation>
+		<Affiliation>Imperial_Proteus, Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		
 		<Required_Special_Structures>
@@ -5536,7 +5537,7 @@
 	<SpaceUnit Name="Acclamator_I_Carrier">
 		<Variant_Of_Existing_Type>Template_Acclamator_I_Carrier</Variant_Of_Existing_Type>
 
-		<Affiliation>Imperial_Proteus, Zsinj_Empire</Affiliation>
+		<Affiliation>Imperial_Proteus, Zsinj_Empire, Empire</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -6253,7 +6254,7 @@
 
 	<SpaceUnit Name="Victory_II_Star_Destroyer">
 		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
-		<Affiliation>Empire, Zsinj_Empire, Corporate_Sector, Imperial_Proteus</Affiliation> <!-- ZC -->
+		<Affiliation>Empire, Zsinj_Empire, Corporate_Sector, Imperial_Proteus, Greater_Maldrood</Affiliation> <!-- ZC -->
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -6272,6 +6273,64 @@
 
 		<Starting_Spawned_Units_Tech_0>Howlrunner_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Howlrunner_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Victory_II_Destroyer_Death_Clone</Death_Clone>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>1925</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+	</SpaceUnit>
+
+<!--Carrier VSD-->
+
+	<SpaceUnit Name="Victory_II_Carrier">
+		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 200</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_VICTORY2_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VICTORY2_HULL
+		TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER
+		TEXT_TOOLTIP_VICTORY2_MOVE
+		TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER
+		TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
+
+		<Shield_Points>3000</Shield_Points>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Build_Cost_Credits>3300</Build_Cost_Credits>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four | Tierfon_Shipyard_Capital,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
+		</Required_Special_Structures>
+		
+		<Build_Initially_Locked>no</Build_Initially_Locked>
+
+		<HardPoints>
+		HP_Victory2_Carrier_LQLC_01, HP_Victory2_Carrier_LQLC_02,
+		HP_Victory2_Carrier_LSIC_01, HP_Victory2_Carrier_LSIC_02, HP_Victory2_Carrier_LSIC_03, HP_Victory2_Carrier_LSIC_04,
+		HP_Victory2_Carrier_LDTL_01, HP_Victory2_Carrier_LDTL_02, HP_Victory2_Carrier_LDTL_03, HP_Victory2_Carrier_LDTL_04,
+		HP_Victory2_Destroyer_Engines, HP_Victory2_Destroyer_Fighter_Bay
+        </HardPoints>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
