@@ -765,7 +765,7 @@ return {
 			"Imperial_Army_Trooper_Company", "Clonetrooper_Phase_Two_Company", "Republic_BARC_Company",  
 			"Imperial_AT_PT_Company", "Imperial_ISP_Company", "Imperial_ULAV_Company", "Imperial_AT_RT_Company", "Imperial_UT_AA_Company", 
 			"Imperial_TX130S_Company", "AV7_Company", "Imperial_LAAT_Company", "Imperial_AT_AP_Walker_Company",
-			"Imperial_A5_Juggernaut_Company", "Imperial_AT_TE_Walker_Company", "UT_AT_Speeder_Company" },
+			"Imperial_A5_Juggernaut_Company", "Imperial_AT_TE_Walker_Company", "UT_AT_Speeder_Company", "Lictor" },
 			StartYear = 11,
 			IntroText = {"TEXT_CONQUEST_PROTEUS_RESTORED_EMPIRE", [12] = "TEXT_CONQUEST_PROTEUS_RESTORED_EMPIRE_E7"},
 			IntroHolo = "Ennix_Devian_Loop",
