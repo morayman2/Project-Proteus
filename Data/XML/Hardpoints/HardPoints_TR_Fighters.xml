@@ -4044,9 +4044,8 @@
 		<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-	    </HardPoint>
 
-	    <HardPoint Name="HP_Ixiyen_Torpedo">
+	<HardPoint Name="HP_Ixiyen_Torpedo">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
