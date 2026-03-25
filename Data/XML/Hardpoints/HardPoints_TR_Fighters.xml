@@ -241,7 +241,7 @@
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 		<Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
-   </HardPoint>
+	</HardPoint>
 
 	<HardPoint Name="HP_Oppressor_03">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -272,7 +272,7 @@
 		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
 		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-   </HardPoint>
+	</HardPoint>
 
 	<!-- TIE Sentinel -->
 
@@ -1100,7 +1100,7 @@
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Proton_Rocket</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
-       	 	<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+       		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
@@ -1131,7 +1131,7 @@
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Proton_Rocket</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
-       	 	<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+       		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
@@ -1162,7 +1162,7 @@
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Proton_Bomb</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>18.75</Fire_Min_Recharge_Seconds>
-       	 	<Fire_Max_Recharge_Seconds>18.75</Fire_Max_Recharge_Seconds>
+       		<Fire_Max_Recharge_Seconds>18.75</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>400.0</Fire_Range_Distance>
@@ -2983,7 +2983,7 @@
     <Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
     <Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
 
-</HardPoint>
+	</HardPoint>
 
 	<HardPoint Name="HP_X_CEPTOR_00">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3012,7 +3012,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
 
-</HardPoint>
+	</HardPoint>
 
 	<HardPoint Name="HP_X_CEPTOR_01">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3041,7 +3041,7 @@
 	<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
 
-</HardPoint>
+	</HardPoint>
 
 	<HardPoint Name="HP_YTie_01">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3069,7 +3069,7 @@
 	<Fire_Inaccuracy_Distance> Frigate, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
-</HardPoint>
+	</HardPoint>
 
 	<!-- X-Tie -->
 
@@ -3099,7 +3099,7 @@
 	<Fire_Inaccuracy_Distance> Frigate, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 	<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
-</HardPoint>
+	</HardPoint>
 
 	<HardPoint Name="YTIE_TURRET">
 	<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3129,7 +3129,7 @@
     <Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
     <Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
 
-</HardPoint>
+	</HardPoint>
 
 	<!-- HLAF -->
 
@@ -3454,7 +3454,7 @@
 		<Fire_Inaccuracy_Distance> SuperCapital, 30.0 </Fire_Inaccuracy_Distance>
 
  		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-   </HardPoint>
+	</HardPoint>
    
 	<HardPoint Name="HP_YT1300_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -3514,7 +3514,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> SuperCapital, 3.0 </Fire_Inaccuracy_Distance>
-   	 </HardPoint>
+   	</HardPoint>
 
 	<HardPoint Name="HP_Starviper_Torpedo">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -3565,7 +3565,7 @@
 		<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> SuperCapital, 5.0 </Fire_Inaccuracy_Distance>
-   	 </HardPoint>
+   	</HardPoint>
 
 	<!-- Phik -->
 
@@ -3982,9 +3982,9 @@
 
     </HardPoint>
 
-<!-- Ixiyen -->
+	<!-- Ixiyen -->
 
-<HardPoint Name="HP_Ixiyen_Laser_01">
+	<HardPoint Name="HP_Ixiyen_Laser_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -4062,8 +4062,9 @@
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>700.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+	</HardPoint>
 
-		<HardPoint Name="HP_Manta_00">
+	<HardPoint Name="HP_Manta_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
