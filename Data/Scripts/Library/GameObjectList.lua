@@ -254,6 +254,7 @@ return {
 ["DESANNE_REDEMPTION"] = true,
 ["DEVLIA_IEC"] = true,
 ["DEZON_CONSTRAINER"] = true,
+["DIAMOND_FRIGATE"] = true,
 ["DHC_CARRIER"] = true,
 ["DHC_GUNBOAT"] = true,
 ["DOMINION"] = true,

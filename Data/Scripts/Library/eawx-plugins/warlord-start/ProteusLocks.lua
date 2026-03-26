@@ -100,4 +100,9 @@ return {
 		"Bulwark_II", "Bulwark_III",
 		--idk for what group
 		"Victory_II_Carrier",
+		--Grunger's Empire
+		"Lictor",
+		--Imperial Ord Radama
+		"Diamond_Frigate", "Providence_Carrier_Destroyer",
+		"Imperial_AAT_Company", "HAG_Company",
 }
