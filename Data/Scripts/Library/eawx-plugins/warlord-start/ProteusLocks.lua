@@ -105,4 +105,6 @@ return {
 		--Imperial Ord Radama
 		"Diamond_Frigate", "Providence_Carrier_Destroyer",
 		"Imperial_AAT_Company", "HAG_Company",
+		--Kaarenth added units
+		"Hornet_Assault_Carrier",
 }

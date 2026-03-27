@@ -758,7 +758,7 @@ return {
 			LeaderTable= {["ENNIX_DEVIAN_TEAM"] = {"ENNIX_DEVIAN"}},
 			LeaderEndingNames = {"Emperor Devian"},
 			HeroList = {"Ennix_Devian_Team", "Ulcane_Dissension"},
-			UnlockList = {"IPV1_Zeta"},
+			UnlockList = {"IPV1_Zeta", "Hornet_Assault_Carrier",},
 			--LockList = {"IPV1"},
 			LastYear = 10,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION",
