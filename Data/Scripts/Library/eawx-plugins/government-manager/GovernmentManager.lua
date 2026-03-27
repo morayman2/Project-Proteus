@@ -134,14 +134,12 @@ function GovernmentManager:UpdateProteusShipmarketDisplay()
 
         government_display_event.Add_Dialog_Text("TEXT_NONE")
         government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA")
+        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_"..tostring(current_proteus))
         government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 
         government_display_event.Add_Dialog_Text("TEXT_NONE")
 
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_OVERVIEW_HEADER")
-        government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_OVERVIEW")
+        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_"..tostring(current_proteus))
         government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
         government_display_event.Add_Dialog_Text("TEXT_NONE")
         government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_01")
