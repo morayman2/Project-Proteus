@@ -45,6 +45,8 @@ TEXT_ETA2_MISSILE_SQUADRON2,Missile Eta-2 Actis Squadron x2
 TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
+TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
+TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
 TEXT_H60_SQUADRON,H-60 Tempest Squadron
 TEXT_H60_SQUADRON_HALF,H-60 Tempest Squadron 1/2
