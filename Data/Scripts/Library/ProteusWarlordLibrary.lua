@@ -295,6 +295,8 @@ return {
 			"Proficient", "Super_Transport_XI_Modified", "Vindicator_Cruiser", "Immobilizer_418", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
 			"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault", "Acclamator_Destroyer", "Torpedo_Sphere",
 			"Executor_Star_Dreadnought",
+			"Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
+			"",
 			"Firebird_Stormtrooper_Company", "Imperial_Army_Guard_Company", "Imperial_74Z_Bike_Company", "Imperial_AT_RT_Company", 
 			"TIE_Mauler_Company", "Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", 
 			"1M_Tank_Company", "1H_Tank_Company",
@@ -355,7 +357,8 @@ return {
 			-- LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_REALM",
-			IntroHolo = "Shadowspawn_Loop"
+			IntroHolo = "Shadowspawn_Loop",
+			PlanetParticle = "Shadowspawn_Allies",
 		},
 		["PROPHETS"] = {
 			FriendlyName = "Prophets of the Dark Side",
@@ -755,7 +758,7 @@ return {
 			LeaderTable= {["ENNIX_DEVIAN_TEAM"] = {"ENNIX_DEVIAN"}},
 			LeaderEndingNames = {"Emperor Devian"},
 			HeroList = {"Ennix_Devian_Team", "Ulcane_Dissension"},
-			UnlockList = {"IPV1_Zeta"},
+			UnlockList = {"IPV1_Zeta", "Hornet_Assault_Carrier",},
 			--LockList = {"IPV1"},
 			LastYear = 10,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION",
