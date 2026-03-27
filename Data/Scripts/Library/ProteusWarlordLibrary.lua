@@ -355,7 +355,8 @@ return {
 			-- LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_REALM",
-			IntroHolo = "Shadowspawn_Loop"
+			IntroHolo = "Shadowspawn_Loop",
+			PlanetParticle = "Shadowspawn_Allies",
 		},
 		["PROPHETS"] = {
 			FriendlyName = "Prophets of the Dark Side",
