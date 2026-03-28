@@ -663,14 +663,20 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="CEC_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> CR90, DP20, Corellian_Buccaneer, CEC_Light_Cruiser, Starbolt, Proficient, Proficient_Tender, <!-- Strident -->, CC7700, CC7700_E, Imperial_CR90, CR92A, Interceptor_IV_Frigate, Action_VI_Support, Gozanti_Cruiser_Group, YZ_775_Freighter_Group, Charger_C70, Consular_Refit </Applicable_Unit_Types>
+				<Applicable_Unit_Types> 
+				CR90, DP20, Corellian_Buccaneer, CEC_Light_Cruiser, Starbolt, Proficient, Proficient_Tender, <!-- Strident -->, CC7700, CC7700_E, Imperial_CR90, CR92A, Interceptor_IV_Frigate, Action_VI_Support, Gozanti_Cruiser_Group, YZ_775_Freighter_Group, Charger_C70, Consular_Refit,
+				Action_VI_Support, Action_VI_Refit, LAC, Consular, Interceptor_I_Frigate, Interceptor_II_Frigate, Interceptor_III_Frigate, 
+				</Applicable_Unit_Types>	 
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="CEC_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> CR90, DP20, Corellian_Buccaneer, CEC_Light_Cruiser, Starbolt, Proficient, Proficient_Tender, <!-- Strident -->, CC7700, CC7700_E, Imperial_CR90, CR92A, Interceptor_IV_Frigate, Action_VI_Support, Gozanti_Cruiser_Group, YZ_775_Freighter_Group, Charger_C70, Consular_Refit </Applicable_Unit_Types>
+				<Applicable_Unit_Types> 
+				CR90, DP20, Corellian_Buccaneer, CEC_Light_Cruiser, Starbolt, Proficient, Proficient_Tender, <!-- Strident -->, CC7700, CC7700_E, Imperial_CR90, CR92A, Interceptor_IV_Frigate, Action_VI_Support, Gozanti_Cruiser_Group, YZ_775_Freighter_Group, Charger_C70, Consular_Refit,
+				Action_VI_Support, Action_VI_Refit, LAC, Consular, Interceptor_I_Frigate, Interceptor_II_Frigate, Interceptor_III_Frigate
+				</Applicable_Unit_Types>	
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -896,14 +902,14 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Damorian_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser, Carrack_Cruiser_Laser </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Damorian_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Carrack_Cruiser, Tartan_Patrol_Cruiser, Carrack_Cruiser_Laser </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -1324,9 +1330,11 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="KDY_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> 
+				<Applicable_Unit_Types> <!-- (Unimplemented Units) Lupus_Missile_Frigate, Auxilia, Venator_Siege_Refit, Venator_Retrofit, Gladiator_Siege_Refit, Triumph_Star_Destroyer-->
 				Eclipse_Star_Dreadnought, Assertor_Star_Dreadnought, Executor_Star_Dreadnought, Sovereign_Star_Dreadnought, Vengeance_Star_Dreadnought, Shadow_Vengeance_Star_Dreadnought, Mandator_III_Dreadnought, Mandator_II_Dreadnought, Bellator_Star_Dreadnought, Praetor_II_Battlecruiser, Praetor_Carrier_Battlecruiser, Sorannan_Star_Destroyer, Allegiance_Battlecruiser, Secutor_Star_Destroyer, Tector_Star_Destroyer, Imperial_II_Star_Destroyer, Interdictor_Star_Destroyer, Imperial_I_Star_Destroyer, Shadow_Imperial_I_Star_Destroyer_Carrier, Mothma_Star_Destroyer, Venator_Star_Destroyer, Refit_Venator_Star_Destroyer, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Procursator_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_II, Gladiator_I, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Proteus_Cargo_Ship, Acclamator_I_Carrier, Shadow_Acclamator_I_Carrier, Acclamator_II, Acclamator_I_Assault, Imperial_Nebulon_B, Patrol_Nebulon_B, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Ton_Falk_Escort_Carrier, Eidolon, Enforcer_Picket_Cruiser, Surveyor_Frigate, Active_Frigate, Vigil, Shadow_Vigil, Broadside_Cruiser, Pursuit_Light_Cruiser, Imperial_I_Frigate, Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, VT49_Decimator_Group, Adz_Patrol_Destroyer, Star_Galleon, Galleon, Raider_II_Corvette, Raider_I_Corvette, Lancer_Frigate, Super_Transport_XI_Modified, Ubrikkian_Cruiser_GCW, Heavy_Minstrel_Yacht, Hutt_Galleon, Ubrikkian_Frigate, Kossak_Frigate, Super_Transport_VII_Interdictor,
-				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company
+				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company,
+				Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile
+				Imperial_A6_Juggernaut_Company, Imperial_A4_Juggernaut_Company, AT_OT_Walker_Company, UT_AT_Speeder_Company, Imperial_Shadow_LAAT_Company, Imperial_LAAT_Company, AT_AI_Walker_Company,     
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -1336,7 +1344,9 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				Eclipse_Star_Dreadnought, Assertor_Star_Dreadnought, Executor_Star_Dreadnought, Sovereign_Star_Dreadnought, Vengeance_Star_Dreadnought, Shadow_Vengeance_Star_Dreadnought, Mandator_III_Dreadnought, Mandator_II_Dreadnought, Bellator_Star_Dreadnought, Praetor_II_Battlecruiser, Praetor_Carrier_Battlecruiser, Sorannan_Star_Destroyer, Allegiance_Battlecruiser, Secutor_Star_Destroyer, Tector_Star_Destroyer, Imperial_II_Star_Destroyer, Interdictor_Star_Destroyer, Imperial_I_Star_Destroyer, Shadow_Imperial_I_Star_Destroyer_Carrier, Mothma_Star_Destroyer, Venator_Star_Destroyer, Refit_Venator_Star_Destroyer, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Procursator_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_II, Gladiator_I, Dragon_Heavy_Cruiser, Imperial_Cargo_Ship, Proteus_Cargo_Ship, Acclamator_I_Carrier, Shadow_Acclamator_I_Carrier, Acclamator_II, Acclamator_I_Assault, Imperial_Nebulon_B, Patrol_Nebulon_B, Nebulon_B_Frigate, Nebulon_B_Tender, Corona, Arquitens, Ton_Falk_Escort_Carrier, Eidolon, Enforcer_Picket_Cruiser, Surveyor_Frigate, Active_Frigate, Vigil, Shadow_Vigil, Broadside_Cruiser, Pursuit_Light_Cruiser, Imperial_I_Frigate, Imperial_II_Frigate, Victory_I_Frigate, Victory_II_Frigate, VT49_Decimator_Group, Adz_Patrol_Destroyer, Star_Galleon, Galleon, Raider_II_Corvette, Raider_I_Corvette, Lancer_Frigate, Super_Transport_XI_Modified, Ubrikkian_Cruiser_GCW, Heavy_Minstrel_Yacht, Hutt_Galleon, Ubrikkian_Frigate, Kossak_Frigate, Super_Transport_VII_Interdictor,
-				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company
+				Imperial_AT_AT_Walker_Turbolaser_Refit_Company, Imperial_AT_AT_Walker_Company, Shadow_Imperial_AT_AT_Walker_Company, Imperial_A5_Juggernaut_Company, B5_Juggernaut_Company, Imperial_A5RX_Company, A9_Floating_Fortress_Company, C10_Siege_Tower_Company, Imperial_AT_AP_Walker_Company, Imperial_Dropship_Transport_Company, MAAT_Company, Imperial_Modified_LAAT_Company, INT4_Company, AT_AA_Walker_Company, AT_AA_Missile_Walker_Company, AT_AA_Flak_Walker_Company, Imperial_UT_AA_Company, SPMAG_Walker_Company, SPMAT_Company, 2M_Repulsor_Tank_Company, Imperial_TX130S_Company, Shadow_Imperial_TX130S_Company, Imperial_TX130T_Company, 1H_Tank_Company, 1M_Tank_Company, 1L_Tank_Company, AT_ST_A_Company, AT_ST_Company, AT_MP_Company, AT_DP_Company, Imperial_AT_PT_Company, Imperial_AT_RT_Company, Hutt_Personnel_Skiff_IV_Company, WLO5_Tank_Company, Hutt_Guardian_5E_Speeder_Company, Hutt_SuperHaul_II_Skiff_Company, Hutt_Bantha_II_Skiff_Company, Hutt_Desert_Sail20_Company, Luxury_Barge_Company,
+				Imperial_I_Star_Destroyer_Assault, Imperial_I_Star_Destroyer_Carrier, Imperial_I_Star_Destroyer_Patrol, Imperial_I_Star_Destroyer_Command, Imperial_II_Star_Destroyer_Ion, Imperial_I_Star_Destroyer_Hero_Refit_Proteus, Praetor_I_Battlecruiser, Communications_Battlecruiser, Lancer_Frigate_PDF, Galleon_Minelayer, Procurator_Battlecruiser, Munifex, Lupus_Missile_Frigate, Venator_8X, Acclamator_Patrol_Refit, Acclamator_I_Support, Acclamator_Destroyer, Acclamator_Battleship, Victory_I_Fleet_Star_Destroyer, Victory_II_Carrier, Super_Transport_VI, Super_Transport_VI_Missile, Super_Transport_VII, Super_Transport_VII_Missile
+				Imperial_A6_Juggernaut_Company, Imperial_A4_Juggernaut_Company, AT_OT_Walker_Company, UT_AT_Speeder_Company, Imperial_Shadow_LAAT_Company, Imperial_LAAT_Company, AT_AI_Walker_Company,
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -1508,7 +1518,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Komrk_Gunship_Group_Influence, Keldabe, Keldabe_Influence, Crusader_Gunship,
-				Canderous_Assault_Tank_Company
+				Canderous_Assault_Tank_Company, Canderous_Assault_Tank_Lasers_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -1934,14 +1944,20 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Rendili_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> <!-- (Unimplemented Units) DHC_Interdictor-->
+				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender 
+				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Rendili_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II ,Republic_Star_Destroyer, Invincible_Cruiser </Applicable_Unit_Types>
+				<Applicable_Unit_Types> 
+				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender 
+				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -2102,7 +2118,7 @@
 			<Reduce_Production_Price_Ability Name="Sienar_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group,
+				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
 				RTT_Company, Imperial_ULAV_Company, Shadow_ULAV_Company, TIE_Crawler_Company, TIE_Mauler_Company, Lancet_Air_Artillery_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -2112,7 +2128,7 @@
 			<Reduce_Production_Time_Ability Name="Sienar_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group,
+				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
 				RTT_Company, Imperial_ULAV_Company, Shadow_ULAV_Company, TIE_Crawler_Company, TIE_Mauler_Company, Lancet_Air_Artillery_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
@@ -2223,8 +2239,8 @@
 			<Reduce_Production_Price_Ability Name="SoroSuub_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
-				Bulwark_III, Dauntless, Liberator_Cruiser, Quasar,
-				New_Republic_AAC_2_Company, AAC_3_Company, Imperial_Flashblind_Company
+				Bulwark_III, Dauntless, Liberator_Cruiser, Quasar, Hornet_Assault_Carrier, Dauntless_Transport,  
+				New_Republic_AAC_2_Company, AAC_3_Company, Imperial_Flashblind_Company, Gian_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -2233,8 +2249,8 @@
 			<Reduce_Production_Time_Ability Name="SoroSuub_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
-				Bulwark_III, Dauntless, Liberator_Cruiser, Quasar,
-				New_Republic_AAC_2_Company, AAC_3_Company, Imperial_Flashblind_Company
+				Bulwark_III, Dauntless, Liberator_Cruiser, Quasar, Hornet_Assault_Carrier, Dauntless_Transport, 
+				New_Republic_AAC_2_Company, AAC_3_Company, Imperial_Flashblind_Company, Gian_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -2296,7 +2312,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company 
+				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company, AA70_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -2306,7 +2322,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
 				Tagge_Battlecruiser, CSA_Tagge_Battlecruiser, MTC_Combat, MTC_Sensor, MTC_Support,
-				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company  
+				New_Republic_AA5_Company, JX40_Company, Strikebreaker_Company, New_Republic_Overracer_Speeder_Bike_Company, AA70_Company 
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -2735,14 +2751,14 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Yutrane_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> New_Republic_T1B_Company, New_Republic_T2B_Company, New_Republic_T3B_Company, New_Republic_T4B_Company, T2A_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> New_Republic_T1B_Company, New_Republic_T2B_Company, New_Republic_T3B_Company, New_Republic_T4B_Company, T2A_Company, T1A_Company, T3A_Company, T4A_Company, MZ8_Tank_Company </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 
 			<Reduce_Production_Time_Ability Name="Yutrane_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> New_Republic_T1B_Company, New_Republic_T2B_Company, New_Republic_T3B_Company, New_Republic_T4B_Company, T2A_Company </Applicable_Unit_Types>
+				<Applicable_Unit_Types> New_Republic_T1B_Company, New_Republic_T2B_Company, New_Republic_T3B_Company, New_Republic_T4B_Company, T2A_Company, T1A_Company, T3A_Company, T4A_Company, MZ8_Tank_Company </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
