@@ -4838,7 +4838,7 @@
 		<Icon_Name>i_button_faction_warlord.tga</Icon_Name>
 	</DummyStructure>
 
-<!-- Project Proteus Submission -->
+<!-- Project Proteus -->
 	<DummyStructure Name="Fighter_Selector_Thorn">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
 
@@ -4893,6 +4893,28 @@
 		<Icon_Name>i_button_gronn_SSD.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Legator">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_LEGATOR</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_legator.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Fighter_Selector_Shadow_Vengeance">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_SHADOW_VENGEANCE_DREADNOUGHT</Text_ID>
+		<Encyclopedia_Text>TEXT_EVENT_TOOLTIP_FIGHTER_SELECTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>i_button_shadow_vengeance.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
 
 	<DummyStructure Name="Red_Star_Selector_Body">
 		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
@@ -4901,7 +4923,18 @@
 		<Encyclopedia_Text> </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
-		<Icon_Name></Icon_Name> <!-- Insert Icon here -->
+		<Icon_Name>I_BUTTON_IRAN_RYAD.TGA</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+
+	<DummyStructure Name="Benjo_Alpha_Selector_Body">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON</Text_ID>
+		<Encyclopedia_Text> </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_BENJO.TGA</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 

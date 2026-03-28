@@ -30,6 +30,7 @@ TEXT_ENCYCLOPEDIA_BISCUIT_BARON,A popular casual dining franchise with a logo be
 TEXT_ENCYCLOPEDIA_CLASS_APPRENTICE,Apprentice
 TEXT_ENCYCLOPEDIA_CLASS_BARONESS,Baroness
 TEXT_ENCYCLOPEDIA_CLASS_PRIME_MINISTER,Prime Minister 
+TEXT_ENCYCLOPEDIA_CLASS_SECOND_LIEUTENANT,Second Lieutenant
 TEXT_ETA2_ASSAULT_SQUADRON,Assault Eta-2 Actis Squadron
 TEXT_ETA2_ASSAULT_SQUADRON_HALF,Assault Eta-2 Actis Squadron 1/2
 TEXT_ETA2_ASSAULT_SQUADRON2,Assault Eta-2 Actis Squadron x2
@@ -51,6 +52,7 @@ TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
 TEXT_H60_SQUADRON,H-60 Tempest Squadron
 TEXT_H60_SQUADRON_HALF,H-60 Tempest Squadron 1/2
 TEXT_H60_SQUADRON2,H-60 Tempest Squadron x2
+TEXT_HERO_BENJO,Benjo
 TEXT_HERO_BRELLAR,Alecs Brellar
 TEXT_HERO_DOMINA_TAGGE,Domina Tagge
 TEXT_HERO_IRRV,Dimone Irrv
@@ -107,6 +109,7 @@ TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON,Squadron: 12x Upgunned Heavy
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_DOUBLE,Squadron: 24x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Squadron: 6x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_WEAP2,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_BENJO_BASE,Health: 300 | Unshielded
 TEXT_STATBLOCK_ETA2_ASSAULT_SQUADRON,Squadron: 12x Assault Eta-2 Actis Interceptor
 TEXT_STATBLOCK_ETA2_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault Eta-2 Actis Interceptor
 TEXT_STATBLOCK_ETA2_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault Eta-2 Actis Interceptor
@@ -323,6 +326,7 @@ TEXT_TOOLTIP_BAYONET_MOVE,Speed: 3.0 | Accel: 0.175 | Turn: 0.3
 TEXT_TOOLTIP_BAYONET_SHIELD,Shields: 752 (12.5R) (Frigate)
 TEXT_TOOLTIP_BAYONET_WEAP1,4x Heavy Turbolasers: 2 / 5.0s / 8.1km
 TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.835s / 4.1km
+TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings, ARC-170s and NTB-630s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Defender models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BUILDLIMIT_BISCUIT_BARON,Build Limit: 1 | Total: ∞
@@ -372,6 +376,7 @@ TEXT_TOOLTIP_CLONE_WEAP7,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_CLONE_WEAP8,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONE_WEAP9,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's cause to restore the true Empire. They are well equipped with old Republic armor gathered on RZ7, and more fanataical than most other soldiers. They wear a mix of the old Phase I and more comfortable Phase II armor.
+TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
@@ -549,8 +554,8 @@ TEXT_TOOLTIP_TIE_AVENGER_BOMBER,TIE Avenger model outfitted with as many rockets
 TEXT_TOOLTIP_TIE_AVENGER_TORPS,An alternate loadout of the TIE Avenger equipped with proton torpedoes instead of concussion missiles. Still well suited for all situations.
 TEXT_TOOLTIP_TIE_DEFENDER_RED_STAR,Created a year after the fallout at Endor, Red Star Squadron was formed by starfighter ace Iran Ryad along with like-minded pilots who shared Ryad's idea of a zero-tolerance border policy. These Imperial pilots would relentlessly pursue any starships that entered Imperial space without permission.
 TEXT_TOOLTIP_TIE_FIGHTER_BF2,A rare ad-hoc modification of the ubiquitous TIE Fighter, almost always operating from the equally rare Imperial Carrier Conversion Star Destroyers. It featured shields and a small proton torpedo magazine to keep up with the heavier X-Wings of the Rebellion and be a more versatile platform in carrier-to-carrier combat and anti-insurgency missions. However, despite upgraded components and the engineers' best tuning efforts, the additional systems impacted the flight performance significantly, making the normally nimble craft much more sluggish. The increased cost, reduced agility, and susceptibility to component sabotage made this variant a rare sight outside its original duties.
-TEXT_TOOLTIP_TIE_FIGHTER_MISSILE,Uncommon modification of the standard TIE Fighter equipped with anti-fighter missile launchers for additional firepower when the mission calls for it and no other fighters are available.
 TEXT_TOOLTIP_TIE_FIGHTER_MISSILE,A modern iteration of a Clone Wars-era modification of earlier T.I.E. models. Due to its thinner frame, the TIE/ln can only carry a few missiles on external hardpoints, limiting the effectiveness of the upgrade but providing a modest improvement without affecting performance in other categories like a more extensive refit would. Originally rare sight, this configuration has become more common after the Battle of Endor; with Warlords scrambling to get the most out of their aging TIE fleets.
+TEXT_TOOLTIP_TIE_FIGHTER_MISSILE,Uncommon modification of the standard TIE Fighter equipped with anti-fighter missile launchers for additional firepower when the mission calls for it and no other fighters are available.
 TEXT_TOOLTIP_TIE_GT_BOMBER,An original Sienar bomber in the early days of the New Order. Its small payload made it unpopular, leading to its quick replacement by the TIE Bomber. Though uncommon, the original bomber configuration of the TIE/gt would still see service in parts of the Imperial Navy that didn't have easy access to the TIE Bomber, especially among Imperial Warlords in the Outer Rim.
 TEXT_TOOLTIP_TIE_GT_TORPS,An alternate loadout of the TIE/gt equipped with heavy proton torpedoes for higher single-target effectiveness than assault concussion missiles. Best used to assist bombers in actions against enemy capital ships.
 TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Interceptor, replacing the nose-mounted secondary lasers with fighter-grade ion cannons and upgrading the frame's power systems to compensate for the increased power draw. The end result is better at tackling shielded fighters and larger targets but otherwise retains the performance of the stock configuration. While undeniably an upgrade over the base model, the increased cost and maintenance load makes it a rare sight.
@@ -669,6 +674,7 @@ TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
 TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
 TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger
 TEXT_UNIT_TIE_DEFENDER_RED_STAR,Modified TIE Defender, Red Star Squadron
+TEXT_UNIT_TIE_FIGHTER_ALPHA,TIE Fighter, Alpha Squadron
 TEXT_UNIT_TIE_FIGHTER_BF2,TIE Fighter Carrier Duty Refit
 TEXT_UNIT_TIE_FIGHTER_MISSILE,Missile Refit TIE Fighter
 TEXT_UNIT_TIE_FIGHTER_MISSILE,Missile TIE Fighter
