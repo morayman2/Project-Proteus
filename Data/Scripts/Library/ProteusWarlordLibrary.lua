@@ -85,6 +85,14 @@ return {
 			LeaderTable = {["GETELLES_TEAM"] = {"GETELLES"}},
 			LeaderEndingNames = {"Emperor Getelles"},
 			HeroList = {"Getelles_Team", "Larm_Carrack"},
+			UnlockList = {
+				-- Ground
+				
+				-- Space
+				"Lancer_Frigate", "Raider_II_Corvette", "Carrack_Cruiser", "Strike_Cruiser_Light", "Strike_Cruiser", "Strike_Interdictor", "Ton_Falk_Escort_Carrier", "Galleon",
+				"Acclamator_II", "Gladiator_II", "Victory_II_Star_Destroyer", "Imperial_DHC", "Venator_8X", "Imperial_II_Star_Destroyer_Ion", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", 
+				"Allegiance_Battlecruiser", "Torpedo_Sphere", "Bellator_Star_Dreadnought"
+			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ANTEM",
 			IntroHolo = "Tol_Getelles_Loop"
 		},
@@ -125,7 +133,7 @@ return {
 		},
 		["SECTOR_5"] = { --Zeven Mallat? ; It's in now
 			FriendlyName = "Sector 5",
-			Planets = {"ODIK", "PRAKITH"},
+			Planets = {"ODIK", "PRAKITH", "EMPRESS_TETA"},
 			LeaderTable = {"YZU_CONSTITUTION"},
 			LeaderEndingNames = {"Emperor Yzu"},
 			HeroList = {"Yzu_Constitution", "Foga_Brill_Team", "Gann_Team", "Mallat_Team"},
@@ -133,8 +141,8 @@ return {
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"Imperial_AT_PT_Company", "INT4_Company", "PX7_Company", "AT_DP_Company",
-				"Imperial_TNT_Company", "MAAT_Company", "Imperial_TX130T_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Flak_Walker_Company",
-				"Imperial_AT_TE_Walker_Company", "Tracked_Mobile_Base_Company", "Tracked_Shield_Disabler_Company",
+				"Imperial_TNT_Company", "MAAT_Company", "Swift_Assault_5_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Flak_Walker_Company",
+				"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company",
 				-- Space
 				"Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser", 
 				"Gladiator_I", "Acclamator_II_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
