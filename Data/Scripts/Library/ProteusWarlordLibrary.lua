@@ -742,7 +742,7 @@ return {
 			LeaderTable= {["KURAS_TEAM"] = {"KURAS_CHARIOT"}},
 			LeaderEndingNames = {"Emperor Kuras"},
 			HeroList = {"Kuras_Team", "Kendel_Luminous", "Kateel_Team"},
-			UnlockList = {"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Star_Galleon", "Eidolon", "Imperial_Nebulon_B",
+			UnlockList = {"VT49_Decimator_Group", "Raider_I_Corvette", "Lancer_Frigate", "Arquitens", "Ton_Falk_Escort_Carrier", "Nebulon_B_Tender", "Eidolon", "Imperial_Nebulon_B",
 			"Super_Transport_VII_Interdictor", "Pursuit_Light_Cruiser", "Acclamator_II", "Victory_I_Star_Destroyer",
 			"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault",
 			"Mandator_III_Dreadnought",

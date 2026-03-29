@@ -395,7 +395,7 @@ return {
 						association = nil,
 						readable_name =  "Vengeance Star Dreadnought",
 						text_requirement = "",
-						order = 1,
+						order = 2,
 					},
 					
 					["ASSERTOR_STAR_DREADNOUGHT"] = {
@@ -422,7 +422,7 @@ return {
 						order = 4,
 					},
 			
-					["Mandator_II_Dreadnought"] = {
+					["MANDATOR_II_DREADNOUGHT"] = {
 						locked = false,
 						gc_locked = false,
 						amount = 0,
@@ -758,14 +758,14 @@ return {
 						order = 32,
 					},
 					
-					["NEBULON_B_TENDER"] = {
+					["STAR_GALLEON"] = {
 						locked = false,
 						gc_locked = false,
 						amount = 0,
 						chance = 50,
 						perception_modifier = nil,
 						association = nil,
-						readable_name =  "Nebulon B Tender",
+						readable_name =  "Star Galleon",
 						text_requirement = "",
 						order = 33,
 					},
