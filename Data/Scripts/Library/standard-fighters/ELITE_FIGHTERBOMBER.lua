@@ -42,6 +42,8 @@ return {
 				fighter = "ARC_170_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_HUNTER_SQUADRON"
+			elseif proteus == "TAPANI" then
+				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "ARC_170_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
