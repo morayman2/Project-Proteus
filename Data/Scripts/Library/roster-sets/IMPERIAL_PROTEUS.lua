@@ -63,6 +63,7 @@ return {
 	["CONSULAR_REFIT"] = 10,
 	["CR90"] = 14,
 	["IMPERIAL_CR90"] = 14,
+	["IPV1_GUNBOAT"] = 14,
 	["LAC"] = 14,
 	["RAIDER_II_CORVETTE"] = 14,
 	["CORELLIAN_BUCCANEER"] = 18,
