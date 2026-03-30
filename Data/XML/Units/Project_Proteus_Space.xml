@@ -2818,7 +2818,7 @@
 
 		<Build_Time_Reduced_By_Multiple_Factories>yes</Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
 		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
 		<Piracy_Value_Credits>1</Piracy_Value_Credits>

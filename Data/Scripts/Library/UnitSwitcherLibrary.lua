@@ -107,4 +107,6 @@ return {
 	["DUMMY_RECRUIT_GROUP_PRAJI"] = {nil,{"Praji_Secutor"}},
 	["DUMMY_RECRUIT_GROUP_JANARA"] = {nil,{"Brandei_Judicator"}},
 	["DUMMY_RECRUIT_GROUP_THORN"] = {nil,{"Thorn_Assertor"}},
+	--Unit upgrades for generics
+	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
 }
