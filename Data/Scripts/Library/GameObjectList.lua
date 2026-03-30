@@ -901,5 +901,7 @@ return {
 ["VENATOR_8X"] = true,
 ["VICTORY_II_CARRIER"] = true,
 ["VICTORY_I_FLEET_STAR_DESTROYER"] = true,
+["TRIUMPH_STAR_DESTROYER"] = true,
+["TRIUMPH_STAR_DESTROYER_HERO_REFIT"] = true,
 
 }

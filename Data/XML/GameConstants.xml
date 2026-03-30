@@ -2443,6 +2443,8 @@
 		Shadow_Acclamator_I_Carrier, 					Data\ShipNames\shadow_acclamator_I.txt,
 		Shadow_Imperial_I_Star_Destroyer_Carrier, 		Data\ShipNames\shadow_Star_Destroyer.txt,
 		Shadow_Vengeance_Star_Dreadnought, 				Data\ShipNames\shadow_Vengeance.txt,
+		Triumph_Star_Destroyer, 						Data\ShipNames\Triumph_SD,txt,
+		Triumph_Star_Destroyer_Hero_Refit, 				Data\ShipNames\Triumph_SD,txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->
