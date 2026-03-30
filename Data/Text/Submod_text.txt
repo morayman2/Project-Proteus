@@ -330,6 +330,11 @@ TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings, ARC-170s and NTB-630s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Defender models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BUILDLIMIT_BISCUIT_BARON,Build Limit: 1 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_DARK_JEDI,Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_RED_POLICE,(Correct Me) - Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_ROYAL_GUARD,Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_SHADOW_EVO,Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_SITH_KNIGHT,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_CAPITAL_TF_WEAP1,4x Medium Turbolasers: 2 / 2.0s / 6.2km
 TEXT_TOOLTIP_CAPITAL_TF_WEAP3,3x Medium Dual Laser Cannons: 2 / 0.75s / 4.2km
 TEXT_TOOLTIP_CAPITAL_TF_WEAP5,3x Proton Torpedoes: 2 / 5.0s / 5.2km
@@ -380,7 +385,7 @@ TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
-TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Vigil Corvette, Rintonne's Flame
+TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet-class Light Cruiser, Rintonne's Flame
 TEXT_TOOLTIP_CONSULAR_HULL,Hull: 550 (Corvette)
 TEXT_TOOLTIP_CONSULAR_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
 TEXT_TOOLTIP_CONSULAR_REFIT,A common armed configuration for the Consular cruiser, equipped with turbolasers and missiles to engage other large ships rather than emphasizing a fighter screening role.
