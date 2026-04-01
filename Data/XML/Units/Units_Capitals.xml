@@ -2333,6 +2333,96 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Triumph_Star_Destroyer">
+		<Variant_Of_Existing_Type>Template_Tector_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TRIUMPH</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 480</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TRIUMPH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRIUMPH_HULL
+		TEXT_TOOLTIP_TRIUMPH_SHIELD
+		TEXT_TOOLTIP_TECTOR_MOVE
+		TEXT_TOOLTIP_TRIUMPH_WEAP1
+		TEXT_TOOLTIP_TRIUMPH_WEAP2
+		TEXT_TOOLTIP_TRIUMPH_WEAP3
+		TEXT_TOOLTIP_TRIUMPH_WEAP4
+		TEXT_TOOLTIP_TRIUMPH_WEAP5
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRIUMPH.tga</Icon_Name>
+
+		<Space_Model_Name>triumph_class_star_destroyer.ALO</Space_Model_Name>
+		
+		<Shield_Points>7000</Shield_Points>
+		<Tactical_Health>8500</Tactical_Health>
+
+		<AI_Combat_Power>3427</AI_Combat_Power>
+		<Damage>70</Damage>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Property_Flags>Boardable</Property_Flags>
+		<Build_Cost_Credits>6350</Build_Cost_Credits>
+		<Build_Time_Seconds>105</Build_Time_Seconds>
+		<Required_Special_Structures>
+			Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+			AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Population_Value>34</Population_Value>
+
+		<HardPoints>
+			HP_Triumph_Engines,
+			HP_Triumph_HDTL_01, HP_Triumph_HDTL_02, HP_Triumph_HDTL_03, HP_Triumph_HDTL_04, HP_Triumph_HDTL_05,
+			HP_Triumph_MDTL_01, HP_Triumph_MDTL_02, HP_Triumph_MDTL_03, HP_Triumph_MDTL_04,
+			HP_Triumph_LDTL_01, HP_Triumph_LDTL_02, HP_Triumph_LDTL_03, HP_Triumph_LDTL_04,
+			HP_Triumph_HSIC_01, HP_Triumph_HSIC_02, HP_Triumph_HSIC_03, HP_Triumph_HSIC_04,
+			HP_Triumph_ACM_01, HP_Triumph_ACM_02, HP_Triumph_ACM_03, HP_Triumph_ACM_04,
+		</HardPoints>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Radar_Icon_Name>i_radar_victory.tga</Radar_Icon_Name>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Triumph_Star_Destroyer_Hero_Refit">
+		<Variant_Of_Existing_Type>Triumph_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TRIUMPH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_TRIUMPH_HERO_HULL
+		TEXT_TOOLTIP_TRIUMPH_HERO_SHIELD
+		TEXT_TOOLTIP_TECTOR_MOVE
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP1
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP2
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP3
+		TEXT_TOOLTIP_TRIUMPH_HERO_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRIUMPH.tga</Icon_Name>
+		
+		<Shield_Points>8250</Shield_Points>
+		<Shield_Refresh_Rate>41.25</Shield_Refresh_Rate>
+		<Tactical_Health>8250</Tactical_Health>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Property_Flags/>
+
+		<HardPoints>
+			HP_Triumph_Engines_Hero,
+			HP_Triumph_HDTL_01_Hero, HP_Triumph_HDTL_02_Hero, HP_Triumph_HDTL_03_Hero, HP_Triumph_HDTL_04_Hero,
+			HP_Triumph_MQTL_01_Hero, HP_Triumph_MQTL_02_Hero, HP_Triumph_MQTL_03_Hero, HP_Triumph_MQTL_04_Hero,
+			HP_Triumph_MDTL_01_Hero, HP_Triumph_MDTL_02_Hero, HP_Triumph_MDTL_03_Hero, HP_Triumph_MDTL_04_Hero, HP_Triumph_MDTL_05_Hero, HP_Triumph_MDTL_06_Hero,
+			HP_Triumph_ACM_01_Hero, HP_Triumph_ACM_02_Hero, HP_Triumph_ACM_03_Hero, HP_Triumph_ACM_04_Hero, HP_Triumph_ACM_05_Hero, HP_Triumph_ACM_06_Hero, HP_Triumph_ACM_07_Hero,
+		</HardPoints>
+	</SpaceUnit>
+
 	<SpaceUnit Name="Template_MC90">	<!-- Needs to exist so death clones aren't inherited -->
 
 		<Text_ID>TEXT_UNIT_MC90</Text_ID>
