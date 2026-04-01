@@ -137,7 +137,7 @@ return {
 				"Imperial_AT_TE_Walker_Company", "Tracked_Mobile_Base_Company", "Tracked_Shield_Disabler_Company",
 				-- Space
 				"Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser", 
-				"Gladiator_I", "Acclamator_II_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
+				"Gladiator_I", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
 				"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought"
 			},
@@ -668,7 +668,7 @@ return {
 			"B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Lancet_Air_Artillery_Company",
 			"DEATHFIRE_GAMMA_LOCATION_SET", "CEC_HQ",
 			"Taim_Bak_HQ", "Sorosuub_HQ", 
-			"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC", "Z_Research_Glory"},
+			"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ZAARIN_REMNANTS",
 			IntroHolo = "Raveen_Loop"
 		},

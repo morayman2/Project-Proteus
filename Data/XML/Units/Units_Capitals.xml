@@ -2251,59 +2251,6 @@
 	   	</Unit_Abilities_Data>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Glory_Star_Destroyer">
-		<Variant_Of_Existing_Type>Mothma_Star_Destroyer</Variant_Of_Existing_Type>
-
-		<Text_ID>Z_TEXT_UNIT_STAR_DESTROYER_GLORY</Text_ID>
-		<Encyclopedia_Text> 
-		Z_TEXT_TOOLTIP_STAR_DESTROYER_GLORY
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_HULL
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_SHIELD
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_MOVE
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_SQUADRON
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP1
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP2
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP3
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP4
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP5
-		TEXT_TOOLTIP_STAR_DESTROYER_MOTHMA_WEAP6
-		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
-		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
-		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
-		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_GLORY_DESTROYER.tga</Icon_Name>
-
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
-		AI_Category_Dummy | Capital_Category_Dummy
-		</Required_Special_Structures>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<!-- <Build_Cost_Credits>1</Build_Cost_Credits>
-		<Build_Time_Seconds>1</Build_Time_Seconds> -->
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>INTERDICT</Type>
-				<Disable_Movement>Yes</Disable_Movement>
-
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Grav_Online_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Grav_Offline_Interdictor</SFXEvent_GUI_Unit_Ability_Deactivated>
-			</Unit_Ability>
-
-			<Unit_Ability>
-				<Type>MISSILE_SHIELD</Type>
-				<Disable_Movement>Yes</Disable_Movement>
-				<Effective_Radius>1400</Effective_Radius>
-				<Recharge_Seconds>0</Recharge_Seconds>
-				<Expiration_Seconds>0</Expiration_Seconds>
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-	   	</Unit_Abilities_Data>
-	</SpaceUnit>
-
 	<SpaceUnit Name="Tector_Star_Destroyer">
 		<Variant_Of_Existing_Type>Template_Tector_Star_Destroyer</Variant_Of_Existing_Type>
 

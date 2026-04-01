@@ -135,13 +135,6 @@ function TechHandler:new(galactic_conquest, human_player, planets)
 		{"Imperial_Proteus"},
 		{"MTC_Sensor"}
 		)
-
-	self.ZGloryResearch = GenericResearch(self.galactic_conquest,
-		"Z_GLORY_RESEARCH",
-		"Z_Research_Glory",
-		{"Imperial_Proteus"},
-		{"Glory_Star_Destroyer"}
-		)
 end
 
 function TechHandler:update()
