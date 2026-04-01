@@ -85,7 +85,10 @@ return {
 			elseif proteus == "KASHYYYK" then
 				fighter = "TIE_OPPRESSOR_SQUADRON"
 			elseif proteus == "LUMIYA" then
-				fighter = "TIE_OPPRESSOR_SQUADRON"
+				fighter = "SCIMITAR_SQUADRON"
+				-- if Get_Fighter_Research("ScimitarMKIIFighters") then
+				-- 	fighter = "Scimitar_MKII_SQUADRON"
+				-- end
 			elseif proteus == "ARDA" then
 				fighter = "BTLB_Y_WING_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then

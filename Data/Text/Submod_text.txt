@@ -61,6 +61,7 @@ TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
 TEXT_HERO_TEZRIN,Dongal Tezrin
+TEXT_HERO_THETA,Theta Leader
 TEXT_HERO_YEORG_CAPTISON,Yeorg Captison
 TEXT_MANTA_FIGHTER_SQUADRON,Manta Fighter Squadron
 TEXT_MANTA_FIGHTER_SQUADRON_HALF,Manta Fighter Squadron 1/2
@@ -201,6 +202,7 @@ TEXT_STATBLOCK_TIE_AVENGER_WEAP3,1x Fighter Proton Torpedo: 1 / 37.5s / 1.4km
 TEXT_STATBLOCK_TIE_AVENGER_WEAP4,1x Fighter Assault Concussion Missile: 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_TIE_AVENGER_WEAP5,1x Proton Rocket (AC): 1 / 50.0s / 3.0km
 TEXT_STATBLOCK_TIE_AVENGER_WEAP6,1x Light Concussion Bomb (AC): 1 / 37.5s / 0.8km
+TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE,Health: 225 | Unshielded
 TEXT_STATBLOCK_TIE_DEFENDER_RED_STAR_MOVE,Speed: 8.66 | Maneuverability: 5.5
 TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON,12x TIE Fighter Carrier Duty Refit
 TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE,24x TIE Fighter Carrier Duty Refit
@@ -331,7 +333,7 @@ TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Secto
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BUILDLIMIT_BISCUIT_BARON,Build Limit: 1 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_DARK_JEDI,Build Limit: 5 | Total: ∞
-TEXT_TOOLTIP_BUILDLIMIT_RED_POLICE,(Correct Me) - Build Limit: 5 | Total: ∞
+TEXT_TOOLTIP_BUILDLIMIT_RED_POLICE,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_ROYAL_GUARD,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SHADOW_EVO,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_SITH_KNIGHT,Build Limit: 5 | Total: ∞
@@ -386,6 +388,7 @@ TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
 TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet-class Light Cruiser, Rintonne's Flame
+TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
 TEXT_TOOLTIP_CONSULAR_HULL,Hull: 550 (Corvette)
 TEXT_TOOLTIP_CONSULAR_MOVE,Speed: 6.65 | Accel: 0.25 | Turn: 0.65
 TEXT_TOOLTIP_CONSULAR_REFIT,A common armed configuration for the Consular cruiser, equipped with turbolasers and missiles to engage other large ships rather than emphasizing a fighter screening role.
@@ -567,6 +570,7 @@ TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP1,2x Medium Quad Turbolasers: 2 / 3.33s 
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP2,2x Medium Turbolasers: 2 / 1.33s / 6.2km
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_WEAP3,2x Medium Laser Cannons: 2 / 0.5s / 4.2km
 TEXT_TOOLTIP_TEZRIN,Dongal Tezrin was the captain of the light cruiser Rintonne's Flame. He was assigned to patrol the Elrood sector during the Galactic Civil War. He was known to be a very irritable person.
+TEXT_TOOLTIP_THETA_SQUADRON,TIE Bombers of the Theta Squadron, known for its effectiveness of well timed bombing runs both in space and land engagement. It was under command of Lumiya, Dark Lady of the Sith, following the decimation of her fleet in the Nagai–Tof War and assigned to EF76 Nebulon-B escort frigate "Revenant". Theta Squadron participated in the assault led by Lumiya on the Communications Research space station Epsilon Nine.
 TEXT_TOOLTIP_TIE_AVENGER_ASSAULT,An alternate loadout of the TIE Avenger equipped with assault concussion missiles instead of standard concussion missiles. Well equipped for facing clustered groups of enemy fighters or assisting bombers in actions against frigates and capital ships. Larger munitions lead to fewer missiles carried than on the standard model.
 TEXT_TOOLTIP_TIE_AVENGER_BOMBER,TIE Avenger model outfitted with as many rockets and liyyght bombs as possible for bomber duties without sacrificing the Avenger's impressive speed and manuverability. While not directly as effective as other bombers its impressive speed gives it a unique ability to excel in hit-and-run attacks on enemy capital ships.
 TEXT_TOOLTIP_TIE_AVENGER_TORPS,An alternate loadout of the TIE Avenger equipped with proton torpedoes instead of concussion missiles. Still well suited for all situations.
@@ -709,6 +713,7 @@ TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani-class Assault Frigate
 TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
 TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
 TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger
+TEXT_UNIT_TIE_BOMBER_THETA,TIE Bomber, Theta Squadron
 TEXT_UNIT_TIE_DEFENDER_RED_STAR,Modified TIE Defender, Red Star Squadron
 TEXT_UNIT_TIE_FIGHTER_ALPHA,TIE Fighter, Alpha Squadron
 TEXT_UNIT_TIE_FIGHTER_BF2,TIE Fighter Carrier Duty Refit

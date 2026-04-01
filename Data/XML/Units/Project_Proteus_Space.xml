@@ -13674,8 +13674,6 @@
 		<Icon_Name>i_button_eta2_assault_half.tga</Icon_Name>/
 	</Container>
 
-
-
 	<SpaceUnit Name="Defensive_Eta2_Actis">
 		<Variant_Of_Existing_Type>Eta2_Actis</Variant_Of_Existing_Type>
 
@@ -13841,8 +13839,6 @@
 		<Max_Speed>8.63</Max_Speed>
 		<Min_Speed>1.63</Min_Speed>
 	</Container>
-
-
 
 	<SpaceUnit Name="Maneuver_Eta2_Actis">
 		<Variant_Of_Existing_Type>Eta2_Actis</Variant_Of_Existing_Type>

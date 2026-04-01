@@ -1711,25 +1711,25 @@
 
 	<GroundCompany Name="Red_Police_Company">
 
-		<Text_ID>TEXT_UNIT_Red_Police_PLATOON</Text_ID>
+		<Text_ID>TEXT_UNIT_RED_POLICE_PLATOON</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_Red_Police
+		TEXT_TOOLTIP_RED_POLICE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_Red_Police_COMPANY
-		TEXT_TOOLTIP_Red_Police_SQUAD
-		TEXT_TOOLTIP_Red_Police_HEALTH
-		TEXT_TOOLTIP_Red_Police_MOVE
-		TEXT_TOOLTIP_Red_Police_COMPANY_WEAP1
-		TEXT_TOOLTIP_Red_Police_COMPANY_WEAP2
-		TEXT_TOOLTIP_Red_Police_COMPANY_WEAP3
-		TEXT_TOOLTIP_Red_Police_COMPANY_WEAP4
-		TEXT_TOOLTIP_Red_Police_COMPANY_WEAP5
-		TEXT_TOOLTIP_Red_Police_COMPANY_WEAP6
+		TEXT_TOOLTIP_RED_POLICE_COMPANY
+		TEXT_TOOLTIP_RED_POLICE_SQUAD
+		TEXT_TOOLTIP_RED_POLICE_HEALTH
+		TEXT_TOOLTIP_RED_POLICE_MOVE
+		TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP1
+		TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP2
+		TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP3
+		TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP4
+		TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP5
+		TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-		TEXT_TOOLTIP_BUILDLIMIT_Red_Police
+		TEXT_TOOLTIP_BUILDLIMIT_RED_POLICE
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_defiler.tga</Icon_Name>
 
@@ -1775,6 +1775,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets/>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>240</Tactical_Build_Cost_Multiplayer>
@@ -2281,7 +2283,7 @@
 		<Score_Cost_Credits>54</Score_Cost_Credits>
 		<Population_Value>1</Population_Value>
 		
-		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -2811,6 +2813,8 @@
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_SITH_KNIGHT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_KNIGHT </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_SITH_KNIGHT.TGA</Icon_Name>
@@ -2853,7 +2857,7 @@
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>

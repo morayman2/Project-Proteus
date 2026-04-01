@@ -12104,7 +12104,7 @@
 		<Encyclopedia_Text> 
 		TEXT_TOOLTIP_ASSIGN_HERO_SQUAD
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
-		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_SPACE
 		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
 		TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON
 		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
@@ -12263,6 +12263,158 @@
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<!-- Theta Squadron -->
+
+	<UniqueUnit Name="Leader_Theta">
+		<Variant_Of_Existing_Type>TIE_Bomber</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_THETA</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_THETA_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_THETA_SQUADRON 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE
+		TEXT_STATBLOCK_TIE_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP1
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP2
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PILOT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_THETA.tga</Icon_Name>
+
+		<Redirect_Damage_To_Teammates>Yes</Redirect_Damage_To_Teammates>
+
+		<Tactical_Health>225</Tactical_Health>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+
+	<UniqueUnit Name="TIE_Bomber_Theta_Escort">
+		<Variant_Of_Existing_Type>TIE_Bomber_Escort</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_BOMBER_THETA</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_THETA_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_BOMBER_ESCORT_BASE
+		TEXT_STATBLOCK_TIE_BOMBER_MOVE 
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP1
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP2 
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP3
+		TEXT_STATBLOCK_TIE_BOMBER_WEAP4
+		</Encyclopedia_Text>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</UniqueUnit>
+
+	<Container Name="Theta_Squadron_Container">
+		<Variant_Of_Existing_Type>TIE_Bomber_Squadron_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_HERO_THETA</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_THETA_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_THETA_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_BOMBER_ESCORT_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_FIGHTER_SQUADRON
+		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PILOT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_THETA.TGA</Icon_Name>
+
+		<Radar_Icon_Size>0.03  0.03</Radar_Icon_Size>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="Theta_Squadron">
+		<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_THETA</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UNINTERESTING
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_THETA_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_TOOLTIP_COMMAND_THETA_SQUADRON
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_LEADER_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE
+		TEXT_TOOLTIP_SEPARATOR_FIGHTER_ESCORT_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_BOMBER_ESCORT_BASE
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_FIGHTER_SQUADRON 
+		TEXT_STATBLOCK_TIE_FIGHTER_MOVE
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP1
+		TEXT_STATBLOCK_TIE_FIGHTER_WEAP2
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_PILOT</Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_THETA.tga</Icon_Name>
+
+		<Create_Team_Type>Theta_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort</Squadron_Units>
+		<Squadron_Units>TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort</Squadron_Units>
+		<Squadron_Units>TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort, TIE_Bomber_Theta_Escort, Leader_Theta</Squadron_Units>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
