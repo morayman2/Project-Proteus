@@ -277,7 +277,7 @@ return {
 			"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
 			"IntSec_Operator_Company", "Navy_Commando_Company", "Imperial_Army_Trooper_Company", "Imperial_Army_74Z_Bike_Company",
 			"AT_XT_Company", "AT_ST_Company", "Arrow_23_Company",
-			"Imperial_AAT_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Flak_Walker_Company", "HAG_Company",
+			"Imperial_AAT_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Flak_Walker_Company", "HAGM_Company",
 			"A9_Floating_Fortress_Company", "B5_Juggernaut_Company", "Tracked_Mobile_Base_Company"
 			},
 			FactionOverride = "Empire",

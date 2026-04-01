@@ -104,5 +104,5 @@ return {
 		"Lictor",
 		--Imperial Ord Radama
 		"Diamond_Frigate", "Providence_Carrier_Destroyer",
-		"Imperial_AAT_Company", "HAG_Company",
+		"Imperial_AAT_Company", "HAGM_Company",
 }

@@ -3359,9 +3359,15 @@
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Company_Units>Imperial_AAT, Imperial_AAT, Imperial_AAT</Company_Units>
+		
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_2M_Tank</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
+
 	</GroundCompany>
 	
-	<GroundVehicle Name="HAG">
+	<GroundVehicle Name="HAGM">
 
 		<Text_ID>TEXT_UNIT_HAG</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
@@ -3559,7 +3565,7 @@
 		</Unit_Abilities_Data>
 
 	</GroundVehicle>
-	<GroundCompany Name="HAG_Company">
+	<GroundCompany Name="HAGM_Company">
 
 		<Text_ID>TEXT_UNIT_HAG</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_ARTILLERY</Encyclopedia_Unit_Class>
@@ -3613,7 +3619,7 @@
 
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets/>
-		<Company_Units>HAG</Company_Units>
+		<Company_Units>HAGM</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -3632,7 +3638,7 @@
 		</Unit_Abilities_Data>
 	</GroundCompany>
 
-	<Death_Clone Name="HAG_Death_Clone">
+	<Death_Clone Name="HAGM_Death_Clone">
 		<Variant_Of_Existing_Type>HAG</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
@@ -3646,7 +3652,7 @@
 		<IsDeathClone> true </IsDeathClone>
 		<Presence_Range>200.0</Presence_Range>
 	</Death_Clone>
-	<Death_Clone Name="HAG_Deployed_Death_Clone">
+	<Death_Clone Name="HAGM_Deployed_Death_Clone">
 		<Variant_Of_Existing_Type>HAG</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
 		<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
