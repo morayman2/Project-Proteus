@@ -1161,14 +1161,13 @@
 		<Tech_Level>0</Tech_Level>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Required_Special_Structures>I_Ground_Barracks</Required_Special_Structures>
-		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>220</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+			<Tactical_Build_Cost_Multiplayer>220</Tactical_Build_Cost_Multiplayer>
+			<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+			<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+			<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+			<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 	</GroundCompany>
 	
@@ -1216,7 +1215,7 @@
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 	</GroundCompany>
 	
@@ -1775,6 +1774,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets/>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>240</Tactical_Build_Cost_Multiplayer>
