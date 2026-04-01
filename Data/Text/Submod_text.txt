@@ -193,6 +193,15 @@ TEXT_STATBLOCK_SHIELDED_TIE_BOMBER_MOVE,Speed: 4.0 | Maneuverability: 3.0
 TEXT_STATBLOCK_SHIELDED_TIE_BOMBER_SQUADRON,12x Shielded TIE  Bomber
 TEXT_STATBLOCK_SHIELDED_TIE_BOMBER_SQUADRON_DOUBLE,24x Shielded TIE Bomber
 TEXT_STATBLOCK_SHIELDED_TIE_BOMBER_SQUADRON_HALF,6x Shielded TIE Bomber
+TEXT_STATBLOCK_SKIPRAYK_MOVE,Speed: 7 | Maneuverability: 2.46
+TEXT_STATBLOCK_SKIPRAYK_WEAP3,1x Proton Rocket (AC): 1 / 10s / 3.0km
+TEXT_STATBLOCK_SKIPRAYK_WEAP4,1x Concussion Bomb (AC): 1 / 25s / 0.8km
+TEXT_STATBLOCK_SKIPRAYM_BASE,Health: 30 | Shields: 17
+TEXT_STATBLOCK_SKIPRAYM_MOVE,Speed: 8.05 | Maneuverability: 3.46
+TEXT_STATBLOCK_SKIPRAYM_WEAP4,1x Heavy Fighter Proton Torpedo (AC): 1 / 30s / 1.4km
+TEXT_STATBLOCK_SKIPRAYZ_BASE,Health: 32 | Shields: 13
+TEXT_STATBLOCK_SKIPRAYZ_WEAP2,2x Fighter Ion Cannon: 3 / 2.0s / 1.0km
+TEXT_STATBLOCK_SKIPRAYZ_WEAP3,1x Heavy Fighter Proton Torpedo (AC): 2 / 37.5s / 1.4km
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON,Squadron: 12x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault TIE Avenger
 TEXT_STATBLOCK_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault TIE Avenger
@@ -242,6 +251,23 @@ TEXT_STATBLOCK_V_WING_ESK_SQUADRON,Squadron: 12x V-Wing "Esk"
 TEXT_STATBLOCK_V_WING_ESK_SQUADRON_DOUBLE,Squadron: 24x V-Wing "Esk"
 TEXT_STATBLOCK_V_WING_ESK_SQUADRON_HALF,Squadron: 6x V-Wing "Esk"
 TEXT_STATBLOCK_V_WING_WEAP3,1x Fighter Ion Cannon: 2 / 3.0s / 1.0km
+TEXT_STATBLOCK_VCX820_BASE,Health: 22 | Shields: 14
+TEXT_STATBLOCK_VCX820_MOVE,Speed: 6.67 | Maneuverability: 3.90
+TEXT_STATBLOCK_VCX820_SQUADRON,Squadron: 12x - VCX-820
+TEXT_STATBLOCK_VCX820_SQUADRON_DOUBLE,Squadron: 24x - VCX-820
+TEXT_STATBLOCK_VCX820_SQUADRON_HALF,Squadron: 6x - VCX-820
+TEXT_STATBLOCK_VCX820_WEAP1,1x Fighter Laser Cannon: 8 / 2.0s / 1.0km
+TEXT_STATBLOCK_VCX820_WEAP2,1x Heavy Fighter Laser Cannon: 6 / 2.0s / 1.0km
+TEXT_STATBLOCK_VCX820_WEAP3,1x Fighter Proton Torpedo: 1 / 18.75s / 1.4km
+TEXT_STATBLOCK_YV929_BASE,Health: 24 | Shields: 17
+TEXT_STATBLOCK_YV929_MOVE,Speed: 6.92 | Maneuverability: 2.36
+TEXT_STATBLOCK_YV929_SQUADRON,Squadron: 12x - YV-929
+TEXT_STATBLOCK_YV929_SQUADRON_DOUBLE,Squadron: 24x - YV-929
+TEXT_STATBLOCK_YV929_SQUADRON_HALF,Squadron: 6x - YV-929
+TEXT_STATBLOCK_YV929_WEAP1,1x Fighter Turbolaser: 4 / 3.0s / 1.0km
+TEXT_STATBLOCK_YV929_WEAP2,1x Fighter Ion Cannon: 2 / 2.0s / 1.0km
+TEXT_STATBLOCK_YV929_WEAP3,1x Fighter Laser Cannon: 6 / 3.0s / 1.0km
+TEXT_STATBLOCK_YV929_WEAP4,1x Fighter Assault Missile: 2 / 25.0s / 1.8km
 TEXT_TIE_AVENGER_ASSAULT_SQUADRON,Assault TIE Avenger Squadron
 TEXT_TIE_AVENGER_ASSAULT_SQUADRON_HALF,Assault TIE Avenger Squadron 1/2
 TEXT_TIE_AVENGER_ASSAULT_SQUADRON2,Assault TIE Avenger Squadron x2
@@ -564,6 +590,9 @@ TEXT_TOOLTIP_SITH_WAR_MAMMOTH_COMPANY,Company: 2x Sith War Mammoth
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_HEALTH,Health: 425 [2%/5s] (Heavy Vehicle)
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_MOVE,Speed: 1.0 | Turn: 2.5 
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_WEAP1,2x Heavy AI Blaster Cannons (AOE): 2 / 0.5s / 320m
+TEXT_TOOLTIP_SKIPRAYK,PLACEHOLDER
+TEXT_TOOLTIP_SKIPRAYM,PLACEHOLDER
+TEXT_TOOLTIP_SKIPRAYZ,PLACEHOLDER
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_ION,A variant more focused on taking down shields than crushing hulls, this star destroyer utilizes octuple ion cannons over octuple turbolasers. Despite losing a good amount of lethal firepower, it still is a great danger to encounter on the battlefield.
 TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces it's rear turbolasers with more powerful batteries. Due to it's more expensive armament it is mostly used by higher ranking officers.
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
@@ -615,6 +644,7 @@ TEXT_TOOLTIP_UTAT_WEAP1,1x Medium Mass Driver Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP2,2x Super Heavy AV Blaster Cannons: 1 / 2.0s / 480m
 TEXT_TOOLTIP_UTAT_WEAP3,4x AI Blaster Cannons: 5 / 2.5s / 320m
 TEXT_TOOLTIP_V_WING_ESK,V-Wing variant equipped with ion cannons to operate as a fast pursuit craft. Would often see use by groups in need of a fast interceptor with the ability to stun small ships attempting to escape.
+TEXT_TOOLTIP_VCX820,The VCX-820 is a heavy yet fast flying-guns platform that was designed to military specifications. As such it can easily guard convoys of otherwise defenseless bulk freighters and commerce craft. Well suited to engaging any enemy target.
 TEXT_TOOLTIP_VENATOR_8X,A refit of the iconic Venator Star Destroyer. This variant sacrifices the original's large fighter wing for more abundant and heavier weaponry, making it more effective in ship to ship combat.
 TEXT_TOOLTIP_VENATOR_8X_MOVE,Speed: 4.0 | Accel: 0.2 | Turn: 0.4
 TEXT_TOOLTIP_VENATOR_8X_SHIELD,Shields: 2600 / [26/R] (Heavy Frigate)
@@ -632,6 +662,7 @@ TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER,4x Light Ion Cannons: 2 / 1.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
+TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
@@ -716,6 +747,18 @@ TEXT_UNIT_SITH_STRIDER,Sith Strider
 TEXT_UNIT_SITH_STRIDER_COMPANY,Sith Strider Company
 TEXT_UNIT_SITH_WAR_MAMMOTH,Sith War Mammoth
 TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Sith War Mammoth Company
+TEXT_UNIT_SKIPRAYK,Skipray Blastboat GAT-12k
+TEXT_UNIT_SKIPRAYK_SQUADRON,Skipray Blastboat GAT-12k Squadron
+TEXT_UNIT_SKIPRAYK_SQUADRON_HALF,Skipray Blastboat GAT-12k Squadron 1/2
+TEXT_UNIT_SKIPRAYK_SQUADRON2,Skipray Blastboat GAT-12k Squadron x2
+TEXT_UNIT_SKIPRAYM,Skipray Blastboat GAT-12m
+TEXT_UNIT_SKIPRAYM_SQUADRON,Skipray Blastboat GAT-12m Squadron
+TEXT_UNIT_SKIPRAYM_SQUADRON_HALF,Skipray Blastboat GAT-12m Squadron 1/2
+TEXT_UNIT_SKIPRAYM_SQUADRON2,Skipray Blastboat GAT-12m Squadron x2
+TEXT_UNIT_SKIPRAYZ,Skipray Blastboat GAT-12z
+TEXT_UNIT_SKIPRAYZ_SQUADRON,Skipray Blastboat GAT-12z Squadron
+TEXT_UNIT_SKIPRAYZ_SQUADRON_HALF,Skipray Blastboat GAT-12z Squadron 1/2
+TEXT_UNIT_SKIPRAYZ_SQUADRON2,Skipray Blastboat GAT-12z Squadron x2
 TEXT_UNIT_STAR_DESTROYER_TWO_ION,Imperial-II Star Destroyer Ion Refit
 TEXT_UNIT_STAR_DESTROYER_X,Upgunned Imperial-I Star Destroyer
 TEXT_UNIT_STARWING_ASSAULT,Xg-1 Star Wing Assault
@@ -736,11 +779,19 @@ TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
 TEXT_UNIT_TRIUMPH,Triumph Star Destroyer
 TEXT_UNIT_UT_AT,UT-AT
 TEXT_UNIT_V_WING_ESK,V-Wing "Esk"
+TEXT_UNIT_VCX820,VCX-820 Escort Freighter
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
 TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
+TEXT_UNIT_YV929,YV-929 Armed Freighter
 TEXT_V_WING_ESK_SQUADRON,V-wing "Esk" Squadron
 TEXT_V_WING_ESK_SQUADRON_HALF,V-wing "Esk" Squadron 1/2
 TEXT_V_WING_ESK_SQUADRON2,V-wing "Esk" Squadron x2
+TEXT_VCX820_SQUADRON,VCX-820 Squadron
+TEXT_VCX820_SQUADRON_HALF,VCX-820 Squadron 1/2
+TEXT_VCX820_SQUADRON2,VCX-820 Squadron x2
+TEXT_YV929_SQUADRON,YV-929 Squadron
+TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
+TEXT_YV929_SQUADRON2,YV-929 Squadron x2
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's failed Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate, retires Nebulon-B.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.
