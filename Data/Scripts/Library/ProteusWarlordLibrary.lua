@@ -85,6 +85,15 @@ return {
 			LeaderTable = {["GETELLES_TEAM"] = {"GETELLES"}},
 			LeaderEndingNames = {"Emperor Getelles"},
 			HeroList = {"Getelles_Team", "Larm_Carrack"},
+			UnlockList = {"X4_Gunship_Group", "Raider_I_Corvette", "Lancer_Frigate_PDF", "Carrack_Cruiser", "Strike_Cruiser_Light", "Strike_Cruiser", "Strike_Interdictor",
+			"Acclamator_II", "Gladiator_II", "Victory_II_Star_Destroyer", "Imperial_DHC",
+			"Imperial_II_Star_Destroyer_Ion", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
+			"Allegiance_Battlecruiser", "Torpedo_Sphere", "Bellator_Star_Dreadnought",
+			"Imperial_Army_Trooper_Company", "Imperial_Army_Guard_Company", "Imperial_Army_Commando_Company",
+			"Imperial_AT_RT_Company", "AT_ST_Company", "Skyhopper_Company", "New_Republic_T47_Airspeeder_Company",
+			"AT_AA_Missile_Walker_Company", "SPMAT_Company", 
+			"Imperial_AT_AT_Walker_Company"
+			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ANTEM",
 			IntroHolo = "Tol_Getelles_Loop"
 		},
@@ -137,7 +146,7 @@ return {
 				"Imperial_AT_TE_Walker_Company", "Tracked_Mobile_Base_Company", "Tracked_Shield_Disabler_Company",
 				-- Space
 				"Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser", 
-				"Gladiator_I", "Acclamator_II_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
+				"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
 				"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought"
 			},
