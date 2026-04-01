@@ -575,7 +575,7 @@ return {
 			LeaderTable = {["DARCC_TEAM"] = {"DARCC"}},
 			LeaderEndingNames = {"Emperor Darcc"},
 			HeroList = {"Krieg_Immobilizer", "Syn_Silooth", "Darcc_Team", "Pekt_Team"},
-			UnlockList = {"Imperial_AT_AP_Walker_Company"},
+			UnlockList = {"Imperial_AT_AP_Walker_Company", "Trandoshan_Hunter_Company",},
 			--LockList = {"Imperial_A5_Juggernaut_Company"},
 			FactionOverride = "Empire",
 			LastYear = 4,

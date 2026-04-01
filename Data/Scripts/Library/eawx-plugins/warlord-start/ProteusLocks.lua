@@ -113,4 +113,6 @@ return {
 		--Antemeridiean Sector added units
 		"X4_Gunship_Group",
 		"New_Republic_T47_Airspeeder_Company",
+		--Kashyyyk
+		"Trandoshan_Hunter_Company",
 }
