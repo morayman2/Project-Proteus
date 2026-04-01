@@ -870,7 +870,6 @@ return {
 --Project Proteus shared
 ["ACCLAMATOR_BATTLESHIP"] = true,
 ["ACCLAMATOR_DESTROYER"] = true,
-["ACCLAMATOR_II_SUPERCRUISER"] = true,
 ["ACCLAMATOR_I_SUPERCRUISER"] = true,
 ["ACCLAMATOR_I_SUPPORT"] = true,
 ["BAYONET_CRUISER"] = true,
