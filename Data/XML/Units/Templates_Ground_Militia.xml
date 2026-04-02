@@ -6948,7 +6948,7 @@
 		<Damage>8</Damage>
 		<AI_Combat_Power>62</AI_Combat_Power>
 
-		<Affiliation>Independent_Forces</Affiliation>
+		<Affiliation>Independent_Forces, Imperial_Proteus</Affiliation>
 		<Political_Control/>
 
 		<Type>Hover</Type>

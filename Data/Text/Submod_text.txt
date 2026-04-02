@@ -331,6 +331,9 @@ TEXT_TOOLTIP_AS_INTERCEPTOR_ELITE,A very rare and expensive modification of the 
 TEXT_TOOLTIP_AS_INTERCEPTOR_ION,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to replace the chin-mounted secondary laser cannons with ion cannons, with upgraded power and propulsion systems to regain some of the base model's agility despite the additional mass. The result is a capable fighter, able to engage a wide variety of targets, but expensive and difficult to maintain.
 TEXT_TOOLTIP_AS_INTERCEPTOR_MISSILE,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install internal launchers for small anti-fighter missiles and launchers for anti-ship munitions on the wings. In addition, an overhaul of the power and propulsion systems claws back some of the stock model's performance lost to the increased mass. The result is an expensive and maintenance-heavy fighter that is exceptionally versatile and deadly while remaining nimble despite the heavier load and shield generator.
 TEXT_TOOLTIP_AS_INTERCEPTOR_UPGUNNED,A very rare and expensive modification of the already obscure Shielded Armored TIE Interceptor variant, utilizing its more robust frame to install the necessary power systems to operate the chin-mounted secondary laser cannons at increased power. Upgraded propulsion systems offset the additional weight of the new systems, bringing flight performance closer to the slimmer stock Interceptor models. The result is a versatile interceptor with enormous firepower and surprising agility, at the cost of being expensive to upgrade and maintain.
+TEXT_TOOLTIP_ATACT,Large cargo transport with forward weaponry. Although the AT-ACT was not built for combat it was still capable of posing a decent threat to enemy combatants. It is best used to support armies in head-on assaults of enemy forces while other forces destroy the enemy.
+TEXT_TOOLTIP_ATACT_REPAIR,1x Infantry Healing and Vehicle Repair: 5 / 1.0s / 150m
+TEXT_TOOLTIP_ATACT_WEAP1,2x Heavy AV Blaster Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_ATAT_IC,The Ion refit Imperial AT-AT was an uncommon variation that replaced it's super heavy laser cannons with heavy ion cannons. Although ion cannons were rarely found aboard ground vehicles, some minor warlords converted a small number of its All Terrain Armored Transport fleet into mobile, ion cannons. The warlords deployed the All Terrain Ion Cannon for the mobile defense of strategic locations, though less effectively than the more heavily modified AT-IC.
 TEXT_TOOLTIP_ATAT_IC_WEAP1,1x Super Heavy AV Ion Cannon: 4 / 2.0s / 480m
 TEXT_TOOLTIP_ATOT,Troop walker developed during the Clone Wars to bring a larger amount of troops into the battlefield than other Republic walkers. While best known as open-topped for behind-lines use, an armored cover is applied for combat or more varied environmental conditions. Able to deploy infantry.
@@ -454,6 +457,13 @@ TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_2,Squad: 14x Faux Stormtrooper
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1A,13x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_1B,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_FAUX_STORMTROOPER_SQUAD_WEAP1_2,14x Blaster Carbine: 3 / 1.25s / 220m
+TEXT_TOOLTIP_GAT,The Ground Armored Tank served as a shielded fast attack platform early in the war, often in opposition to the comparable Saber tanks. Due to losses and poor direct performance against loyalist assets, the design ceased production relatively quickly into the war in favour of Techno Union alternatives.
+TEXT_TOOLTIP_GAT_COMPANY,Company: 4x GAT
+TEXT_TOOLTIP_GAT_HEALTH,Health: 100 (Medium Vehicle)
+TEXT_TOOLTIP_GAT_MOVE,Speed: 2.0 | Turn: 6.0
+TEXT_TOOLTIP_GAT_SHIELD,Shields: 50 / [6/R] (Light Vehicle)
+TEXT_TOOLTIP_GAT_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_GAT_WEAP2,1x Proton Missile: 1 / 10.0s / 320m
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
 TEXT_TOOLTIP_HAG,The Heavy Artillery Gun was a Trade Federation artillery piece first used during the invasion of Naboo. After the formation of the CIS it became the primary indirect fire artillery for the Confederacy.
 TEXT_TOOLTIP_HAG_COMPANY,Company: 1x HAG-M
@@ -674,6 +684,7 @@ TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
+TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
 TEXT_UNIT_BAYONET,Bayonet-class Light Cruiser
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
@@ -688,6 +699,7 @@ TEXT_UNIT_FAUX_STORMTROOPER_GRENADIER,Faux Stormtrooper Grenadier
 TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
+TEXT_UNIT_GAT,Ground Armored Tank
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet-class Carrier

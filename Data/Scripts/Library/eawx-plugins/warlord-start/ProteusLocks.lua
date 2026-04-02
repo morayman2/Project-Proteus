@@ -115,8 +115,8 @@ return {
 		--Antemeridiean Sector added units
 		"X4_Gunship_Group",
 		"New_Republic_T47_Airspeeder_Company",
-		
-		"Imperial_AT_ACT_Walker_Company",
+		--Imperial Garos added units
+		"Imperial_AT_ACT_Walker_Company", "GAT",
 		--Kashyyyk
 		"Trandoshan_Hunter_Company",
 }
