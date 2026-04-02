@@ -323,6 +323,7 @@ return {
 			LeaderTable = {["ZAKAR_TEAM"] = {"ZAKAR_SKIFF"}},
 			LeaderEndingNames = {"Emperor Zakar"},
 			HeroList = {"Carner_Team", "Zakar_Team"},
+			UnlockList = {"Imperial_AT_ACT_Walker_Company"},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GAROS",
