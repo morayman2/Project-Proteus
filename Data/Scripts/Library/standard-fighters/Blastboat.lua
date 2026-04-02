@@ -50,6 +50,8 @@ return {
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "SKIPRAY_SQUADRON"
+			elseif proteus == "TAPANI" then
+				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then

@@ -107,8 +107,8 @@ function GovernmentManager:UpdateDisplayContainer()
         or self.human == Find_Player("IMPERIAL_PROTEUS")
         then
             self.EMPIREGOV:UpdateDisplay()
-            if GlobalValue.Get("PROTEUS_GROUP_NAME") then
-                self:UpdateDisplayProteus()
+            if GlobalValue.Get("PROTEUS_GROUP_NAME") == "KUAT" then
+                self:UpdateProteusShipmarketDisplay()
             end
     elseif self.human == Find_Player("REBEL") then
         self.NRGOV:UpdateDisplay()
@@ -123,7 +123,7 @@ function GovernmentManager:UpdateDisplayContainer()
     end
 end
 
-function GovernmentManager:UpdateDisplayProteus()
+function GovernmentManager:UpdateProteusShipmarketDisplay()
 	local current_proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
 	if self.SHIPMARKET.market_types["IMPERIAL_PROTEUS"][current_proteus] then
 		local plot = Get_Story_Plot("Conquests\\Player_Agnostic_Plot.xml")
@@ -134,14 +134,12 @@ function GovernmentManager:UpdateDisplayProteus()
 
         government_display_event.Add_Dialog_Text("TEXT_NONE")
         government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA")
+        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_"..tostring(current_proteus))
         government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
 
         government_display_event.Add_Dialog_Text("TEXT_NONE")
 
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_OVERVIEW_HEADER")
-        government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
-        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_OVERVIEW")
+        government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_"..tostring(current_proteus))
         government_display_event.Add_Dialog_Text("TEXT_DOCUMENTATION_BODY_SEPARATOR")
         government_display_event.Add_Dialog_Text("TEXT_NONE")
         government_display_event.Add_Dialog_Text("TEXT_GOVERNMENT_CSA_LIST_01")

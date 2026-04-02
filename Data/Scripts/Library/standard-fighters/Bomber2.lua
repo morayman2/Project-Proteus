@@ -68,6 +68,8 @@ return {
 				fighter = "Z95_BOMBER_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_OPPRESSOR_SQUADRON"
+			elseif proteus == "TAPANI" then
+				fighter = "Z95_BOMBER_SQUADRON"
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "H60_TEMPEST_SQUADRON"
 			elseif Get_Fighter_Research("ZMB") then

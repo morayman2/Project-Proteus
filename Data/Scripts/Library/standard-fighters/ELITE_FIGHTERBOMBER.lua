@@ -42,6 +42,8 @@ return {
 				fighter = "ARC_170_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_HUNTER_SQUADRON"
+			elseif proteus == "TAPANI" then
+				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "ARC_170_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
@@ -62,6 +64,8 @@ return {
 				fighter = "TIE_X2_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "TIE_DEFENDER_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "IXIYEN_FIGHTER_SQUADRON"
 			elseif proteus == "KUAT" then
 				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
