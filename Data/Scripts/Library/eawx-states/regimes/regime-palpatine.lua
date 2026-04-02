@@ -44,7 +44,7 @@ return {
         Story_Event("GC_CORUSCANT_EVAC_LONG")
 
         self.Starting_Spawns = require("eawx-mod-icw/spawn-sets/EmpireProgressSet")
-		
+
 		local carnorobj = Find_First_Object("Carnor_Jax_Proteus_Team")
         
         if TestValid(carnorobj) then

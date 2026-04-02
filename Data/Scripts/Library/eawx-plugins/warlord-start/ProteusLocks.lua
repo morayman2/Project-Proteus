@@ -116,7 +116,7 @@ return {
 		"X4_Gunship_Group",
 		"New_Republic_T47_Airspeeder_Company",
 		--Imperial Garos added units
-		"Imperial_AT_ACT_Walker_Company", "GAT",
+		"Imperial_AT_ACT_Walker_Company", "GAT", "Imperial_I_Star_Destroyer_Stealth",
 		--Kashyyyk
 		"Trandoshan_Hunter_Company",
 }

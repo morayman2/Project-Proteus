@@ -1874,8 +1874,84 @@
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 	</SpaceUnit>
+
+	<SpaceUnit Name="Imperial_I_Star_Destroyer_Stealth">
+		<Variant_Of_Existing_Type>Template_Imperial_Star_Destroyer</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_STEALTH</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STAR_DESTROYER_STEALTH
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_STAR_DESTROYER_HULL
+		TEXT_TOOLTIP_STAR_DESTROYER_SHIELD
+		TEXT_TOOLTIP_STAR_DESTROYER_MOVE
+		TEXT_TOOLTIP_STAR_DESTROYER_SQUADRON
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP1
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP2
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP3
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP4
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP5
+		TEXT_TOOLTIP_STAR_DESTROYER_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_IMPERATOR_STEALTH.tga</Icon_Name>
+
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Property_Flags>Boardable</Property_Flags>
+
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Capital_Category_Dummy
+		</Required_Special_Structures>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Reserve_Spawned_Units_Tech_0>Skipray_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Half, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Death_Clone>Damage_Normal, Star_Destroyer_One_Death_Clone</Death_Clone>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>3550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>STEALTH</Type>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+				<Expiration_Seconds>18.0</Expiration_Seconds>
+				<Recharge_Seconds>90.0</Recharge_Seconds>
+				<!-- <Active_By_Default>Yes</Active_By_Default> -->
+				<GUI_Activated_Ability_Name>Imperial_I_Star_Destroyer_Stealth</GUI_Activated_Ability_Name> 
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Imperial_I_Star_Destroyer_Stealth">
+				<Activation_Style> User_Input </Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Stealth_Color>255, 255, 255, 235</Stealth_Color>
+				<Stealth_Transition_Time>.6</Stealth_Transition_Time>
+			</Stealth_Ability>
+		</Abilities>
+
+	</SpaceUnit>
 	
-	<!-- Shadow Realm Custom Unit -->
 	<SpaceUnit Name="Shadow_Imperial_I_Star_Destroyer_Carrier">
 		<Variant_Of_Existing_Type>Template_Imperial_Star_Destroyer_Carrier</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_SHADOW_STAR_DESTROYER_CARRIER</Text_ID>
