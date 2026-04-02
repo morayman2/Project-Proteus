@@ -51,11 +51,11 @@ return {
 		"Mandator_III_Dreadnought",
 		"1L_Tank_Company","Imperial_Gaba18_Company","2M_Repulsor_Tank_Company","Imperial_VAAT_Company","Freerunner_AA_Company","Hutt_Pod_Walker_Company","A9_Floating_Fortress_Company","Canderous_Assault_Tank_Lasers_Company",
         --D'Asta Sector added units
-		"Consular_Refit","Strike_Interdictor","Neutron_Star_Mercenary","Proficient_Tender","Super_Transport_XI","Broadside_Cruiser","Bellator_Star_Dreadnought",
+		"Consular_Refit","Strike_Interdictor","Neutron_Star_Mercenary","Proficient_Tender","Super_Transport_XI","Broadside_Cruiser","Bellator_Star_Dreadnought", "Captor",
         "Army_Special_Missions_Company","Elite_Mercenary_Company","T2A_Company","1H_Tank_Company","Imperial_Light_Mobile_Artillery_Company","Heavy_Recovery_Vehicle_Company", "Yutrane_Trackata_HQ",
 		--Zaarin Remnants Added Units
 		"Beta_ETR_3_Group", "CR90", "Tartan_Patrol_Cruiser", "CR92A", "Imperial_Nebulon_B", "Ton_Falk_Escort_Carrier", "Strike_Cruiser", "Immobilizer_418", "Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Procursator_Star_Destroyer", "Venator_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought", 
-		"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company", "PX7_Company", "2M_Repulsor_Tank_Company", "Imperial_Light_Mobile_Artillery_Company", "Talon_Cloud_Car_Company", "Deathhawk_Company", "Imperial_Flashblind_Company", "B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Lancet_Air_Artillery_Company", "DEATHFIRE_GAMMA_LOCATION_SET", "CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", "Z_Research_MB", "Z_Research_Gorath", "Z_Research_Corona", "Z_Research_AF2", "Z_Research_MTC", "Z_Research_Glory",
+		"Imperial_Navy_Trooper_Company", "Navy_Commando_Company", "64_Y_Swift_Repulsorlift_Sled_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company", "PX7_Company", "2M_Repulsor_Tank_Company", "Imperial_Light_Mobile_Artillery_Company", "Talon_Cloud_Car_Company", "Deathhawk_Company", "Imperial_Flashblind_Company", "B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Lancet_Air_Artillery_Company", "DEATHFIRE_GAMMA_LOCATION_SET", "CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", "Z_Research_MB", "Z_Research_Gorath", "Z_Research_Corona", "Z_Research_AF2", "Z_Research_MTC",
         --Kuati Sector Forces added units
         "VT49_Decimator_Group",
         --Delurin's Empire added units
@@ -65,6 +65,8 @@ return {
         --Tapani Sector added units
 		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company",
+		 --Imperial Garos added units (Needs AT_AT_Cargo and GAT)
+		 "Hutt_AA_Skiff_Company", "JX30_Company",
         --Protectorate of Prakith added units 
         "Red_Police_Company", "Imperial_Dark_Jedi_Company_Proteus", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
 		--Maelstrom Command added units
@@ -96,15 +98,25 @@ return {
 		"PDF_Tactical_Unit_Company",
         --Lumiya's Sith added units
 		"Royal_Guard_Stormtrooper_Company", "Sith_Knight_Company",
+		"Gorath_Research_Proteus",
 		--Rayter Sector added units
 		"Bulwark_II", "Bulwark_III",
 		--idk for what group
 		"Victory_II_Carrier",
+		"Faux_Stormtrooper_Company",
+		"Triumph_Star_Destroyer",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama
 		"Diamond_Frigate", "Providence_Carrier_Destroyer",
-		"Imperial_AAT_Company", "HAG_Company",
+		"Imperial_AAT_Company", "HAGM_Company",
 		--Kaarenth added units
 		"Hornet_Assault_Carrier",
+		--Antemeridiean Sector added units
+		"X4_Gunship_Group",
+		"New_Republic_T47_Airspeeder_Company",
+		--Imperial Garos added units
+		"Imperial_AT_ACT_Walker_Company", "GAT",
+		--Kashyyyk
+		"Trandoshan_Hunter_Company",
 }

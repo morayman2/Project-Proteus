@@ -17999,5 +17999,34 @@
 		<Overlap_Test> Unit_Maul_Health </Overlap_Test>
 		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
 	</SFXEvent>
+	
+	<!--***********************************************************-->
+	<!--*********************Ground Assault Tank*******************--> <!-- The Clone Wars game SFX -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_GAT_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Fire.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_GAT_Idle_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Engine_Loop.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_GAT_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Engine_Loop.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_GAT_Cinematic_Engine_Loop">  <!-- Used by cinematic camera focus -->
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Engine_Loop.wav
+		</Samples>
+	</SFXEvent>
 
 </SFXEvents>

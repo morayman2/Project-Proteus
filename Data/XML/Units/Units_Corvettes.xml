@@ -1986,7 +1986,8 @@
 
 		<AI_Combat_Power>440</AI_Combat_Power>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
 
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Create_Team>No</Create_Team>
@@ -1995,6 +1996,7 @@
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>

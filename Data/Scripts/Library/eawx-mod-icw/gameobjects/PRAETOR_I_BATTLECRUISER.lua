@@ -4,7 +4,7 @@ return {
 		["FIGHTER_DOUBLE"] = {
 			DEFAULT = {Initial = 1, Reserve = 4},
 		},
-		["ELITE_FIGHTER"] = {
+		["ELITE_FIGHTERBOMBER"] = {
 			DEFAULT = {Initial = 1, Reserve = 4}
 		}
 	},

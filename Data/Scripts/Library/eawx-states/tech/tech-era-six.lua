@@ -183,20 +183,22 @@ return {
             UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
                 "Adz_Patrol_Destroyer"
             })
-        end
 
-        local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
-        --if proteus == ("RAYTER" or "ELROOD" or "ISECTOR" or "TAGGE" or "BAKURA" or "TAPANI" or "PRAKITH" or "CATO_NEIMOIDIA") then
-        if proteus == "RAYTER" or proteus == "ELROOD" or proteus == "ISECTOR" or proteus == "TAGGE"
-            or proteus == "BAKURA" or proteus == "TAPANI" or proteus == "PRAKITH" or proteus == "CATO_NEIMOIDIA" 
-            or proteus == "ARDA" or proteus == "LAMBDA" then
-            UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                "IPV4"
-            })
-
-            UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-                "IPV1"
-            }, false)
+			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
+			if proteus ~= nil then
+				if proteus == "RAYTER" or proteus == "ELROOD" or proteus == "ISECTOR" or proteus == "TAGGE" or proteus == "BAKURA" or proteus == "TAPANI" or proteus == "PRAKITH" or proteus == "CATO_NEIMOIDIA" or proteus == "ARDA" or proteus == "LAMBDA" then
+					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"IPV4"
+					})
+					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"IPV1"
+					}, false)
+				elseif proteus == "LUMIYA" then
+					UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
+						"GORATH_RESEARCH_PROTEUS"
+					})
+				end
+			end
         end
 
     end,

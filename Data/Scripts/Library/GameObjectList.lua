@@ -870,7 +870,6 @@ return {
 --Project Proteus shared
 ["ACCLAMATOR_BATTLESHIP"] = true,
 ["ACCLAMATOR_DESTROYER"] = true,
-["ACCLAMATOR_II_SUPERCRUISER"] = true,
 ["ACCLAMATOR_I_SUPERCRUISER"] = true,
 ["ACCLAMATOR_I_SUPPORT"] = true,
 ["BAYONET_CRUISER"] = true,
@@ -901,5 +900,8 @@ return {
 ["VENATOR_8X"] = true,
 ["VICTORY_II_CARRIER"] = true,
 ["VICTORY_I_FLEET_STAR_DESTROYER"] = true,
+["TRIUMPH_STAR_DESTROYER"] = true,
+["TRIUMPH_STAR_DESTROYER_HERO_REFIT"] = true,
+["DASTA_TRADESTATION"] = true,
 
 }

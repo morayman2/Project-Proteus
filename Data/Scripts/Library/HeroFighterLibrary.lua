@@ -827,13 +827,44 @@ function Get_Hero_Entries(upgrade_object)
 			}
 		},
 
-	-- Project Proteus Submission
+		-- Project Proteus
+
 		["RED_STAR_LOCATION_SET"] = {
 			Hero_Squadron = "RED_STAR_SQUADRON",
 			PopupBody = "RED_STAR_SELECTOR_BODY",
 			Options = {
 				{"DARIUS", Locations = {"DARIUS_SHIELD_BREAKER"}},
 				{"EXECUTOR", Locations = {"EXECUTOR_STAR_DREADNOUGHT"}},
+				{"GRUNGER", Locations = {"GRUNGER_AGGRESSOR"}},
+				{"BALAN", Locations = {"BALAN_JAVELIN"}},
+				{"DROMMEL", Locations = {"DROMMEL_GUARDIAN"}},
+				{"GRONN", Locations = {"GRONN_ACULEUS"}},
+				{"KIEZ", Locations = {"KIEZ_WHELM"}},
+				{"COMEG", Locations = {"COMEG_BELLATOR"}},
+				{"X1", Locations = {"X1_EXECUTOR"}},
+				{"THORN", Locations = {"THORN_ASSERTOR"}},
+			}
+		},
+
+		["BENJO_ALPHA_LOCATION_SET"] = {
+			Hero_Squadron = "BENJO_ALPHA_SQUADRON",
+			PopupBody = "BENJO_ALPHA_SELECTOR_BODY",
+			Options = {
+				{"VALEK", Locations = {"VALEK_REVENANT"}},
+				{"BETHROGG", Locations = {"BETHROGG_BEHEMOTH"}},
+				{"DAALA", Locations = {"DAALA_SCYLLA"}},
+				{"PELLAEON", Locations = {"PELLAEON_CHIMAERA_CAPTAIN","PELLAEON_CHIMAERA_GRAND","PELLAEON_REAPER","PELLAEON_MEGADOR"}},
+				{"SHADOW_VENGEANCE", Locations = {"SHADOW_VENGEANCE_STAR_DREADNOUGHT"}},
+			}
+		},
+
+		["YARNAR_LOCATION_SET"] = {
+			Hero_Squadron = "YARNAR_SQUADRON",
+			PopupBody = "YARNAR_SELECTOR_BODY",
+			Options = {
+				{"RAGEZ", Locations = {"RAGEZ_DASTA_MARAUDER"}},
+				{"MNISTA", Locations = {"MNISTA_QUASAR"}},
+				{"MANDATOR_III", Locations = {"MANDATOR_III_DREADNOUGHT"}},
 				{"GRUNGER", Locations = {"GRUNGER_AGGRESSOR"}},
 				{"BALAN", Locations = {"BALAN_JAVELIN"}},
 				{"DROMMEL", Locations = {"DROMMEL_GUARDIAN"}},
