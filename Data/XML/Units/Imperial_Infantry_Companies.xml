@@ -2307,6 +2307,8 @@
 		TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_10
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_SHADOW_EVO
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_Shadow_EVO_Trooper.tga</Icon_Name>
 
@@ -2350,6 +2352,8 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets/>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>195</Tactical_Build_Cost_Multiplayer>

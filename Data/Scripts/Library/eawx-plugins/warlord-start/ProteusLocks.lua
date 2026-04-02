@@ -65,6 +65,8 @@ return {
         --Tapani Sector added units
 		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company",
+		 --Imperial Garos added units (Needs AT_AT_Cargo and GAT)
+		 "Hutt_AA_Skiff_Company", "JX30_Company",
         --Protectorate of Prakith added units 
         "Red_Police_Company", "Imperial_Dark_Jedi_Company_Proteus", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
 		--Maelstrom Command added units
@@ -96,6 +98,7 @@ return {
 		"PDF_Tactical_Unit_Company",
         --Lumiya's Sith added units
 		"Royal_Guard_Stormtrooper_Company", "Sith_Knight_Company",
+		"Gorath_Research_Proteus",
 		--Rayter Sector added units
 		"Bulwark_II", "Bulwark_III",
 		--idk for what group
@@ -114,4 +117,6 @@ return {
 		"New_Republic_T47_Airspeeder_Company",
 		
 		"Imperial_AT_ACT_Walker_Company",
+		--Kashyyyk
+		"Trandoshan_Hunter_Company",
 }
