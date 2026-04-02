@@ -326,7 +326,7 @@ return {
 			UnlockList =
 			{"YZ_775_Freighter_Group", "Customs_Corvette", "Quasar", "Imperial_Nebulon_B", "Galleon", "Eidolon",
 			"Acclamator_II", "Acclamator_I_Carrier", "DHC_Carrier", "Immobilizer_418", "Proteus_Cargo_Ship",
-			"Acclamator_Destroyer", "Imperial_II_Star_Destroyer", "Shadow_Imperial_I_Star_Destroyer_Carrier",
+			"Acclamator_Destroyer", "Imperial_II_Star_Destroyer", "Imperial_I_Star_Destroyer_Stealth",
 			"Praetor_Carrier_Battlecruiser", "Assertor_Star_Dreadnought",
 			"Imperial_Army_Trooper_Company", "Imperial_Scout_Trooper_Company", "New_Republic_Overracer_Speeder_Bike_Company",
 			"Imperial_Bantha_II_Skiff_Company", "Imperial_Gaba18_Company", "Hutt_AA_Skiff_Company", "AT_MP_Company",
