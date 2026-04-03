@@ -3881,7 +3881,7 @@
 	
 	<GroundCompany Name="Imperial_AT_ACT_Walker_Company">
 	
-	<Text_ID>TEXT_UNIT_AT_ACT_WALKER</Text_ID>
+		<Text_ID>TEXT_UNIT_AT_ACT_WALKER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_ATACT
@@ -3938,7 +3938,7 @@
 		<Company_Units>AT_ACT_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1075</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3949,7 +3949,7 @@
 	</GroundCompany>
 
 
-<GroundCompany Name="Camo_AT_TE_Walker_Company">
+	<GroundCompany Name="Camo_AT_TE_Walker_Company">
 
 		<Text_ID>TEXT_UNIT_AT_TE_WALKER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
@@ -4013,7 +4013,7 @@
 
 	</GroundCompany>
 
-<GroundVehicle Name="Camo_AT_TE_Walker">
+	<GroundVehicle Name="Camo_AT_TE_Walker">
 		<Text_ID>TEXT_UNIT_AT_TE_WALKER</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
