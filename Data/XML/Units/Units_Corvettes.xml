@@ -6931,12 +6931,12 @@
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Recharge_Seconds>75.0</Recharge_Seconds>
 				<!-- <Active_By_Default>Yes</Active_By_Default> -->
-				<GUI_Activated_Ability_Name>Shadow_Imperial_I_Star_Destroyer_Carrier_Stealth</GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name>Shadow_Vigil_Stealth</GUI_Activated_Ability_Name> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Stealth_Ability Name="Shadow_Imperial_I_Star_Destroyer_Carrier_Stealth">
+			<Stealth_Ability Name="Shadow_Vigil_Stealth">
 				<Activation_Style> User_Input </Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Stealth_Color>255, 255, 255, 235</Stealth_Color>
