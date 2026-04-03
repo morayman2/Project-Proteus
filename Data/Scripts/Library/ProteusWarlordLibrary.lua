@@ -87,13 +87,13 @@ return {
 			HeroList = {"Getelles_Team", "Larm_Carrack"},
 			UnlockList = {
 				-- Ground
-				"Imperial_Army_Trooper_Company", "Imperial_Army_Guard_Company", "Imperial_Army_Commando_Company", "", "Imperial_Army_74Z_Bike_Company",
+				"Imperial_Army_Trooper_Company", "Imperial_Army_Guard_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
 				"RTT_Company", "AT_ST_Company", "Skyhopper_Company", "Skyhopper_Security_Company", "New_Republic_T47_Airspeeder_Company", 
 				"Imperial_LAAT_Company", "AT_AA_Flak_Walker_Company", "Imperial_AT_AP_Walker_Company", "TIE_Crawler_Company",
 				"A9_Floating_Fortress_Company", "Heavy_Recovery_Vehicle_Company",
 				-- Space
-				"IPV1", "Tarton", "Raider_II_Corvette", "Carrack_Cruiser", "Strike_Cruiser_Light", "Strike_Cruiser", "Strike_Interdictor", "Victory_II_Frigate",
-				"Proteus_Cargo_Ship", "Acclamator_II", "Gladiator_II", "Victory_II_Star_Destroyer", "Imperial_DHC", "Imperial_II_Star_Destroyer_Ion", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", 
+				"IPV1", "Tartan_Patrol_Cruiser", "Raider_II_Corvette", "Carrack_Cruiser", "Strike_Cruiser_Light", "Strike_Cruiser", "Strike_Interdictor", "Victory_II_Frigate",
+				"Proteus_Cargo_Ship", "Acclamator_II", "Gladiator_II", "Victory_II_Star_Destroyer", "Imperial_II_Frigate", "Imperial_II_Star_Destroyer_Ion", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", 
 				"Allegiance_Battlecruiser", "Torpedo_Sphere", "Bellator_Star_Dreadnought"
 			},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ANTEM",
