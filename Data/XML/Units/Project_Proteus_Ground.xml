@@ -3317,10 +3317,12 @@
 	<GroundVehicle Name="Imperial_AAT">
 		<Variant_Of_Existing_Type>AAT</Variant_Of_Existing_Type>
 
+		<Icon_Name>I_BUTTON_AAT_IMPERIAL.TGA</Icon_Name>
+
 		<HardPoints>
-			HP_AAT_Turret_CIS,
-			HP_AAT_Laser_1_CIS,
-			HP_AAT_Laser_2_CIS,
+			HP_AAT_Turret_Imperial,
+			HP_AAT_Laser_1_Imperial,
+			HP_AAT_Laser_2_Imperial,
 			HP_AAT_Missile,
 			HP_AAT_Missile_Alternate,
 			HP_AAT_Shortrange
@@ -3345,10 +3347,13 @@
 		<SFXEvent_Turret_Rotating_Loop>Structure_Turret_Motor_Turbo</SFXEvent_Turret_Rotating_Loop>
 		<Death_SFXEvent_Start_Die>Unit_Death_aat</Death_SFXEvent_Start_Die>
 
-		<Land_Model_Name>CIS_Armoured_assault_tank.alo</Land_Model_Name>
+		<Land_Model_Name>Armoured_assault_tank_imperial.alo</Land_Model_Name>
 	</GroundVehicle>
+
 	<GroundCompany Name="Imperial_AAT_Company">
 		<Variant_Of_Existing_Type>AAT_Company</Variant_Of_Existing_Type>
+
+		<Icon_Name>I_BUTTON_AAT_IMPERIAL.TGA</Icon_Name>
 
 		<Required_Special_Structures>I_Ground_Heavy_Vehicle_Factory | Baktoid_HQ</Required_Special_Structures>
 		
@@ -3366,7 +3371,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_2M_Tank</SFXEvent_Fleet_Move>
 
 	</GroundCompany>
-	
+
 	<GroundVehicle Name="HAGM">
 
 		<Text_ID>TEXT_UNIT_HAG</Text_ID>
@@ -3379,7 +3384,7 @@
 		TEXT_TOOLTIP_HAG_WEAP1
 		TEXT_TOOLTIP_HAG_WEAP2 
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_hag.tga</Icon_Name>
+		<Icon_Name>i_button_hag_imperial.tga</Icon_Name>
 
 		<Land_Model_Name>cis_hagm.alo</Land_Model_Name>
 		<No_Colorization_Color/>
@@ -3578,7 +3583,7 @@
 		TEXT_TOOLTIP_HAG_WEAP1 
 		TEXT_TOOLTIP_HAG_WEAP2 
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_hag.tga</Icon_Name>
+		<Icon_Name>i_button_hag_imperial.tga</Icon_Name>
 
 		<Damage>40</Damage>
 
