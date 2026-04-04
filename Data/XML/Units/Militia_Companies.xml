@@ -2491,10 +2491,10 @@
 		<Build_Cost_Credits>750</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures>I_Ground_Heavy_Vehicle_Factory</Required_Special_Structures>
+		<Required_Special_Structures>I_Ground_Heavy_Vehicle_Factory | TaggeCo_HQ</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>no</Build_Tab_Land_Units>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>yes</Build_Initially_Locked>
 		<Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
