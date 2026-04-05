@@ -13,7 +13,6 @@ function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
 	Define_State("State_Init", State_Init);
-	GlobalValue.Set("CURRENT_INDEX", 0)
 	proteus_groups = {
 		"LAMBDA", "ZERO_COMMAND", "ELROOD", "ANTEMERIDIAS", "WILD_SPACE", "PRENTIOCH", "SECTOR_5", "PRAKITH", 
 		"JARDEEN", "CIUTRIC_HEGEMONY", "ZSINJ_REMNANTS", "KAMINO", "NABOO", "RADAMA", "TAPANI", "GAROS", 
