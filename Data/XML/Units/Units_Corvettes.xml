@@ -1289,7 +1289,7 @@
 
 		<AI_Combat_Power>420</AI_Combat_Power>
 
-		<Affiliation>Independent_Forces, Warlords</Affiliation>
+		<Affiliation>Independent_Forces, Warlords, Imperial_Proteus</Affiliation>
 
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Create_Team>No</Create_Team>
@@ -1299,7 +1299,10 @@
 		<Maintenance_Cost>8</Maintenance_Cost>
 		<Population_Value>4</Population_Value>
 
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row> 1 </GUI_Row>

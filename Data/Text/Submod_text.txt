@@ -350,6 +350,14 @@ TEXT_TOOLTIP_ATXT_MOVE,Speed: 0.75 | Turn: 4.0
 TEXT_TOOLTIP_ATXT_SHIELD,Shields: 50 / [5/R] (Light Vehicle)
 TEXT_TOOLTIP_ATXT_WEAP1,1x Light AV Blaster Cannon: 4 / 2.0s / 320m
 TEXT_TOOLTIP_ATXT_WEAP2,2x Proton Grenades: 1 / 6.0s / 400m
+TEXT_TOOLTIP_AUXILIA,An antiquated but well-rounded cruiser. It was designed to run down pirate vessels by the Trade Defense Force several centuries before the Clone Wars, and commonly sees service alongside the Captor-class that shares its base design. Well suited to engaging medium capital ships and escort vessels.
+TEXT_TOOLTIP_AUXILIA_HULL,Hull: 2310 (Frigate)
+TEXT_TOOLTIP_AUXILIA_MOVE,Speed: 5.6 | Accel: 0.25 | Turn: 0.45
+TEXT_TOOLTIP_AUXILIA_SHIELD,Shields: 2500 / [25/R] (Frigate)
+TEXT_TOOLTIP_AUXILIA_WEAP1,2x Light Dual Turbolasers: 2 / 2.5s / 5.1km
+TEXT_TOOLTIP_AUXILIA_WEAP2,4x Light Turbolasers: 2 / 1.0s / 5.1km
+TEXT_TOOLTIP_AUXILIA_WEAP3,2x Light Dual Ion Cannons: 2 / 2.5s / 5.1km
+TEXT_TOOLTIP_AUXILIA_WEAP4,2x Concussion Missiles: 1 / 10.0s / 4.1km
 TEXT_TOOLTIP_AV7,A light, self-propelled artillery unit that saw extensive GAR use. Later guns in the series used a towed configuration, but this model uses a combination of repulsorlifts and legs for mobility and stability while firing.
 TEXT_TOOLTIP_AV7_COMPANY,Company: 1x AV-7 Antivehicle Cannon
 TEXT_TOOLTIP_AV7_HEALTH,Health: 50 (Heavy Vehicle)
@@ -383,6 +391,14 @@ TEXT_TOOLTIP_CAPITAL_TF6,Raider-I Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF7,Raider-II Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF8,Procursator Star Destroyer: 2 / 0
 TEXT_TOOLTIP_CAPITAL_TF9,Victory-II Star Destroyer: 2 / 0
+TEXT_TOOLTIP_CLASS_C,An unremarkable military escort vessel produced prior to the Clone Wars, carrying design lineages of both blocky escorts and sleeker triangular warships that would make up the Kuati product line in the decades to come. Predecessor to the Pelta and Nebulon series of vessels, it fills a similar tactical purpose to both as a multirole escort effective against a variety of target types.
+TEXT_TOOLTIP_CLASS_C_HULL,Hull: 1100 (Frigate)
+TEXT_TOOLTIP_CLASS_C_MOVE,Speed: 3.5 | Accel: 0.175 | Turn: 0.4
+TEXT_TOOLTIP_CLASS_C_PD,Point-Defense: 1 / 0.31s / 1.5km
+TEXT_TOOLTIP_CLASS_C_SHIELD,Shields: 900 / [15.75/R] (Frigate)
+TEXT_TOOLTIP_CLASS_C_SQUADRON,Fighters: 0.5 / 1 | Bombers: 0.5 / 0
+TEXT_TOOLTIP_CLASS_C_WEAP1,2x Light Turbolasers: 2 / 2.5s / 5.1km
+TEXT_TOOLTIP_CLASS_C_WEAP2,2x Medium Rapid Laser Cannons: 6 / 1.25s / 3.6km
 TEXT_TOOLTIP_CLONE_P2_COMMANDER_HEALTH,Health: 200 (Infantry)
 TEXT_TOOLTIP_CLONE_P2_COMPANY,Company: 36x Republic Surplus Troopers
 TEXT_TOOLTIP_CLONE_P2_COMPANY_WEAP1,10x Blaster Rifle: 1 / 1.0s / 240m
@@ -499,6 +515,13 @@ TEXT_TOOLTIP_LICTOR_HULL,Hull: 4200 (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_MOVE,Speed: 3.85 | Accel: 0.5 | Turn: 0.4
 TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [36.5/R] (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_WEAP1,1x :10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
+TEXT_TOOLTIP_LUPUS,Utilised by the Trade Federation prior to the Naboo Crisis, these missile frigates stayed in use for the early Clone Wars before being eventually phased out for more modern vessels, with the Lupus rarely seen in combat by the wars end. Their dense array of anti-fighter lasers and concussion missiles makes them a strong screener against fighters, with its relatively slow speed and lack of point-defense arrays being its only weaknesses for that role.
+TEXT_TOOLTIP_LUPUS_HULL,Hull: 850 (Frigate)
+TEXT_TOOLTIP_LUPUS_MOVE,Speed: 2.8 | Accel: 0.1 | Turn: 0.35
+TEXT_TOOLTIP_LUPUS_SHIELD,Shields: 700 / [12.25/R] (Corvette)
+TEXT_TOOLTIP_LUPUS_WEAP1,4x Heavy Dual Laser Cannons: 2 / 5.0s / 4.5km
+TEXT_TOOLTIP_LUPUS_WEAP2,2x Medium Laser Cannons: 2 / 5.0s / 4.0km
+TEXT_TOOLTIP_LUPUS_WEAP3,2x Concussion Missiles: 2 / 6.0s / 4.0km
 TEXT_TOOLTIP_MALLAT,An ISB agent still in active service to the Empire by 16ABY. In that same year, he responded to a request from Grand Moff Gann of Sector 5 for information on the Yevetha.
 TEXT_TOOLTIP_MANSK,A small starship manufactured by Tallaani Shipyards in the Tapani Sector. These ships would often serve in the fleets of the Tapani Noble Houses such as that of House Melantha.
 TEXT_TOOLTIP_MANSK_HULL,Hull: 600 (Corvette)
@@ -686,9 +709,11 @@ TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
 TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
+TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
 TEXT_UNIT_BAYONET,Bayonet-class Light Cruiser
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
+TEXT_UNIT_CLASS_C,Class-C Frigate
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_ASSAULT,Assault Eta-2 Actis Interceptor
@@ -701,12 +726,14 @@ TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
+TEXT_UNIT_GAT_COMPANY,GAT Company
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet-class Carrier
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
+TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_MANSK_FRIGATE,Mansk-class Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta-class Assault Fighter
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber

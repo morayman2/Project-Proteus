@@ -119,4 +119,8 @@ return {
 		"Imperial_AT_ACT_Walker_Company", "GAT_Company", "Imperial_I_Star_Destroyer_Stealth", "JX30_Company",
 		--Kashyyyk
 		"Trandoshan_Hunter_Company",
+		--Imperial Neimoidia added units
+		"Munifex",
+		--Tamarin Sector added units
+		"Guardian_Cruiser_Lasers_Group", "Lupus_Missile_Frigate", "Class_C_Frigate", "Auxilia",
 }

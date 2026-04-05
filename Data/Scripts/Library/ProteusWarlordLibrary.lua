@@ -487,7 +487,8 @@ return {
 			LeaderTable = {"RESUUN_RETRIBUTION"},
 			LeaderEndingNames = {"Emperor Resuun"},
 			HeroList = {"Resuun_Retribution"},
-			UnlockList = {"Customs_Corvette"},
+			UnlockList = {"Guardian_Cruiser_Lasers_Group", "Customs_Corvette", "Lupus_Missile_Frigate", "Class_C_Frigate", "Victory_II_Frigate",
+			"Immobilizer_418", "DHC_Carrier", "Proteus_Cargo_Ship", "Auxilia"},
 			--LockList = {"IPV1"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAMARIN",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
