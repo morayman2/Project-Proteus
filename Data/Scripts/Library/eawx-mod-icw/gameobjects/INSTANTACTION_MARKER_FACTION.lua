@@ -18,10 +18,10 @@ return {
 		["INSTANTACTION_MARKER_EMPIRE6"] = {
 			DEFAULT = {Initial = 1, Reserve = 0}
 		},
-		["INSTANTACTION_MARKER_PROJPROTEUS"] = {
+		["INSTANTACTION_MARKER_IMPERIAL_PROTEUS"] = {
 			DEFAULT = {Initial = 1, Reserve = 0}
 		},
-		["INSTANTACTION_MARKER_PROJPROTEUS2"] = {
+		["INSTANTACTION_MARKER_IMPERIAL_PROTEUS2"] = {
 			DEFAULT = {Initial = 1, Reserve = 0}
 		},
 	},

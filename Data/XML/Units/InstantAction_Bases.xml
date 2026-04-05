@@ -3560,7 +3560,7 @@
 
 	<!-- Project Proteus -->
 
-	<DummyStructure Name="InstantAction_Marker_ProjProteus">
+	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus">
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
@@ -3780,7 +3780,7 @@
 		</Tactical_Buildable_Objects_Campaign>
 	</DummyStructure>
 
-	<DummyStructure Name="InstantAction_Marker_ProjProteus2">
+	<DummyStructure Name="InstantAction_Marker_Imperial_Proteus2">
 		<Variant_Of_Existing_Type>InstantAction_Marker_Generic</Variant_Of_Existing_Type>
 		<Tech_Level>99</Tech_Level>
 		<Space_FOW_Reveal_Range>50000.0</Space_FOW_Reveal_Range>
