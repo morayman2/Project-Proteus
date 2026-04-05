@@ -32,11 +32,11 @@ return {
 			elseif proteus == "DASTA" then
 				fighter = "ARC_170_SQUADRON"
 			elseif proteus == "VOGEL" then
-				fighter = "TIE_X2_SQUADRON"
+				fighter = "TIE_GT_TORPS_SQUADRON"
 			elseif proteus == "BRAK" then
 				fighter = "ARC_170_SQUADRON"
 				if Get_Fighter_Research("BrakFighters") then
-					fighter = "TIE_DEFENDER_SQUADRON"
+					fighter = "TIE_AVENGER_ASSAULT_SQUADRON"
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "ARC_170_SQUADRON"
@@ -53,27 +53,59 @@ return {
 			elseif proteus == "WILD_SPACE" then
 				fighter = "ARC_170_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
-				fighter = "TRIFIGHTER_SQUADRON"
+				fighter = "STARWING_ASSAULT_SQUADRON"
 			elseif proteus == "JARDEEN" then
 				fighter = "TIE_AVENGER_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "ARC_170_SQUADRON"
+				fighter = "ARC_170_SQUADRON" --TBC
 			elseif proteus == "LUMIYA" then
-				fighter = "TIE_DEFENDER_SQUADRON"
+				fighter = "TIE_AVENGER_TORPS_SQUADRON"
 			elseif proteus == "ARDA" then
-				fighter = "TIE_X2_SQUADRON"
+				fighter = "STARWING_ASSAULT_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "TIE_DEFENDER_SQUADRON"
-			elseif proteus == "RAYTER" then
-				fighter = "IXIYEN_FIGHTER_SQUADRON"
 			elseif proteus == "KUAT" then
 				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "TOSCAN_MISSILE_SQUADRON"
+				fighter = "DREXL_SQUADRON" --TBC
 			elseif proteus == "TAMARIN" then
 				fighter = "BTLA4_YWING_STARFIGHTER_SQUADRON"
 			elseif proteus == "BAKURA" then
 				fighter = "TIE_GT_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "ARC_170_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "ARC_170_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "ARC_170_SQUADRON"
+			elseif proteus == "RADAMA" then
+				fighter = "TIE_DEFENDER_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "ARC_170_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "ARC_170_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "IXIYEN_FIGHTER_SQUADRON"
+			--elseif proteus == "WESSEX" then
+				--fighter = ""
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			--elseif proteus == "QUINTAD" then
+				--fighter = ""
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "TIE_DEFENDER_SQUADRON"
+			--elseif proteus == "GAROS" then
+				--fighter = ""
+			--elseif proteus == "NABOO" then
+				--fighter = ""
+			--elseif proteus == "KAMINO" then
+				--fighter = ""
+			--elseif proteus == "CIUTRIC_HEGEMONY" then
+				--fighter = ""
+			--elseif proteus == "ZERO_COMMAND" then
+				--fighter = ""
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
 			end
 		end
 		
