@@ -11736,7 +11736,7 @@
 
 	<UpgradeObject Name="IA_Shadow_Acclamator_I_Carrier">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium</Affiliation>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
