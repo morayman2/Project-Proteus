@@ -5,7 +5,7 @@
 
 	<UpgradeObject Name="IA_Set_Empire">
 		<Behavior>DUMMY_UPGRADE</Behavior>
-		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium</Affiliation>
+		<Affiliation>Empire, Rebel, Underworld, Independent_Forces, Hutt_Cartels, Eriadu_Authority, Greater_Maldrood, Pentastar, Zsinj_Empire, Corellia, Corporate_Sector, Hapes_Consortium, Yevetha, EmpireoftheHand, SsiRuuvi_Imperium, Imperial_Proteus</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>1</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 3 </Tactical_Build_Time_Seconds>
@@ -119,6 +119,13 @@
 		<Icon_Name>I_BUTTON_FACTION_YEVETHAN.TGA</Icon_Name>
 		<Text_ID>TEXT_FACTION_DUSKHAN_LEAGUE </Text_ID>
 	</UpgradeObject>
+
+	<UpgradeObject Name="IA_Set_Imperial_Proteus">
+		<Variant_Of_Existing_Type>IA_Set_Empire</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_FACTION_WARLORD.TGA</Icon_Name>
+		<Text_ID>TEXT_FACTION_WARLORDS</Text_ID>
+	</UpgradeObject>
+
 
 <!-- Hapan Units -->
 
