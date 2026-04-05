@@ -13,7 +13,7 @@ function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
 	Define_State("State_Init", State_Init);
-	index = 0
+	GlobalValue.Set("CURRENT_INDEX", 0)
 	proteus_groups = {
 		"LAMBDA", "ZERO_COMMAND", "ELROOD", "ANTEMERIDIAS", "WILD_SPACE", "PRENTIOCH", "SECTOR_5", "PRAKITH", 
 		"JARDEEN", "CIUTRIC_HEGEMONY", "ZSINJ_REMNANTS", "KAMINO", "NABOO", "RADAMA", "TAPANI", "GAROS", 
@@ -41,6 +41,7 @@ function State_Init(message)
 		local factionName = string.gsub(setterName, "IA_SET_", "")
 		GlobalValue.Set("IA_FACTION", factionName)
 		if factionName == "IMPERIAL_PROTEUS" then
+			local index = GlobalValue.Get("CURRENT_INDEX")
 			index = index + 1
 			if index > 42 then
 				index = 1
@@ -49,6 +50,7 @@ function State_Init(message)
 			local proteus_friendly_name = proteus_displayed_names[index]
 			GlobalValue.Set("PROTEUS_GROUP_NAME",proteus_group_name)
 			StoryUtil.ShowScreenText("Imperial Proteus group set to"..proteus_friendly_name, 10, nil, {r=255, g=255, b=255})
+			GlobalValue.Set("CURRENT_INDEX", index)
 		end
 
 		ScriptExit()
