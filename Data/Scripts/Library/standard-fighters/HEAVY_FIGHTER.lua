@@ -62,19 +62,19 @@ return {
 		if owner == "IMPERIAL_PROTEUS" then
 			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
 			if proteus == "TAGGE" then
-				fighter = "TIE_GT_SQUADRON"
+				fighter = "TIE_GT_TORPS_SQUADRON"
 			elseif proteus == "TIERFON" then
-				fighter = "TIE_DEFENDER_SQUADRON"
+				fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SELLASAS" then
-				fighter = "TIE_AVENGER_SQUADRON"
+				fighter = "ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "DASTA" then
 				fighter = "T_WING_SQUADRON"
 			elseif proteus == "VOGEL" then
 				fighter = "TIE_AGGRESSOR_SQUADRON"
 			elseif proteus == "BRAK" then
-				fighter = "TIE_GT_SQUADRON"
+				fighter = "MODERN_CLOAKSHAPE_SQUADRON"
 				if Get_Fighter_Research("BrakFighters") then
-					fighter = "TIE_X2_SQUADRON"
+					fighter = "ARC_170_SQUADRON"
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "TIE_GT_SQUADRON"
@@ -85,17 +85,17 @@ return {
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "CLOAKSHAPE_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
-				fighter = "TIE_AVENGER_SQUADRON"
+				fighter = "TIE_AVENGER_TORPS_SQUADRON"
 			elseif proteus == "ELROOD" then
 				fighter = "PREYBIRD_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
-				fighter = "PREYBIRD_SQUADRON"
+				fighter = "MODERN_CLOAKSHAPE_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
 				fighter = "TIE_AGGRESSOR_SQUADRON"
 			elseif proteus == "JARDEEN" then
-				fighter = "SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
+				fighter = "STARWING_FIGHTER_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "TIE_X1_SQUADRON"
+				fighter = "BELBULLAB_22_SQUADRON"
 			elseif proteus == "LUMIYA" then
 				fighter = "TIE_SENTINEL_SQUADRON"
 			elseif proteus == "ARDA" then
@@ -105,11 +105,45 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "TIE_AVENGER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "DREXL_SQUADRON"
+				fighter = "TIE_AVENGER_SQUADRON"
 			elseif proteus == "TAMARIN" then
 				fighter = "TOSCAN_GUNSHIP_SQUADRON"
 			elseif proteus == "BAKURA" then
 				fighter = "ARMORED_INTERCEPTOR_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "Z95_HEADHUNTER_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "TIE_SENTINEL_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "TIE_V1_SQUADRON"
+			elseif proteus == "RADAMA" then
+				fighter = "TIE_DEFENDER_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "MODERN_CLOAKSHAPE_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "ARMORED_INTERCEPTOR_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "TIE_FIGHTER_SQUADRON" --TBC
+			--elseif proteus == "WESSEX" then
+				--fighter = ""
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			--elseif proteus == "QUINTAD" then
+				--fighter = ""
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "TIE_AVENGER_SQUADRON"
+			--elseif proteus == "GAROS" then
+				--fighter = ""
+			--elseif proteus == "NABOO" then
+				--fighter = ""
+			--elseif proteus == "KAMINO" then
+				--fighter = ""
+			--elseif proteus == "CIUTRIC_HEGEMONY" then
+				--fighter = ""
+			--elseif proteus == "ZERO_COMMAND" then
+				--fighter = ""
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
 			end
 		end
 		
