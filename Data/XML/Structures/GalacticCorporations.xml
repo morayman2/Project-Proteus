@@ -2266,7 +2266,7 @@
 	<SpecialStructure Name="SoroSuub_HQ_Cheap">
 		<Variant_Of_Existing_Type>SoroSuub_HQ</Variant_Of_Existing_Type>
 
-		<Affiliation>Eriadu_Authority</Affiliation>
+		<Affiliation>Eriadu_Authority, Imperial_Proteus</Affiliation>
 
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 	</SpecialStructure>

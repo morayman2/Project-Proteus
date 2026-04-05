@@ -8865,9 +8865,9 @@
 		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
     </HardPoint>
 	
-	<!-- CIS AAT -->
+	<!-- Imperial AAT -->
 
-	<HardPoint Name="HP_AAT_Turret_CIS">
+	<HardPoint Name="HP_AAT_Turret_Imperial">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -8877,7 +8877,7 @@
 		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
 
-		<Model_To_Attach>CIS_Armoured_assault_tank_gun_main.alo</Model_To_Attach>
+		<Model_To_Attach>Armoured_assault_tank_gun_main_imperial.alo</Model_To_Attach>
 		<Attachment_Bone>ATTACH_00</Attachment_Bone>
 
 		<Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
@@ -8915,7 +8915,7 @@
 		<!-- AA Accurate -->
 	</HardPoint>
 
-	<HardPoint Name="HP_AAT_Laser_1_CIS">
+	<HardPoint Name="HP_AAT_Laser_1_Imperial">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -8925,7 +8925,7 @@
 		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
 
-		<Model_To_Attach>CIS_Armoured_assault_tank_gun_left.alo</Model_To_Attach>
+		<Model_To_Attach>Armoured_assault_tank_gun_left_imperial.alo</Model_To_Attach>
 		<Attachment_Bone>ATTACH_01</Attachment_Bone>
 		<Collision_Mesh>Coll</Collision_Mesh>
 
@@ -8962,7 +8962,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-	<HardPoint Name="HP_AAT_Laser_2_CIS">
+	<HardPoint Name="HP_AAT_Laser_2_Imperial">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
@@ -8972,7 +8972,7 @@
 		<Death_Explosion_Particles> Small_Explosion_Land </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent> Unit_Hardpoint_Laser_Death </Death_Explosion_SFXEvent>
 
-		<Model_To_Attach>CIS_Armoured_assault_tank_gun_right.alo</Model_To_Attach>
+		<Model_To_Attach>Armoured_assault_tank_gun_right_imperial.alo</Model_To_Attach>
 		<Attachment_Bone>ATTACH_02</Attachment_Bone>
 		<Collision_Mesh>Coll</Collision_Mesh>
 
@@ -9009,7 +9009,7 @@
 		<Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-<!-- HAG -->
+	<!-- HAG -->
 	<HardPoint Name="HP_HAG_Laser">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>

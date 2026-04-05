@@ -23,10 +23,23 @@ TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON,Upgunned Heavy TIE Intercept
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Upgunned Heavy TIE Interceptor Squadron 1/2
 TEXT_ARMORED_SHIELDED_INTERCEPTOR_UPGUNNED_SQUADRON2,Upgunned Heavy TIE Interceptor Squadron x2
 TEXT_ATXT_SQUAD,AT-XT Walker Company
+TEXT_BELBULLAB22_SQUADRON,Belbullab-22 Squadron
+TEXT_BELBULLAB22_SQUADRON_HALF,Belbullab-22 Squadron 1/2
+TEXT_BELBULLAB22_SQUADRON2,Belbullab-22 Squadron x2
+TEXT_BELBULLAB23_SQUADRON,Belbullab-23 Squadron
+TEXT_BELBULLAB24_SQUADRON,Belbullab-24 Squadron
+TEXT_BELBULLAB24_SQUADRON_HALF,Belbullab-24 Squadron 1/2
+TEXT_BELBULLAB24_SQUADRON2,Belbullab-24 Squadron x2
+TEXT_BTLA2_Y_WING_SQUADRON,BTL-A2 Y-wing Squadron
+TEXT_BTLA2_Y_WING_SQUADRON_HALF,BTL-A2 Y-wing Squadron 1/2
+TEXT_BTLA2_Y_WING_SQUADRON2,BTL-A2 Y-wing Squadron x2
 TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate_Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an Organization overseeing all aspects of various Imperial Intelligence Agencies. Provides intel on nearby planets in a large radius.
+TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
+TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
+TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
 TEXT_DISPLAY_TIERFON_CAPITAL,Construction Station: Tierfon Sector Fleet HQ
 TEXT_ECONOMY_BISCUIT_BARON,Biscuit Baron - Income
 TEXT_ENCYCLOPEDIA_BISCUIT_BARON,A popular casual dining franchise with a logo bearing the likeness of the late Baron Orman Tagge. One of the largest restaurant chains across the galaxy, Biscuit Baron is a symbol of TaggeCo's omnipresence and soft power and provides the House of Tagge with income and goodwill from the local population. Any assertions that their products can turn into ravenous bioweapons are vigorously disputed by TaggeCo's legal team.
@@ -61,6 +74,7 @@ TEXT_HERO_DOMINA_TAGGE,Domina Tagge
 TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_KLEMP,Klemp
 TEXT_HERO_MALLAT,Zeven Mallat
+TEXT_HERO_MERILI,Merili
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
 TEXT_HERO_TEZRIN,Dongal Tezrin
@@ -115,6 +129,44 @@ TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_DOUBLE,Squadron: 24x Upgunne
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Squadron: 6x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_WEAP2,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_BENJO_BASE,Health: 300 | Unshielded
+TEXT_STATBLOCK_BELBULLAB22_BASE,Health: 16 | Shields: 6
+TEXT_STATBLOCK_BELBULLAB22_GRIEVOUS_BASE,Health: 220 | Shields: 200
+TEXT_STATBLOCK_BELBULLAB22_MOVE,Speed: 5.05 | Maneuverability: 3.94
+TEXT_STATBLOCK_BELBULLAB22_SQUADRON,Squadron: 12x Belbullab-22
+TEXT_STATBLOCK_BELBULLAB22_SQUADRON_DOUBLE,Squadron: 24x Belbullab-22
+TEXT_STATBLOCK_BELBULLAB22_SQUADRON_HALF,Squadron: 6x Belbullab-22
+TEXT_STATBLOCK_BELBULLAB22_WEAP1,1x Fighter Laser Cannon: 6 / 2.0s / 1.0km
+TEXT_STATBLOCK_BELBULLAB23_ESCORT_BASE,Health: 140 | Shields: 80
+TEXT_STATBLOCK_BELBULLAB23_MOVE,Speed: 4.8 | Maneuverability: 3.75
+TEXT_STATBLOCK_BELBULLAB23_NWON_RAINES_BASE,Health: 280 | Shields: 160
+TEXT_STATBLOCK_BELBULLAB23_SQUADRON,Squadron: 12x Belbullab-23
+TEXT_STATBLOCK_BELBULLAB23_WEAP1,1x Fighter Laser Cannon: 6 / 2.0s / 1.0km
+TEXT_STATBLOCK_BELBULLAB23_WEAP2,1x Fighter Concussion Missile: 1 / 37.5s / 1.8km
+TEXT_STATBLOCK_BELBULLAB24_BASE,Health: 16 | Shields: 6
+TEXT_STATBLOCK_BELBULLAB24_MOVE,Speed: 4.55 | Maneuverability: 3.55
+TEXT_STATBLOCK_BELBULLAB24_SQUADRON,Squadron: 12x Belbullab-24
+TEXT_STATBLOCK_BELBULLAB24_SQUADRON_DOUBLE,Squadron: 24x Belbullab-24
+TEXT_STATBLOCK_BELBULLAB24_SQUADRON_HALF,Squadron: 6x Belbullab-24
+TEXT_STATBLOCK_BELBULLAB24_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_BELBULLAB24_WEAP2,1x Proton Rocket (AC): 1 / 25.0s / 3.0km
+TEXT_STATBLOCK_BELBULLAB24_WEAP3,1x Concussion Bomb (AC): 1 / 30.0s / 0.8km
+TEXT_STATBLOCK_BTLA2_YWING_BASE,Health: 18 | Shields: 8
+TEXT_STATBLOCK_BTLA2_YWING_MOVE,Speed: 4.26 | Maneuverability: 3.15
+TEXT_STATBLOCK_BTLA2_YWING_SQUADRON,Squadron: 12x BTL-A2 Y-wing
+TEXT_STATBLOCK_BTLA2_YWING_SQUADRON_DOUBLE,Squadron: 24x BTL-A2 Y-wing
+TEXT_STATBLOCK_BTLA2_YWING_SQUADRON_HALF,Squadron: 6x BTL-A2 Y-wing
+TEXT_STATBLOCK_BTLA2_YWING_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_BTLA2_YWING_WEAP2,1x Heavy Fighter Proton Torpedo: 1 / 30.0s / 1.4km
+TEXT_STATBLOCK_BTLB_YWING_JEDI_BASE,Health: 300 [2%/5s] | Shields: 80
+TEXT_STATBLOCK_BTLB_YWING_SHADOW_BASE,Health: 110 | Shields: 60
+TEXT_STATBLOCK_COYOTE_BOMBER_BASE,Health: 10 | Shields: 3
+TEXT_STATBLOCK_COYOTE_BOMBER_MOVE,Speed: 5.85 | Maneuverability: 4.25
+TEXT_STATBLOCK_COYOTE_BOMBER_SQUADRON,Squadron: 24x Coyote Advanced Droid Bomber
+TEXT_STATBLOCK_COYOTE_BOMBER_SQUADRON_DOUBLE,Squadron: 48x Coyote Advanced Droid Bomber
+TEXT_STATBLOCK_COYOTE_BOMBER_SQUADRON_HALF,Squadron: 12x Coyote Advanced Droid Bomber
+TEXT_STATBLOCK_COYOTE_BOMBER_WEAP1,3x Fighter Laser Cannons: 2 / 3.0s / 1.0km
+TEXT_STATBLOCK_COYOTE_BOMBER_WEAP2,1x Light Proton Rocket (AC): 1 / 30.0s / 3.0km
+TEXT_STATBLOCK_COYOTE_BOMBER_WEAP3,1x Light Concussion Bomb (AC): 1 / 25.0s / 0.8km
 TEXT_STATBLOCK_ETA2_ASSAULT_SQUADRON,Squadron: 12x Assault Eta-2 Actis Interceptor
 TEXT_STATBLOCK_ETA2_ASSAULT_SQUADRON_DOUBLE,Squadron: 24x Assault Eta-2 Actis Interceptor
 TEXT_STATBLOCK_ETA2_ASSAULT_SQUADRON_HALF,Squadron: 6x Assault Eta-2 Actis Interceptor
@@ -178,6 +230,15 @@ TEXT_STATBLOCK_NTB_630_SQUADRON_HALF,Squadron: 6x NTB-630
 TEXT_STATBLOCK_NTB_630_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_NTB_630_WEAP2,1x Proton Rocket (AC): 1 / 12.5s / 3.0km
 TEXT_STATBLOCK_NTB_630_WEAP3,1x Concussion Bomb (AC): 1 / 15.0s / 0.8km
+TEXT_STATBLOCK_REPUBLIC_Z95_BASE,Health: 15 | Shields: 4
+TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE,Health: 130 | Shields: 50
+TEXT_STATBLOCK_REPUBLIC_Z95_MOVE,Speed: 4.61 | Maneuverability: 4.03
+TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON,Squadron: 12x Republic Z-95 Headhunter
+TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON_DOUBLE,Squadron: 24x Republic Z-95 Headhunter
+TEXT_STATBLOCK_REPUBLIC_Z95_SQUADRON_HALF,Squadron: 6x Republic Z-95 Headhunter
+TEXT_STATBLOCK_REPUBLIC_Z95_WARTHOG_BASE,Health: 275 | Shields: 100
+TEXT_STATBLOCK_REPUBLIC_Z95_WEAP1,1x Fighter Laser Cannon: 6 / 3.0s / 1.0km
+TEXT_STATBLOCK_REPUBLIC_Z95_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_REPUBLICTIE_BASE,Health: 11 | Unshielded
 TEXT_STATBLOCK_REPUBLICTIE_MOVE,Speed: 7.65 | Maneuverability: 4.5
 TEXT_STATBLOCK_REPUBLICTIE_SQUADRON,Squadron: 12x T.I.E. Starfighter
@@ -370,8 +431,12 @@ TEXT_TOOLTIP_BAYONET_SHIELD,Shields: 752 (12.5R) (Frigate)
 TEXT_TOOLTIP_BAYONET_WEAP1,4x Heavy Turbolasers: 2 / 5.0s / 8.1km
 TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.835s / 4.1km
 TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
+TEXT_TOOLTIP_BELBULLAB22,Fighter created by the Techno Union in preparation for the Clone Wars to serve as a bulkier and hardier support and escort element within CIS fighter groups. Famously used in a modified form by General Grievous as his personal starfighter, the design had mild continuity among mercenary groups, Force users and resistance cells afterwards.
+TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault craft. Armed with heavier weaponry, it is well suited to engage Republic fighters such as the ARC-170, but is more rarely sighted compared to the more standard fighter and bomber Belbullab starfighters.
+TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings, ARC-170s and NTB-630s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Defender models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
+TEXT_TOOLTIP_BTLA2_Y_WING,Early model of Y-wing tuned more towards a multirole fighter than assault bomber role. Reduced shield strength provides an increase in engine power and the weapon loadout is optimized for both its combat role and control by a single pilot. This variant lacks even the fixed-forward ions that later attempts at the concept will include.
 TEXT_TOOLTIP_BUILDLIMIT_BISCUIT_BARON,Build Limit: 1 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_DARK_JEDI,Build Limit: 5 | Total: ∞
 TEXT_TOOLTIP_BUILDLIMIT_DASTA_TRADE_STATION,Build Limit: 1 | Total: 30
@@ -446,6 +511,7 @@ TEXT_TOOLTIP_CONSULAR_REFIT,A common armed configuration for the Consular cruise
 TEXT_TOOLTIP_CONSULAR_REFIT_WEAP1,4x Light Turbolasers: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_CONSULAR_REFIT_WEAP2,1x Assault Concussion Missile: 2 / 10.0s / 7.0km
 TEXT_TOOLTIP_CONSULAR_SHIELD,Shields: 400 / [8/R] (Corvette)
+TEXT_TOOLTIP_COYOTE_BOMBER,This wartime direct upgrade to an older Droid Bomber design spun off from the Vulture series. Employed by the Trade Federation in the subjugation of its corporate interests, and would fly under CIS colors when the Trade Federation pledged its military to the Separatists. It is similar to its peer the Hyena Bomber in role and power, swarming enemy capital ships to cripple or eliminate them while pushing through Republic fighter forces. Unusually for the size and design it is equipped with a weak shield, though it does make other performance sacrifices in comparison.
 TEXT_TOOLTIP_DIAMOND,A Commerce Guild transport and cruiser fitted with a respectable number of laser batteries. It is often used as a fast and secure courier vessel by ranking corporate individuals. Serves as an anti-fighter screen in fleet engagements.
 TEXT_TOOLTIP_DIAMOND_HULL,Hull: 900 (Frigate)
 TEXT_TOOLTIP_DIAMOND_MOVE,Speed: 5.6 | Accel: 0.175 | Turn: 0.4
@@ -531,6 +597,10 @@ TEXT_TOOLTIP_MANSK_SHIELD,Shields: 720 / [16.2/R] (Corvette)
 TEXT_TOOLTIP_MANSK_WEAP1,1x Light Ion Cannon: 1 / 5.0s / 5.0km
 TEXT_TOOLTIP_MANSK_WEAP2,6x Light Dual Rapid Laser Cannons: 6 / 5.0s / 3.0km
 TEXT_TOOLTIP_MANTA_FIGHTER,Tapani Assault starfighter favored all over the Tapani Sector. The Manta Fighter was designed to defend against pirates and is thus not well suited to strikes against capital ships, however its impressive speed makes it great at chasing down enemy fighters.
+TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of the Dark Side and later became one half of the Emperor's Eyes. Her training with esoteric Force techniques under various masters, including Cronal and his daughter Sariss, drove her to insanity. Following the Emperor's apparent death over Endor, she was assigned to watch over Grand Admiral Pecatti Syn to keep him in line.
+TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
+TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
+TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
@@ -557,6 +627,7 @@ TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
+TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
 TEXT_TOOLTIP_SHADOW_ACCLAMATOR_I,A large, transgalactic assault vessel that was secretly developed before the Clone Wars. While best known for carrying army groups, it is typically used as a carrier in naval duties. Carries enough turbolasers to threaten other large ships, but is not durable for the size. Coated in black stygian-triprismatic polymer, this vessel was almost impossible to detect at sensor range and nearly invisible to the naked eye in deep space.
 TEXT_TOOLTIP_SHADOW_ATAT,The Shadow AT-AT was an All Terrain Armored Transport walker covered with gleaming black armor. Utilized by the Galactic Empire during the Galactic Civil War fought against the Alliance to Restore the Republic, the Shadow AT-AT was created solely for the purpose of intimidating enemy forces rather than performing stealth operations. The Alliance's soldiers found the Shadow AT-AT to be one of the most frightening specters on the battlefield. 
 TEXT_TOOLTIP_SHADOW_ATAT_COMPANY,Company: 1x Shadow AT-AT Walker
@@ -712,9 +783,14 @@ TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
 TEXT_UNIT_BAYONET,Bayonet-class Light Cruiser
+TEXT_UNIT_BELBULLAB22,Belbullab-22
+TEXT_UNIT_BELBULLAB23,Belbullab-23
+TEXT_UNIT_BELBULLAB24,Belbullab-24
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_CLASS_C,Class-C Frigate
+TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
+TEXT_UNIT_COYOTE_BOMBER,Coyote Advanced Droid Bomber
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_ASSAULT,Assault Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_DEFENSIVE,Heavy Defense Eta-2 Actis Interceptor
@@ -752,6 +828,7 @@ TEXT_UNIT_PHASE_TWO_SQUAD,Republic Surplus Trooper Squad
 TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
 TEXT_UNIT_REPUBLIC_TIE,T.I.E. Starfighter
+TEXT_UNIT_REPUBLIC_Z95_HEADHUNTER,Republic Z-95 Headhunter
 TEXT_UNIT_SHADOW_ACCLAMATOR_I,Shadow Acclamator-I Cruiser (Carrier)
 TEXT_UNIT_SHADOW_AT_AT_WALKER,Shadow AT-AT Walker
 TEXT_UNIT_SHADOW_SCOUT_TROOPER_ASSAULT_SQUAD,Shadow Scout Trooper Carbineer Squad 
