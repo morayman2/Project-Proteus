@@ -20,7 +20,10 @@ return {
 		},
 		["INSTANTACTION_MARKER_PROJPROTEUS"] = {
 			DEFAULT = {Initial = 1, Reserve = 0}
-		}
+		},
+		["INSTANTACTION_MARKER_PROJPROTEUS2"] = {
+			DEFAULT = {Initial = 1, Reserve = 0}
+		},
 	},
 	Scripts = {"fighter-spawn"},
 	Flags = {HANGAR = true, RAPIDDEPLOY = true}
