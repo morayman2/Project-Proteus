@@ -2632,7 +2632,7 @@
 		</HardPoints>
 	</SpaceUnit>
 	
-		<SpaceUnit Name="Bayonet_Cruiser">
+	<SpaceUnit Name="Bayonet_Cruiser">
 
 		<Text_ID>TEXT_UNIT_BAYONET</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 39</Encyclopedia_Unit_Class>
@@ -2855,7 +2855,7 @@
 		<Custom_Hard_XExtent> 1.0 </Custom_Hard_XExtent>
 		<Custom_Hard_YExtent> 1.0 </Custom_Hard_YExtent>
 
-	   <Ranking_In_Category>7</Ranking_In_Category>
+	   	<Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>5.6</Max_Speed> 
 		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
