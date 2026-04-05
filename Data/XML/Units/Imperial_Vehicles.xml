@@ -2769,7 +2769,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
-<!--
+	
+	<!--
 	<Death_Clone Name="TIE_Mauler_Death_Clone">
 		<Variant_Of_Existing_Type>TIE_Mauler</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -2785,7 +2786,8 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<Land_Model_Name>EV_TIECRAWLER_D.ALO</Land_Model_Name>
-	</Death_Clone> -->
+	</Death_Clone> 
+	-->
 
 	<!-- Heavy Vehicle Factory -->
 

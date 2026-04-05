@@ -5226,7 +5226,7 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
@@ -5400,7 +5400,7 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
@@ -7777,7 +7777,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -7796,7 +7796,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_Avenger_Torps_Squadron">
 
@@ -7880,7 +7880,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -7888,7 +7888,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Torps_Squadron_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON</Text_ID>
@@ -8058,7 +8058,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -8066,7 +8066,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Torps_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON2</Text_ID>
@@ -8224,7 +8224,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Squadron_Units>TIE_Avenger_Torps, TIE_Avenger_Torps, TIE_Avenger_Torps, TIE_Avenger_Torps, TIE_Avenger_Torps, TIE_Avenger_Torps</Squadron_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -8233,7 +8233,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Torps_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON_HALF</Text_ID>
@@ -8454,7 +8454,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -8473,7 +8473,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_Avenger_Assault_Squadron">
 
@@ -8557,7 +8557,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -8565,7 +8565,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Assault_Squadron_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON</Text_ID>
@@ -8735,7 +8735,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -8743,7 +8743,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Assault_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON2</Text_ID>
@@ -8901,7 +8901,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Squadron_Units>TIE_Avenger_Assault, TIE_Avenger_Assault, TIE_Avenger_Assault, TIE_Avenger_Assault, TIE_Avenger_Assault, TIE_Avenger_Assault</Squadron_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -8910,7 +8910,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Assault_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON_HALF</Text_ID>
@@ -9133,7 +9133,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -9152,7 +9152,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_Avenger_Bomber_Squadron">
 
@@ -9237,7 +9237,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -9245,7 +9245,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Bomber_Squadron_Container">
 		<Text_ID>TEXT_TIE_AVENGER_BOMBER_SQUADRON</Text_ID>
@@ -9417,7 +9417,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -9425,7 +9425,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Bomber_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON2</Text_ID>
@@ -9585,7 +9585,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Squadron_Units>TIE_Avenger_Bomber, TIE_Avenger_Bomber, TIE_Avenger_Bomber, TIE_Avenger_Bomber, TIE_Avenger_Bomber, TIE_Avenger_Bomber</Squadron_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -9594,7 +9594,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Bomber_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_AVENGER_BOMBER_SQUADRON_HALF</Text_ID>
@@ -9818,7 +9818,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Build_Cost_Credits>60</Build_Cost_Credits>
@@ -9834,7 +9834,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_gt_Torps_Squadron">
 
@@ -9918,7 +9918,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -9926,7 +9926,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_gt_Torps_Squadron_Container">
 		<Text_ID>TEXT_TIE_GT_TORPS_SQUADRON</Text_ID>
@@ -10096,7 +10096,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -10104,7 +10104,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_gt_Torps_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_GT_TORPS_SQUADRON2</Text_ID>
@@ -10261,7 +10261,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Squadron_Units>TIE_gt_Torps, TIE_gt_Torps, TIE_gt_Torps, TIE_gt_Torps, TIE_gt_Torps, TIE_gt_Torps</Squadron_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -10270,7 +10270,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_gt_Torps_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_GT_SQUADRON_HALF</Text_ID>
@@ -10495,7 +10495,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Build_Cost_Credits>60</Build_Cost_Credits>
@@ -10511,7 +10511,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="TIE_gt_Bomber_Squadron">
 
@@ -10596,7 +10596,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -10604,7 +10604,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_gt_Bomber_Squadron_Container">
 		<Text_ID>TEXT_TIE_GT_BOMBER_SQUADRON</Text_ID>
@@ -10776,7 +10776,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -10784,7 +10784,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_gt_Bomber_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_GT_BOMBER_SQUADRON2</Text_ID>
@@ -10943,7 +10943,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Squadron_Units>TIE_gt_Bomber, TIE_gt_Bomber, TIE_gt_Bomber, TIE_gt_Bomber, TIE_gt_Bomber, TIE_gt_Bomber</Squadron_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -10952,7 +10952,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_gt_Bomber_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_GT_BOMBER_SQUADRON_HALF</Text_ID>
@@ -13129,7 +13129,7 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
@@ -13303,7 +13303,7 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Unit_Abilities_Data SubObjectList="Yes">
+		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
