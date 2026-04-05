@@ -315,7 +315,7 @@
 		<Required_Planets/>
 		<Company_Units> Hutt_Flare_S_Company_Dummy </Company_Units>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>355</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
@@ -697,7 +697,7 @@
 		<Company_Units>Hutt_Personnel_Skiff_IV, Hutt_Personnel_Skiff_IV, Hutt_Personnel_Skiff_IV</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>455</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>

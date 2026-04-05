@@ -61,7 +61,7 @@
 		<Company_Units>PX10, PX10, PX10, PX10, PX10, PX10</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>345</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -132,7 +132,7 @@
 		<Company_Units>AT_PT_Walker, AT_PT_Walker, AT_PT_Walker, AT_PT_Walker, AT_PT_Walker, AT_PT_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>330</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -203,7 +203,7 @@
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>355</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
@@ -337,7 +337,7 @@
 		<Company_Units>AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>370</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -430,7 +430,7 @@
 		<Company_Units>1L_Tank, 1L_Tank, 1L_Tank, 1L_Tank</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -498,7 +498,7 @@
 		<Company_Units>Imperial_ULAV, Imperial_ULAV, Imperial_ULAV, Imperial_ULAV</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>455</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -566,7 +566,7 @@
 		<Company_Units>Shadow_ULAV, Shadow_ULAV, Shadow_ULAV, Shadow_ULAV</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>455</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -639,7 +639,7 @@
 		<Company_Units>AT_ST_A_Walker, AT_ST_A_Walker, AT_ST_A_Walker, AT_ST_A_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>440</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -703,7 +703,7 @@
 		<Company_Units>Imperial_Infantry_Support_Platform, Imperial_Infantry_Support_Platform, Imperial_Infantry_Support_Platform, Imperial_Infantry_Support_Platform</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>340</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -767,7 +767,7 @@
 		<Company_Units>Repulsor_Scout, Repulsor_Scout, Repulsor_Scout, Repulsor_Scout</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>385</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -837,7 +837,7 @@
 		<Company_Units>Reconnaissance_Troop_Transporter, Reconnaissance_Troop_Transporter, Reconnaissance_Troop_Transporter</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>640</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -903,7 +903,7 @@
 		<Company_Units>Gaba18, Gaba18, Gaba18, Gaba18</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>430</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -970,7 +970,7 @@
 		<Company_Units>INT4, INT4, INT4, INT4</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>630</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1038,7 +1038,7 @@
 		<Company_Units>AT_DP_Walker, AT_DP_Walker, AT_DP_Walker, AT_DP_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>415</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1108,7 +1108,7 @@
 		<Company_Units>Chariot_LAV_Combat, Chariot_LAV_Combat, Chariot_LAV_Combat</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>515</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1307,7 +1307,7 @@
 		<Company_Units>Imperial_Light_Mobile_Artillery</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>605</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1374,7 +1374,7 @@
 		<Company_Units>UTAA, UTAA</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>270</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1442,7 +1442,7 @@
 		<Company_Units>AT_AP_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>645</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1767,7 +1767,7 @@
 		<Company_Units>Imperial_Heavy_Mobile_Artillery</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>610</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -1831,7 +1831,7 @@
 		<Company_Units>Imperial_Missile_Artillery</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>630</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2101,7 +2101,7 @@
 		<Company_Units>Imperial_APC, Imperial_APC</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>16</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2169,7 +2169,7 @@
 		<Company_Units>1M_Tank, 1M_Tank, 1M_Tank</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>730</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2235,7 +2235,7 @@
 		<Company_Units>Flashblind, Flashblind</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>590</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2304,7 +2304,7 @@
 		<Company_Units>TIE_Crawler, TIE_Crawler, TIE_Crawler</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>720</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2369,7 +2369,7 @@
 		<Company_Units>Imperial_Treaded_Neutron_Torch, Imperial_Treaded_Neutron_Torch, Imperial_Treaded_Neutron_Torch</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>780</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2436,7 +2436,7 @@
 		<Company_Units>2M_Repulsor_Tank, 2M_Repulsor_Tank, 2M_Repulsor_Tank</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>910</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2500,7 +2500,7 @@
 		<Company_Units> S_1_Firehawke, S_1_Firehawke, S_1_Firehawke</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>915</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2569,7 +2569,7 @@
 		<Company_Units>Swift_Assault_5, Swift_Assault_5</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2634,7 +2634,7 @@
 		<Company_Units>Deathhawk, Deathhawk, Deathhawk </Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>655</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2701,7 +2701,7 @@
 		<Company_Units>SPMAG_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>695</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2765,7 +2765,7 @@
 		<Company_Units> Repulsor_Tank_Mark_II, Repulsor_Tank_Mark_II, Repulsor_Tank_Mark_II</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>915</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2834,7 +2834,7 @@
 		<Company_Units>1H_Tank, 1H_Tank</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1110</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2901,7 +2901,7 @@
 		<Company_Units>SPMAT_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>765</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -2971,7 +2971,7 @@
 		<Company_Units>Imperial_Dropship_Transport</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>530</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3042,7 +3042,7 @@
 		<Company_Units>Imperial_Modified_LAAT</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3179,7 +3179,7 @@
 		<Company_Units>MAAT, MAAT</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3244,7 +3244,7 @@
 		<Company_Units>Nemesis_Gunship</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>590</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3321,7 +3321,7 @@
 		<Company_Units>B5_Juggernaut</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>545</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3391,7 +3391,7 @@
 		<Company_Units>PX4, PX4</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1855</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3459,7 +3459,7 @@
 		<Company_Units>Tracked_Mobile_Base</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>725</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3532,7 +3532,7 @@
 		<Company_Units>Imperial_A5_Juggernaut</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>585</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3739,7 +3739,7 @@
 		<Company_Units>A9_Floating_Fortress</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1190</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3809,7 +3809,7 @@
 		<Company_Units>Shadow_Imperial_AT_AT_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1075</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3879,7 +3879,7 @@
 		<Company_Units>Imperial_AT_AT_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1075</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -3947,7 +3947,7 @@
 		<Company_Units>C10_Siege_Tower</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1035</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4017,7 +4017,7 @@
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 		<Abilities SubObjectList="Yes"></Abilities>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>935</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4086,7 +4086,7 @@
 		<Company_Units>Heavy_Recovery_Vehicle, Heavy_Recovery_Vehicle</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>955</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4156,7 +4156,7 @@
 		<Company_Units>Imperial_AT_AT_Walker_Turbolaser_Refit</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1870</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4225,7 +4225,7 @@
 		<Company_Units>XR85</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>885</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Five_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4519,7 +4519,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Dark_Trooper_3</SFXEvent_Fleet_Move>
 
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
@@ -4591,7 +4591,7 @@
 		<Company_Units>LAAT</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4663,7 +4663,7 @@
 		<Company_Units>AT_TE_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4737,7 +4737,7 @@
 		<Company_Units>A6_Juggernaut</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
@@ -4755,7 +4755,7 @@
 
 		<Company_Units>1H_Tank_Green, 1H_Tank_Green</Company_Units>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+			<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1110</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>
@@ -4888,7 +4888,7 @@
 		<Company_Units>Imperial_Bantha_II_Skiff, Imperial_Bantha_II_Skiff, Imperial_Bantha_II_Skiff, Imperial_Bantha_II_Skiff, Imperial_Bantha_II_Skiff, Imperial_Bantha_II_Skiff</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-	<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>51180</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites>Ground_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
