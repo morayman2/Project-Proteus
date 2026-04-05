@@ -32,7 +32,7 @@ function Definitions()
 
 	GlobalValue.Set("CURRENT_ERA", 1)
 	GlobalValue.Set("REGIME_INDEX", 1)
-	GlobalValue.Set("CURRENT_INDEX", 0)
+	GlobalValue.Set("CURRENT_PROTEUS_INDEX", 0)
 end
 
 function State_Setup_Start(message)
