@@ -38,7 +38,7 @@ return {
 			elseif proteus == "SELLASAS" then
 				fighter = "ADVANCED_SKIPRAY_SQUADRON"
 			elseif proteus == "DASTA" then
-				fighter = "SKIPRAY_SQUADRON"
+				fighter = "SKIPRAY_SQUADRON" --TBC
 			elseif proteus == "VOGEL" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "BRAK" then
@@ -57,7 +57,7 @@ return {
 			elseif proteus == "ZAARIN_REMNANTS" then
 				fighter = "ADVANCED_SKIPRAY_SQUADRON"
 			elseif proteus == "ELROOD" then
-				fighter = "ADVANCED_SKIPRAY_SQUADRON"
+				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
@@ -65,7 +65,7 @@ return {
 			elseif proteus == "JARDEEN" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "EARLY_SKIPRAY_SQUADRON"
+				fighter = "EARLY_SKIPRAY_SQUADRON" --TBC
 			elseif proteus == "LUMIYA" then
 				fighter = "ADVANCED_SKIPRAY_SQUADRON" -- to be replaced with Theta Assault Squadron
 			elseif proteus == "ARDA" then
@@ -73,13 +73,48 @@ return {
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "KUAT" then
-				fighter = "SKIPRAY_SQUADRON"
+				fighter = "FIRESPRAY_GUNSHIP_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "EARLY_SKIPRAY_SQUADRON"
+				fighter = "SKIPRAY_SQUADRON" --TBC
 			elseif proteus == "TAMARIN" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "BAKURA" then
 				fighter = "ADVANCED_SKIPRAY_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "SKIPRAY_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "SKIPRAY_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "SKIPRAY_SQUADRON" --TBC
+			elseif proteus == "RADAMA" then
+				fighter = "SKIPRAY_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "SKIPRAY_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "SKIPRAY_SQUADRON" --TBC
+			elseif proteus == "RAYTER" then
+				fighter = "SKIPRAY_SQUADRON"
+			--elseif proteus == "WESSEX" then
+				--fighter = ""
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			--elseif proteus == "QUINTAD" then
+				--fighter = ""
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "ADVANCED_SKIPRAY_SQUADRON"
+			--elseif proteus == "GAROS" then
+				--fighter = ""
+			--elseif proteus == "NABOO" then
+				--fighter = ""
+			--elseif proteus == "KAMINO" then
+				--fighter = ""
+			--elseif proteus == "CIUTRIC_HEGEMONY" then
+				--fighter = ""
+			--elseif proteus == "ZERO_COMMAND" then
+				--fighter = ""
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+
 			end
 		end
 		
