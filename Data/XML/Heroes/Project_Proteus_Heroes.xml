@@ -1994,5 +1994,235 @@
 		
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
+
+	<UniqueUnit Name="Shara_Or_AA70">
+		<Variant_Of_Existing_Type>AA70_Command_Truck</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>TEXT_HERO_SHARAOR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_SHARAOR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_AA70_TRUCK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_SHARAOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AA70_TRUCK_HEALTH
+		TEXT_TOOLTIP_AA70_TRUCK_MOVE
+		TEXT_TOOLTIP_AA70_TRUCK_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> Security Officer </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SHARA_OR.TGA</Icon_Name>
+		
+		<Property_Flags>CanContainGarrison | DoKite | GTSImmune </Property_Flags>
+		<CategoryMask> VehicleHero | AntiInfantry </CategoryMask>
+		
+		<Ranking_In_Category>4</Ranking_In_Category>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<LandBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, GARRISON_VEHICLE, AFFECTED_BY_SHIELD,SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+
+		<Starting_Spawned_Units_Tech_0>Security_Trooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
+
+		<Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>FOW_REVEAL_PING</Type>
+                <Recharge_Seconds> 30.0 </Recharge_Seconds>
+                <Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+                <Effective_Radius> 0.0 </Effective_Radius>
+                <!-- 0.0 means no distance factor, unlimited to entire map -->
+                <Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+                <GUI_Activated_Ability_Name>
+                </GUI_Activated_Ability_Name>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>TURBO</Type>
+
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,    3.0f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,    0.0f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,    1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,        2.0f</Mod_Multiplier>
+
+                <SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
+			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
+				<Damage_Bonus_Percentage>0.03</Damage_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.03</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.03</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Battlefield_Modifier_Ability Name="Command_Tier_01_FOW_Increase">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Ground_Automatic</Activation_Style>
+				<FOW_Reveal_Range_Multiplier>1.03</FOW_Reveal_Range_Multiplier>
+				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
+				<Stacking_Category>0</Stacking_Category>
+			</Battlefield_Modifier_Ability>
+		</Abilities>
+	</UniqueUnit>
+
+	<HeroCompany Name="Shara_Or_Team">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_HERO_SHARAOR</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK
+		TEXT_TOOLTIP_SHARAOR
+		TEXT_TOOLTIP_SEPARATOR_COMMANDS_BLOCK
+		TEXT_UNIT_AA70_TRUCK
+		TEXT_TOOLTIP_SEPARATOR_ESCORTS_BLOCK 
+		TEXT_TOOLTIP_ESCORT_SHARAOR
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AA70_TRUCK_HEALTH
+		TEXT_TOOLTIP_AA70_TRUCK_MOVE
+		TEXT_TOOLTIP_AA70_TRUCK_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_ENHANCED_SENSORS
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> Security Officer </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SHARA_OR.TGA</Icon_Name>
+		
+		<Company_Transport_Unit>Gozanti_Landing_Craft</Company_Transport_Unit>
+		<Company_Units> Shara_Or_AA70 </Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany>
+
+	<HeroUnit Name="Tyionsis_Cex">
+		<Variant_Of_Existing_Type>Hero_Commando_Template</Variant_Of_Existing_Type>
+		<Text_ID> TEXT_HERO_CEX </Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_BOUNTY_HUNTER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
+		TEXT_TOOLTIP_CEX
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LABANSAT_HEALTH
+		TEXT_TOOLTIP_DYYZ_NATAZ_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_WEAP4
+		TEXT_TOOLTIP_DYYZ_NATAZ_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CEX.tga</Icon_Name> 
+		
+		<Land_Model_Name>heavy_mercenary.alo</Land_Model_Name>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Land_Model_Anim_Override_Name>mercenaryinfantry.alo</Land_Model_Anim_Override_Name>
+
+		<Tactical_Health>180</Tactical_Health>
+		
+		<CategoryMask> InfantryHero | AntiVehicle </CategoryMask>
+		
+		<Ranking_In_Category>8</Ranking_In_Category>
+		
+		<Max_Speed>1.2</Max_Speed>
+		<OverrideAcceleration> 1.2 </OverrideAcceleration>
+		<OverrideDeceleration> 1.2 </OverrideDeceleration>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+		
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit> <!-- Stealth heroes spawn in orbit -->
+		
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>HP_Hero_Adventurer_Sniper_Rifle</HardPoints>
+
+		<!-- Grenade throw -->
+		<Projectile_Types>HeroProj_Thrown_Sonic_Grenade</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+        <SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
+
+        <Highlight_Blob_Material_Name>Highlight_Empire_Hero</Highlight_Blob_Material_Name>
+
+		<AI_Combat_Power>73</AI_Combat_Power>
+
+		<Targeting_Priority_Set>AntiVehicle</Targeting_Priority_Set>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Expiration_Seconds> 8.0 </Expiration_Seconds>
+				<Recharge_Seconds> 45.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			</Unit_Ability>
+
+			<Unit_Ability>
+                <Type>STEALTH</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_CLOAKING</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_CLOAKING_DESCRIPTION</Alternate_Description_Text>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+				<Expiration_Seconds>60.0</Expiration_Seconds>
+                <GUI_Activated_Ability_Name>Stealth_Cex</GUI_Activated_Ability_Name> 
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Bounty_Hunter_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+
+			<Stealth_Ability Name="Stealth_Cex">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
+                <Stealth_Transition_Time>.6</Stealth_Transition_Time>
+            </Stealth_Ability>
+		</Abilities>
+	</HeroUnit>
+
+	<HeroCompany Name="Tyionsis_Cex_Team">
+		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
+		<Text_ID> TEXT_HERO_CEX </Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
+		TEXT_TOOLTIP_TRAIT_UTILITY_BOUNTY_HUNTER
+		TEXT_TOOLTIP_SEPARATOR_BIO_BLOCK 
+		TEXT_TOOLTIP_CEX
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LABANSAT_HEALTH
+		TEXT_TOOLTIP_DYYZ_NATAZ_MOVE
+		TEXT_TOOLTIP_INFILTRATOR_WEAP4
+		TEXT_TOOLTIP_DYYZ_NATAZ_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOUNTY_HUNTER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_CEX.tga</Icon_Name>
+		
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>Tyionsis_Cex</Company_Units>
+		
+		<Affiliation>Imperial_Proteus</Affiliation>
+	</HeroCompany>
 	
 </Proteus_Heroes>

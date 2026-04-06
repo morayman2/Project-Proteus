@@ -462,7 +462,7 @@ return {
 			Planets = {"TEPASI","BRENTAAL","BONADAN","LANTILLIES","DRUCKENWELL","MONASTERY","KRANN","TISSSHARL"},
 			LeaderTable = {"ULRIC_TAGGE"},
 			LeaderEndingNames = {"Baron-Emperor Tagge"},
-			HeroList = {"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team"},
+			HeroList = {"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"},
 			UnlockList = {
 				-- Space
 				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Super_Transport_VII_Interdictor", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
@@ -738,7 +738,7 @@ return {
 			Planets = {"SELLASAS"},
 			LeaderTable = {["JEDSELK_TEAM"] = {"JEDSELK_PX4"}},
 			LeaderEndingNames = {"Emperor Jedselk"},
-			HeroList = {"Kedler_Eleos", "Jedselk_Team", "Amara_Jedselk_Team"},
+			HeroList = {"Kedler_Eleos", "Jedselk_Team", "Amara_Jedselk_Team", "Tyionsis_Cex_Team"},
 			UnlockList = {
 				-- Space	
 				"Customs_Corvette", "Consular_Refit", "Tartan_Patrol_Cruiser", "Pelta_Support", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Interdictor",
