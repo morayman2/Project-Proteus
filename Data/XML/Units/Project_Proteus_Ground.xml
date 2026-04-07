@@ -4013,7 +4013,7 @@
 
 		<LOD_Bias>0.5</LOD_Bias>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Company_Units>AT_TE_Walker</Company_Units>
+		<Company_Units>Camo_AT_TE_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 	</GroundCompany>
