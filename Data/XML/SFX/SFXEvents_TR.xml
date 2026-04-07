@@ -18029,4 +18029,410 @@
 		</Samples>
 	</SFXEvent>
 
+	<!--***********************************************************-->
+	<!--***********************Control Ship************************--> <!-- Starfighter games droid VO -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Control_Ship">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Control_Ship\Select\TF_S6_ENG.wav
+			Data\Audio\Space\Control_Ship\Select\TF_S14_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Control_Ship </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Defend_Control_Ship">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Control_Ship\Ability\TF_Shield1_ENG.wav
+			Data\Audio\Space\Control_Ship\Ability\TF_Shield2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Control_Ship </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***************************C-9979***************************-->
+	<!--***********************************************************-->
+	<SFXEvent Name="CIS_C9979_Complete">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Select\S3_ENG.wav
+			Data\Audio\Space\C9979\Select\S4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="CIS_C9979_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Select\S1_ENG.wav
+			Data\Audio\Space\C9979\Select\S2_ENG.wav
+			Data\Audio\Space\C9979\Select\S3_ENG.wav
+			Data\Audio\Space\C9979\Select\S4_ENG.wav
+			Data\Audio\Space\C9979\Select\S5_ENG.wav
+			Data\Audio\Space\C9979\Select\S6_ENG.wav
+			Data\Audio\Space\C9979\Select\S7_ENG.wav
+			Data\Audio\Space\C9979\Select\S8_ENG.wav
+			Data\Audio\Space\C9979\Select\S9_ENG.wav
+			Data\Audio\Space\C9979\Select\S10_ENG.wav
+			Data\Audio\Space\C9979\Select\S11_ENG.wav
+			Data\Audio\Space\C9979\Select\S12_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***************************Auxilia***************************-->
+	<!--***********************************************************-->
+	<SFXEvent Name="CIS_Auxilia_Destroyer_Complete">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Auxilia_Destroyer\S5_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_Auxilia_Destroyer </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!-- Republic bomber Y-wing  -->
+	<SFXEvent Name="Unit_Assist_Move_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M17_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Attack_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--*************************Speeders**************************-->
+	<!--***********************************************************-->
+	<SFXEvent Name="Unit_Fleet_Move_Speeders">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Speeders\move\coming_in_fast_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Speeders </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***************************Lupus***************************--> <!-- Starfighter SFX -->
+	<!--***********************************************************-->
+	
+	<SFXEvent Name="Unit_Lupus_Laser_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Lupus\Lupus_Laser_Fire.wav
+		</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--*************************Vulture***************************--> <!-- Laser fire from Starfighter, engine SFX from Battlefront 2017 -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Vulture_Laser_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Vulture\Vulture_Laser.wav
+		</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+    <!--*******************Sith Alchemy Droids*********************-->
+    <!--***********************************************************-->
+	
+	<SFXEvent Name="Unit_Complete_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS2.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Select_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS1.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS2.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS3.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS4.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS5.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Move_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Attack_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Attack_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Alchemy_Droid">
+		<Use_Preset>Preset_FSI</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG1.wav
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG2.wav
+		</Samples>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+	</SFXEvent>
+	
+    <!--*******************Sith Slayer*********************-->
+	<!-- Deeper pitch shift of the above for the Slayer --> 
+	
+	<SFXEvent Name="Unit_Complete_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS1.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS3.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Select_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS1.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS2.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS3.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS4.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS5.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Move_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Attack_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Attack_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Sith_Slayer">
+		<Use_Preset>Preset_FSI</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG1.wav
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG2.wav
+		</Samples>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
 </SFXEvents>

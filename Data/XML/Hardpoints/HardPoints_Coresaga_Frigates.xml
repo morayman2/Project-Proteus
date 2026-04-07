@@ -17785,7 +17785,7 @@
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach></Model_To_Attach>
@@ -17806,7 +17806,7 @@
 		<Collision_Mesh>B_SPAWN_01</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>190.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 
@@ -17817,7 +17817,7 @@
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON_HEAVY_DUAL</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>B_FIRE_CONTROL</Attachment_Bone>
 		<Collision_Mesh>B_FIRE_CONTROL</Collision_Mesh>
@@ -17854,7 +17854,7 @@
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON_LIGHT_DUAL</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>B_COMMAND_BRIDGE</Attachment_Bone>
 		<Collision_Mesh>B_COMMAND_BRIDGE</Collision_Mesh>
@@ -17871,7 +17871,7 @@
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Dual_Light_Laser_Cannon_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.1 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.1 </Fire_Inaccuracy_Distance>
@@ -17891,7 +17891,7 @@
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON_LIGHT_DUAL</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>B_LIFE_SUPPORT</Attachment_Bone>
 		<Collision_Mesh>B_LIFE_SUPPORT</Collision_Mesh>
@@ -17908,7 +17908,7 @@
 		<Fire_Pulse_Count>2</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1800.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Dual_Light_Laser_Cannon_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.1 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.1 </Fire_Inaccuracy_Distance>
@@ -17928,7 +17928,7 @@
 		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach></Model_To_Attach>
@@ -17962,7 +17962,7 @@
 		<Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach></Model_To_Attach>
@@ -17996,7 +17996,7 @@
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>FB_TURRET_L_02</Attachment_Bone>
 		<Collision_Mesh>FB_TURRET_L_02</Collision_Mesh>
@@ -18033,7 +18033,7 @@
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>FB_TURRET_R_02</Attachment_Bone>
 		<Collision_Mesh>FB_TURRET_R_02</Collision_Mesh>
@@ -18071,7 +18071,7 @@
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_LIGHT_DUAL</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>FB_ML_00A</Attachment_Bone>
 		<Collision_Mesh>FB_ML_00A</Collision_Mesh>
@@ -18108,7 +18108,7 @@
 		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_LIGHT_DUAL</Tooltip_Text>
 		<Health>190.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>FB_MR_00A</Attachment_Bone>
 		<Collision_Mesh>FB_MR_00A</Collision_Mesh>
@@ -18382,7 +18382,7 @@
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
 		<Health>325.0</Health>
 
-		<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach></Model_To_Attach>
