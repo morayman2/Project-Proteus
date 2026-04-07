@@ -13,20 +13,7 @@ function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 
 	Define_State("State_Init", State_Init);
-	proteus_groups = {
-		"LAMBDA", "ZERO_COMMAND", "ELROOD", "ANTEMERIDIAS", "WILD_SPACE", "PRENTIOCH", "SECTOR_5", "PRAKITH", 
-		"JARDEEN", "CIUTRIC_HEGEMONY", "ZSINJ_REMNANTS", "KAMINO", "NABOO", "RADAMA", "TAPANI", "GAROS", 
-		"MAELSTROM", "SHADOWSPAWN", "PROPHETS", "TAGGE", "TIERFON", "BAKURA", "BRAK", "TAMARIN", "ISECTOR", 
-		"IMPERIAL_LIANNA", "QUINTAD", "DASTA", "HAMMERS", "KASHYYYK", "LUMIYA", "ARDA", "SELLASAS", "PROTECTORATE", 
-		"ZAARIN_REMNANTS", "RAYTER", "VOGEL", "WESSEX", "CATO_NEIMOIDIA", "KUAT", "KAARENTH_DISSENSION", "RESTORED_EMPIRE",
-	}
-	proteus_displayed_names = {
-		"Lambda Sector", "Zero Command", "Elrood Sector", "Antemeridian Sector", "Delurin's Empire", "Prentioch's Dominion", "Sector 5", "Protectorate of Prakith", 
-		"Imperial Jardeen", "Ciutric Hegemony", "Zsinj Remnants", "Imperial Kamino", "Imperial Naboo", "Imperial Ord Radama", "Tapani Sector", "Imperial Garos", 
-		"Maelstrom Command", "Shadow Realm", "Prophets of the Dark Side", "House of Tagge", "Tierfon Sector", "Imperial Bakura", "Brak Sector", "Tamarin Sector", "I-sector", 
-		"Imperial Lianna", "The Quintad", "D'Astan Sector", "Imperial Hammers", "Imperial Kashyyyk", "Lumiya's Sith", "Imperial Arda", "Imperial Sellasas", "The Protectorate", 
-		"Zaarin Remnants", "Rayter Sector", "Dustig Oversector", "Relgim Oversector", "Imperial Neimoidia", "Kuat Sector", "Kaarenth Dissension", "Restored Empire",
-	}
+
 
 end
 
@@ -40,15 +27,60 @@ function State_Init(message)
 		local factionName = string.gsub(setterName, "IA_SET_", "")
 		GlobalValue.Set("IA_FACTION", factionName)
 		if factionName == "IMPERIAL_PROTEUS" then
+			local proteus_groups = {
+			[1]	 = {"ANTEMERIDIAS", "Antemeridian Sector"},
+			[2]	 = {"ARDA", "Imperial Arda"},
+			[3]	 = {"BAKURA", "Imperial Bakura"},
+			[4]	 = {"BRAK", "Brak Sector"},
+			[5]	 = {"CATO_NEIMOIDIA", "Imperial Neimoidia"},
+			[6]	 = {"CIUTRIC_HEGEMONY", "Ciutric Hegemony"},
+			[7]	 = {"DASTA", "D'Astan Sector"},
+			[8]	 = {"ELROOD", "Elrood Sector"},
+			[9]	 = {"GAROS",  "Imperial Garos"},
+			[10] = {"HAMMERS", "Imperial Hammers"},
+			[11] = {"IMPERIAL_LIANNA", "Imperial Lianna"},
+			[12] = {"ISECTOR",  "I-sector"},
+			[13] = {"JARDEEN", "Imperial Jardeen"},
+			[14] = {"KAARENTH_DISSENSION", "Kaarenth Dissension"},
+			[15] = {"KAMINO", "Imperial Kamino"},
+			[16] = {"KASHYYYK", "Imperial Kashyyyk"},
+			[17] = {"KUAT", "Kuat Sector"},
+			[18] = {"LAMBDA", "Lambda Sector"},
+			[19] = {"LUMIYA", "Lumiya's Sith"},
+			[20] = {"MAELSTROM", "Maelstrom Command"},
+			[21] = {"NABOO", "Imperial Naboo"},
+			[22] = {"PRAKITH", "Protectorate of Prakith"},
+			[23] = {"PRENTIOCH", "Prentioch's Dominion"},
+			[24] = {"PROPHETS", "Prophets of the Dark Side"},
+			[25] = {"PROTECTORATE",  "The Protectorate"},
+			[26] = {"QUINTAD", "The Quintad"},
+			[27] = {"RADAMA", "Imperial Ord Radama"},
+			[28] = {"RAYTER", "Rayter Sector"},
+			[29] = {"RESTORED_EMPIRE", "Restored Empire"},
+			[30] = {"SECTOR_5", "Sector 5"},
+			[31] = {"SELLASAS", "Imperial Sellasas"},
+			[32] = {"SHADOWSPAWN", "Shadow Realm"},
+			[33] = {"TAGGE", "House of Tagge"},
+			[34] = {"TAMARIN", "Tamarin Sector"},
+			[35] = {"TAPANI", "Tapani Sector"},
+			[36] = {"TIERFON", "Tierfon Sector"},
+			[37] = {"VOGEL", "Dustig Oversector"},
+			[38] = {"WESSEX", "Relgim Oversector"},
+			[39] = {"WILD_SPACE", "Delurin's Empire"},
+			[40] = {"ZAARIN_REMNANTS", "Zaarin Remnants"},
+			[41] = {"ZERO_COMMAND", "Zero Command"},
+			[42] = {"ZSINJ_REMNANTS", "Zsinj Remnants"},
+			}
+		
 			local index = GlobalValue.Get("CURRENT_PROTEUS_INDEX")
 			index = index + 1
-			if index > 42 then
+			if index > table.getn(proteus_groups) then
 				index = 1
 			end
-			local proteus_group_name = proteus_groups[index]
-			local proteus_friendly_name = proteus_displayed_names[index]
+			local proteus_group_name = proteus_groups[index][1]
+			local proteus_friendly_name = proteus_groups[index][2]
 			GlobalValue.Set("PROTEUS_GROUP_NAME",proteus_group_name)
-			StoryUtil.ShowScreenText("Imperial Proteus group set to "..proteus_friendly_name, 10, nil, {r=255, g=255, b=255})
+			StoryUtil.ShowScreenText("Imperial Proteus group set to "..proteus_friendly_name..". Group: "..tostring(index).." / "..tostring(table.getn(proteus_groups)), 10, nil, {r=255, g=255, b=255})
 			GlobalValue.Set("CURRENT_PROTEUS_INDEX", index)
 		end
 
