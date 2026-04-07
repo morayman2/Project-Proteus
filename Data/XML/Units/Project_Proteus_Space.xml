@@ -2222,7 +2222,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_PRAETORONE_REP.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_PRAETORONE.tga</Icon_Name>
 
 		<Space_Model_Name>REP_PraetorOne.ALO</Space_Model_Name>
 		<No_Colorization_Color/>
