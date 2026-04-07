@@ -3825,7 +3825,7 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
@@ -4120,8 +4120,6 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
-		
-		<SFXEvent_Bombard_Incoming> Orbital_Bombardment_SFX </SFXEvent_Bombard_Incoming>
 		
 		<SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
@@ -7952,7 +7950,7 @@
 	<Squadron Name="Shielded_TIE_Bomber_Squadron">
 		<Variant_Of_Existing_Type>TIE_Bomber_Squadron</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXT_TIE_SHIELDED_TIE_SQUADRON</Text_ID>
+		<Text_ID>TEXT_SHIELDED_TIE_BOMBER_SQUADRON</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SHIELDED_TIE_BOMBER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -14680,7 +14678,7 @@
 	<Squadron Name="Nimbus_V_Wing_Esk_Squadron_Double">
 		<Variant_Of_Existing_Type>Nimbus_V_Wing_Squadron_Double</Variant_Of_Existing_Type>
 
-		<Text_ID>TEXTV_WING_ESK_SQUADRON2</Text_ID>
+		<Text_ID>TEXT_V_WING_ESK_SQUADRON2</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_V_WING_ESK
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 

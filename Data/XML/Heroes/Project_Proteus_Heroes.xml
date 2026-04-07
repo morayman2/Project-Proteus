@@ -682,7 +682,7 @@
 		<LOD_Bias>5</LOD_Bias>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
-		<Text_ID>TEXT_HERO_Jace_Yiaso</Text_ID>
+		<Text_ID>TEXT_HERO_JACE_YIASO</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND
@@ -1028,7 +1028,7 @@
 	</HeroUnit>
 	<HeroCompany Name="Jace_Yiaso_Team">
 		<LOD_Bias>5</LOD_Bias>
-		<Text_ID>TEXT_HERO_Jace_Yiaso</Text_ID>
+		<Text_ID>TEXT_HERO_JACE_YIASO</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND
@@ -1504,7 +1504,7 @@
 	
 <HeroUnit Name="Merili">
 		<Variant_Of_Existing_Type>Template_Lightsaber_Hero</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_Merili</Text_ID>
+		<Text_ID>TEXT_HERO_MERILI</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE
@@ -1720,7 +1720,7 @@
 
 	<HeroCompany Name="Merili_Team">
 		<Variant_Of_Existing_Type>Template_Hero_Team</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_HERO_Merili</Text_ID>
+		<Text_ID>TEXT_HERO_MERILI</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK
 		TEXT_TOOLTIP_TRAIT_COMMAND_FORCE_SENSITIVE

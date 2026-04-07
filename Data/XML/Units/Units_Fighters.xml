@@ -13720,7 +13720,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -13728,7 +13728,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Squadron_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON</Text_ID>
@@ -13898,7 +13898,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -13906,7 +13906,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Squadron_Double_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON2</Text_ID>
@@ -14064,7 +14064,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Squadron_Units>TIE_Avenger, TIE_Avenger, TIE_Avenger, TIE_Avenger, TIE_Avenger, TIE_Avenger</Squadron_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -14073,7 +14073,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="TIE_Avenger_Squadron_Half_Container">
 		<Text_ID>TEXT_TIE_AVENGER_SQUADRON_HALF</Text_ID>
@@ -14296,7 +14296,7 @@
 
 		<MovementClass> Space </MovementClass>
 
-	<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>no</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -14314,7 +14314,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		</SpaceUnit>
+	</SpaceUnit>
 
 	<Squadron Name="Clutch_Squadron">
 
@@ -14398,7 +14398,7 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Hyperspace>yes</Hyperspace>
+		<Hyperspace>yes</Hyperspace>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -14406,7 +14406,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
 	<Container Name="Clutch_Squadron_Container">
 		<Text_ID>TEXT_CLUTCH_SQUADRON</Text_ID>
@@ -23642,13 +23642,13 @@
 		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
 
-	<Squadron_Units>X_Wing, X_Wing, X_Wing, X_Wing, X_Wing, X_Wing</Squadron_Units>
+		<Squadron_Units>X_Wing, X_Wing, X_Wing, X_Wing, X_Wing, X_Wing</Squadron_Units>
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		</Squadron>
+	</Squadron>
 
     <Container Name="X_Wing_Squadron_Half_Container">
 		<Text_ID>TEXT_X_WING_SQUADRON_HALF</Text_ID>
@@ -39126,6 +39126,8 @@
 		</Unit_Abilities_Data>
 
 	</Container>
+
+	<!-- Ixiyen -->
 	
 	<SpaceUnit Name="Ixiyen_Fighter">
 
@@ -39139,7 +39141,7 @@
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_IXIYEN_MKII_02.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IXIYEN_FIGHTER.tga</Icon_Name>
 
 		<Space_Model_Name>Ixiyen_mkII_02_PP.ALO</Space_Model_Name>
 		<No_Colorization_Color/>
@@ -39296,75 +39298,6 @@
 		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
 	</SpaceUnit>
 
-	<Container Name="Ixiyen_Fighter_Squadron_Container">
-		<Text_ID>TEXT_IXIYEN_FIGHTER_SQUADRON</Text_ID>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_IXIYEN_FIGHTER
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_IXIYEN_SQUADRON
-		TEXT_STATBLOCK_IXIYEN_BASE 
-		TEXT_STATBLOCK_IXIYEN_MOVE
-		TEXT_STATBLOCK_IXIYEN_WEAP1
-		TEXT_STATBLOCK_IXIYEN_WEAP2
-		</Encyclopedia_Text>
-
-		<Icon_Name>I_BUTTON_IXIYEN_ONE.tga</Icon_Name>
-
-		<!-- Same as unit -->
-		<Max_Speed>6.46</Max_Speed>
-		<Min_Speed>1.37</Min_Speed>
-
-		<MovementClass>Space</MovementClass>
-
-		<CategoryMask> Fighter | AntiFighter</CategoryMask>
-		<Show_Name>no</Show_Name>
-
-		<Formation_Priority>1</Formation_Priority>
-		<FormationOrder>1</FormationOrder>
-		<WaitsForFormationFormup>false</WaitsForFormationFormup>
-
-		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
-		<SpaceBehavior> REVEAL</SpaceBehavior>
-
-		<SFXEvent_Select>Null</SFXEvent_Select>
-
-		<Max_Squad_Size>12</Max_Squad_Size>
-		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
-
-		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
-		<Radar_Icon_Name></Radar_Icon_Name>
-		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
-
-		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
-		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
-
-		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</Container>
-
 	<Squadron Name="Ixiyen_Fighter_Squadron">
 
 		<Text_ID>TEXT_IXIYEN_FIGHTER_SQUADRON</Text_ID>
@@ -39378,7 +39311,7 @@
 		TEXT_STATBLOCK_IXIYEN_WEAP1
 		TEXT_STATBLOCK_IXIYEN_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_TIE_Defender_one.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IXIYEN_FIGHTER_ONE.TGA</Icon_Name>
 
 		<Damage>1</Damage>
 
@@ -39454,6 +39387,76 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Squadron>
+
+	<Container Name="Ixiyen_Fighter_Squadron_Container">
+		<Text_ID>TEXT_IXIYEN_FIGHTER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_IXIYEN_FIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_IXIYEN_SQUADRON
+		TEXT_STATBLOCK_IXIYEN_BASE 
+		TEXT_STATBLOCK_IXIYEN_MOVE
+		TEXT_STATBLOCK_IXIYEN_WEAP1
+		TEXT_STATBLOCK_IXIYEN_WEAP2
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_IXIYEN_FIGHTER_ONE.TGA</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>6.46</Max_Speed>
+		<Min_Speed>1.37</Min_Speed>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Fighter | AntiFighter</CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-5.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,-70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-65.0,70.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-120.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-125.0,-10.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>80</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
 	<Squadron Name="Ixiyen_Fighter_Squadron_Double">
 
 		<Text_ID>TEXT_IXIYEN_FIGHTER_SQUADRON2</Text_ID>
@@ -39467,7 +39470,7 @@
 		TEXT_STATBLOCK_IXIYEN_WEAP1
 		TEXT_STATBLOCK_IXIYEN_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name> I_BUTTON_IXIYEN </Icon_Name>
+		<Icon_Name> I_BUTTON_IXIYEN_FIGHTER_TWO.TGA </Icon_Name>
 
 		<Damage>1</Damage>
 
@@ -39570,7 +39573,7 @@
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_IXIYEN.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IXIYEN_FIGHTER_TWO.TGA</Icon_Name>
 
 
 		<!-- Same as unit -->
@@ -39653,7 +39656,7 @@
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_BTL_A4_HALF.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IXIYEN_FIGHTER_HALF.TGA</Icon_Name>
 
 		<Damage>1</Damage>
 
@@ -39733,7 +39736,7 @@
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP1
 		TEXT_STATBLOCK_IXIYEN_FIGHTER_WEAP2
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_BTL_A4_HALF.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IXIYEN_FIGHTER_HALF.TGA</Icon_Name>
 
 
 		<!-- Same as unit -->
@@ -39951,7 +39954,7 @@
 		<Min_Speed>1.74</Min_Speed>
 	</Container>
 
-<!--Skipray Bomber / GAT-12K-->
+	<!--Skipray Bomber / GAT-12K-->
 
 	<SpaceUnit Name="Skipray_Blastboat_Bomber">
 		<Variant_Of_Existing_Type>Skipray_Blastboat</Variant_Of_Existing_Type>
@@ -40112,7 +40115,7 @@
 
 	</Container>
 
-<!--Skipray Ion Refit / GAT-12Z-->
+	<!--Skipray Ion Refit / GAT-12Z-->
 
 	<SpaceUnit Name="Skipray_Blastboat_Ion">
 		<Variant_Of_Existing_Type>Skipray_Blastboat</Variant_Of_Existing_Type>
@@ -40258,6 +40261,8 @@
 		<Icon_Name>I_BUTTON_SKIPRAY_12Z_HALF.tga</Icon_Name>
 	</Container>
 
+	<!-- VCX -->
+
 	<SpaceUnit Name="VCX_820">
 
 		<Text_ID>TEXT_UNIT_VCX820</Text_ID>
@@ -40358,7 +40363,7 @@
 
 		<CategoryMask> Fighter | AntiFighter </CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_vcx820.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER.TGA</Icon_Name>
 		<Victory_Relevant>no</Victory_Relevant>
 		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -40397,7 +40402,6 @@
 
 	</SpaceUnit>
 
-
 	<Squadron Name="VCX_820_Squadron">
 		<Text_ID>TEXT_VCX820_SQUADRON</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -40416,7 +40420,7 @@
 		<Slice_Cost_Credits>100</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
-		<Icon_Name>i_button_vcx820_one.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER_ONE.TGA</Icon_Name>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -40486,7 +40490,7 @@
 	</Squadron>
 
 	<Container Name="VCX_820_Squadron_Container">
-		<Text_ID>TEXT_VCX_820_SQUADRON</Text_ID>
+		<Text_ID>TEXT_VCX820_SQUADRON</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_VCX_820
@@ -40501,7 +40505,7 @@
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_vcx820_one.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER_ONE.TGA</Icon_Name>
 		
 		<!-- Same as unit -->
 		<Max_Speed>6.67</Max_Speed>
@@ -40577,7 +40581,7 @@
 		<Slice_Cost_Credits>100</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
-		<Icon_Name>i_button_vcx820_two.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER_TWO.TGA</Icon_Name>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -40665,7 +40669,7 @@
 	</Squadron>
 
 	<Container Name="VCX_820_Squadron_Double_Container">
-		<Text_ID>TEXT_VCX_820_SQUADRON2</Text_ID>
+		<Text_ID>TEXT_VCX820_SQUADRON2</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_VCX_820
@@ -40680,7 +40684,7 @@
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_vcx820_two.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER_TWO.TGA</Icon_Name>
 		
 		<!-- Same as unit -->
 		<Max_Speed>6.67</Max_Speed>
@@ -40770,7 +40774,7 @@
 		<Slice_Cost_Credits>100</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
-		<Icon_Name>i_button_vcx820_half.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER_HALF.TGA</Icon_Name>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -40835,7 +40839,7 @@
 	</Squadron>
 
 	<Container Name="VCX_820_Squadron_Half_Container">
-		<Text_ID>TEXT_VCX_820_SQUADRON_HALF</Text_ID>
+		<Text_ID>TEXT_VCX820_SQUADRON_HALF</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_VCX_820
@@ -40850,7 +40854,7 @@
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_vcx820_half.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_VCX820_FIGHTER_HALF.TGA</Icon_Name>
 		
 		<!-- Same as unit -->
 		<Max_Speed>6.67</Max_Speed>
@@ -41043,6 +41047,7 @@
 
 	</SpaceUnit>
 
+	<!-- YV -->
 
 	<Squadron Name="YV_929_Squadron">
 		<Text_ID>TEXT_YV929_SQUADRON</Text_ID>
@@ -41062,7 +41067,7 @@
 		<Slice_Cost_Credits>100</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
-		<Icon_Name>i_button_yv929_one.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_YV929_FIGHTER.TGA</Icon_Name>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -41149,7 +41154,7 @@
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_yv929_one.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_YV929_FIGHTER_ONE.TGA</Icon_Name>
 		
 		<!-- Same as unit -->
 		<Max_Speed>6.92</Max_Speed>
@@ -41226,7 +41231,7 @@
 		<Slice_Cost_Credits>100</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
-		<Icon_Name>i_button_yv929_two.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_YV929_FIGHTER_TWO.TGA</Icon_Name>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -41331,7 +41336,7 @@
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_yv929_two.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_YV929_FIGHTER_TWO.TGA</Icon_Name>
 		
 		<!-- Same as unit -->
 		<Max_Speed>6.92</Max_Speed>
@@ -41419,7 +41424,7 @@
 		<Slice_Cost_Credits>100</Slice_Cost_Credits>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
-		<Icon_Name>i_button_yv929_half.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_YV929_FIGHTER_HALF.TGA</Icon_Name>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -41501,7 +41506,7 @@
 		
 		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_yv929_half.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_YV929_FIGHTER_HALF.TGA</Icon_Name>
 		
 		<!-- Same as unit -->
 		<Max_Speed>4.92</Max_Speed>
@@ -41552,6 +41557,8 @@
 		</Unit_Abilities_Data>
 
 	</Container>
+
+	<!-- Z95 -->
 
 	<SpaceUnit Name="Z95_Hero">
 		<Text_ID>TEXT_UNIT_Z95_HERO</Text_ID>
@@ -41778,6 +41785,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</UniqueUnit>
+
+	<!-- Royal Guard -->
 	
     <UniqueUnit Name="Royal_Guard_Interceptor_Escort">
 		<Variant_Of_Existing_Type>Royal_Guard_Interceptor</Variant_Of_Existing_Type>
