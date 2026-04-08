@@ -3986,10 +3986,10 @@
 		<Build_Cost_Credits>750</Build_Cost_Credits>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Special_Structures> I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-		<Build_Initially_Locked>no</Build_Initially_Locked>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits>1000</Score_Cost_Credits>
@@ -3998,7 +3998,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation></Affiliation>
+		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
@@ -4013,7 +4013,7 @@
 
 		<LOD_Bias>0.5</LOD_Bias>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Company_Units>AT_TE_Walker</Company_Units>
+		<Company_Units>Camo_AT_TE_Walker</Company_Units>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
 	</GroundCompany>
@@ -4495,4 +4495,73 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
+	<GroundCompany Name="Proteus_A6_Company">
+			<Text_ID>TEXT_UNIT_JUGGERNAUT_A6</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_TRANSPORT</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_JUGGERNAUT_A6
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_JUGGERNAUT_A6_COMPANY
+		TEXT_TOOLTIP_JUGGERNAUT_A6_HEALTH
+		TEXT_TOOLTIP_JUGGERNAUT_A6_MOVE
+		TEXT_TOOLTIP_JUGGERNAUT_A6_WEAP1
+		TEXT_TOOLTIP_JUGGERNAUT_A6_WEAP2
+		TEXT_TOOLTIP_JUGGERNAUT_A6_WEAP3
+		TEXT_TOOLTIP_JUGGERNAUT_A6_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_JUGGERNAUT_A6_INFANTRY_HEAL
+		TEXT_TOOLTIP_BONUS_AA_ACCURACY
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
+		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
+	TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+	TEXT_TOOLTIP_BUILDLIMIT_A6
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_a6_juggernaut.tga</Icon_Name>
+
+		<Damage>60</Damage>
+
+		<Ship_Class>walker</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>yes</Is_Escort>
+
+		<GUI_Row> 1 </GUI_Row>
+	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    <Build_Cost_Credits>2100</Build_Cost_Credits>
+    <Build_Time_Seconds>120</Build_Time_Seconds>
+    <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+    <Required_Special_Structures> I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
+
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits>600</Score_Cost_Credits>
+		<Population_Value>2</Population_Value>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+
+		<Create_Team_Type/>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Company_Transport_Unit>Imperial_Titan_Barge_Super</Company_Transport_Unit>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Juggernaut</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Juggernaut</SFXEvent_Fleet_Move>
+
+		<LOD_Bias>0.5</LOD_Bias>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Company_Units>A6_Juggernaut</Company_Units>
+		<Maintenance_Cost>0.0</Maintenance_Cost>
+
+	
+	<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
+	<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
+	</GroundCompany>
 </Imperial_Vehicle_Companies>
