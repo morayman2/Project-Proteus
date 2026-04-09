@@ -2050,7 +2050,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
 
-		<GUI_Row> 2 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 
 		<Build_Cost_Credits>2450</Build_Cost_Credits>
 		<Build_Time_Seconds>80</Build_Time_Seconds>

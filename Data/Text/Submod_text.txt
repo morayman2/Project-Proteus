@@ -37,6 +37,7 @@ TEXT_COMPANY_TIERFON_CAPITAL,Tierfon Sector Fleet HQ
 TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with extensive command centers and dockyard facilities.
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate_Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an Organization overseeing all aspects of various Imperial Intelligence Agencies. Provides intel on nearby planets in a large radius.
+TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
@@ -62,6 +63,7 @@ TEXT_ETA2_MISSILE_SQUADRON2,Missile Eta-2 Actis Squadron x2
 TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
+TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -77,6 +79,7 @@ TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
+TEXT_HERO_ROEK,Roek
 TEXT_HERO_TEZRIN,Dongal Tezrin
 TEXT_HERO_THETA,Theta Leader
 TEXT_HERO_YARNAR,Yarnar
@@ -91,6 +94,7 @@ TEXT_NOTE,Put text changes for submods here
 TEXT_NTB_630_SQUADRON,NTB-630 Squadron
 TEXT_NTB_630_SQUADRON_HALF,NTB-630 Squadron 1/2
 TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
+TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_REPUBLIC_TIE_SQUADRON,T.I.E. Starfighter Squadron
 TEXT_REPUBLIC_TIE_SQUADRON_HALF,T.I.E. Starfighter Squadron 1/2
 TEXT_REPUBLIC_TIE_SQUADRON2,T.I.E. Starfighter Squadron x2
@@ -128,7 +132,6 @@ TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON,Squadron: 12x Upgunned Heavy
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_DOUBLE,Squadron: 24x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_SQUADRON_HALF,Squadron: 6x Upgunned Heavy TIE Interceptor
 TEXT_STATBLOCK_AS_TIE_INTERCEPTOR_UPGUNNED_WEAP2,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
-TEXT_STATBLOCK_BENJO_BASE,Health: 300 | Unshielded
 TEXT_STATBLOCK_BELBULLAB22_BASE,Health: 16 | Shields: 6
 TEXT_STATBLOCK_BELBULLAB22_GRIEVOUS_BASE,Health: 220 | Shields: 200
 TEXT_STATBLOCK_BELBULLAB22_MOVE,Speed: 5.05 | Maneuverability: 3.94
@@ -150,6 +153,7 @@ TEXT_STATBLOCK_BELBULLAB24_SQUADRON_HALF,Squadron: 6x Belbullab-24
 TEXT_STATBLOCK_BELBULLAB24_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_BELBULLAB24_WEAP2,1x Proton Rocket (AC): 1 / 25.0s / 3.0km
 TEXT_STATBLOCK_BELBULLAB24_WEAP3,1x Concussion Bomb (AC): 1 / 30.0s / 0.8km
+TEXT_STATBLOCK_BENJO_BASE,Health: 300 | Unshielded
 TEXT_STATBLOCK_BTLA2_YWING_BASE,Health: 18 | Shields: 8
 TEXT_STATBLOCK_BTLA2_YWING_MOVE,Speed: 4.26 | Maneuverability: 3.15
 TEXT_STATBLOCK_BTLA2_YWING_SQUADRON,Squadron: 12x BTL-A2 Y-wing
@@ -430,10 +434,10 @@ TEXT_TOOLTIP_BAYONET_MOVE,Speed: 3.0 | Accel: 0.175 | Turn: 0.3
 TEXT_TOOLTIP_BAYONET_SHIELD,Shields: 752 (12.5R) (Frigate)
 TEXT_TOOLTIP_BAYONET_WEAP1,4x Heavy Turbolasers: 2 / 5.0s / 8.1km
 TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.835s / 4.1km
-TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
 TEXT_TOOLTIP_BELBULLAB22,Fighter created by the Techno Union in preparation for the Clone Wars to serve as a bulkier and hardier support and escort element within CIS fighter groups. Famously used in a modified form by General Grievous as his personal starfighter, the design had mild continuity among mercenary groups, Force users and resistance cells afterwards.
 TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault craft. Armed with heavier weaponry, it is well suited to engage Republic fighters such as the ARC-170, but is more rarely sighted compared to the more standard fighter and bomber Belbullab starfighters.
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
+TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
 TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings, ARC-170s and NTB-630s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Defender models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BTLA2_Y_WING,Early model of Y-wing tuned more towards a multirole fighter than assault bomber role. Reduced shield strength provides an increase in engine power and the weapon loadout is optimized for both its combat role and control by a single pilot. This variant lacks even the fixed-forward ions that later attempts at the concept will include.
@@ -499,8 +503,11 @@ TEXT_TOOLTIP_CLONE_WEAP8,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONE_WEAP9,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's cause to restore the true Empire. They are well equipped with old Republic armor gathered on RZ7, and more fanataical than most other soldiers. They wear a mix of the old Phase I and more comfortable Phase II armor.
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
+TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
+TEXT_TOOLTIP_COMMAND_PUNISHER,Imperial-I Star Destroyer (Carrier), Punisher
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
+TEXT_TOOLTIP_COMMAND_RECKONING,Imperial-II Star Destroyer, Reckoning
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
 TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet-class Light Cruiser, Rintonne's Flame
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
@@ -547,6 +554,13 @@ TEXT_TOOLTIP_GAT_SHIELD,Shields: 50 / [6/R] (Light Vehicle)
 TEXT_TOOLTIP_GAT_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
 TEXT_TOOLTIP_GAT_WEAP2,1x Proton Missile: 1 / 10.0s / 320m
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
+TEXT_TOOLTIP_HAET,Heavy aerial gunboat developed for the Outer Rim Sieges to serve as armored reconnaissance and a counterpart to more fragile LAAT models for air support. Suited to soak enemy fire or engage a variety of targets.
+TEXT_TOOLTIP_HAET_COMPANY,Company: 1x HAET-221
+TEXT_TOOLTIP_HAET_HEALTH,Health: 350 (Heavy Speeder)
+TEXT_TOOLTIP_HAET_MOVE,Speed: 3.0 | Turn: 4.0
+TEXT_TOOLTIP_HAET_SHIELD,Shields: 100 / [5/R] (Speeder)
+TEXT_TOOLTIP_HAET_WEAP1,1x Heavy AV Blaster Cannon: 1 / 3.0s / 480m
+TEXT_TOOLTIP_HAET_WEAP2,6x AI Blaster Cannons: 5 / 2.5s / 400m
 TEXT_TOOLTIP_HAG,The Heavy Artillery Gun was a Trade Federation artillery piece first used during the invasion of Naboo. After the formation of the CIS it became the primary indirect fire artillery for the Confederacy.
 TEXT_TOOLTIP_HAG_COMPANY,Company: 1x HAG-M
 TEXT_TOOLTIP_HAG_HEALTH,Health: 100 (Medium Vehicle)
@@ -566,6 +580,7 @@ TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 5.6km
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +20%
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
+TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
@@ -628,6 +643,7 @@ TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
+TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
 TEXT_TOOLTIP_SHADOW_ACCLAMATOR_I,A large, transgalactic assault vessel that was secretly developed before the Clone Wars. While best known for carrying army groups, it is typically used as a carrier in naval duties. Carries enough turbolasers to threaten other large ships, but is not durable for the size. Coated in black stygian-triprismatic polymer, this vessel was almost impossible to detect at sensor range and nearly invisible to the naked eye in deep space.
 TEXT_TOOLTIP_SHADOW_ATAT,The Shadow AT-AT was an All Terrain Armored Transport walker covered with gleaming black armor. Utilized by the Galactic Empire during the Galactic Civil War fought against the Alliance to Restore the Republic, the Shadow AT-AT was created solely for the purpose of intimidating enemy forces rather than performing stealth operations. The Alliance's soldiers found the Shadow AT-AT to be one of the most frightening specters on the battlefield. 
 TEXT_TOOLTIP_SHADOW_ATAT_COMPANY,Company: 1x Shadow AT-AT Walker
@@ -787,8 +803,8 @@ TEXT_UNIT_BELBULLAB22,Belbullab-22
 TEXT_UNIT_BELBULLAB23,Belbullab-23
 TEXT_UNIT_BELBULLAB24,Belbullab-24
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
-TEXT_UNIT_CLASS_C,Class-C Frigate
 TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
+TEXT_UNIT_CLASS_C,Class-C Frigate
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
 TEXT_UNIT_COYOTE_BOMBER,Coyote Advanced Droid Bomber
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
@@ -804,6 +820,7 @@ TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
 TEXT_UNIT_GAT_COMPANY,GAT Company
 TEXT_UNIT_H60,H-60 Tempest
+TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet-class Carrier
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
@@ -910,6 +927,7 @@ TEXT_VCX820_SQUADRON2,VCX-820 Squadron x2
 TEXT_YV929_SQUADRON,YV-929 Squadron
 TEXT_YV929_SQUADRON_HALF,YV-929 Squadron 1/2
 TEXT_YV929_SQUADRON2,YV-929 Squadron x2
+TEXXT_HERO_JAEFFIS,Jaeffis
 Z_TEXT_TOOLTIP_AF2_RESEARCH,Comb through old schematics for Rendili's failed Assault Frigate-II and put the ship to use for our own purposes. Unlocks Assault Frigate-II.
 Z_TEXT_TOOLTIP_CORONA_RESEARCH,Steal the schematics for KDY's prototype frigate design and reverse-engineer the vessel for our own purposes. Unlocks Corona Frigate, retires Nebulon-B.
 Z_TEXT_TOOLTIP_GORATH_RESEARCH,"Borrow" the schematics for Loronar's prototype strike cruiser design and reverse-engineer the vessel for our own purposes. Unlocks Gorath, retires Strike Cruiser.

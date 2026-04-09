@@ -43,9 +43,7 @@
 			TEXT_PLANET_SEPARATOR
 			TEXT_PROTEUS_DESCRIPTION_LAMBDA
 			TEXT_TOOLTIP_PROTEUS_UNITS_BLOCK
-			TEXT_UNIT_ISB_INFILTRATOR_PLATOON
-			TEXT_TOOLTIP_PROTEUS_SWAPS_BLOCK
-			TEXT_UNIT_ARMYTROOPER_PLATOON
+			TEXT_PROTEUS_ROSTER_LAMBDA
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
@@ -791,6 +789,21 @@
 		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
 
 		<Icon_Name>I_BUTTON_RESTORED_EMPIRE.tga</Icon_Name>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</DummyStructure>
+	
+	<DummyStructure Name="Warlord_Choice_Grunger">
+		<Variant_Of_Existing_Type>Event_Dummy_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_EVENT_WARLORD_CHOICE_GRUNGER</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_EVENT_TOOLTIP_WARLORD_CHOICE
+			TEXT_PLANET_SEPARATOR
+			TEXT_PROTEUS_DESCRIPTION_GRUNGER
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> </Encyclopedia_Unit_Class>
+
+		<Icon_Name>I_BUTTON_GRUNGER.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 	</DummyStructure>
 

@@ -6809,6 +6809,7 @@
 		<Build_Time_Seconds>67</Build_Time_Seconds>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
 		CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy,
@@ -7010,14 +7011,10 @@
 
 		<Targeting_Max_Attack_Distance>2550.0</Targeting_Max_Attack_Distance>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
 
 		<Tech_Level>0</Tech_Level>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
-		AI_Category_Dummy | Heavy_Frigate_Category_Dummy, 
-		</Required_Special_Structures>
 		
 		<Build_Cost_Credits>1350</Build_Cost_Credits>
 

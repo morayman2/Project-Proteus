@@ -335,6 +335,8 @@ return {
 ["GROT_RESOLUTION"] = true,
 ["GRUMBY_NOTROPIS"] = true,
 ["GRUNGER_AGGRESSOR"] = true,
+["GRUNGER_AGGRESSOR_DUMMY"] = true,
+["GRUNGER_MAHLER"] = true,
 ["GUARDIAN_CRUISER_GROUP"] = true,
 ["GUARDIAN_CRUISER_LASERS_GROUP"] = true,
 ["HAJEN"] = true,

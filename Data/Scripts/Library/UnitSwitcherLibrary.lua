@@ -33,6 +33,7 @@ return {
 	["HARRSK_MEGADOR_DUMMY_2"] = {"Harrsk_Shockwave","Harrsk_Megador"},
 	["DESANNE_DOMINION_DUMMY"] = {"Desanne_Redemption","Desanne_Dominion"},
 	["PARCK_CHAF_DESTROYER_UPGRADE"] = {"Parck_Strikefast","Parck_Chaf_Destroyer"},
+	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},

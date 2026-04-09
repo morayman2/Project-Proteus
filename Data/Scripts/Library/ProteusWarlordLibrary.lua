@@ -566,7 +566,13 @@ return {
 			LeaderEndingNames = {"Emperor Resuun"},
 			HeroList = {"Resuun_Retribution"},
 			UnlockList = {"Guardian_Cruiser_Lasers_Group", "Customs_Corvette", "Lupus_Missile_Frigate", "Class_C_Frigate", "Victory_II_Frigate",
-			"Immobilizer_418", "DHC_Carrier", "Proteus_Cargo_Ship", "Auxilia"},
+			"Immobilizer_418", "DHC_Carrier", "Proteus_Cargo_Ship", "Auxilia", "Acclamator_I_Assault", "Super_Transport_XI_Missile", "Dauntless_Transport", "Victory_II_Star_Destroyer",
+			"Imperial_I_Star_Destroyer_Patrol", "Invincible_Cruiser", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus",
+			"Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought", "Executor_Star_Dreadnought",
+			"Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "ISB_Infiltrator_Company",
+			"PX10_Company", "AT_ST_Company", "AA70_Company", "INT4_Company",
+			"S_1_Firehawke_Company", "AT_AI_Walker_Company", "Freerunner_AA_Company", "HAGM_Company",
+			"PX4_Company", "1H_Tank_Company", "HAET_Company"},
 			--LockList = {"IPV1"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAMARIN",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -748,7 +754,7 @@ return {
 				-- Ground
 				"Army_Special_Missions_Company", "Elite_Mercenary_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 				"Imperial_AT_PT_Company", "T2A_Company",
-				"1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_Light_Mobile_Artillery_Company", "AT_AI_Walker", "Imperial_AT_AP_Walker_Company",
+				"1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_Light_Mobile_Artillery_Company", "AT_AI_Walker_Company", "Imperial_AT_AP_Walker_Company",
 				"Heavy_Recovery_Vehicle_Company", "A9_Floating_Fortress_Company", 
 				-- Structure
 				"Yutrane_Trackata_HQ", 
@@ -944,5 +950,24 @@ return {
 			IntroText = {"TEXT_CONQUEST_PROTEUS_RESTORED_EMPIRE", [12] = "TEXT_CONQUEST_PROTEUS_RESTORED_EMPIRE_E7"},
 			IntroHolo = "Ennix_Devian_Loop",
 			PlanetParticle = "Restored_Allies",
+		},
+		["GRUNGER"] = {
+			FriendlyName = "Grunger's Empire",
+			Planets = {"ORDO"},
+			LeaderTable= {"GRUNGER_MAHLER"},
+			LeaderEndingNames = {"Emperor Grunger"},
+			HeroList = {"Grunger_Mahler", "Roek_Reckoning", "Jaeffis_Punisher"},
+			UnlockList = {"Pursuer_Enforcement_Ship_Group", "Crusader_Gunship", "Lancer_Frigate_PDF", "Arquitens_Refit", "Carrack_Cruiser", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+			"Immobilizer_Twin_Well", "Gladiator_II", "Acclamator_I_Carrier", "Lictor", "Victory_II_Star_Destroyer", "Venator_8X",
+			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
+			"Praetor_Carrier_Battlecruiser", "Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Executor_Star_Dreadnought",
+			"Imperial_Army_Trooper_Company", "Mandalorian_Commando_Company", "Imperial_Galactic_Marine_Company", "Imperial_Army_74Z_Bike_Company",
+			"Imperial_AT_PT_Company", "AT_DP_Company", "AT_ST_A_Company", "RTT_Company",
+			"AT_AA_Walker_Company", "Imperial_TX130S_Company", "MZ8_Tank_Company", "2M_Repulsor_Tank_Company", "AV_7_Company", "Imperial_Modified_LAAT_Company",
+			"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"},
+			LockList = {"Mandalorian_Commando_Influence_Company"},
+			FactionOverride = "Mandalorians",
+			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
+			IntroHolo = "Grunger_Loop"
 		},
 }

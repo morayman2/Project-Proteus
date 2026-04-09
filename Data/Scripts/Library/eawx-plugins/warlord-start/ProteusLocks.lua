@@ -120,5 +120,8 @@ return {
 		--Imperial Neimoidia added units
 		"Munifex",
 		--Tamarin Sector added units
-		"Guardian_Cruiser_Lasers_Group", "Lupus_Missile_Frigate", "Class_C_Frigate", "Auxilia",
+		"Guardian_Cruiser_Lasers_Group", "Lupus_Missile_Frigate", "Class_C_Frigate", "Auxilia", "Dauntless_Transport",
+		"HAET_Company",
+		--Grunger's Empire added units
+		"Mandalorian_Commando_Company",
 }

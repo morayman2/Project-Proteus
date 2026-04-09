@@ -2330,6 +2330,7 @@
 		Shuttle_Tyderium_Troops,							Data\ShipNames\Dropship_Troops.txt,
 		Shuttle_Tyderium_Commando,							Data\ShipNames\Dropship_Commando.txt,
 
+
 		Gozanti_Landing_Craft_Troops,						Data\ShipNames\Dropship_Troops.txt,
 		Gozanti_Landing_Craft_Commando,						Data\ShipNames\Dropship_Commando.txt,
 
@@ -2357,6 +2358,7 @@
 		Imperial_Dropship_Transport_Landing_Craft,			Data\ShipNames\Dropship_Air.txt,
 		MAAT_Landing_Craft,									Data\ShipNames\Dropship_Air.txt,
 		VAAT_Landing_Craft,									Data\ShipNames\Dropship_Air.txt,
+		HAET_Landing_Craft,						            Data\ShipNames\Dropship_Air.txt,
 	</ShipNameTextFiles>
 
 <!-- Data\ShipNames\Cadet_GE_Space.txt, -->
