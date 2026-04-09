@@ -991,12 +991,18 @@ function GovernmentEmpire:group_joins(faction_name)
     -- }
 
     local index = self.legitimacy_groups[level][group_number].name
-    for _,docentry in pairs(self.legitimacy_documentation[level]) do
-        if index == docentry.name then
-            docentry.state = " / [ " .. CONSTANTS.ALL_FACTION_NAMES[string.upper(faction_name)] .. " ]"
-            break
+
+    if self.legitimacy_documentation[level] == nil then
+        StoryUtil.ShowScreenText(GetCurrentTime().." Attempted to recruit legitimacy group of level "..tostring(level).." but failed. Please report this bug!", 30, nil, {r = 217, g = 2, b = 125}, false)
+    else
+        for _,docentry in pairs(self.legitimacy_documentation[level]) do
+            if index == docentry.name then
+                docentry.state = " / [ " .. CONSTANTS.ALL_FACTION_NAMES[string.upper(faction_name)] .. " ]"
+                break
+            end
         end
     end
+
     table.insert(self.imperial_table[faction_name].joined_groups, self.legitimacy_groups[level][group_number].unlocks[1])
     table.remove(self.legitimacy_groups[level], group_number)
     if level == 5 then
@@ -1276,7 +1282,5 @@ function GovernmentEmpire:UpdateDisplay()
 
     Story_Event("GOVERNMENT_DISPLAY")
 end
-
-
 
 return GovernmentEmpire
