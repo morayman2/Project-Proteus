@@ -44,7 +44,7 @@ return {
 			elseif proteus == "SELLASAS" then
 				fighter = "SCURRG_H6_SQUADRON"
 			elseif proteus == "DASTA" then
-				fighter = "H_WING_SQUADRON"
+				fighter = "H_WING_SQUADRON" --TBC
 			elseif proteus == "VOGEL" then
 				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
 			elseif proteus == "BRAK" then
@@ -77,13 +77,47 @@ return {
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "TIE_TERROR_SQUADRON"
 			elseif proteus == "KUAT" then
-				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
+				fighter = "FIRESPRAY_BOMBER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
 				fighter = "SCURRG_H6_SQUADRON"
 			elseif proteus == "TAMARIN" then
 				fighter = "FIRESPRAY_BOMBER_SQUADRON"
 			elseif proteus == "BAKURA" then
 				fighter = "SCURRG_H6_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "SCURRG_H6_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "TIE_TERROR_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "FIRESPRAY_BOMBER_SQUADRON" --TBC
+			elseif proteus == "RADAMA" then
+				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
+			--elseif proteus == "WESSEX" then
+				--fighter = ""
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			--elseif proteus == "QUINTAD" then
+				--fighter = ""
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "TIE_TERROR_SQUADRON"
+			--elseif proteus == "GAROS" then
+				--fighter = ""
+			--elseif proteus == "NABOO" then
+				--fighter = ""
+			--elseif proteus == "KAMINO" then
+				--fighter = ""
+			--elseif proteus == "CIUTRIC_HEGEMONY" then
+				--fighter = ""
+			--elseif proteus == "ZERO_COMMAND" then
+				--fighter = ""
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
 			end
 		end
 		

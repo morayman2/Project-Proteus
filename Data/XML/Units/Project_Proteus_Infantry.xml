@@ -1785,20 +1785,20 @@
 	</GroundCompany>
 
 	<GroundCompany Name="Red_Police_Squad">
-		<Text_ID>TEXT_UNIT_Red_Police_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_RED_POLICE_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> 
-		TEXT_TOOLTIP_Red_Police
+		TEXT_TOOLTIP_RED_POLICE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_Red_Police_SQUAD
-		TEXT_TOOLTIP_Red_Police_HEALTH
-		TEXT_TOOLTIP_Red_Police_MOVE
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP1
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP2
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP3
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP4
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP5
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP6
+		TEXT_TOOLTIP_RED_POLICE_SQUAD
+		TEXT_TOOLTIP_RED_POLICE_HEALTH
+		TEXT_TOOLTIP_RED_POLICE_MOVE
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP1
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP2
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP3
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP4
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP5
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -1814,20 +1814,20 @@
 
 	<Container Name="Red_Police_Container">
 
-		<Text_ID>TEXT_UNIT_Red_Police_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_RED_POLICE_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_Red_Police
+		TEXT_TOOLTIP_RED_POLICE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_Red_Police_SQUAD
-		TEXT_TOOLTIP_Red_Police_HEALTH
-		TEXT_TOOLTIP_Red_Police_MOVE
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP1
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP2
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP3
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP4
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP5
-		TEXT_TOOLTIP_Red_Police_SQUAD_WEAP6
+		TEXT_TOOLTIP_RED_POLICE_SQUAD
+		TEXT_TOOLTIP_RED_POLICE_HEALTH
+		TEXT_TOOLTIP_RED_POLICE_MOVE
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP1
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP2
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP3
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP4
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP5
+		TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -1912,7 +1912,7 @@
 	</Container>
 	
 	<GroundInfantry Name="Red_Police">
-		<Text_ID>TEXT_UNIT_Red_Police</Text_ID>
+		<Text_ID>TEXT_UNIT_RED_POLICE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_Red_Police
@@ -2162,7 +2162,7 @@
 
 	<GroundInfantry Name="Red_Police_Gunner_Light">
 		<Variant_Of_Existing_Type>Red_Police</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_Red_Police_GUNNER_LIGHT</Text_ID>
+		<Text_ID>TEXT_UNIT_RED_POLICE_GUNNER_LIGHT</Text_ID>
 
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_Red_Police
@@ -2191,7 +2191,7 @@
 
 	<GroundInfantry Name="Red_Police_Disruptor">
 		<Variant_Of_Existing_Type>Red_Police</Variant_Of_Existing_Type>
-		<Text_ID>TEXT_UNIT_Red_Police_DISRUPTOR</Text_ID>
+		<Text_ID>TEXT_UNIT_RED_POLICE_DISRUPTOR</Text_ID>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_Red_Police
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
@@ -2888,6 +2888,7 @@
 			Swamp, 				Ni_Soldier_Trandoshan_M.Alo
 		</Land_Terrain_Model_Mapping>
 		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 		
 		<Affiliation> Imperial_Proteus </Affiliation>
 
@@ -2943,6 +2944,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Orange.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -2982,6 +2984,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Cyan.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3018,6 +3021,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Blue.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3031,6 +3035,13 @@
 		</Land_Terrain_Model_Mapping>
 
 		<Projectile_Types>Proj_Light_Thermal_Grenade_Infantry</Projectile_Types>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Appearance_Delay_Frames> 8 </Projectile_Appearance_Delay_Frames>
+		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>	
+
+		<Projectile_Types>Proj_Light_Concussion_Grenade_Infantry</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -3051,6 +3062,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Red.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3091,6 +3103,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Green.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3121,7 +3134,7 @@
 
 		<Land_Model_Name>NI_SOLDIER_TRANDOSHAN_M.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RegularInfantry.alo</Land_Model_Anim_Override_Name>
-		<Icon_Name>i_button_UI_Boskk.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 		<AI_Combat_Power>114.11</AI_Combat_Power>
 		<Affiliation>Imperial_Proteus</Affiliation>
 
@@ -3152,8 +3165,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_SOLDIER.TGA</Icon_Name>
-
+		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
 		<Damage>18</Damage>
 
 		<Ship_Class>infantry</Ship_Class>
@@ -3229,7 +3241,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD</Icon_Name>
 
 		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
@@ -3258,8 +3270,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_ALPHA.TGA</Icon_Name>
-
+		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD</Icon_Name>
 		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 
@@ -3270,22 +3281,25 @@
 
 	<Container Name="Trandoshan_Hunter_Container">
 
-		<Text_ID>TEXT_UNIT_EVO_TROOPER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_EVO_TROOPER
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD
-		TEXT_TOOLTIP_EVO_TROOPER_HEALTH
-		TEXT_TOOLTIP_EVO_TROOPER_MOVE 
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP1
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP2
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP3
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTING_PACK
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD</Icon_Name>
 
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
@@ -3346,22 +3360,25 @@
 
 	<Container Name="Trandoshan_Commander_Container">
 
-		<Text_ID>TEXT_UNIT_EVO_TROOPER_SQUAD</Text_ID>
+		<Text_ID>TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_EVO_TROOPER
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD
-		TEXT_TOOLTIP_EVO_TROOPER_HEALTH
-		TEXT_TOOLTIP_EVO_TROOPER_MOVE 
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP1
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP2
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP3
-		TEXT_TOOLTIP_EVO_TROOPER_SQUAD_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTING_PACK
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
+		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_ALPHA.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD</Icon_Name>
 
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>

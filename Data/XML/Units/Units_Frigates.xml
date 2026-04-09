@@ -6483,6 +6483,37 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Super_Transport_XI_Modified_Pirate">
+		<Variant_Of_Existing_Type>Template_Super_Transport_XI_Modified</Variant_Of_Existing_Type>
+		<Affiliation> Imperial_Proteus </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Pirate_Base,
+		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>Y_Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Mixed_Ugly_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rihkxyrk_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y_Wing_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Mixed_Ugly_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rihkxyrk_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>1850</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisite/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+
 	<SpaceUnit Name="Bulwark_I">
 		<Variant_Of_Existing_Type>Template_Bulwark_I</Variant_Of_Existing_Type>
 

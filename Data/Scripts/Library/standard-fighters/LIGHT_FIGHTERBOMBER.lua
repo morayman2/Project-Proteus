@@ -28,15 +28,15 @@ return {
 			elseif proteus == "TIERFON" then
 				fighter = "MISSILE_TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SELLASAS" then
-				fighter = "TIE_AGGRESSOR_SQUADRON"
+				fighter = "MISSILE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "DASTA" then
 				fighter = "Z95ML_HEADHUNTER_SQUADRON"
 			elseif proteus == "VOGEL" then
 				fighter = "TIE_GT_SQUADRON"
 			elseif proteus == "BRAK" then
-				fighter = "CLOAKSHAPE_NEW_SQUADRON"
+				fighter = "TIE_GT_SQUADRON"
 				if Get_Fighter_Research("BrakFighters") then
-					fighter = "ARC_170_SQUADRON"
+					fighter = "TIE_X2_SQUADRON"
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "Z95ML_HEADHUNTER_SQUADRON"
@@ -45,17 +45,17 @@ return {
 			elseif proteus == "TAPANI" then
 				fighter = "Z95ML_HEADHUNTER_SQUADRON"
 			elseif proteus == "RESTORED_EMPIRE" then
-				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
+				fighter = "Z95ML_HEADHUNTER_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
 				fighter = "TIE_V1_SQUADRON"
 			elseif proteus == "ELROOD" then
-				fighter = "TIE_X2_SQUADRON"
+				fighter = "Z95ML_HEADHUNTER_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
-				fighter = "TIE_GT_SQUADRON"
+				fighter = "TIE_GT_TORPS_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
 				fighter = "TIE_GT_SQUADRON"
 			elseif proteus == "JARDEEN" then
-				fighter = "MISSILE_TIE_INTERCEPTOR_SQUADRON"
+				fighter = "TIE_GT_TORPS_SQUADRON"
 			elseif proteus == "KASHYYYK" then
 				fighter = "Z95ML_HEADHUNTER_SQUADRON"
 			elseif proteus == "LUMIYA" then
@@ -65,13 +65,47 @@ return {
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "TIE_GT_SQUADRON"
 			elseif proteus == "KUAT" then
-				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
+				fighter = "ASSAULT_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "TIE_GT_SQUADRON"
+				fighter = "Z95ML_HEADHUNTER_SQUADRON" --TBC
 			elseif proteus == "TAMARIN" then
 				fighter = "TIE_GT_SQUADRON"
 			elseif proteus == "BAKURA" then
 				fighter = "Z95ML_HEADHUNTER_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "Z95ML_HEADHUNTER_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "TIE_GT_TORPS_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "TIE_GT_SQUADRON"
+			elseif proteus == "RADAMA" then
+				fighter = "TIE_GT_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "TIE_GT_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "Z95ML_HEADHUNTER_SQUADRON" --TBC
+			elseif proteus == "RAYTER" then
+				fighter = "TIE_GT_SQUADRON"
+			--elseif proteus == "WESSEX" then
+				--fighter = ""
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			--elseif proteus == "QUINTAD" then
+				--fighter = ""
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "TIE_X2_SQUADRON"
+			--elseif proteus == "GAROS" then
+				--fighter = ""
+			--elseif proteus == "NABOO" then
+				--fighter = ""
+			--elseif proteus == "KAMINO" then
+				--fighter = ""
+			--elseif proteus == "CIUTRIC_HEGEMONY" then
+				--fighter = ""
+			--elseif proteus == "ZERO_COMMAND" then
+				--fighter = ""
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
 			end
 		end
 		
