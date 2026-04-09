@@ -464,7 +464,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<GUI_Row> 0 </GUI_Row>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Starting_Spawned_Units_Tech_0>Bakuran_GPA_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -475,8 +475,10 @@
 	<SpaceUnit Name="Carrack_Cruiser_Laser">
 		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>
 		
-		<Text_ID>TEXT_UNIT_CARRACK</Text_ID>
+		<Text_ID>TEXT_UNIT_CARRACK_LASERS</Text_ID>
 		
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CARRACK_LASERS
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_CARRACK_LASERS_HULL
 		TEXT_TOOLTIP_CARRACK_LASERS_SHIELD
@@ -486,6 +488,7 @@
 		TEXT_TOOLTIP_CARRACK_LASERS_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
 		
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -1538,7 +1541,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Required_Planets/>
 	</SpaceUnit>
@@ -1984,6 +1987,8 @@
 		TEXT_TOOLTIP_LICTOR_MOVE
 		TEXT_TOOLTIP_LICTOR_SQUADRON
 		TEXT_TOOLTIP_LICTOR_WEAP1
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_LICTOR_TENDER
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
@@ -2074,7 +2079,7 @@
 		HP_Lictor_Turbo_MS_01, HP_Lictor_Turbo_MS_02, HP_Lictor_Turbo_MS_03, HP_Lictor_Turbo_MS_04, HP_Lictor_Turbo_MS_05, HP_Lictor_Turbo_MS_06, HP_Lictor_Turbo_MS_07, HP_Lictor_Turbo_MS_08, HP_Lictor_Turbo_MS_09, HP_Lictor_Turbo_MS_10
 		</HardPoints>
 
-		<Lua_Script/>
+		<Lua_Script>GenericGameObject</Lua_Script>
 
 		<Target_Bones> Root </Target_Bones>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
@@ -2177,10 +2182,10 @@
 
 			<Force_Healing_Ability Name="Lictor_Fleet_Tender">
 				<Activation_Style>Space_Automatic</Activation_Style>
-				<Heal_Range>1200.0</Heal_Range>
-				<Heal_Amount> 120.0 </Heal_Amount>
-				<Heal_Interval_In_Secs>1.2</Heal_Interval_In_Secs>
-				<Single_Target_Heal>No</Single_Target_Heal>
+				<Heal_Range>1300.0</Heal_Range>
+				<Heal_Amount> 100.0 </Heal_Amount>
+				<Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
 				<Heal_Range_Blob_Material>Space_Repair_Radius_Overlay</Heal_Range_Blob_Material>
 				<!-- We can heal the following unit types: -->
 				<Applicable_Unit_Categories>Gunship, Corvette, Frigate, Capital, SuperCapital, SpaceHero, Transport</Applicable_Unit_Categories>

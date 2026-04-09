@@ -511,8 +511,8 @@ TEXT_TOOLTIP_CLONE_WEAP8,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONE_WEAP9,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's cause to restore the true Empire. They are well equipped with old Republic armor gathered on RZ7, and more fanataical than most other soldiers. They wear a mix of the old Phase I and more comfortable Phase II armor.
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
-TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
+TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
 TEXT_TOOLTIP_COMMAND_PUNISHER,Imperial-I Star Destroyer (Carrier), Punisher
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
@@ -611,7 +611,9 @@ TEXT_TOOLTIP_LICTOR,The Lictor-Class were specialized prison ships built by Rend
 TEXT_TOOLTIP_LICTOR_HULL,Hull: 4200 (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_MOVE,Speed: 3.85 | Accel: 0.5 | Turn: 0.4
 TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [36.5/R] (Heavy Frigate)
-TEXT_TOOLTIP_LICTOR_WEAP1,1x :10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
+TEXT_TOOLTIP_LICTOR_SQUADRON,Fighters: 1 / 3 
+TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.6km
+TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
 TEXT_TOOLTIP_LUPUS,Utilised by the Trade Federation prior to the Naboo Crisis, these missile frigates stayed in use for the early Clone Wars before being eventually phased out for more modern vessels, with the Lupus rarely seen in combat by the wars end. Their dense array of anti-fighter lasers and concussion missiles makes them a strong screener against fighters, with its relatively slow speed and lack of point-defense arrays being its only weaknesses for that role.
 TEXT_TOOLTIP_LUPUS_HULL,Hull: 850 (Frigate)
 TEXT_TOOLTIP_LUPUS_MOVE,Speed: 2.8 | Accel: 0.1 | Turn: 0.35
@@ -835,6 +837,7 @@ TEXT_UNIT_BELBULLAB23,Belbullab-23
 TEXT_UNIT_BELBULLAB24,Belbullab-24
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
+TEXT_UNIT_CARRACK_LASERS,Carrack Cruiser (Lasers)
 TEXT_UNIT_CLASS_C,Class-C Frigate
 TEXT_UNIT_CONSULAR,Consular Transport Cruiser
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
