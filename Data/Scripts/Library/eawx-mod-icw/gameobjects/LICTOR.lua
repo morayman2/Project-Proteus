@@ -2,7 +2,7 @@ return {
 	Ship_Crew_Requirement = 140,
 	Fighters = {
 		["FIGHTER"] = {
-			DEFAULT = {Reserve = 3, Initial = 1},
+			DEFAULT = {Initial = 1, Reserve = 3}
 		}
 	},
 	Native = "IMPERIAL_PROTEUS",

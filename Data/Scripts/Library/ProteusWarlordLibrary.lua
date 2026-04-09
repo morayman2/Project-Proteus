@@ -968,7 +968,7 @@ return {
 			UnlockList = {
 				-- Space	
 				"Imperial_CR90", "Charger_C70", "Carrack_Cruiser_Laser",  "Arquitens", "Galleon_Minelayer", "Pelta_Assault", "Pelta_Support", "Rep_DHC",
-				"Acclamator_I_Carrier", "Acclamator_I_Assault", "Acclamator_II", "Venator_Star_Destroyer", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", "Lictor",
+				"Acclamator_I_Carrier", "Acclamator_I_Assault", "Acclamator_II", "Venator_Star_Destroyer", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Destroyer",
 				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought", 
 				-- Ground
