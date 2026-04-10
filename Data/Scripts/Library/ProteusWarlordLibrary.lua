@@ -833,7 +833,7 @@ return {
 				-- Structure
 				"CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", 
 				-- Research
-				"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC",
+				"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC", "Z_Research_Scimitar",
 			},
 				IntroText = "TEXT_CONQUEST_PROTEUS_ZAARIN_REMNANTS",
 			IntroHolo = "Raveen_Loop"
