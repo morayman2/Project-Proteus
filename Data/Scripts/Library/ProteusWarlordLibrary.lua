@@ -541,7 +541,7 @@ return {
 				-- Structure
 				"CEC_HQ",
 			},
-			--LockList = {"Lancer_Frigate"},
+			LockList = {"Namana_Cruiser_Influence","Bakura_Destroyer_Influence"},
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BAKURA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -996,6 +996,7 @@ return {
 			"Imperial_AT_PT_Company", "AT_DP_Company", "AT_ST_A_Company", "RTT_Company",
 			"AT_AA_Walker_Company", "Imperial_TX130S_Company", "MZ8_Tank_Company", "2M_Repulsor_Tank_Company", "AV_7_Company", "Imperial_Modified_LAAT_Company",
 			"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"},
+			LastYear = 6,
 			LockList = {"Mandalorian_Commando_Influence_Company"},
 			FactionOverride = "Mandalorians",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
