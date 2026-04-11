@@ -2122,7 +2122,7 @@
 			<Reduce_Production_Price_Ability Name="Sienar_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
+				Interdictor_Star_Destroyer, Vindicator_Cruiser, Vindicator_Carrier,	 Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
 				RTT_Company, Imperial_ULAV_Company, Shadow_ULAV_Company, TIE_Crawler_Company, TIE_Mauler_Company, Lancet_Air_Artillery_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -2132,7 +2132,7 @@
 			<Reduce_Production_Time_Ability Name="Sienar_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
+				Interdictor_Star_Destroyer, Vindicator_Cruiser, Vindicator_Carrier,	 Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
 				RTT_Company, Imperial_ULAV_Company, Shadow_ULAV_Company, TIE_Crawler_Company, TIE_Mauler_Company, Lancet_Air_Artillery_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
