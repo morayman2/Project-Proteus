@@ -86,6 +86,8 @@ return {
 				"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company",
 				"AT_AA_Missile_Walker_Company", "Imperial_Flashblind_Company", "Imperial_TX130S_Company", "SPMAG_Walker_Company", "1M_Tank_Company", "1H_Tank_Company",
 				"PX4_Company", "Tracked_Mobile_Base_Company", "Lancet_Air_Artillery_Company", "AT_AT_Walker_IC_Company", 
+				-- Research
+				"ELR_Dummy_Research_Scimitar",
 			},
 			--LockList = {"Imperial_Army_Guard_Company"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ELROOD",
@@ -995,7 +997,7 @@ return {
 			"Imperial_Army_Trooper_Company", "Mandalorian_Commando_Company", "Imperial_Galactic_Marine_Company", "Imperial_Army_74Z_Bike_Company",
 			"Imperial_AT_PT_Company", "AT_DP_Company", "AT_ST_A_Company", "RTT_Company",
 			"AT_AA_Walker_Company", "Imperial_TX130S_Company", "MZ8_Tank_Company", "2M_Repulsor_Tank_Company", "AV_7_Company", "Imperial_Modified_LAAT_Company",
-			"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"},
+			"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company", "GRU_Dummy_Research_Scimitar",},
 			LastYear = 6,
 			LockList = {"Mandalorian_Commando_Influence_Company"},
 			FactionOverride = "Mandalorians",

@@ -104,6 +104,9 @@ return {
 				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
 			elseif proteus == "TAMARIN" then
 				fighter = "BTLS1_Y_WING_SQUADRON"
+				if Get_Fighter_Research("TAMSC") then
+					fighter = "SCIMITAR_SQUADRON"
+				end
 			elseif proteus == "BAKURA" then
 				fighter = "TIE_BOMBER_SQUADRON"
 			elseif proteus == "ANTEMERIDIAS" then
