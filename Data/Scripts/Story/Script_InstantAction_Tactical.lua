@@ -65,7 +65,7 @@ function State_Setup_Start(message)
 		--Needed to force object scripts e.g. fighter spawn to work for IF. ~Mord
 		StoryUtil.ChangeAIPlayer("Independent_Forces", "AI_Player_UnderworldStoryOpponent")
 		if humanPlayer ~= Find_Player("Imperial_Proteus") then
-		  StoryUtil.ChangeAIPlayer("Imperial_Proteus", "AI_Player_UnderworldStoryOpponent")
+			StoryUtil.ChangeAIPlayer("Imperial_Proteus", "AI_Player_UnderworldStoryOpponent")
 		end
 	end
 end
