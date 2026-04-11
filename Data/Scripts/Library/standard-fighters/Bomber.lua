@@ -69,8 +69,8 @@ return {
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "BTLB_Y_WING_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
-				fighter = "AVENGER_BOMBER_SQUADRON"
-				if Get_Fighter_Research("Z_Research_Scimitar") then
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
+				if Get_Fighter_Research("ZSC") then
 					fighter = "SCIMITAR_SQUADRON"
 				end
 			elseif proteus == "ELROOD" then

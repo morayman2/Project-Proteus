@@ -2822,6 +2822,8 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_roek.tga</Icon_Name>
 		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Affiliation>Independent_Forces</Affiliation> <!-- Stop AI enumerating -->
@@ -2882,6 +2884,8 @@
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_jaeffis.tga</Icon_Name>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>

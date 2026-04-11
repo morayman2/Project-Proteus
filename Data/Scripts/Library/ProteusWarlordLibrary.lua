@@ -538,7 +538,7 @@ return {
 				-- Structure
 				"CEC_HQ",
 			},
-			--LockList = {"Lancer_Frigate"},
+			LockList = {"Namana_Cruiser_Influence","Bakura_Destroyer_Influence"},
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_BAKURA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -580,7 +580,7 @@ return {
 			"Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "ISB_Infiltrator_Company",
 			"PX10_Company", "AT_ST_Company", "AA70_Company", "INT4_Company",
 			"S_1_Firehawke_Company", "AT_AI_Walker_Company", "Freerunner_AA_Company", "HAGM_Company",
-			"PX4_Company", "1H_Tank_Company", "HAET_Company"},
+			"PX4_Company", "1H_Tank_Company", "HAET_Company", "TAM_Dummy_Research_Scimitar"},
 			--LockList = {"IPV1"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAMARIN",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -830,7 +830,7 @@ return {
 				-- Structure
 				"CEC_HQ", "Taim_Bak_HQ", "Sorosuub_HQ", 
 				-- Research
-				"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC",
+				"Z_Research_MB", "Z_Research_Corona", "Z_Research_Gorath", "Z_Research_AF2", "Z_Research_MTC", "Z_Research_Scimitar",
 			},
 				IntroText = "TEXT_CONQUEST_PROTEUS_ZAARIN_REMNANTS",
 			IntroHolo = "Raveen_Loop"
@@ -965,7 +965,7 @@ return {
 			UnlockList = {
 				-- Space	
 				"Imperial_CR90", "Charger_C70", "Carrack_Cruiser_Laser",  "Arquitens", "Galleon_Minelayer", "Pelta_Assault", "Pelta_Support", "Rep_DHC",
-				"Acclamator_I_Carrier", "Acclamator_I_Assault", "Acclamator_II", "Venator_Star_Destroyer", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", "Lictor",
+				"Acclamator_I_Carrier", "Acclamator_I_Assault", "Acclamator_II", "Venator_Star_Destroyer", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Acclamator_Destroyer",
 				"Praetor_I_Battlecruiser", "Mandator_II_Dreadnought", 
 				-- Ground
@@ -993,6 +993,7 @@ return {
 			"Imperial_AT_PT_Company", "AT_DP_Company", "AT_ST_A_Company", "RTT_Company",
 			"AT_AA_Walker_Company", "Imperial_TX130S_Company", "MZ8_Tank_Company", "2M_Repulsor_Tank_Company", "AV_7_Company", "Imperial_Modified_LAAT_Company",
 			"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"},
+			LastYear = 6,
 			LockList = {"Mandalorian_Commando_Influence_Company"},
 			FactionOverride = "Mandalorians",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
