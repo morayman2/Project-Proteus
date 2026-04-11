@@ -77,6 +77,9 @@ return {
 				end
 			elseif proteus == "ELROOD" then
 				fighter = "TIE_BOMBER_SQUADRON"
+				if Get_Fighter_Research("ELRSC") then
+					fighter = "SCIMITAR_SQUADRON"
+				end
 			elseif proteus == "WILD_SPACE" then
 				fighter = "SHIELDED_TIE_BOMBER_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
@@ -133,15 +136,17 @@ return {
 				fighter = "SHIELDED_TIE_BOMBER_SQUADRON"
 			elseif proteus == "PROTECTORATE" then
 				fighter = "MISSILE_BOAT_SQUADRON"
+			elseif proteus == "GRUNGER" then
+					fighter = "TIE_BOMBER_SQUADRON"
+				if Get_Fighter_Research("GRUSC") then
+					fighter = "SCIMITAR_SQUADRON"
+				end
 			--elseif proteus == "LAMBDA" then
 				--fighter = ""
 			--elseif proteus == "THORN" then
 				--fighter = ""
-			--elseif proteus == "GRUNGER" then
-				--fighter = ""
 			--elseif proteus == "X1" then
 				--fighter = ""
-				
 			end
 		end
 		
