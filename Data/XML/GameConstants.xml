@@ -2447,6 +2447,7 @@
 		Shadow_Vengeance_Star_Dreadnought, 				Data\ShipNames\shadow_Vengeance.txt,
 		Triumph_Star_Destroyer, 						Data\ShipNames\Triumph_SD.txt,
 		Triumph_Star_Destroyer_Hero_Refit, 				Data\ShipNames\Triumph_SD.txt,
+		DHC_Interdictor,								Data\ShipNames\CC7700E.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

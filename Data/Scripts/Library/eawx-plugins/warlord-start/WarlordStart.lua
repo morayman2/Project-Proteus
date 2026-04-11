@@ -253,6 +253,10 @@ function WarlordStart:Populate_Chosen_Faction(choice, cosmetic)
 		end
 	end
 
+	if entry.LegitimacyLock then
+		crossplot:publish("LEGITIMACY_LOCK", entry.LegitimacyLock)
+	end
+
 	crossplot:publish("INITIALIZE_PROTEUS_LEGITIMACY", entry.LeaderTable)
 	crossplot:publish("INITIALIZE_AI", "empty")
 	self.warlordlist = nil

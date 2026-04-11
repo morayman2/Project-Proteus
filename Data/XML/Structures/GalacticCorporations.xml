@@ -1948,9 +1948,9 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="Rendili_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> <!-- (Unimplemented Units) DHC_Interdictor-->
+				<Applicable_Unit_Types>
 				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
-				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer 
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -1960,7 +1960,7 @@
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types> 
 				Customs_Corvette, Shadow_Customs_Corvette, Imperial_DHC, DHC_Carrier, PDF_DHC, Victory_I_Star_Destroyer, Victory_II_Star_Destroyer, Crimson_Victory_II_Star_Destroyer, Gladiator_I, Gladiator_II, Battle_Horn, Neutron_Star, NR_DHC, Alliance_Assault_Frigate, Alliance_Assault_Frigate_II, Republic_Star_Destroyer, Invincible_Cruiser,
-				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer   
+				Lictor, PDF_DHC, Rep_DHC, DHC_Gunboat, Neutron_Star_Mercenary, Neutron_Star_Tender, Triumph_Star_Destroyer, Victory_II_Carrier, Victory_I_Fleet_Star_Destroyer, DHC_Interdictor   
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
 				<Stacking_Category>50</Stacking_Category>
@@ -2122,7 +2122,7 @@
 			<Reduce_Production_Price_Ability Name="Sienar_Reduce_Production_Price">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
+				Interdictor_Star_Destroyer, Vindicator_Cruiser, Vindicator_Carrier,	 Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
 				RTT_Company, Imperial_ULAV_Company, Shadow_ULAV_Company, TIE_Crawler_Company, TIE_Mauler_Company, Lancet_Air_Artillery_Company
 				</Applicable_Unit_Types>
 				<Price_Reduction_Percentage>0.30</Price_Reduction_Percentage>
@@ -2132,7 +2132,7 @@
 			<Reduce_Production_Time_Ability Name="Sienar_Production_Time_Bonus">
 				<Applicable_Unit_Categories/>
 				<Applicable_Unit_Types>
-				Interdictor_Star_Destroyer, Vindicator_Cruiser, Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
+				Interdictor_Star_Destroyer, Vindicator_Cruiser, Vindicator_Carrier,	 Enforcer_Picket_Cruiser, Immobilizer_418, Immobilizer_Twin_Well, Marauder_Cruiser, Marauder_Missile_Cruiser, Marauder_Picket_Cruiser, IPV1, IPV4, IPV1_Gunboat, IPV1_Zeta, Guardian_Cruiser_Group, YE_4_Group, Marauder_Missile_Cruiser, Bayonet_Cruiser, 
 				RTT_Company, Imperial_ULAV_Company, Shadow_ULAV_Company, TIE_Crawler_Company, TIE_Mauler_Company, Lancet_Air_Artillery_Company
 				</Applicable_Unit_Types>
 				<Time_Reduction_Percentage>0.30</Time_Reduction_Percentage>
