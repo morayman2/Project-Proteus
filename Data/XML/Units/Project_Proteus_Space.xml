@@ -457,6 +457,27 @@
 			</Laser_Defense_Ability>
 		</Abilities>
 	</SpaceUnit>
+
+	<SpaceUnit Name="IPV1_Gunboat_Proteus">
+		<Variant_Of_Existing_Type>Template_IPV1_Gunboat</Variant_Of_Existing_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>365</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
 	
 	<SpaceUnit Name="Namana_Cruiser_Proteus">
 		<Variant_Of_Existing_Type>Template_Namana_Cruiser</Variant_Of_Existing_Type>
@@ -1442,7 +1463,23 @@
 
 		<Death_Clone>Damage_Normal, Medium_Explosion_Space_Trails</Death_Clone>
 	</SpaceUnit>
-	
+
+	<SpaceUnit Name="Proteus_Kaloth">
+		<Variant_Of_Existing_Type>Template_Kaloth_Battlecruiser</Variant_Of_Existing_Type>
+		<Affiliation> Imperial_Proteus </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Pirate_Base,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
 	
 	<SpaceUnit Name="Galleon_Minelayer">
 		<Variant_Of_Existing_Type>Template_Galleon</Variant_Of_Existing_Type>
@@ -15093,43 +15130,5 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
-		<SpaceUnit Name="IPV1_Gunboat_Proteus">
-		<Variant_Of_Existing_Type>Template_IPV1_Gunboat</Variant_Of_Existing_Type>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Tech_Level>0</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Planets/>
-		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four
-		AI_Category_Dummy | Non_Capital_Category_Dummy
-		</Required_Special_Structures>
-		<Lua_Script>GenericGameObject</Lua_Script>
-		
-		<!-- Survival -->
-		<Tactical_Build_Cost_Multiplayer>365</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-	</SpaceUnit>
-
-	<SpaceUnit Name="Proteus_Kaloth">
-		<Variant_Of_Existing_Type>Template_Kaloth_Battlecruiser</Variant_Of_Existing_Type>
-		<Affiliation> Imperial_Proteus </Affiliation>
-		<Tech_Level>0</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>
-		Pirate_Base,
-		AI_Category_Dummy | Non_Capital_Category_Dummy
-		</Required_Special_Structures>
-		<Required_Planets/>
-
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
-	</SpaceUnit>
 
 </Imperial_Vehicle_Companies>
