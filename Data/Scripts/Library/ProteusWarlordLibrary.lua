@@ -583,7 +583,7 @@ return {
 			"Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "ISB_Infiltrator_Company",
 			"PX10_Company", "AT_ST_Company", "AA70_Company", "INT4_Company",
 			"S_1_Firehawke_Company", "AT_AI_Walker_Company", "Freerunner_AA_Company", "HAGM_Company",
-			"PX4_Company", "1H_Tank_Company", "HAET_Company"},
+			"PX4_Company", "1H_Tank_Company", "HAET_Company", "TAM_Dummy_Research_Scimitar"},
 			--LockList = {"IPV1"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAMARIN",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
