@@ -69,7 +69,7 @@ return {
 			elseif proteus == "KASHYYYK" then
 				fighter = "SKIPRAY_INTERCEPTOR_SQUADRON"
 			elseif proteus == "LUMIYA" then
-				fighter = "ADVANCED_SKIPRAY_SQUADRON" -- to be replaced with Theta Assault Squadron
+				fighter = "THETA_ASSAULT_SQUADRON" -- to be replaced with Theta Assault Squadron
 			elseif proteus == "ARDA" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
@@ -87,13 +87,13 @@ return {
 			elseif proteus == "SECTOR_5" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "PRAKITH" then
-				fighter = "SKIPRAY_SQUADRON" -- to be replaced with Theta Assault Squadron
+				fighter = "THETA_ASSAULT_SQUADRON" --TBC
 			elseif proteus == "RADAMA" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "MAELSTROM" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "PROPHETS" then
-				fighter = "SKIPRAY_SQUADRON" -- to be replaced with Theta Assault Squadron
+				fighter = "THETA_ASSAULT_SQUADRON" --TBC
 			elseif proteus == "RAYTER" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "WESSEX" then
