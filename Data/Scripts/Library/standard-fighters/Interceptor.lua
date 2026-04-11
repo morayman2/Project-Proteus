@@ -100,6 +100,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "SHIELDED_TIE_INTERCEPTOR_SQUADRON"
+			--elseif proteus == "PRAJI" then
+				--fighter = ""
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_PHANTOM_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -120,7 +122,7 @@ return {
 			elseif proteus == "JARDEEN" then
 				fighter = "TIE_INTERCEPTOR_ION_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC
+				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC Custom spawn of Eta2s on SSD
 			elseif proteus == "LUMIYA" then
 				fighter = "ASSAULT_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "ARDA" then
@@ -130,7 +132,7 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "MANEUVER_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC
+				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC Ion Upgrade to Ion Interceptor
 			elseif proteus == "TAMARIN" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "BAKURA" then
@@ -140,34 +142,42 @@ return {
 			elseif proteus == "SECTOR_5" then
 				fighter = "UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "PRAKITH" then
-				fighter = "TIE_INTERCEPTOR_ION_SQUADRON" --TBC
+				fighter = "TIE_INTERCEPTOR_ION_SQUADRON" --Shielded Upgrade?
 			elseif proteus == "RADAMA" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "MAELSTROM" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "PROPHETS" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC
+				fighter = "TIE_INTERCEPTOR_SQUADRON" --Fighter Swap with Upgunned Variant
 			elseif proteus == "RAYTER" then
 				fighter = "TIE_AGGRESSOR_SQUADRON"
-			--elseif proteus == "WESSEX" then
-				--fighter = ""
+			elseif proteus == "WESSEX" then
+				fighter = "A9_SQUADRON"
 			--elseif proteus == "HAMMERS" then
 				--fighter = ""
-			--elseif proteus == "QUINTAD" then
-				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "IMPERIAL_LIANNA" then
 				fighter = "TIE_AGGRESSOR_SQUADRON"
-			--elseif proteus == "GAROS" then
-				--fighter = ""
-			--elseif proteus == "NABOO" then
-				--fighter = ""
-			--elseif proteus == "KAMINO" then
-				--fighter = ""
-			--elseif proteus == "CIUTRIC_HEGEMONY" then
-				--fighter = ""
-			--elseif proteus == "ZERO_COMMAND" then
-				--fighter = ""
+			elseif proteus == "GAROS" then
+				fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "ALPHA_NIMBUS_VWING_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "TIE_INTERCEPTOR_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "SHIELDED_TIE_INTERCEPTOR_SQUADRON"
 			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+				elseif proteus == "PROTECTORATE" then
+				fighter = "V38_SQUADRON"
+			--elseif proteus == "THORN" then
+				--fighter = ""
+			--elseif proteus == "GRUNGER" then
+				--fighter = ""
+			--elseif proteus == "X1" then
 				--fighter = ""
 			end
 		end

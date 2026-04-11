@@ -66,6 +66,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "Z95_BOMBER_SQUADRON"
+			--elseif proteus == "PRAJI" then
+				--fighter = ""
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_OPPRESSOR_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -95,11 +97,11 @@ return {
 			elseif proteus == "ARDA" then
 				fighter = "Z95_BOMBER_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
-				fighter = "TIE_OPPRESSOR_SQUADRON"
+				fighter = "TIE_BOMBER_SQUADRON"
 			elseif proteus == "KUAT" then
 				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "AVENGER_BOMBER_SQUADRON"
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
 			elseif proteus == "TAMARIN" then
 				fighter = "BTLS1_Y_WING_SQUADRON"
 			elseif proteus == "BAKURA" then
@@ -109,7 +111,7 @@ return {
 			elseif proteus == "SECTOR_5" then
 				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
 			elseif proteus == "PRAKITH" then
-				fighter = "AVENGER_BOMBER_SQUADRON"
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
 			elseif proteus == "RADAMA" then
 				fighter = "2_WARPOD_SQUADRON"
 			elseif proteus == "MAELSTROM" then
@@ -118,25 +120,33 @@ return {
 				fighter = "2_WARPOD_SQUADRON"
 			elseif proteus == "RAYTER" then
 				fighter = "2_WARPOD_SQUADRON"
-			--elseif proteus == "WESSEX" then
-				--fighter = ""
+			elseif proteus == "WESSEX" then
+				fighter = "TIE_OPPRESSOR_SQUADRON"
 			--elseif proteus == "HAMMERS" then
 				--fighter = ""
-			--elseif proteus == "QUINTAD" then
-				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "TIE_GT_BOMBER_SQUADRON"
 			elseif proteus == "IMPERIAL_LIANNA" then
 				fighter = "SHIELDED_TIE_BOMBER_SQUADRON"
-			--elseif proteus == "GAROS" then
-				--fighter = ""
-			--elseif proteus == "NABOO" then
-				--fighter = ""
-			--elseif proteus == "KAMINO" then
-				--fighter = ""
-			--elseif proteus == "CIUTRIC_HEGEMONY" then
-				--fighter = ""
-			--elseif proteus == "ZERO_COMMAND" then
-				--fighter = ""
+			elseif proteus == "GAROS" then
+				fighter = "TIE_LIGHT_BOMBER_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "Z95_BOMBER_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "STARWING_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "ALPHA_NIMBUS_VWING_BOMBER_SQUADRON"
+			elseif proteus == "PROTECTORATE" then
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
 			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+			--elseif proteus == "THORN" then
+				--fighter = ""
+			--elseif proteus == "GRUNGER" then
+				--fighter = ""
+			--elseif proteus == "X1" then
 				--fighter = ""
 			end
 		end
