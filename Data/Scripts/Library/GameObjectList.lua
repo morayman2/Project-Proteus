@@ -914,5 +914,7 @@ return {
 ["VENATOR_8X"] = true,
 ["VICTORY_II_CARRIER"] = true,
 ["VICTORY_I_FLEET_STAR_DESTROYER"] = true,
+["DHC_INTERDICTOR"] = true,
+["VINDICATOR_CARRIER"] = true,
 
 }
