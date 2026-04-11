@@ -4,11 +4,11 @@ return {
 		["LIGHT_FIGHTER_HALF"] = {
 			DEFAULT = {Initial = 1, Reserve = 2}
 		},
-		["LIGHT_BOMBER_HALF"] = {
+		["BOMBER2_HALF"] = {
 			DEFAULT = {Initial = 1, Reserve = 0}
 		}
 	},
-	Native = "SECTOR_FORCES",
+	Native = "IMPERIAL",
 	Scripts = {"multilayer", "fighter-spawn"},
 	Flags = {HANGAR = true}
 }

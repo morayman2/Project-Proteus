@@ -74,7 +74,7 @@ return {
 				fighter = "H60_TEMPEST_SQUADRON"
 			elseif proteus == "ZAARIN_REMNANTS" then
 				fighter = "STARWING_SQUADRON"
-				if Get_Fighter_Research("Z_Research_MB") then
+				if Get_Fighter_Research("ZMB") then
 					fighter = "MISSILE_BOAT_SQUADRON"
 				end
 			elseif proteus == "ELROOD" then
