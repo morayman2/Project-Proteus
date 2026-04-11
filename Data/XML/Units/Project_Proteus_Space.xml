@@ -2825,8 +2825,8 @@
 		<Tactical_Health>2100</Tactical_Health>
 		<AI_Combat_Power>704</AI_Combat_Power>
 		<Population_Value>15</Population_Value>
-		<Tech_Level>99</Tech_Level>
-		<Affiliation>Empire</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 

@@ -1089,4 +1089,11 @@ return {
 		}
 	},
 	
+	["THORN"] = {
+		["WesternReaches"] = {
+			["4ABY"] = true
+			,["6ABY"] = true
+		}
+	},
+	
 }

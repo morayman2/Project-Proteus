@@ -124,4 +124,6 @@ return {
 		"HAET_Company",
 		--Grunger's Empire added units
 		"Mandalorian_Commando_Company",
+		--Sector 5 added units
+		"Acclamator_I_Supercruiser",
 }

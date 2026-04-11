@@ -78,7 +78,7 @@ return {
 			UnlockList = {
 				-- Space
 				"Pursuer_Enforcement_Ship_Group", "IPV1", "Lancer_Frigate_PDF", "Bayonet_Cruiser", "Strike_Cruiser_Light", "Star_Galleon", "Ton_Falk_Escort_Carrier",
-				"Immobilizer_418", "Gladiator_II", "Vindicator_Cruiser", "Acclamator_I_Carrier", "Victory_II_Star_Destroyer", "Venator_8X", 
+				"Immobilizer_418_Refit", "Gladiator_II", "Vindicator_Cruiser", "Acclamator_I_Carrier", "Victory_II_Star_Destroyer", "Venator_8X", 
 				"Imperial_II_Star_Destroyer_Ion", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Destroyer",
 				"Altor_Replenishment_Ship", "Allegiance_Battlecruiser", "Legator_Star_Dreadnought", "Assertor_Star_Dreadnought",
 				-- Ground
@@ -105,7 +105,7 @@ return {
 				"Allegiance_Battlecruiser", "Torpedo_Sphere", "Bellator_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Imperial_Army_Guard_Company", "Imperial_Army_Commando_Company", "Imperial_Army_74Z_Bike_Company",
-				"RTT_Company", "AT_ST_Company", "Skyhopper_Company", "Skyhopper_Security_Company", "New_Republic_T47_Airspeeder_Company", 
+				"RTT_Company", "AT_ST_A_Company", "Skyhopper_Company", "Skyhopper_Security_Company", "New_Republic_T47_Airspeeder_Company", 
 				"Imperial_LAAT_Company", "AT_AA_Flak_Walker_Company", "Imperial_AT_AP_Walker_Company", "TIE_Crawler_Company",
 				"A9_Floating_Fortress_Company", "Heavy_Recovery_Vehicle_Company",
 			},
@@ -145,7 +145,7 @@ return {
 				-- Space
 				"Guardian_Cruiser_Group", "Customs_Corvette", "Lancer_Frigate", "CEC_Light_Cruiser", "Victory_I_Frigate", "Galleon", 
 				"Rep_DHC", "DHC_Gunboat", "Imperial_I_Frigate", "Victory_II_Star_Destroyer", 
-				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Acclamator_Battleship", "Maelstrom_Battlecruiser", 
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Command", "Procurator_Battlecruiser", "Maelstrom_Battlecruiser", 
 				"Torpedo_Sphere", "Sorannan_Star_Destroyer", "Compellor_Battlecruiser", "Assertor_Star_Dreadnought",
 				-- Ground	
 				"CSA_Destroyer_Droid_Company", "Imperial_Army_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", 
@@ -165,17 +165,14 @@ return {
 			LeaderTable = {"YZU_CONSTITUTION"},
 			LeaderEndingNames = {"Emperor Yzu"},
 			HeroList = {"Yzu_Constitution", "Foga_Brill_Team", "Gann_Team", "Mallat_Team"},
-			UnlockList = {
-				-- Space
-				"Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser", 
-				"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Victory_II_Carrier", "Immobilizer_418_Refit", 
-				"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
-				"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought",
-				-- Ground
-				"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-				"Imperial_AT_PT_Company", "INT4_Company", "PX7_Company", "AT_DP_Company",
-				"Imperial_TNT_Company", "MAAT_Company", "Swift_Assault_5_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Flak_Walker_Company",
-				"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company",
+			UnlockList = {"Delta_JV7_Group", "Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser",
+			"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Immobilizer_418_Refit", "Victory_II_Star_Destroyer",
+			"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
+			"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought",
+			"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+			"Imperial_AT_PT_Company", "AT_DP_Company", "INT4_Company", "PX7_Company", 
+			"Imperial_TNT_Company", "MAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Walker_Company", 
+			"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company", 
 			},
 			--LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
@@ -284,8 +281,8 @@ return {
 			HeroList = {"Dark_Apprentice_Team", "Cody_Team", "Touler_Korasa_Maze"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Lancer_Frigate", "Active_Frigate", "Imperial_Nebulon_B", "Star_Galleon",
-				"Alliance_Assault_Frigate_II", "Gladiator_II", "Acclamator_I_Carrier", "Immobilizer_Twin_Well", "Victory_II_Star_Destroyer",
+				"YZ_775_Freighter_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Lancer_Frigate", "Active_Frigate", "Imperial_Nebulon_B",
+				"Alliance_Assault_Frigate_II", "Gladiator_II", "Acclamator_I_Support", "Acclamator_I_Carrier", "Immobilizer_Twin_Well", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Acclamator_Battleship", "Aggressor_Star_Destroyer", 
 				"Sorannan_Star_Destroyer", "Vengeance_Star_Dreadnought",
 				-- Ground	
@@ -998,6 +995,19 @@ return {
 			"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company"},
 			LockList = {"Mandalorian_Commando_Influence_Company"},
 			FactionOverride = "Mandalorians",
+			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
+			IntroHolo = "Grunger_Loop"
+		},
+		
+		["THORN"] = {
+			FriendlyName = "Daymon Thorn's Empire",
+			Planets = {"GHORMAN"},
+			LeaderTable= {"DAYMON_THORN_TEAM"},
+			LeaderEndingNames = {"Emperor Thorn"},
+			HeroList = {"Daymon_Thron_Team"},
+			UnlockList = {"Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+			"Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship",},
+			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
 			IntroHolo = "Grunger_Loop"
 		},
