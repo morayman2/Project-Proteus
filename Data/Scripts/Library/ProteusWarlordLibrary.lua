@@ -19,6 +19,11 @@
 	--{{"era1_hero"}, [x] = {"erax_hero"...}, [y] = {"era1_hero","eray_hero"}...} where alternate heroes will spawn instead if the year is above x
 	--Or {era1text, [x] = alttext, [y] = alttext2...} where alttext will play instead if the year is above x
 
+	-----additional variables by Project Proteus:-----
+	--ShipyardCapitalOverride gives the faction a space based capital structure, put "Imperial_Proteus_Capital" on the LockList and the new one one the UnlockList
+	--CapitalOverride works the same for ground
+	--LegitimacyLock locks specific legitimacy groups, used for Tier1 groups, where the hero is not under HeroList. use "Dummy_Recruit_Group_groupname"
+
 return {
 		["LAMBDA"] = {
 			FriendlyName = "Lambda Sector",
@@ -477,7 +482,7 @@ return {
 			UnlockList = {
 				-- Space
 				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Super_Transport_VII_Interdictor", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
-				"Rep_DHC", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_II",
+				"DHC_Interdictor", "Rep_DHC", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_II",
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
 				-- Ground
@@ -597,7 +602,7 @@ return {
 			UnlockList = {
 				-- Space
 				"YZ_775_Freighter_Group", "IPV1", "Patrol_Nebulon_B", "Galleon", "Strike_Cruiser_Light",
-				"PDF_DHC", "Battle_Horn", "Acclamator_Patrol_Refit", "Immobilizer_418", "Acclamator_I_Support", "Victory_I_Star_Destroyer",
+				"PDF_DHC", "Battle_Horn", "Acclamator_Patrol_Refit", "Vindicator_Carrier", "Immobilizer_418", "Acclamator_I_Support", "Victory_I_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Patrol", "Tector_Star_Destroyer", "Triumph_Star_Destroyer", 
 				"Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
@@ -656,7 +661,7 @@ return {
 			UnlockList = {
 				-- Space	
 				"Guardian_Cruiser_Group", "Imperial_CR90", "Action_VI_Support", "Marauder_Cruiser", "Quasar", "Star_Galleon",
-				"Super_Transport_VI", "Super_Transport_VII_Missile", "PDF_DHC", "Neutron_Star", "Captor_Cruiser", "Immobilizer_418", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer",
+				"Super_Transport_VI", "Super_Transport_VII_Missile", "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor_Cruiser", "Immobilizer_418", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Invincible_Cruiser", 
 				"Communications_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Fighter Hero
@@ -718,16 +723,27 @@ return {
 			LeaderTable = {["LUMIYA_TEAM"] = {"LUMIYA"}},
 			LeaderEndingNames = {"Dark Lady Lumiya"},
 			HeroList = {{"Lumiya_Team", "Bethrogg_Behemoth", "Valek_Revenant", "Carnor_Jax_Proteus_Team"}, [10] = {"Lumiya_Team", "Bethrogg_Behemoth", "Valek_Revenant"}},
-			UnlockList = {"VT49_Decimator_Group", "Imperial_CR90", "Raider_II_Corvette", "Lancer_Frigate", "Imperial_Nebulon_B", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-			"Immobilizer_418_Refit", "Gladiator_II", "Proteus_Cargo_Ship", "Imperial_II_Frigate", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
-			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer",
-			"Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Impellor_Carrier", "Shadow_Vengeance_Star_Dreadnought",
-			"Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
-			"Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
-			"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
-			"Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
-			"Benjo_Alpha_Location_Set",
-			},
+			UnlockList = {{"VT49_Decimator_Group", "Imperial_CR90", "Raider_II_Corvette", "Lancer_Frigate", "Imperial_Nebulon_B", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+            "Immobilizer_418_Refit", "Gladiator_II", "Proteus_Cargo_Ship", "Imperial_II_Frigate", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
+            "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer",
+            "Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Impellor_Carrier", "Shadow_Vengeance_Star_Dreadnought",
+            "Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
+            "Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
+            "AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
+            "Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
+            "Benjo_Alpha_Location_Set", "Kile_Hannad_Location_Set",
+            },
+			[11] = {"VT49_Decimator_Group", "Imperial_CR90", "Raider_II_Corvette", "Lancer_Frigate", "Imperial_Nebulon_B", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+            "Immobilizer_418_Refit", "Gladiator_II", "Proteus_Cargo_Ship", "Imperial_II_Frigate", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
+            "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer",
+            "Allegiance_Battlecruiser", "Sorannan_Star_Destroyer", "Impellor_Carrier", "Shadow_Vengeance_Star_Dreadnought",
+            "Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
+            "Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
+            "AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
+            "Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
+            "Benjo_Alpha_Location_Set",
+            "Gorath_Research_Proteus"
+            }},
 			FactionOverride = "Empire",
 			StartYear = 7,
 			IntroText = "TEXT_CONQUEST_PROTEUS_LUMIYA",
@@ -1000,6 +1016,7 @@ return {
 			LockList = {"Mandalorian_Commando_Influence_Company"},
 			FactionOverride = "Mandalorians",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
-			IntroHolo = "Grunger_Loop"
+			IntroHolo = "Grunger_Loop",
+			LegitimacyLock = "Dummy_Recruit_Group_Grunger"
 		},
 }

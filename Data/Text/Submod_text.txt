@@ -540,6 +540,13 @@ TEXT_TOOLTIP_DIAMOND_WEAP2,4x Medium Rapid Laser Cannons: 6 / 1.67s / 3.6km
 TEXT_TOOLTIP_DOMINA_TAGGE,The youngest child of Sanya Tagge, Domina was sent away by her oldest brother Orman at a young age to shield her from galactic politics, but during the Galactic Civil War she was nonetheless drawn into TaggeCo's machinations, eventually seeking revenge on both Darth Vader and Luke Skywalker after the death of Orman and Silas Tagge. Following the Battle of Endor, Domina took the title of Baroness Tagge and largely retreated from galactic affairs, vanishing at an unspecified later date under mysterious circumstances.
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADE,Upgrade: Dreadnaught Carrier
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADEABLE,Refits a PDF Dreadnaught with respectable hangars while still maintaining armament near the stock levels.
+TEXT_TOOLTIP_DREADNAUGHT_I,One of the many conversions of the ubiquitous Dreadnaught-Class hull to adapt it for a specialized purpose once it was no longer a prime frontline combatant. This version rearranges most of the interior space to fit a single gravity field generator into the hull, safely tucked away behind heavier armor plating than most other interdictors of the time. The huge power draw of the gravity field generator however requires the main armament and shield coverage to be scaled down, though the vessel is still capable of fending off smaller frigates and gunships that try to knock out its interdiction field.
+TEXT_TOOLTIP_DREADNAUGHT_I_HULL,Hull: 2150 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD,Shields: 1875 / [36/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_I_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_DREADNAUGHT_I_WEAP1,2x Light Dual Turbolasers: 2 / 4.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_I_WEAP2,3x Medium Laser Cannons: 2 / 0.75s / 4.1km
+TEXT_TOOLTIP_DREADNAUGHT_I_WEAP3,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_ESCORT_GURNST1,1x Elite Mercenary Platoon
 TEXT_TOOLTIP_ESCORT_SHARAOR,2x Corporate Security Trooper Squad
 TEXT_TOOLTIP_ETA2,A Kuat-designed interceptor that shares traits with the Sienar TIE line. Its stripped-down defenses allow for very impressive flight performance at the cost of durability, with weapon systems that allow it to excel against heavier fighters.
@@ -813,6 +820,11 @@ TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER,Fighters: 2 / 4 | Bombers: 1 / 2
 TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER,4x Light Dual Turbolasers: 2 / 2.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER,4x Light Ion Cannons: 2 / 1.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_VINDICATOR_CARRIER,
+TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL,Hull: 1944 (Frigate)
+TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE,Speed: 3.5 | Accel: 0.125 | Turn: 0.35
+TEXT_TOOLTIP_VINDICATOR_CARRIER_SHIELD,Shields: 1890 / [27.9/R] (Heavy Frigate)
+TEXT_TOOLTIP_VINDICATOR_CARRIER_SQUADRON,Fighters: 1 / 2 | Bombers: 1 / 2
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
@@ -847,6 +859,7 @@ TEXT_UNIT_COYOTE_BOMBER,Coyote Advanced Droid Bomber
 TEXT_UNIT_CR20,CR20 Transport
 TEXT_UNIT_CR25,CR25 Transport
 TEXT_UNIT_DIAMOND,Diamond Cruiser
+TEXT_UNIT_DREADNAUGHT_I,Dreadnaught Heavy Cruiser Interdictor
 TEXT_UNIT_DREADNAUGHT_UPGRADE,PDF Dreadnaught Heavy Cruiser Upgrade
 TEXT_UNIT_ETA2_FIGHTER,Eta-2 Actis Interceptor
 TEXT_UNIT_ETA2_FIGHTER_ASSAULT,Assault Eta-2 Actis Interceptor
@@ -968,6 +981,7 @@ TEXT_UNIT_V_WING_ESK,V-Wing "Esk"
 TEXT_UNIT_VCX820,VCX-820 Escort Freighter
 TEXT_UNIT_VENATOR_8X,Venator Star Destroyer Refit
 TEXT_UNIT_VICTORY_DESTROYER_MK2_CARRIER,Victory-II Star Destroyer Carrier Refit
+TEXT_UNIT_VINDICATOR_CARRIER,Vindicator Heavy Carrier
 TEXT_UNIT_YV929,YV-929 Armed Freighter
 TEXT_V_WING_ESK_SQUADRON,V-wing "Esk" Squadron
 TEXT_V_WING_ESK_SQUADRON_HALF,V-wing "Esk" Squadron 1/2
