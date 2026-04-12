@@ -82,6 +82,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
+			--elseif proteus == "PRAJI" then
+				--fighter = ""
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_X3_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -99,13 +101,13 @@ return {
 			elseif proteus == "JARDEEN" then
 				fighter = "TIE_DROID_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "TIE_FIGHTER_SQUADRON" --TBC
+				fighter = "TIE_FIGHTER_SQUADRON" --TBC Upgrade to BF2 Fighter
 			elseif proteus == "LUMIYA" then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "ARDA" then
 				fighter = "TIE_FIGHTER_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
-				fighter = "TIE_FIGHTER_SQUADRON" --TBC
+				fighter = "TIE_FIGHTER_SQUADRON" 
 			elseif proteus == "KUAT" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
@@ -119,34 +121,42 @@ return {
 			elseif proteus == "SECTOR_5" then
 				fighter = "NIMBUS_V_WING_ESK_SQUADRON"
 			elseif proteus == "PRAKITH" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC
+				fighter = "TIE_INTERCEPTOR_SQUADRON" --Shielded Upgrade and Time switch to droids? But also, Prakith always starts late...
 			elseif proteus == "RADAMA" then
-				fighter = "TIE_FIGHTER_SQUADRON" --TBC
+				fighter = "TIE_FIGHTER_SQUADRON" --Custom Vulture Spawn on Providences
 			elseif proteus == "MAELSTROM" then
 				fighter = "TIE_FIGHTER_SQUADRON"
 			elseif proteus == "PROPHETS" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "RAYTER" then
 				fighter = "TIE_FIGHTER_SQUADRON"
-			--elseif proteus == "WESSEX" then
-				--fighter = ""
+			elseif proteus == "WESSEX" then
+				fighter = "MISSILE_TIE_FIGHTER_SQUADRON"
 			--elseif proteus == "HAMMERS" then
 				--fighter = ""
-			--elseif proteus == "QUINTAD" then
-				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "TIE_STARFIGHTER_SQUADRON"
 			elseif proteus == "IMPERIAL_LIANNA" then
 				fighter = "TIE_X3_SQUADRON"
-			--elseif proteus == "GAROS" then
-				--fighter = ""
-			--elseif proteus == "NABOO" then
-				--fighter = ""
-			--elseif proteus == "KAMINO" then
-				--fighter = ""
-			--elseif proteus == "CIUTRIC_HEGEMONY" then
-				--fighter = ""
-			--elseif proteus == "ZERO_COMMAND" then
-				--fighter = ""
+			elseif proteus == "GAROS" then
+				fighter = "TIE_FIGHTER_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "TIE_FIGHTER_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "TIE_INTERCEPTOR_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+				elseif proteus == "PROTECTORATE" then
+				fighter = "STARVIPER_SQUADRON"
+			--elseif proteus == "THORN" then
+				--fighter = ""
+			--elseif proteus == "GRUNGER" then
+				--fighter = ""
+			--elseif proteus == "X1" then
 				--fighter = ""
 			end
 	

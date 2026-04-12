@@ -125,6 +125,7 @@ return {
 		"KUAT",
 		"KAARENTH_DISSENSION",
 		"RESTORED_EMPIRE",
+		"GRUNGER",
 	},
 
 	["Era_XML_Nums"] = {

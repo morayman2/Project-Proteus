@@ -103,6 +103,8 @@ return {
 		"Victory_II_Carrier",
 		"Faux_Stormtrooper_Company",
 		"Triumph_Star_Destroyer",
+		"DHC_Interdictor",
+		"Vindicator_Carrier",
 		--Grunger's Empire
 		"Lictor",
 		--Imperial Ord Radama

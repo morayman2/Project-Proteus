@@ -457,6 +457,27 @@
 			</Laser_Defense_Ability>
 		</Abilities>
 	</SpaceUnit>
+
+	<SpaceUnit Name="IPV1_Gunboat_Proteus">
+		<Variant_Of_Existing_Type>Template_IPV1_Gunboat</Variant_Of_Existing_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>365</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
 	
 	<SpaceUnit Name="Namana_Cruiser_Proteus">
 		<Variant_Of_Existing_Type>Template_Namana_Cruiser</Variant_Of_Existing_Type>
@@ -1442,7 +1463,23 @@
 
 		<Death_Clone>Damage_Normal, Medium_Explosion_Space_Trails</Death_Clone>
 	</SpaceUnit>
-	
+
+	<SpaceUnit Name="Proteus_Kaloth">
+		<Variant_Of_Existing_Type>Template_Kaloth_Battlecruiser</Variant_Of_Existing_Type>
+		<Affiliation> Imperial_Proteus </Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>
+		Pirate_Base,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Required_Planets/>
+
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+	</SpaceUnit>
 	
 	<SpaceUnit Name="Galleon_Minelayer">
 		<Variant_Of_Existing_Type>Template_Galleon</Variant_Of_Existing_Type>
@@ -4213,6 +4250,128 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</Death_Clone>
+
+	<SpaceUnit Name="DHC_Interdictor">
+		<Variant_Of_Existing_Type>Template_Imperial_DHC</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_DREADNAUGHT_I</Text_ID>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_DREADNAUGHT_I
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DREADNAUGHT_I_HULL
+		TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD
+		TEXT_TOOLTIP_DREADNAUGHT_EMPIRE_MOVE
+		TEXT_TOOLTIP_DREADNAUGHT_I_SQUADRON
+		TEXT_TOOLTIP_DREADNAUGHT_I_WEAP1
+		TEXT_TOOLTIP_DREADNAUGHT_I_WEAP2
+		TEXT_TOOLTIP_DREADNAUGHT_I_WEAP3
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Space_Model_Name>dreadnaught_interdictor.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_DREADNAUGHT_I.tga</Icon_Name>
+
+		<HardPoints>
+			HP_DHC_I_LDTL_01,
+			HP_DHC_I_LDTL_02,
+			HP_DHC_I_MSLC_01,
+			HP_DHC_I_MSLC_02,
+			HP_DHC_I_MSLC_03,
+			HP_DHC_I_LQLC_01,
+			HP_DHC_I_LQLC_02,
+			HP_DHC_I_Fighter_Bay,
+			HP_DHC_I_Engines,
+			HP_DHC_I_GW
+		</HardPoints>
+
+		<Shield_Points>2150</Shield_Points>
+		<Tactical_Health>1875</Tactical_Health>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<CategoryMask>Frigate | AntiCapital | AntiFrigate</CategoryMask>
+		<Property_Flags> Interdictor | Boardable</Property_Flags>
+		<Is_Interdictor>Yes</Is_Interdictor>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>875</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>LURE</Type>
+				<Effective_Radius>1</Effective_Radius>
+				<Target_Types/>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Brace_Ability_Particle</Particle_Effect>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 2.0f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_BRACE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_BRACE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_brace_onslaught.tga</Alternate_Icon_Name>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>INTERDICT</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Grav_Online_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Grav_Offline_Interdictor</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Vindicator_Carrier">
+		<Variant_Of_Existing_Type>Vindicator_Cruiser</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_VINDICATOR_CARRIER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_VINDICATOR_CARRIER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL
+		TEXT_TOOLTIP_VINDICATOR_CARRIER_SHIELD
+		TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE
+		TEXT_TOOLTIP_VINDICATOR_CARRIER_SQUADRON
+		TEXT_TOOLTIP_VINDICATOR_WEAP1
+		TEXT_TOOLTIP_VINDICATOR_WEAP2
+		TEXT_TOOLTIP_VINDICATOR_WEAP3 
+		TEXT_TOOLTIP_VINDICATOR_WEAP4 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_VINDICATOR_CARRIER.tga</Icon_Name>
+
+		<Max_Speed>3.85</Max_Speed>
+
+		<Shield_Points>1890</Shield_Points>
+		<Shield_Refresh_Rate>27.9</Shield_Refresh_Rate>
+		<Tactical_Health>1944</Tactical_Health>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+
+		<Population_Value>12</Population_Value>
+
+		<HardPoints>
+			HP_Vindicator_C_01, HP_Vindicator_C_02, HP_Vindicator_C_03, HP_Vindicator_C_04, HP_Vindicator_C_05, HP_Vindicator_C_06, HP_Vindicator_C_07, HP_Vindicator_C_Engines, HP_Interdictor_Fighter_Bay
+		</HardPoints>
+
+	</SpaceUnit> 
 
 	<SpaceUnit Name="Manta_Fighter">
 
@@ -10283,8 +10442,6 @@
 
 	</Container>
 
-
-
 	<SpaceUnit Name="TIE_gt_Torps">
 
 		<Text_ID>TEXT_UNIT_TIE_GT_TORPS</Text_ID>
@@ -10957,8 +11114,6 @@
 		</Unit_Abilities_Data>
 
 	</Container>
-
-
 
 	<SpaceUnit Name="TIE_gt_Bomber">
 
@@ -11640,8 +11795,6 @@
 		</Unit_Abilities_Data>
 
 	</Container>
-
-
 
 	<SpaceUnit Name="Starwing_Fighter">
 
@@ -12414,8 +12567,6 @@
 		</Unit_Abilities_Data>
 
 	</Container>
-
-
 
 	<SpaceUnit Name="Starwing_Assault">
 
@@ -13321,8 +13472,6 @@
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_tie_fighter_missile_half.tga</Icon_Name>/
 	</Container>
-
-
 
 	<SpaceUnit Name="Shielded_Missile_TIE_Fighter">
 		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
@@ -15093,43 +15242,5 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</Container>
-	
-		<SpaceUnit Name="IPV1_Gunboat_Proteus">
-		<Variant_Of_Existing_Type>Template_IPV1_Gunboat</Variant_Of_Existing_Type>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Tech_Level>0</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Planets/>
-		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four
-		AI_Category_Dummy | Non_Capital_Category_Dummy
-		</Required_Special_Structures>
-		<Lua_Script>GenericGameObject</Lua_Script>
-		
-		<!-- Survival -->
-		<Tactical_Build_Cost_Multiplayer>365</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-	</SpaceUnit>
-
-	<SpaceUnit Name="Proteus_Kaloth">
-		<Variant_Of_Existing_Type>Template_Kaloth_Battlecruiser</Variant_Of_Existing_Type>
-		<Affiliation> Imperial_Proteus </Affiliation>
-		<Tech_Level>0</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures>
-		Pirate_Base,
-		AI_Category_Dummy | Non_Capital_Category_Dummy
-		</Required_Special_Structures>
-		<Required_Planets/>
-
-		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
-
-		<Lua_Script>GenericGameObject</Lua_Script>
-	</SpaceUnit>
 
 </Imperial_Vehicle_Companies>

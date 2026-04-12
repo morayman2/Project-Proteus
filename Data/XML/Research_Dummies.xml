@@ -988,7 +988,16 @@
 		<Text_ID>TEXT_UNIT_SCIMITAR_RESEARCH</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_SCIMITAR_RESEARCH_TAMARIN
+		TEXT_TOOLTIP_SCIMITAR_RESEARCH
+		TEXT_TOOLTIP_SEPARATOR_NONE_BLOCK
+		TEXT_UNIT_CLASS_C
+		TEXT_UNIT_IMPERIAL_I_FRIGATE
+		TEXT_UNIT_MTC_SUPPORT
+		TEXT_UNIT_EXECUTOR
+		TEXT_UNIT_ESCORT_CARRIER
+		TEXT_UNIT_VENATOR
+		TEXT_UNIT_NEUTRONSTAR
+		TEXT_UNIT_VINDICATOR_CRUISER
 		</Encyclopedia_Text>
 
 		<Icon_Name>I_BUTTON_RESEARCH_SCIMITAR.tga</Icon_Name>
@@ -1003,6 +1012,66 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 
 		<Lua_Script>TAM_ResearchScimitar</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+	
+	<DummyStructure Name="ELR_Dummy_Research_Scimitar">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_SCIMITAR_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_SCIMITAR.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>7500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+
+		<Lua_Script>ELR_ResearchScimitar</Lua_Script>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<SFXEvent_Build_Started>EHD_Researching</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Research_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Research_Complete</SFXEvent_Build_Complete>
+	</DummyStructure>
+	
+	<DummyStructure Name="GRU_Dummy_Research_Scimitar">
+		<Variant_Of_Existing_Type>Template_Research_Dummy</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_SCIMITAR_RESEARCH</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SCIMITAR_RESEARCH_BOMBER1
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_RESEARCH_SCIMITAR.tga</Icon_Name>
+		<GUI_Row>1</GUI_Row>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
+		<Build_Cost_Credits>7500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+
+		<Lua_Script>GRU_ResearchScimitar</Lua_Script>
 
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>

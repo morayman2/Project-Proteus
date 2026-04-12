@@ -69,6 +69,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "HOWLRUNNER_SQUADRON"
+			--elseif proteus == "PRAJI" then
+				--fighter = ""
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_FIGHTER_BF2_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -96,15 +98,15 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "A9_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "Z95_HEADHUNTER_SQUADRON" --TBC
+				fighter = "Z95_HEADHUNTER_SQUADRON" --TBC Replace with Drexl upon upgrade
 			elseif proteus == "TAMARIN" then
 				fighter = "Z95_HEADHUNTER_SQUADRON"
 			elseif proteus == "BAKURA" then
-				fighter = "TIE_FIGHTER_SQUADRON" --TBC
+				fighter = "TIE_FIGHTER_SQUADRON" --TBC Add Upgrade to Bakura Fighter?
 			elseif proteus == "ANTEMERIDIAS" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SECTOR_5" then
-				fighter = "TIE_Fighter_BF2_SQUADRON"
+				fighter = "TIE_FIGHTER_BF2_SQUADRON"
 			elseif proteus == "PRAKITH" then
 				fighter = "HOWLRUNNER_SQUADRON"
 			elseif proteus == "RADAMA" then
@@ -112,28 +114,36 @@ return {
 			elseif proteus == "MAELSTROM" then
 				fighter = "R41_STARCHASER_SQUADRON"
 			elseif proteus == "PROPHETS" then
-				fighter = "TIE_Fighter_SQUADRON"
+				fighter = "TIE_FIGHTER_SQUADRON"
 			elseif proteus == "RAYTER" then
-				fighter = "TIE_FIGHTER_SQUADRON" --TBC
-			--elseif proteus == "WESSEX" then
-				--fighter = ""
+				fighter = "TIE_FIGHTER_SQUADRON"
+			elseif proteus == "WESSEX" then
+				fighter = "HOWLRUNNER_SQUADRON"
 			--elseif proteus == "HAMMERS" then
 				--fighter = ""
-			--elseif proteus == "QUINTAD" then
-				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "Z95_HEADHUNTER_SQUADRON"
 			elseif proteus == "IMPERIAL_LIANNA" then
 				fighter = "TIE_X1_SQUADRON"
-			--elseif proteus == "GAROS" then
-				--fighter = ""
-			--elseif proteus == "NABOO" then
-				--fighter = ""
-			--elseif proteus == "KAMINO" then
-				--fighter = ""
-			--elseif proteus == "CIUTRIC_HEGEMONY" then
-				--fighter = ""
-			--elseif proteus == "ZERO_COMMAND" then
-				--fighter = ""
+			elseif proteus == "GAROS" then
+				fighter = "HOWLRUNNER_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "N1_STARFIGHTER_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "CLONE_Z95_HEADHUNTER_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "MISSILE_TIE_FIGHTER_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON"
 			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+				elseif proteus == "PROTECTORATE" then
+				fighter = "STARVIPER_II_SQUADRON"
+			--elseif proteus == "THORN" then
+				--fighter = ""
+			--elseif proteus == "GRUNGER" then
+				--fighter = ""
+			--elseif proteus == "X1" then
 				--fighter = ""
 			end
 		end

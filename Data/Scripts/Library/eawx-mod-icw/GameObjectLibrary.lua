@@ -47,6 +47,7 @@ GameObjectLibrary = {
         "Wellam_Eternal_Wrath",
         "Valles_Interdictor",
 		"Commander_III_Interdictor_Star_Destroyer",
+        "DHC_Interdictor",
     },
     Numbers = {
         "Display_One",
