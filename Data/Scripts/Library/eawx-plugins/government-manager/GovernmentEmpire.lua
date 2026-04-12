@@ -342,7 +342,7 @@ end
 
 function GovernmentEmpire:legitimacy_group_lock(group)
     --Logger:trace("entering GovernmentEmpire:legitimacy_group_lock")
-    if group ~=nil then
+    if group ~= nil then
         self.lock_group = group
     end
 end

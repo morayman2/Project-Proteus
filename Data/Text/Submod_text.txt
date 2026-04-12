@@ -76,11 +76,14 @@ TEXT_HERO_CEX,Tyionsis Cex
 TEXT_HERO_DEMOS,Demos
 TEXT_HERO_DOMINA_TAGGE,Domina Tagge
 TEXT_HERO_GURNST,Gurnst
+TEXT_HERO_HSSISSK,Hssissk
 TEXT_HERO_IRRV,Dimone Irrv
 TEXT_HERO_JAEFFIS,Jaeffis
+TEXT_HERO_KILE_HANNAD,Kile Hannad
 TEXT_HERO_KLEMP,Klemp
 TEXT_HERO_MALLAT,Zeven Mallat
 TEXT_HERO_MERILI,Merili
+TEXT_HERO_NAMMAN,Namman Cha
 TEXT_HERO_RBANN,Rbann
 TEXT_HERO_RED_STAR,Iran Ryad
 TEXT_HERO_ROEK,Roek
@@ -224,6 +227,10 @@ TEXT_STATBLOCK_H60_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.1km
 TEXT_STATBLOCK_H60_WEAP2,1x Fighter Ion Cannon: 2 / 2.0s / 1.0km
 TEXT_STATBLOCK_H60_WEAP3,1x Proton Rocket (AC): 1 / 30.0s / 3.0km
 TEXT_STATBLOCK_H60_WEAP4,1x Concussion Bomb (AC): 1 / 18.75s / 0.8km
+TEXT_STATBLOCK_HSSISSK_BASE,Health: 250 | Shields: 150
+TEXT_STATBLOCK_HSSISSK_ESCORT_BASE,Health: 140 | Shields: 60
+TEXT_STATBLOCK_HSSISSK_Z95_WEAP1,1x Heavy Fighter Laser Cannon: 4 / 2.0s / 1.0km
+TEXT_STATBLOCK_HSSISSK_Z95_WEAP2,1x Fighter Flechette Slugthrower: 2 / 2.5s / 1.0km
 TEXT_STATBLOCK_IRAN_RYAD_TIE_DEFENDER_BASE,Health: 180 | Shields: 240
 TEXT_STATBLOCK_MANTA_FIGHTER_BASE,Health: 10 | Shields: 5
 TEXT_STATBLOCK_MANTA_FIGHTER_MOVE,Speed: 9.2 | Maneuverability: 4.0
@@ -243,6 +250,7 @@ TEXT_STATBLOCK_NTB_630_SQUADRON_HALF,Squadron: 6x NTB-630
 TEXT_STATBLOCK_NTB_630_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_NTB_630_WEAP2,1x Proton Rocket (AC): 1 / 12.5s / 3.0km
 TEXT_STATBLOCK_NTB_630_WEAP3,1x Concussion Bomb (AC): 1 / 15.0s / 0.8km
+TEXT_STATBLOCK_PRAETORIAN_ESCORT_BASE,Health: 140 | Shields: 60
 TEXT_STATBLOCK_REPUBLIC_Z95_BASE,Health: 15 | Shields: 4
 TEXT_STATBLOCK_REPUBLIC_Z95_ESCORT_BASE,Health: 130 | Shields: 50
 TEXT_STATBLOCK_REPUBLIC_Z95_MOVE,Speed: 4.61 | Maneuverability: 4.03
@@ -514,13 +522,16 @@ TEXT_TOOLTIP_CLONE_WEAP9,1x Ion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_CLONETROOPER_PHASETWO,Imperial hardliners that have joined Devian's cause to restore the true Empire. They are well equipped with old Republic armor gathered on RZ7, and more fanataical than most other soldiers. They wear a mix of the old Phase I and more comfortable Phase II armor.
 TEXT_TOOLTIP_COMMAND_ALPHA_SQUADRON,TIE Fighter, Alpha Squadron
 TEXT_TOOLTIP_COMMAND_GURNST,Commands: Elite Mercenary Platoon Taskforce Bravo
+TEXT_TOOLTIP_COMMAND_HSSISSK_SQUADRON,Zssisk Strike Squadron
 TEXT_TOOLTIP_COMMAND_MAHLER,Imperial-II Star Destroyer, Mahler
 TEXT_TOOLTIP_COMMAND_ONSLAUGHT,Imperial-I Star Destroyer, Onslaught
+TEXT_TOOLTIP_COMMAND_PRAETORIAN_SQUADRON,Royal Guard Interceptor, Praetorian Squadron
 TEXT_TOOLTIP_COMMAND_PUNISHER,Imperial-I Star Destroyer (Carrier), Punisher
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
 TEXT_TOOLTIP_COMMAND_RECKONING,Imperial-II Star Destroyer, Reckoning
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
 TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet-class Light Cruiser, Rintonne's Flame
+TEXT_TOOLTIP_COMMAND_SITHSPAWN,Modified Belbullab-22, Sithspawn
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
 TEXT_TOOLTIP_CONSULAR_HULL,Hull: 550 (Corvette)
@@ -573,9 +584,10 @@ TEXT_TOOLTIP_GAT_MOVE,Speed: 2.0 | Turn: 6.0
 TEXT_TOOLTIP_GAT_SHIELD,Shields: 50 / [6/R] (Light Vehicle)
 TEXT_TOOLTIP_GAT_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
 TEXT_TOOLTIP_GAT_WEAP2,1x Proton Missile: 1 / 10.0s / 320m
+TEXT_TOOLTIP_GRUNGER_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_GURNST,Colonel of the mercenary company known as Taskforce Bravo. While not loyal to any particular ideology, he was hired by the Empire to help suppress Wookiee revolts on Kashyyyk.
-TEXT_TOOLTIP_GURNST_HEALTH,150 (Infantry)
-TEXT_TOOLTIP_GURNST_MOVE,1.2
+TEXT_TOOLTIP_GURNST_HEALTH,Health: 150 (Hero)
+TEXT_TOOLTIP_GURNST_MOVE,Speed: 1.2
 TEXT_TOOLTIP_GURNST_SHIELD,30 (2%s)
 TEXT_TOOLTIP_GURNST_WEAP2,Antipersonnel Proximity Mine
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
@@ -602,11 +614,16 @@ TEXT_TOOLTIP_HORNET_WEAP2,2x Light Dual Turbolasers: 2 / 1.25s / 5.6km
 TEXT_TOOLTIP_HORNET_WEAP3,1x Heavy Dual Laser Cannon: 2 / 2.5s / 4.1km
 TEXT_TOOLTIP_HORNET_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.6km
 TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 5.6km
+TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +20%
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
 TEXT_TOOLTIP_IRRV,Dimone Irrv was the ranking TaggeCo representative on Goroth Prime. A competent manager and administrator by all accounts, she was also more than capable of engaging in corporate maneuvering, making her one of the most noteworthy managers in the employ of the Tagge Family.
 TEXT_TOOLTIP_JAEFFIS,Admiral Jaeffis was an officer in the Imperial Navy and the commander in charge of defending the Corellian shipyards from New Republic attack, before being superseded by admiral Roek.
 TEXT_TOOLTIP_JUGGERNAUT_A4_COMPANY,Company: 1x A4 Juggernaut
+TEXT_TOOLTIP_KILE_HANNAD,Kile Hannad was a Imperial Royal Guardsmen who served under the Empire, much like other Royal Guards, Kile was trained at the Imperial Royal Guard Academy on Yinchorr where he partook in extensive training in the deadly arts. Trained in the use of many common and exotic weapons and martial arts, Kile found he preferred to use his concealed heavy blaster pistol in a pinch. During Kile's service, he found himself working alongside the likes of Kir Kanos.
+TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
+TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
+TEXT_TOOLTIP_KILE_HANNAD_WEAP1,1x SE-14 Pistol: 2 / 1.5s / 220m
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
@@ -643,6 +660,10 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
+TEXT_TOOLTIP_NAMMAN,Namman Cha was a Human male and an aspiring Dark Jedi in league with the Galactic Empire who believed that he could become a Dark Lord of the Sith through the discovery of ancient relics, like the Codex of Tython. He was an imposing warrior, calling for no quarter in a brutal attack. His hate had pushed him to learn to use a shoto, a short-bladed lightsaber.
+TEXT_TOOLTIP_NAMMAN_HEALTH,Health: 180 [2%/5s] (Hero)
+TEXT_TOOLTIP_NAMMAN_MOVE,Speed: 1.2
+TEXT_TOOLTIP_NAMMAN_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
@@ -668,6 +689,7 @@ TEXT_TOOLTIP_PROCURATOR_WEAP1,8x Medium Dual Turbolasers: 2 / 2.0s / 6.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
+TEXT_TOOLTIP_REFORM_PRAETORIAN,Reform Praetorian Squadron
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
 TEXT_TOOLTIP_ROEK,Roek was an officer in the Starfleet of the Galactic Empire. after the Battle of Endor, Admiral Roek and his fleet were recalled to the Core Worlds to defend the Corellian system from the New Republic. Roek replaced Admiral Jaeffis who was previously responsible for the defense of the Corellian shipyards with his fleet of 25 Star Destroyers, and partook in the Empire's withdraw from the system. Roek's fleet eventually passed into the hands of Grand Admiral Grunger.
@@ -740,6 +762,10 @@ TEXT_TOOLTIP_SITH_WAR_MAMMOTH_COMPANY,Company: 2x Sith War Mammoth
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_HEALTH,Health: 425 [2%/5s] (Heavy Vehicle)
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_MOVE,Speed: 1.0 | Turn: 2.5 
 TEXT_TOOLTIP_SITH_WAR_MAMMOTH_WEAP1,2x Heavy AI Blaster Cannons (AOE): 2 / 0.5s / 320m
+TEXT_TOOLTIP_SITHSPAWN,Sithspawn was the personal starfighter of Namman Cha. It was an elite model of Belbullab-22 starfighter painted dark red, featuring upgrades over the standard Belbullab-22 resulting in a more deadly starfighter.
+TEXT_TOOLTIP_SITHSPAWN_BASE,Health: 220 | Shields: 200
+TEXT_TOOLTIP_SITHSPAWN_MOVE,Speed: 6.05 | Maneuverability: 4.24
+TEXT_TOOLTIP_SITHSPAWN_WEAP1,1x Fighter Laser Cannon: 6 / 1.2s / 1.0km
 TEXT_TOOLTIP_SKIPRAYK,PLACEHOLDER
 TEXT_TOOLTIP_SKIPRAYM,PLACEHOLDER
 TEXT_TOOLTIP_SKIPRAYZ,PLACEHOLDER
@@ -771,7 +797,7 @@ TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% c
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER,Elite soldier-enforcers serving the Trandoshan slaver clans who also often get employed as mercenaries by governments known to practice slavery. Best used against enemy infantry formations while being supported by allied armor.
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,18 Trandoshan Hunters
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,32
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,1.3
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,Speed: 1.3
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_1,9x Slug Carbines: 1 / 1.0s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_2,3x Slugthrower Repeaters: 5 / 0.2s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_3,Concussion Grenades: 1 / 15.0s / 200m
@@ -903,8 +929,14 @@ TEXT_UNIT_PHASE_TWO_RIFLEMAN_GRENADIER,Republic Surplus Trooper Rifleman Grenadi
 TEXT_UNIT_PHASE_TWO_SQUAD,Republic Surplus Trooper Squad
 TEXT_UNIT_PRAETOR_I,Praetor-I Battlecruiser
 TEXT_UNIT_PROCURATOR,Procurator Battlecruiser
+TEXT_UNIT_RED_POLICE,Red Police
+TEXT_UNIT_RED_POLICE_DISRUPTOR,Red Police Disruptor
+TEXT_UNIT_RED_POLICE_GUNNER_LIGHT,Red Police Light Gunner
+TEXT_UNIT_RED_POLICE_PLATOON,Red Police Platoon
+TEXT_UNIT_RED_POLICE_SQUAD,Red Police Squad
 TEXT_UNIT_REPUBLIC_TIE,T.I.E. Starfighter
 TEXT_UNIT_REPUBLIC_Z95_HEADHUNTER,Republic Z-95 Headhunter
+TEXT_UNIT_RG_STORMTROOPER_PLATOON,Royal Guard Stormtrooper Platoon
 TEXT_UNIT_RHO_SHUTTLE,Rho-class Transport Shuttle
 TEXT_UNIT_SHADOW_ACCLAMATOR_I,Shadow Acclamator-I Cruiser (Carrier)
 TEXT_UNIT_SHADOW_AT_AT_WALKER,Shadow AT-AT Walker
@@ -941,6 +973,7 @@ TEXT_UNIT_SITH_STRIDER,Sith Strider
 TEXT_UNIT_SITH_STRIDER_COMPANY,Sith Strider Company
 TEXT_UNIT_SITH_WAR_MAMMOTH,Sith War Mammoth
 TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Sith War Mammoth Company
+TEXT_UNIT_SITHSPAWN,Sithspawn
 TEXT_UNIT_SKIPRAYK,Skipray Blastboat GAT-12k
 TEXT_UNIT_SKIPRAYK_SQUADRON,Skipray Blastboat GAT-12k Squadron
 TEXT_UNIT_SKIPRAYK_SQUADRON_HALF,Skipray Blastboat GAT-12k Squadron 1/2
@@ -972,6 +1005,8 @@ TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
 TEXT_UNIT_TRANDOSHAN_ALPHA,Trandoshan Alpha
+TEXT_UNIT_TRANDOSHAN_COMMAND_SQUAD,Trandoshan Command Squad
+TEXT_UNIT_TRANDOSHAN_FLAMER,Trandoshan Flamer
 TEXT_UNIT_TRANDOSHAN_GRENADIER,Trandoshan Grenadier
 TEXT_UNIT_TRANDOSHAN_GUNNER_HEAVY,Heavy Trandoshan Gunner
 TEXT_UNIT_TRANDOSHAN_GUNNER_LIGHT,Light Trandoshan Gunner
