@@ -663,7 +663,7 @@ return {
 			UnlockList = {
 				-- Space	
 				"Guardian_Cruiser_Group", "Imperial_CR90", "Action_VI_Support", "Marauder_Cruiser", "Quasar", "Star_Galleon",
-				"Super_Transport_VI", "Super_Transport_VII_Missile", "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor_Cruiser", "Immobilizer_418", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer",
+				"Super_Transport_VI", "Super_Transport_VII_Missile", "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor_Cruiser", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer", "Victory_II_Carrier",
 				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Invincible_Cruiser", 
 				"Communications_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Fighter Hero

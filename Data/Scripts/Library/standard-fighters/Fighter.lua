@@ -137,11 +137,11 @@ return {
 				fighter = "SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON"
 			--elseif proteus == "LAMBDA" then
 				--fighter = ""
-				elseif proteus == "PROTECTORATE" then
+			elseif proteus == "PROTECTORATE" then
 				fighter = "STARVIPER_II_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "TWIN_ION_ENGINE_STARFIGHTER_SQUADRON"
 			--elseif proteus == "THORN" then
-				--fighter = ""
-			--elseif proteus == "GRUNGER" then
 				--fighter = ""
 			--elseif proteus == "X1" then
 				--fighter = ""
