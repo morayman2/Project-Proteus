@@ -166,13 +166,13 @@ return {
 			LeaderEndingNames = {"Emperor Yzu"},
 			HeroList = {"Yzu_Constitution", "Foga_Brill_Team", "Gann_Team", "Mallat_Team"},
 			UnlockList = {"Delta_JV7_Group", "Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser",
-			"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Immobilizer_418_Refit", "Victory_II_Star_Destroyer",
+			"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Immobilizer_418_Refit", "Victory_II_Carrier",
 			"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
 			"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought",
 			"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
 			"Imperial_AT_PT_Company", "AT_DP_Company", "INT4_Company", "PX7_Company", 
-			"Imperial_TNT_Company", "MAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Walker_Company", 
-			"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company", 
+			"Imperial_TNT_Company", "Swift_Assault_5_Company", "MAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Walker_Company", 
+			"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company"
 			},
 			--LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
@@ -329,7 +329,7 @@ return {
 			HeroList = {"Wellam_Eternal_Wrath", "Jocaos_Team", "Xantus_Team", "Ellor_Team"},
 			UnlockList = {
 				-- Space	
-				"Citadel_Cruiser_Group", "IPV1", "Charger_C70", "Diamond_Frigate", "Marauder_Cruiser", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier",
+				"Citadel_Cruiser_Group", "IPV1", "Charger_C70", "Diamond_Frigate", "Marauder_Cruiser", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Star_Galleon",
 				"Providence_Carrier_Destroyer", "Rep_DHC", "Gladiator_II", "Victory_II_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer", "Interdictor_Star_Destroyer", "Invincible_Cruiser",
 				"Allegiance_Battlecruiser", "Bellator_Star_Dreadnought",
@@ -356,7 +356,7 @@ return {
 				"Proficient", "Super_Transport_XI_Modified", "Vindicator_Cruiser", "Immobilizer_418", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Assault", "Acclamator_Destroyer", "Torpedo_Sphere",
 				"Executor_Star_Dreadnought",
-				"Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
+				"Tapani_Assault_Frigate",
 				-- Fighter Hero
 				"Red_Star_Location_Set",
 				-- Ground

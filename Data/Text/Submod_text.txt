@@ -520,7 +520,7 @@ TEXT_TOOLTIP_COMMAND_PUNISHER,Imperial-I Star Destroyer (Carrier), Punisher
 TEXT_TOOLTIP_COMMAND_REBUKE,Acclamator-I Supercruiser, Rebuke
 TEXT_TOOLTIP_COMMAND_RECKONING,Imperial-II Star Destroyer, Reckoning
 TEXT_TOOLTIP_COMMAND_RED_STAR_SQUADRON,Modified TIE Defender, Red Star Squadron
-TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet-class Light Cruiser, Rintonne's Flame
+TEXT_TOOLTIP_COMMAND_RINTONNES_FLAME,Bayonet Light Cruiser, Rintonne's Flame
 TEXT_TOOLTIP_COMMAND_THETA_SQUADRON,TIE Bomber, Theta Squadron
 TEXT_TOOLTIP_COMMAND_YARNAR_SQUADRON,Missile TIE Fighter, Celanon Garrison Squadron
 TEXT_TOOLTIP_CONSULAR_HULL,Hull: 550 (Corvette)
@@ -818,7 +818,7 @@ TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran C
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
-TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
+TEXT_UNIT_1HB_TANK, 1-H Repulsortank, Model B
 TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
@@ -833,7 +833,7 @@ TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
 TEXT_UNIT_AV7,AV-7 Antivehicle Cannon
-TEXT_UNIT_BAYONET,Bayonet-class Light Cruiser
+TEXT_UNIT_BAYONET,Bayonet Light Cruiser
 TEXT_UNIT_BELBULLAB22,Belbullab-22
 TEXT_UNIT_BELBULLAB23,Belbullab-23
 TEXT_UNIT_BELBULLAB24,Belbullab-24
@@ -863,15 +863,15 @@ TEXT_UNIT_GAT_COMPANY,GAT Company
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
-TEXT_UNIT_HORNET,Hornet-class Carrier
+TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
-TEXT_UNIT_MANSK_FRIGATE,Mansk-class Escort Frigate
-TEXT_UNIT_MANTA_FIGHTER,Manta-class Assault Fighter
+TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
+TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
 TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
@@ -943,7 +943,7 @@ TEXT_UNIT_STAR_DESTROYER_TWO_ION,Imperial-II Star Destroyer Ion Refit
 TEXT_UNIT_STAR_DESTROYER_X,Upgunned Imperial-I Star Destroyer
 TEXT_UNIT_STARWING_ASSAULT,Xg-1 Star Wing Assault
 TEXT_UNIT_STARWING_FIGHTER,Xg-1 Star Wing Fighter
-TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani-class Assault Frigate
+TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani Assault Frigate
 TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
 TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
 TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger

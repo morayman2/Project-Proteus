@@ -3466,7 +3466,7 @@
 
 	<SpaceUnit Name="Template_Mansk_Frigate">
 		<Text_ID>TEXT_UNIT_MANSK_FRIGATE</Text_ID>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>TV_Mansk.alo</Space_Model_Name>
 		<Icon_Name>i_button_mansk_frigate.tga</Icon_Name>
 		<Select_Box_Scale>220</Select_Box_Scale>

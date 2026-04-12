@@ -144,6 +144,8 @@
 		<Icon_Name>I_BUTTON_KLEMP.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Tech_Level>99</Tech_Level>
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate </CategoryMask>
