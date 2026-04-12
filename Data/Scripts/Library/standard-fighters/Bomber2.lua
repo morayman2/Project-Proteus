@@ -143,11 +143,11 @@ return {
 				fighter = "ALPHA_NIMBUS_VWING_BOMBER_SQUADRON"
 			elseif proteus == "PROTECTORATE" then
 				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "STARWING_SQUADRON"
 			--elseif proteus == "LAMBDA" then
 				--fighter = ""
 			--elseif proteus == "THORN" then
-				--fighter = ""
-			--elseif proteus == "GRUNGER" then
 				--fighter = ""
 			--elseif proteus == "X1" then
 				--fighter = ""

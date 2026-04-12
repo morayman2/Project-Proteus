@@ -120,11 +120,11 @@ return {
 				fighter = "TIE_HEAVY_BOMBER_SQUADRON"
 			--elseif proteus == "LAMBDA" then
 				--fighter = ""
-				elseif proteus == "PROTECTORATE" then
+			elseif proteus == "PROTECTORATE" then
 				fighter = "TIE_TERROR_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "FIRESPRAY_BOMBER_SQUADRON"
 			--elseif proteus == "THORN" then
-				--fighter = ""
-			--elseif proteus == "GRUNGER" then
 				--fighter = ""
 			--elseif proteus == "X1" then
 				--fighter = ""
