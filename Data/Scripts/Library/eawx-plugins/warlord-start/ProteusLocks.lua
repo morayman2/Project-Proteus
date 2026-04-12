@@ -64,7 +64,7 @@ return {
 		"Dragon_Trooper_Company", "Light_Mercenary_Company", "Imperial_Army_Guard_Company", "New_Republic_Overracer_Speeder_Bike_Company", "Imperial_AT_RT_Company", "Imperial_ISP_Company", "Arrow_23_Company", "AA70_Company", "Imperial_APC_Company", "SPMAT_Company", "Talon_Flamestrike_Cloud_Car_Company", "Imperial_Modified_LAAT_Company", "AT_OT_Walker_Company", "Imperial_A4_Juggernaut_Company", "CEC_HQ", "TaggeCo_HQ",
         --Tapani Sector added units
 		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
-		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company",
+		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company", "Firebird_Stormtrooper_Company_Proteus",
         --Protectorate of Prakith added units 
         "Red_Police_Company", "Imperial_Dark_Jedi_Company_Proteus", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
 		--Maelstrom Command added units

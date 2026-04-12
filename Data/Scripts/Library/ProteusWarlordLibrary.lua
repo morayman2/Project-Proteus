@@ -367,13 +367,13 @@ return {
 				-- Fighter Hero
 				"Red_Star_Location_Set",
 				-- Ground
-				"Firebird_Stormtrooper_Company", "Imperial_Army_Guard_Company", "Imperial_74Z_Bike_Company", "Imperial_AT_RT_Company", 
+				"Firebird_Stormtrooper_Company_Proteus", "Imperial_Army_Guard_Company", "Imperial_74Z_Bike_Company", "Imperial_AT_RT_Company", 
 				"TIE_Mauler_Company", "Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", 
 				"1M_Tank_Company", "1H_Tank_Company",
 				"AT_AA_Walker_Company",  "Imperial_Light_Mobile_Artillery_Company", "Nemesis_Gunship_Company",  
 				"Heavy_Recovery_Vehicle_Company", "PX4_Company", "B5_Juggernaut_Company",
 			},
-			--LockList = {"Allegiance_Battlecruiser"},
+			--LockList = {"Firebird_Stormtrooper_Company_Proteus"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAPANI",
 			IntroHolo = "Imperial_Army_Officer_Loop"
@@ -480,8 +480,8 @@ return {
 			HeroList = {"Ulric_Tagge", "Domina_Tagge_Team", "Dimone_Irrv_Team", "Shara_Or_Team"},
 			UnlockList = {
 				-- Space
-				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Super_Transport_VII_Interdictor", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
-				"DHC_Interdictor", "Rep_DHC", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_II",
+				"Citadel_Cruiser_Group", "IPV1", "Nebulon_B_Tender", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Surveyor_Frigate", "CEC_Light_Cruiser", 			
+				"DHC_Interdictor", "Rep_DHC", "Pursuit_Light_Cruiser", "MTC_Support", "MTC_Sensor", "MTC_Combat", "Super_Transport_XI_Missile", "Gladiator_I",
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Command", "Triumph_Star_Destroyer", 
 				"CSA_Tagge_Battlecruiser", "Torpedo_Sphere", "Mandator_II_Dreadnought",
 				-- Ground
