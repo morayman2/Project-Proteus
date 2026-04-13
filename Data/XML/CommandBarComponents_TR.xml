@@ -4726,7 +4726,7 @@
 	</CommandBarComponent>
 
 	<CommandBarComponent Name="faction_60">
-		<!-- Faction Select Button 59 -->
+		<!-- Faction Select Button 60 -->
 		<Type>TextButton</Type>
 		<Font_Name>Arial</Font_Name>
 		<Font_Point_Size>7</Font_Point_Size>
