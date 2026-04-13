@@ -2474,8 +2474,8 @@
 		Imperial_I_Star_Destroyer_Hero_Refit_Proteus,	Data\ShipNames\Star_Destroyer.txt,
 		<!-- Bayonet_Cruiser,								
 		Mansk_Frigate,									
-		Hornet_Assault_Carrier,							
-		Tapani_Assault_Frigate,							 -->
+		Hornet_Assault_Carrier,							-->
+		Tapani_Assault_Frigate,							Data\ShipNames\Tapani_Assault_Frigate.txt,
 		Vindicator_Carrier,								Data\ShipNames\Vindicator.txt,
 		Victory_II_Carrier,								Data\ShipNames\victory_destroyer_II.txt,
 		Super_Transport_XI_Modified_Pirate,				Data\ShipNames\Super_Transport_XI.txt,
