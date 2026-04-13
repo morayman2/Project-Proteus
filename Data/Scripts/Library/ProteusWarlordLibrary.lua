@@ -793,7 +793,7 @@ return {
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Battleship", "Imperial_I_Star_Destroyer_Patrol",
 				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
 				-- Ground
-				"Army_Special_Missions_Company", "Elite_Mercenary_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"Army_Special_Missions_Company", "Elite_Mercenary_Company", "64_Y_Swift_Repulsorlift_Sled_Company", "SD_6_Droid_Company_Sellasas",
 				"Imperial_AT_PT_Company", "T2A_Company",
 				"1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_Light_Mobile_Artillery_Company", "AT_AI_Walker_Company", "Imperial_AT_AP_Walker_Company",
 				"Heavy_Recovery_Vehicle_Company", "A9_Floating_Fortress_Company", 
@@ -802,6 +802,7 @@ return {
 				-- Research
 				"Sellasas_Loadout_Swap1",
 			},
+			LockList = {"SD_6_Droid_Company"},
 			FactionOverride = "Eriadu_Authority",
 			IntroText = "TEXT_CONQUEST_PROTEUS_SELLASAS",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
