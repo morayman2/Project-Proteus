@@ -1056,7 +1056,7 @@
 
 		<Text_ID>TEXT_UNIT_ARMORED_INTERCEPTOR_RESEARCH</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
-		<Encyclopedia_Text> TEXT_TOOLTIP_ARMORED_INTERCEPTOR_RESEARCH </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ARMORED_INTERCEPTOR_RESEARCH_ELROOD </Encyclopedia_Text>
 
 		<Icon_Name>I_BUTTON_RESEARCH_ARMORED_INT.tga</Icon_Name>
 		<GUI_Row>1</GUI_Row>
