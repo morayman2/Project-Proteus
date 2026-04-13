@@ -8,7 +8,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> Z_TEXT_TOOLTIP_MISSILE_BOAT_RESEARCH </Encyclopedia_Text>
 
-		<Icon_Name>I_BUTTON_RESEARCH_MISSILE_BOAT.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MISSILE_BOAT_RESEARCH.tga</Icon_Name>
 		<GUI_Row>1</GUI_Row>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -116,7 +116,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> Z_TEXT_TOOLTIP_AF2_RESEARCH </Encyclopedia_Text>
 
-		<Icon_Name>I_BUTTON_RESEARCH_ASSFRIG_MK2.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_ASSFRIG_MK2_RESEARCH.tga</Icon_Name>
 		<GUI_Row>1</GUI_Row>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -144,7 +144,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text> Z_TEXT_TOOLTIP_MTC_RESEARCH </Encyclopedia_Text>
 
-		<Icon_Name>I_BUTTON_RESEARCH_MTC_SENSOR.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_MTC_SENSOR_RESEARCH.tga</Icon_Name>
 		<GUI_Row>1</GUI_Row>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
