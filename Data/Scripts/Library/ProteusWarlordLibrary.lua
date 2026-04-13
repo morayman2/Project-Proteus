@@ -92,7 +92,7 @@ return {
 				"AT_AA_Missile_Walker_Company", "Imperial_Flashblind_Company", "Imperial_TX130S_Company", "SPMAG_Walker_Company", "1M_Tank_Company", "1H_Tank_Company",
 				"PX4_Company", "Tracked_Mobile_Base_Company", "Lancet_Air_Artillery_Company", "AT_AT_Walker_IC_Company", 
 				-- Research
-				"ELR_Dummy_Research_Scimitar",
+				"ELR_Dummy_Research_Scimitar", "ELR_Dummy_Research_Armored_Interceptor",
 			},
 			--LockList = {"Imperial_Army_Guard_Company"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ELROOD",
@@ -961,6 +961,8 @@ return {
 				"Imperial_AT_PT_Company", "Chariot_LAV_Company", "AT_ST_Company",
 				"AT_AA_Walker_Company", "1M_Tank_Company", "SPMAG_Walker_Company", "Imperial_Dropship_Transport_Company",
 				"B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
+				-- Research
+				"KUAT_Dummy_Research_Corona",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_KUAT",
