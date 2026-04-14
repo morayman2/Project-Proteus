@@ -1083,9 +1083,11 @@ return {
 	["GRUNGER"] = {
 		["KnownLarge"] = { 
 			["4ABY"] = true
+			,["6ABY"] = true
 		}
 		,["Borderlands"] = {
 			["4ABY"] = true
+			,["6ABY"] = true
 		}
 	},
 	

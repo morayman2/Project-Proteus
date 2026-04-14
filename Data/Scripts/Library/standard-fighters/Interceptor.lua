@@ -115,6 +115,9 @@ return {
 				fighter = "TIE_X2_SQUADRON"
 			elseif proteus == "ELROOD" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
+			if Get_Fighter_Research("ELRArmoredTIE") then
+					fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
+				end
 			elseif proteus == "WILD_SPACE" then
 				fighter = "SHIELDED_TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "PRENTIOCH" then

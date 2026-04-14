@@ -194,10 +194,48 @@
 	<Shysa_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Fenn_Shysa"}
 	</Shysa_In_Orbit>
+	<!-- Project Proteus -->
 	<Gurnst_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "GURNST"}
 	</Gurnst_In_Orbit>
 	<Merili_In_Orbit>
 		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Merili"}
 	</Merili_In_Orbit>
+	<Pellaeon_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Pellaeon_Chimaera_Captain"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Pellaeon_Reaper"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Chimera_Pellaeon_Grand"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Pellaeon_Megador"}
+	</Pellaeon_In_Orbit>
+	<Daala_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Daala_Knight_Hammer"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Daala_Gorgon"}
+		+
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Daala_Scylla"}
+	</Daala_In_Orbit>
+	<Syn_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Syn_Silooth"}
+	</Syn_In_Orbit>
+	<Krieg_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Krieg_Immobilizer"}
+	</Krieg_In_Orbit>
+	<Grunger_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Grunger_Aggressor"}
+	</Grunger_In_Orbit>
+	<Makati_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Makati_Steadfast"}
+	</Makati_In_Orbit>
+	<Takel_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Takel_MagicDragon"}
+	</Takel_In_Orbit>
+	<Bethrogg_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Bethrogg_Behemoth"}
+	</Bethrogg_In_Orbit>
+	<Valek_In_Orbit>
+		Variable_Target.FriendlyForce.HasSpaceUnitsBitfield {Parameter_Type = "Valek_Revenant"}
+	</Valek_In_Orbit>
 </Equations>

@@ -974,7 +974,7 @@
 	<SpaceUnit Name="Hutt_Boarding_Shuttle">
 		<Variant_Of_Existing_Type>Template_Boarding_Shuttle</Variant_Of_Existing_Type>
 		<Affiliation>Hutt_Cartels</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>0</Tech_Level>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 

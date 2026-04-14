@@ -3511,4 +3511,23 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 	</GroundCompany>
 
+	<GroundCompany Name="SD_6_Droid_Company_Sellasas">
+		<Variant_Of_Existing_Type>SD_6_Hulk_Infantry_Droid_Company</Variant_Of_Existing_Type>
+		<Tech_Level>0</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Required_Special_Structures> I_Ground_Barracks </Required_Special_Structures>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+
+		<!--<MULTIPLAYER SKEAMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>210</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+
+	</GroundCompany>
+
 </Project_Proteus_Infantry>

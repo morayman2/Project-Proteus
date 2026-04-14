@@ -69,7 +69,7 @@ return {
 			elseif proteus == "KASHYYYK" then
 				fighter = "SKIPRAY_INTERCEPTOR_SQUADRON"
 			elseif proteus == "LUMIYA" then
-				fighter = "THETA_ASSAULT_SQUADRON" -- to be replaced with Theta Assault Squadron
+				fighter = "THETA_ASSAULT_SQUADRON"
 			elseif proteus == "ARDA" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
