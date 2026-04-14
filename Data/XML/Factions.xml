@@ -311,8 +311,29 @@
 			Krane_Rand_Ecliptic,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Proteus -->
-			Proteus_Cargo_Ship
+			<!-- Project Proteus -->
+			Proteus_Cargo_Ship,
+			Imperial_I_Star_Destroyer_Stealth,
+			Shadow_Acclamator_I_Carrier,
+			Shadow_Imperial_I_Star_Destroyer_Carrier,
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -1163,14 +1184,31 @@
 			Neomen_Ion_Storm
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Shadow Spawn -->
+			<!-- Project Proteus -->
 			Proteus_Cargo_Ship,
 			Imperial_I_Star_Destroyer_Stealth,
-			Shadow_Vigil,
 			Shadow_Acclamator_I_Carrier,
 			Shadow_Imperial_I_Star_Destroyer_Carrier,
-			Shadow_Vengeance_Star_Dreadnought
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
+		
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
 		<Bombardment_Number_Of_Salvos> 1 </Bombardment_Number_Of_Salvos>
@@ -2368,8 +2406,29 @@
 			Commander_IV_Karabos_Destroyer,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Proteus -->
-			Proteus_Cargo_Ship
+			<!-- Project Proteus -->
+			Proteus_Cargo_Ship,
+			Imperial_I_Star_Destroyer_Stealth,
+			Shadow_Acclamator_I_Carrier,
+			Shadow_Imperial_I_Star_Destroyer_Carrier,
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3099,13 +3158,29 @@
 			Neomen_Ion_Storm
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Shadow Spawn -->
+			<!-- Project Proteus -->
 			Proteus_Cargo_Ship,
 			Imperial_I_Star_Destroyer_Stealth,
-			Shadow_Vigil,
 			Shadow_Acclamator_I_Carrier,
 			Shadow_Imperial_I_Star_Destroyer_Carrier,
-			Shadow_Vengeance_Star_Dreadnought
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3853,13 +3928,29 @@
 			Neomen_Ion_Storm
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Shadow Spawn -->
+			<!-- Project Proteus -->
 			Proteus_Cargo_Ship,
 			Imperial_I_Star_Destroyer_Stealth,
-			Shadow_Vigil,
 			Shadow_Acclamator_I_Carrier,
 			Shadow_Imperial_I_Star_Destroyer_Carrier,
-			Shadow_Vengeance_Star_Dreadnought
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -4605,13 +4696,29 @@
 			Neomen_Ion_Storm
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Shadow Spawn -->
+			<!-- Project Proteus -->
 			Proteus_Cargo_Ship,
 			Imperial_I_Star_Destroyer_Stealth,
-			Shadow_Vigil,
 			Shadow_Acclamator_I_Carrier,
 			Shadow_Imperial_I_Star_Destroyer_Carrier,
-			Shadow_Vengeance_Star_Dreadnought
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -5357,13 +5464,29 @@
 			Neomen_Ion_Storm
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Shadow Spawn -->
+			<!-- Project Proteus -->
 			Proteus_Cargo_Ship,
 			Imperial_I_Star_Destroyer_Stealth,
-			Shadow_Vigil,
 			Shadow_Acclamator_I_Carrier,
 			Shadow_Imperial_I_Star_Destroyer_Carrier,
-			Shadow_Vengeance_Star_Dreadnought
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -6304,6 +6427,31 @@
 			Ulric_Tagge,
 			Siin_Suub_Proclamation
 		</Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships>
+			<!-- Project Proteus -->
+			Proteus_Cargo_Ship,
+			Imperial_I_Star_Destroyer_Stealth,
+			Shadow_Acclamator_I_Carrier,
+			Shadow_Imperial_I_Star_Destroyer_Carrier,
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
+		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
 		<Bombardment_Number_Of_Salvos> 1 </Bombardment_Number_Of_Salvos>
@@ -6934,8 +7082,29 @@
 			Lovett_Riverlord
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Proteus -->
-			Proteus_Cargo_Ship
+			<!-- Project Proteus -->
+			Proteus_Cargo_Ship,
+			Imperial_I_Star_Destroyer_Stealth,
+			Shadow_Acclamator_I_Carrier,
+			Shadow_Imperial_I_Star_Destroyer_Carrier,
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7428,6 +7597,31 @@
 			Frangelic_Aleulya,
 			Prince_Militaire_Jieban_Ren,
 			Uingali_Ystava,
+		</Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships>
+			<!-- Project Proteus -->
+			Proteus_Cargo_Ship,
+			Imperial_I_Star_Destroyer_Stealth,
+			Shadow_Acclamator_I_Carrier,
+			Shadow_Imperial_I_Star_Destroyer_Carrier,
+			Bakura_Destroyer_Proteus,
+			Auxilia,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Acclamator_Patrol_Refit,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Blue </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -9198,7 +9392,7 @@
 	<!--Bombing runs & Orbital Bombardments-->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 150.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> 
+		<Bombardment_Required_Orbital_Ships>
 			Acclamator_I_Carrier,
 			Acclamator_II,
 			Acclamator_I_Assault,
@@ -9492,13 +9686,61 @@
 			Neomen_Ion_Storm
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Required_Orbital_Ships>
-			<!-- Shadow Spawn -->
+			<!-- Project Proteus -->
+			CEC_Light_Cruiser,
+			Starbolt,
+			Proficient_Tender,
+			Proficient,
 			Proteus_Cargo_Ship,
 			Imperial_I_Star_Destroyer_Stealth,
 			Shadow_Vigil,
 			Shadow_Acclamator_I_Carrier,
 			Shadow_Imperial_I_Star_Destroyer_Carrier,
-			Shadow_Vengeance_Star_Dreadnought
+			Shadow_Vengeance_Star_Dreadnought,
+			Consular_Refit,
+			IPV1_Gunboat_Proteus,
+			Namana_Cruiser_Proteus,
+			Carrack_Cruiser_Laser,
+			Class_C_Frigate,
+			Pelta_Assault,
+			Munifex,
+			Proteus_Kaloth,
+			Galleon_Minelayer,
+			Bakura_Destroyer_Proteus,
+			Acclamator_Destroyer,
+			Auxilia,
+			Lictor,
+			Praetor_I_Battlecruiser,
+			Acclamator_Battleship,
+			Victory_I_Fleet_Star_Destroyer,
+			Acclamator_I_Support,
+			Acclamator_I_Supercruiser,
+			Venator_8X,
+			Procurator_Battlecruiser,
+			Imperial_II_Star_Destroyer_Ion,
+			Imperial_I_Star_Destroyer_Hero_Refit_Proteus,
+			Bayonet_Cruiser,
+			Hornet_Assault_Carrier,
+			Tapani_Assault_Frigate,
+			DHC_Interdictor,
+			Vindicator_Carrier,
+			Triumph_Star_Destroyer,
+			Triumph_Star_Destroyer_Hero_Refit,
+			Communications_Battlecruiser,
+			Invincible_Cruiser,
+			Bulwark_II,
+			Bulwark_III,
+			Mandator_II_Dreadnought,
+			Mandator_III_Dreadnought,
+			Assertor_Star_Dreadnought,
+			Arquitens_Refit,
+			Nebulon_B_Tender,
+			Acclamator_Patrol_Refit,
+			Alliance_Assault_Frigate_II,
+			Immobilizer_Twin_Well,
+			MTC_Combat,
+			MTC_Sensor,
+			Victory_II_Carrier,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
