@@ -93,7 +93,7 @@ return {
 			elseif proteus == "ZAARIN_REMNANTS" then
 				fighter = "TIE_X3_SQUADRON"
 			elseif proteus == "ELROOD" then
-				fighter = "HOWLRUNNER_SQUADRON"
+				fighter = "TIE_Fighter_BF2_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
