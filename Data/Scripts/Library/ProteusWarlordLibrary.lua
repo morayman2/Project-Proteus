@@ -507,8 +507,8 @@ return {
 			UnlockList = {
 				-- Space	
 				"Beta_ETR_3_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Tartan_Patrol_Cruiser", "Eidolon", 
-				"Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Victory_II_Star_Destroyer", "Procursator_Star_Destroyer", 
-				"Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Interdictor_Star_Destroyer", 
+				"Pursuit_Light_Cruiser", "Imperial_II_Frigate", "Victory_II_Star_Destroyer", "Victory_II_Carrier", "Procursator_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer_Assault", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_II_Star_Destroyer_Ion", 
 				"Praetor_I_Battlecruiser", "Praetor_II_Battlecruiser", "Praetor_Carrier_Battlecruiser", "Altor_Replenishment_Ship", "Assertor_Star_Dreadnought", 
 				-- Ground
 				"Imperial_Fleet_Commando_Company", "EVO_Trooper_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
@@ -660,7 +660,7 @@ return {
 			UnlockList = {
 				-- Space	
 				"Guardian_Cruiser_Group", "Imperial_CR90", "Action_VI_Support", "Marauder_Cruiser", "Quasar", "Star_Galleon",
-				"Super_Transport_VI", "Super_Transport_VII_Missile", "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor_Cruiser", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer", "Victory_II_Carrier",
+				"Super_Transport_VI", "Super_Transport_VII_Missile", "DHC_Interdictor", "PDF_DHC", "Neutron_Star", "Captor", "Super_Transport_XI_Modified", "Victory_I_Star_Destroyer", "Victory_II_Carrier",
 				"Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Invincible_Cruiser", 
 				"Communications_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Fighter Hero
@@ -783,7 +783,7 @@ return {
 			HeroList = {"Kedler_Eleos", "Jedselk_Team", "Amara_Jedselk_Team", "Tyionsis_Cex_Team"},
 			UnlockList = {
 				-- Space	
-				"Customs_Corvette", "Consular_Refit", "Tartan_Patrol_Cruiser", "Pelta_Support", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Interdictor",
+				"Customs_Corvette", "Consular_Refit", "Tartan_Patrol_Cruiser", "Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Interdictor",
 				"Imperial_DHC", "Neutron_Star_Mercenary", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Battleship", "Imperial_I_Star_Destroyer_Patrol",
 				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
@@ -887,9 +887,9 @@ return {
 			UnlockList = {
 				-- Space	
 				"Gamma_ATR_6_Group", "Action_VI_Refit", "Tartan_Patrol_Cruiser", "Active_Frigate", "Victory_II_Frigate", 
-				"Imperial_DHC", "Vindicator_Cruiser", "Immobilizer_Twin_Well", "Acclamator_II", "Imperial_I_Frigate", "Proteus_Cargo_Ship", "Victory_II_Star_Destroyer", 	"Procursator_Star_Destroyer", 
+				"DHC_Gunboat", "Vindicator_Cruiser", "Immobilizer_Twin_Well", "Acclamator_II", "Imperial_I_Frigate", "Proteus_Cargo_Ship", "Victory_II_Star_Destroyer", 	"Procursator_Star_Destroyer", 
 				"Imperial_I_Star_Destroyer_Assault", "Imperial_I_Star_Destroyer_Command", "Imperial_II_Star_Destroyer", "Triumph_Star_Destroyer", 
-				"Allegiance_Battlecruiser", "Praetor_II_Battlecruiser", "Executor_Star_Dreadnought",
+				"Allegiance_Battlecruiser", "Compellor_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Compforce_Assault_Company", "Imperial_Galactic_Marine_Company", "IntSec_Operator_Company", "Imperial_Army_74Z_Bike_Company", 
 				"Repulsor_Scout_Company", "RTT_Company", "Chariot_LAV_Company", 
