@@ -814,7 +814,7 @@ return {
 			HeroList = {"Kedler_Eleos", "Jedselk_Team", "Amara_Jedselk_Team", "Tyionsis_Cex_Team"},
 			UnlockList = {
 				-- Space	
-				"Customs_Corvette", "Consular_Refit", "Tartan_Patrol_Cruiser", "Pelta_Support", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Interdictor",
+				"Customs_Corvette", "Consular_Refit", "Tartan_Patrol_Cruiser", "Galleon", "Carrack_Cruiser", "Ton_Falk_Escort_Carrier", "Strike_Interdictor",
 				"Imperial_DHC", "Neutron_Star_Mercenary", "Gladiator_II", "Proficient_Tender", "Broadside_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer",
 				"Imperial_I_Star_Destroyer", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Battleship",
 				"Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought",
