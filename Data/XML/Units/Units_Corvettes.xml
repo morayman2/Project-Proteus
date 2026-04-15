@@ -3678,13 +3678,15 @@
 	
 	<SpaceUnit Name="Interceptor_I_Frigate">
 		<Variant_Of_Existing_Type>Template_Interceptor_I_Frigate</Variant_Of_Existing_Type>
-		<Affiliation/>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>		
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_0>Z95_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -3776,14 +3778,13 @@
 
 	<SpaceUnit Name="Interceptor_IV_Frigate">
 		<Variant_Of_Existing_Type>Template_Interceptor_IV_Frigate</Variant_Of_Existing_Type>
-		<Affiliation>Zsinj_Empire</Affiliation>
+		<Affiliation>Zsinj_Empire, Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Pirate_Base,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
