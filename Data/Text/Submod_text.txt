@@ -38,6 +38,7 @@ TEXT_COMPANY_TIERFON_DESCRIPTION,The main base of the Tierfon Sector Fleet, with
 TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate_Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an Organization overseeing all aspects of various Imperial Intelligence Agencies. Provides intel on nearby planets in a large radius.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
+TEXT_CONQUEST_PROTEUS_PRAJI;It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
@@ -64,6 +65,7 @@ TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
+TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -692,6 +694,28 @@ TEXT_TOOLTIP_PROCURATOR_WEAP1,8x Medium Dual Turbolasers: 2 / 2.0s / 6.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP2,14x Light Turbolasers: 2 / 1.0s / 5.5km
 TEXT_TOOLTIP_PROCURATOR_WEAP3,6x Proton Torpedoes: 2 / 7.5s / 5.5km
 TEXT_TOOLTIP_RBANN,Rbann was a Kubaz Imperial spy who worked directly for Blackhole, the shadowy Director of Imperial Intelligence. In 1 ABY, Blackhole dispatched Rbann to the "Gambler's World" of Vorzyd V, ordering the Kubaz to track prominent Rebel leaders Luke Skywalker and Leia Organa, who Blackhole had learned had been sent to Vorzyd V to disrupt Imperial operations there. Rbann quickly managed to track them to the Casino Royale in the capital city of Efavan, and his stormtroopers overpowered the Rebels and imprisoned them aboard Rbann's ship.
+TEXT_TOOLTIP_RED_POLICE_COMPANY,Company: 18x Red Police
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP1,9x Blaster SMG: 5 / 2.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP2,9x Underslung Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP3,6x Light Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP4,3x Disruptor Rifle: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP5,6x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_COMPANY_WEAP6,3x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_HEALTH,Health: 24 (Infantry)
+TEXT_TOOLTIP_RED_POLICE_MOVE,Speed: 1.1
+TEXT_TOOLTIP_RED_POLICE_SQUAD,Squad: 6x Red Police
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP1,3x Blaster SMG: 5 / 2.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP2,3x Underslung Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP3,2x Light Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP4,1x Disruptor Rifle: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP5,2x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_SQUAD_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_WEAP1,1x Red Police Issue Blaster: 5 / 2.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_WEAP2,1x Underslung Light Proton Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_WEAP3,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
+TEXT_TOOLTIP_RED_POLICE_WEAP4,1x DXR-6 Disruptor Rifle: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RED_POLICE_WEAP5,1x Concussion Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_RED_POLICE_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_REFORM_PRAETORIAN,Reform Praetorian Squadron
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
@@ -704,7 +728,7 @@ TEXT_TOOLTIP_SHADOW_ATAT_COMPANY,Company: 1x Shadow AT-AT Walker
 TEXT_TOOLTIP_SHADOW_ATAT_DEPLOY,Deploys: 1x Shadow Stormtroopers Squad
 TEXT_TOOLTIP_SHADOW_CUSTOMS_CORVETTE,Designed to infringe on Corellian market niches during the last decades of the Republic, and famous for use with the Imperial Customs Office, this vessel is intended to dock with merchant freighters and transports to conduct routine system patrol and merchant vessel monitoring. It is not as durable as some purely military screening vessels, but is fast and well armed enough to perform the role in fleet combat. Coated in black stygian-triprismatic polymer, this vessel was nearly invisible to the naked eye in deep space.
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER,Rare cross-combination of Shadow Stormtrooper and Scout Trooper concepts. Shadow Scout troopers are Cronal's handpicked scout operatives and are tasked with covert operations such as reconnaissance, sabotage and assassinations. Equipped with highly lightweight yet durable cloaking armour that allows these Shadow Scout troopers to get around unnoticed and reposition more effectively. Used for ranged engagement and swift strikes, they are extremely effective against lightly armoured targets.
-TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY,20x Shadow Scout Trooper
+TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY,Company: 20x Shadow Scout Trooper
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY_WEAP1,7x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY_WEAP2,2x Heavy Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_SHADOW_SCOUT_TROOPER_COMPANY_WEAP3,2x Light Repeating Blaster: 5 / 1.0s / 240m
@@ -798,8 +822,8 @@ TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Inte
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% cost, -20% time)
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER,Elite soldier-enforcers serving the Trandoshan slaver clans who also often get employed as mercenaries by governments known to practice slavery. Best used against enemy infantry formations while being supported by allied armor.
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,18 Trandoshan Hunters
-TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,32
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_COMPANY,Company: 18x Trandoshan Hunters
+TEXT_TOOLTIP_TRANDOSHAN_HUNTER_HEALTH,Health: 32
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE,Speed: 1.3
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_1,9x Slug Carbines: 1 / 1.0s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP_2,3x Slugthrower Repeaters: 5 / 0.2s / 300m
@@ -860,18 +884,18 @@ TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Secto
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
-TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
+TEXT_UNIT_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
 TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
-TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
+TEXT_UNIT_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
 TEXT_UNIT_AT_ACT_WALKER,AT-ACT Walker
 TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
 TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
-TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
+TEXT_UNIT_AT_KT_WALKER_COMPANY,Company: 4x AT-KT Walker
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
-TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
+TEXT_UNIT_AT_OT_WALKER_COMPANY,Company: 2x AT-OT Walker
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
@@ -903,7 +927,7 @@ TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
-TEXT_UNIT_GAT_COMPANY,GAT Company
+TEXT_UNIT_GAT_COMPANY,Company: 4x GAT
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
@@ -918,7 +942,7 @@ TEXT_UNIT_MANSK_FRIGATE,Mansk-class Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta-class Assault Fighter
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
-TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
+TEXT_UNIT_OG9_COMPANY,Company: 4x OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
 TEXT_UNIT_PHASE_TWO_AT_HEAVY,Republic Surplus Trooper Heavy AT 
 TEXT_UNIT_PHASE_TWO_AT_LIGHT,Republic Surplus Trooper Light AT 
@@ -956,9 +980,9 @@ TEXT_UNIT_SHADOW_SCOUT_TROOPER_SNIPER,Shadow Scout Trooper Sniper
 TEXT_UNIT_SHADOW_SCOUT_TROOPER_SNIPER_SQUAD,Shadow Scout Trooper Sniper Squad
 TEXT_UNIT_SHADOW_STAR_DESTROYER_CARRIER,Shadow Imperial-I Star Destroyer (Carrier)
 TEXT_UNIT_SHADOW_TX130S,Shadow TX-130S Fighter Tank
-TEXT_UNIT_SHADOW_TX130S_COMPANY,Shadow TX-130S Fighter Tank Company
+TEXT_UNIT_SHADOW_TX130S_COMPANY,Company: 3x Shadow TX-130S Fighter Tank
 TEXT_UNIT_SHADOW_ULAV,Shadow Ultra-Light Assault Vehicle
-TEXT_UNIT_SHADOW_ULAV_COMPANY,Shadow ULAV Company
+TEXT_UNIT_SHADOW_ULAV_COMPANY,Company: 4x Shadow ULAV Company
 TEXT_UNIT_SHADOW_VENGEANCE_DREADNOUGHT,Shadow Vengeance Star Dreadnought
 TEXT_UNIT_SHADOW_VIGIL,Shadow Vigil Corvette
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ELITE,Elite Heavy TIE Interceptor
@@ -973,9 +997,9 @@ TEXT_UNIT_SITH_MARAUDER,Sith Marauder
 TEXT_UNIT_SITH_SLAYER,Sith Slayer
 TEXT_UNIT_SITH_SORCERER,Sith Sorcerer
 TEXT_UNIT_SITH_STRIDER,Sith Strider
-TEXT_UNIT_SITH_STRIDER_COMPANY,Sith Strider Company
+TEXT_UNIT_SITH_STRIDER_COMPANY,Company: 3x Sith Strider
 TEXT_UNIT_SITH_WAR_MAMMOTH,Sith War Mammoth
-TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Sith War Mammoth Company
+TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Company: 2x Sith War Mammoth
 TEXT_UNIT_SITHSPAWN,Sithspawn
 TEXT_UNIT_SKIPRAYK,Skipray Blastboat GAT-12k
 TEXT_UNIT_SKIPRAYK_SQUADRON,Skipray Blastboat GAT-12k Squadron
