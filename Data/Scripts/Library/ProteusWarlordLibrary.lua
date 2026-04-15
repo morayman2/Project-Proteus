@@ -87,7 +87,7 @@ return {
 				"Imperial_II_Star_Destroyer_Ion", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier", "Acclamator_Destroyer",
 				"Altor_Replenishment_Ship", "Allegiance_Battlecruiser", "Legator_Star_Dreadnought", "Assertor_Star_Dreadnought",
 				-- Ground
-				"ISB_Infiltrator_Company", "Imperial_Dark_Jedi_Company_Proteus", "Imperial_Galactic_Marine_Company", "Imperial_Army_74Z_Bike_Company",
+				"ISB_Infiltrator_Company", "Darksider_Company", "Imperial_Galactic_Marine_Company", "Imperial_Army_74Z_Bike_Company",
 				"AT_ST_Company", "Chariot_LAV_Company", "PX7_Company",
 				"AT_AA_Missile_Walker_Company", "Imperial_Flashblind_Company", "Imperial_TX130S_Company", "SPMAG_Walker_Company", "1M_Tank_Company", "1H_Tank_Company",
 				"PX4_Company", "Tracked_Mobile_Base_Company", "Lancet_Air_Artillery_Company", "AT_AT_Walker_IC_Company", 
@@ -464,7 +464,7 @@ return {
 				"Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier", "Tector_Star_Destroyer",
 				"Praetor_I_Battlecruiser", "Vengeance_Star_Dreadnought",
 				-- Ground
-				"PDF_Force_Cultist_Company", "Imperial_Army_Guard_Company", "Imperial_Dark_Jedi_Company_Proteus", "Terentatek_Company",
+				"PDF_Force_Cultist_Company", "Imperial_Army_Guard_Company", "Darksider_Company", "Terentatek_Company",
 				"X34_Technical_Company", "Espo_Walker_91_Company", "RTT_Company",
 				"Imperial_Heavy_Mobile_Artillery_Company", "Imperial_Modified_LAAT_Company", "Sith_War_Mammoth_Company", "Sith_Strider_Company",
 				"Republic_A4_Juggernaut_Company", "Sith_Slayer_Company", "Sith_War_Behemoth_Company", 
@@ -751,7 +751,7 @@ return {
 				-- Fighter Hero
 				"Benjo_Alpha_Location_Set", "Kile_Hannad_Location_Set",
 				-- Ground
-				"Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
+				"Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
 				"Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
 				"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
 				"Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
@@ -765,7 +765,7 @@ return {
 				-- Fighter Hero
 				"Benjo_Alpha_Location_Set", 
 				-- Ground
-				"Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
+				"Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Sith_Knight_Company", "Shadow_EVO_Trooper_Company", "Imperial_74Z_Bike_Company",
 				"Chariot_LAV_Company", "AT_ST_A_Company", "TIE_Mauler_Company", "INT4_Company", 
 				"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "Imperial_Dropship_Transport_Company", 
 				"Tracked_Mobile_Base_Company", "A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",

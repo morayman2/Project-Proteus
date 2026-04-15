@@ -66,7 +66,7 @@ return {
 		"DHC_Gunboat", "Proficient", "Mansk_Frigate", "Tapani_Assault_Frigate", "Hornet_Assault_Carrier",
 		"Imperial_Bantha_II_Skiff_Company", "Repulsor_Scout_Company", "Nemesis_Gunship_Company",
         --Protectorate of Prakith added units 
-        "Red_Police_Company", "Imperial_Dark_Jedi_Company_Proteus", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
+        "Red_Police_Company", "Darksider_Company", "AT_DP_Company", "Talon_Flamestrike_Cloud_Car_Company", "T4A_Company",
 		--Maelstrom Command added units
 		"Galleon",
 		"INT4_Company", "Swift_Assault_5_Company",

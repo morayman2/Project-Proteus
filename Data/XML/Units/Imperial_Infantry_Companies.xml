@@ -2353,7 +2353,7 @@
 		<Required_Planets/>
 		<Maintenance_Cost>0.0</Maintenance_Cost>
 
-		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
+		<!-- <Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player> -->
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>195</Tactical_Build_Cost_Multiplayer>
