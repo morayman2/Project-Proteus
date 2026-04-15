@@ -6429,12 +6429,11 @@
 
 		<Targeting_Max_Attack_Distance>3500.0</Targeting_Max_Attack_Distance>
 
-		<Affiliation>Zsinj_Empire</Affiliation>
+		<Affiliation>Zsinj_Empire, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Pirate_Base,
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy
 		</Required_Special_Structures>
