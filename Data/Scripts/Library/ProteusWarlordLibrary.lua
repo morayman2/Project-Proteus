@@ -559,12 +559,12 @@ return {
 			UnlockList = {
 				-- Space
 				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon",
-				"Rep_DHC", "Acclamator_I_Assault", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Star_Destroyer", "Pursuit_Light_Cruiser", 
+				"Rep_DHC", "Acclamator_I_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Gladiator_I", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Destroyer", 
 				"Impellor_Carrier", "Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground 
 				"Imperial_Army_Trooper_Company", "Navy_Commando_Company", "Imperial_Army_74Z_Bike_Company", 
-				"AT_ST_Company", "Chariot_LAV_Company", 
+				"AT_ST_Company", "Chariot_LAV_Company", "Imperial_ULAV_Company", 
 				"1M_Tank_Company", "AT_AA_Missile_Walker_Company", "Imperial_Modified_LAAT_Company", "TIE_Crawler_Company", "Imperial_Missile_Artillery_Company", "SPMAG_Walker_Company", 
 				"B5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company", "Tracked_Mobile_Base_Company", 
 				-- Research
@@ -600,15 +600,15 @@ return {
 			HeroList = {"Shargael_Team"},
 			UnlockList = {
 				-- Space
-				"YZ_775_Freighter_Group", "IPV1", "Patrol_Nebulon_B", "Galleon", "Strike_Cruiser_Light",
+				"Gozanti_Cruiser_Group", "IPV1", "Patrol_Nebulon_B", "Galleon", "Strike_Cruiser", "Consular_Refit",
 				"PDF_DHC", "Battle_Horn", "Acclamator_Patrol_Refit", "Vindicator_Carrier", "Immobilizer_418", "Acclamator_I_Support", "Victory_I_Star_Destroyer",
-				"Imperial_I_Star_Destroyer_Patrol", "Tector_Star_Destroyer", "Triumph_Star_Destroyer", 
+				"Imperial_I_Star_Destroyer_Patrol", "Tector_Star_Destroyer", "Triumph_Star_Destroyer", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", 
 				"Praetor_II_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Trooper_Company", "Imperial_Army_Guard_Company", "Imperial_Scout_Trooper_Company", "Imperial_74Z_Bike_Company", 
 				"Imperial_AT_PT_Company", "AT_DP_Company", "Scorpenek_Utility_Company", "Skyhopper_Antivehicle_Company", 
-				"MZ8_Tank_Company", "1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_AT_AP_Walker_Company", "MAL_Rocket_Vehicle", "AT_AA_Walker_Company", "Hutt_Personnel_Skiff_IV_Company", 
-				"A5_Juggernaut_Company", "PX4_Company", "Canderous_Assault_Tank_Company",
+				"MZ8_Tank_Company", "1H_Tank_Company", "Imperial_Dropship_Transport_Company", "Imperial_AT_AP_Walker_Company", "MAL_Rocket_Vehicle_Company", "AT_AA_Walker_Company", "Hutt_Personnel_Skiff_IV_Company", 
+				"Imperial_A5_Juggernaut_Company", "PX4_Company", "Canderous_Assault_Tank_Company_Proteus",
 			},
 			FactionOverride = "Empire",
 			FactionOverride2 = "Zsinj_Empire",
@@ -622,7 +622,14 @@ return {
 			LeaderEndingNames = {"Emperor Santhe"},
 			HeroList = {"Phillip_Santhe_Team", "Worhven_Dominator", "Imre_Talberenina_Ballista", "Verpalion_Warlord"},
 			RemoveList = {"Valles_Interdictor","Amatha_Fetz_Super_Transport_XI"},
-			UnlockList = {"TIE_Crawler_Company"},
+			UnlockList = {"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Galleon", "Patrol_Nebulon_B", "Strike_Cruiser_Light",
+			"Gladiator_II", "Acclamator_Patrol_Refit", "Vindicator_Cruiser", "Immobilizer_418", "Super_Transport_XI", "Victory_II_Star_Destroyer",
+			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier",
+			"Altor_Replenishment_Ship", "Mandator_II_Dreadnought",
+			"Imperial_Army_Trooper_Company", "Security_Trooper_Company", "Imperial_Army_74Z_Bike_Company",
+			"RTT_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company",
+			"Imperial_UT_AA_Company", "TIE_Crawler_Company", "S_1_Firehawke_Company", "Imperial_Flashblind_Company",
+			"B5_Juggernaut_Company", "Lancet_Air_Artillery_Company",},
 			LockList = {"GormTalquist_HQ"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_IMPERIAL_LIANNA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"

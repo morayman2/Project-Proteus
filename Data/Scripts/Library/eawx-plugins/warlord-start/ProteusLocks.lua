@@ -89,7 +89,7 @@ return {
 		"Venator_8X", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_II_Star_Destroyer_Ion",
 		"AT_AT_Walker_IC_Company",
 		--Imperial Bakura added units
-		"Namana_Cruiser_Proteus", "Bakura_Destroyer_Proteus",
+		"Namana_Cruiser_Proteus", "Bakura_Destroyer_Proteus", "DHC_Carrier_Upgrade",
 		"ULAV_Early_Company", "Skyhopper_Company",
 		--The Quintad added units
 		"Gozanti_Cruiser_Group", "LAC", "Procurator_Battlecruiser",
@@ -128,4 +128,9 @@ return {
 		"Mandalorian_Commando_Company",
 		--Sector 5 added units
 		"Acclamator_I_Supercruiser",
+		--Imperial Sellasas added units
+		"SD_6_Droid_Company_Sellasas",
+		--I-Sector added units
+		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
+		
 }
