@@ -1056,4 +1056,30 @@ return {
 			IntroHolo = "Grunger_Loop",
 			LegitimacyLock = "Dummy_Recruit_Group_Grunger"
 		},
+		["PRAJI"] = {
+			FriendlyName = "Imperial Kaikielius",
+			Planets = {"KAIKIELIUS", "AARGAU"},
+			LeaderTable = {"PRAJI_SECUTOR"},
+			LeaderEndingNames = {"Emperor Praji"},
+			HeroList = {"Praji_Secutor"}, 
+			UnlockList = {
+				-- Space 
+				"Guardian_Cruiser_Group", "Customs_Corvette", "Raider_II_Corvette", "Lancer_Frigate", "Patrol_Nebulon_B", "Ton_Falk_Escort_Carrier", "Marauder_Picket_Cruiser",
+				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Cruiser", "Victory_II_Carrier", 
+				"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
+				"Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
+				-- Ground
+				"Navy_Commando_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
+				"AT_ST_Company", "AT_DP_Company", "Chariot_LAV_Company",
+				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Walker_Company", "AT_AA_Missile_Walker_Company", "PX7_Company",
+				"Imperial_AT_AT_Walker_Company", "A9_Floating_Fortress_Company",
+			},
+			--LockList = {"Imperial_Army_Guard_Company"},
+			FactionOverride = "Empire",
+			FactionOverride2 = "Rebel",
+			StartYear = 11,
+			LastYear = 11,
+			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
+			IntroHolo = "Imperial_Naval_Officer_Loop"
+		},
 }
