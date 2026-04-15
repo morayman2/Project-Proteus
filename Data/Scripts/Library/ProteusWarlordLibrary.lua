@@ -563,7 +563,7 @@ return {
 			UnlockList = {
 				-- Space
 				"VT49_Decimator_Group", "Imperial_CR90", "Tartan_Patrol_Cruiser", "Marauder_Picket_Cruiser", "Victory_I_Frigate", "Galleon_Minelayer", "Eidolon",
-				"Rep_DHC", "Gladiator_I", "Acclamator_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", 
+				"Rep_DHC", "Gladiator_I", "Acclamator_I_Supercruiser", "Neutron_Star_Tender", "Victory_I_Star_Destroyer", "Victory_II_Carrier", 
 				"Imperial_I_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", "Acclamator_Destroyer", 
 				"Impellor_Carrier", "Praetor_I_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Ground 
@@ -808,7 +808,7 @@ return {
 		},
 		["SELLASAS"] = {
 			FriendlyName = "Imperial Sellasas",
-			Planets = {"SELLASAS"},
+			Planets = {"DOLLA", "SELLASAS"},
 			LeaderTable = {["JEDSELK_TEAM"] = {"JEDSELK_PX4"}},
 			LeaderEndingNames = {"Emperor Jedselk"},
 			HeroList = {"Kedler_Eleos", "Jedselk_Team", "Amara_Jedselk_Team", "Tyionsis_Cex_Team"},
