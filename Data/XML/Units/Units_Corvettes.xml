@@ -10444,7 +10444,7 @@
 		<AI_Combat_Power>266</AI_Combat_Power>
 		<Damage>20</Damage>
 
-		<Affiliation>Corporate_Sector</Affiliation>
+		<Affiliation>Corporate_Sector, Imperial_Proteus</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>5</Override_Bounty_SP>
 		<Maintenance_Cost>7</Maintenance_Cost>
@@ -10470,6 +10470,7 @@
 		<Build_Time_Seconds>11</Build_Time_Seconds>
 		<Slice_Cost_Credits>640</Slice_Cost_Credits>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
 		CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
