@@ -589,6 +589,7 @@ TEXT_TOOLTIP_GAT_MOVE,Speed: 2.0 | Turn: 6.0
 TEXT_TOOLTIP_GAT_SHIELD,Shields: 50 / [6/R] (Light Vehicle)
 TEXT_TOOLTIP_GAT_WEAP1,1x AV Blaster Cannon: 2 / 2.0s / 320m
 TEXT_TOOLTIP_GAT_WEAP2,1x Proton Missile: 1 / 10.0s / 320m
+TEXT_TOOLTIP_GPA_RESEARCH,Using our domestic developments, replace our TIE Fighters with General-Purpose Attack Fighters.
 TEXT_TOOLTIP_GRONN_UPGRADE,Upgrade: Mandator-III
 TEXT_TOOLTIP_GRUNGER_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_GURNST,Colonel of the mercenary company known as Taskforce Bravo. While not loyal to any particular ideology, he was hired by the Empire to help suppress Wookiee revolts on Kashyyyk.
@@ -631,6 +632,7 @@ TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
 TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
 TEXT_TOOLTIP_KILE_HANNAD_WEAP1,1x SE-14 Pistol: 2 / 1.5s / 220m
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
+TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegally acquired by Kiara Schmog into production. This upgrade will replace all previous instances of the Drexl with Preybirds and all previous instances of Z-95s with Drexls.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_LAC,A semi-standard version of a modified CEC Consular-class cruiser that has long been popular with Republic Judicial Forces, serving in the Stark Hyperspace War and the Yinchorri Uprising. This specific configuration is excellent for anti-starfighter escort duty while other corvette models are more suited to missile loadouts or attacking larger ships.
@@ -930,12 +932,14 @@ TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
 TEXT_UNIT_GAT_COMPANY,Company: 4x GAT
+TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
 TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet-class Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
+TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
