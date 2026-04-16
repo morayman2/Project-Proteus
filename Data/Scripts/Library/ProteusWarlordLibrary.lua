@@ -548,6 +548,8 @@ return {
 				"Imperial_A5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",			
 				-- Structure
 				"CEC_HQ",
+				-- Research
+				"Dummy_Research_BGPA",
 			},
 			LockList = {"Namana_Cruiser_Influence","Bakura_Destroyer_Influence","DHC_Carrier_Upgrade"},
 			LastYear = 4,
@@ -731,7 +733,9 @@ return {
 				"Imperial_AT_AP_Walker_Company", "Imperial_Light_Mobile_Artillery_Company", "Imperial_TX130T_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Flak_Walker_Company", 
 				"Imperial_AT_AT_Walker_Company", "Proteus_A6_Company", "Camo_AT_TE_Walker_Company", 
 				-- Structures
-				"Pirate_Base"
+				"Pirate_Base",
+				-- Research
+				"Dummy_Research_KSpecialMissions"
 			},
 			FactionOverride = "Empire",
 			LastYear = 4,
@@ -1001,7 +1005,7 @@ return {
 			LeaderTable= {["ENNIX_DEVIAN_TEAM"] = {"ENNIX_DEVIAN"}},
 			LeaderEndingNames = {"Emperor Devian"},
 			HeroList = {"Ennix_Devian_Team", "Ulcane_Dissension"},
-			UnlockList = {"IPV1_Zeta", "Hornet_Assault_Carrier",},
+			UnlockList = {"IPV1_Zeta", "Hornet_Assault_Carrier", "Dummy_Research_KPreybird_Production",},
 			--LockList = {"IPV1"},
 			LastYear = 10,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION",

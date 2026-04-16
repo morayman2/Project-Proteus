@@ -102,6 +102,9 @@ return {
 				fighter = "TIE_DROID_SQUADRON"
 			elseif proteus == "KASHYYYK" then
 				fighter = "TIE_FIGHTER_SQUADRON" --TBC Upgrade to BF2 Fighter
+				if Get_Fighter_Research("KSM") then
+					fighter = "TIE_FIGHTER_BF2_SQUADRON"
+				end
 			elseif proteus == "LUMIYA" then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "ARDA" then
