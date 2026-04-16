@@ -595,8 +595,7 @@ TEXT_TOOLTIP_GRUNGER_UPGRADE,Upgrade: Executor
 TEXT_TOOLTIP_GURNST,Colonel of the mercenary company known as Taskforce Bravo. While not loyal to any particular ideology, he was hired by the Empire to help suppress Wookiee revolts on Kashyyyk.
 TEXT_TOOLTIP_GURNST_HEALTH,Health: 150 (Hero)
 TEXT_TOOLTIP_GURNST_MOVE,Speed: 1.2
-TEXT_TOOLTIP_GURNST_SHIELD,30 (2%s)
-TEXT_TOOLTIP_GURNST_WEAP2,Antipersonnel Proximity Mine
+TEXT_TOOLTIP_GURNST_SHIELD,Shields: 30 / (2%s) (Infantry)
 TEXT_TOOLTIP_H60,A predecessor design to the famous B-wing of the Rebellion, the Tempest bomber was designed in the waning years of the Republic. Its design contained promise but it was heavily flawed and unpopular due to its limitations and its strange design compared to the Galactic standard. Despite this unpopularity, Tempests would see some service during its life in less wealthy navies where something is better than nothing.
 TEXT_TOOLTIP_HAET,Heavy aerial gunboat developed for the Outer Rim Sieges to serve as armored reconnaissance and a counterpart to more fragile LAAT models for air support. Suited to soak enemy fire or engage a variety of targets.
 TEXT_TOOLTIP_HAET_COMPANY,Company: 1x HAET-221
