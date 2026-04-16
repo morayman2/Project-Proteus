@@ -733,9 +733,9 @@ return {
 				"Imperial_AT_AP_Walker_Company", "Imperial_Light_Mobile_Artillery_Company", "Imperial_TX130T_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Flak_Walker_Company", 
 				"Imperial_AT_AT_Walker_Company", "Proteus_A6_Company", "Camo_AT_TE_Walker_Company", 
 				-- Structures
-				"Pirate_Base"
+				"Pirate_Base",
 				-- Research
-
+				"Dummy_Research_KSpecialMissions"
 			},
 			FactionOverride = "Empire",
 			LastYear = 4,
