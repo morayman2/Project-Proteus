@@ -918,5 +918,6 @@ return {
 ["VINDICATOR_CARRIER"] = true,
 ["GRONN_ACROPORA"] = true,
 ["GRONN_ACULEUS_DUMMY"] = true,
+["THORN_ASSERTOR_DUMMY"] = true,
 
 }

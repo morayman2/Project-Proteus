@@ -35,6 +35,7 @@ return {
 	["PARCK_CHAF_DESTROYER_UPGRADE"] = {"Parck_Strikefast","Parck_Chaf_Destroyer"},
 	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
 	["GRONN_ACULEUS_DUMMY"] = {"Gronn_Acropora","Gronn_Aculeus"},
+	["THORN_ASSERTOR_DUMMY"] = {"Thorn","Thorn_Assertor"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
