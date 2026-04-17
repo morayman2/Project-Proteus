@@ -1063,10 +1063,17 @@ return {
 			LeaderEndingNames = {"Emperor Thorn"},
 			HeroList = {"Daymon_Thron_Team"},
 			UnlockList = {"Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-			"Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship",},
+			"Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
+			"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
+			"Impellor_Carrier", "Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought", "Executor_Star_Dreadnought",
+			"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Imperial_74Z_Bike_Company",
+			"PX10_Company", "AT_ST_Company", "PX7_Company",
+			"AT_AA_Walker_Company", "MZ8_Tank_Company", "Imperial_TNT_Company", "SPMAG_Walker_Company", "Talon_Cloud_Car_Company", "Imperial_Dropship_Transport_Company", 
+			"Luxury_Barge_Proteus", },
 			FactionOverride = "Rebel",
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
 			IntroHolo = "Grunger_Loop"
+		},
 			
 		["PRAJI"] = {
 			FriendlyName = "Imperial Kaikielius",
