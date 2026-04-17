@@ -39,6 +39,8 @@ TEXT_COMPANY_UBIQTORATE_BASE,Ubiqtorate_Base
 TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Imperial Ubiqtorate, an organization overseeing all aspects of various Imperial Intelligence Agencies. Provides intel on nearby planets in a large radius.
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI;It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
+TEXT_CONQUEST_PROTEUS_THORN,
+TEXT_COYOTE_BOMBER_SQUADRON,Coyote Adva
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
@@ -65,8 +67,8 @@ TEXT_ETA2_SQUADRON,Eta-2 Actis Squadron
 TEXT_ETA2_SQUADRON_HALF,Eta-2 Actis Squadron 1/2
 TEXT_ETA2_SQUADRON2,Eta-2 Actis Squadron x2
 TEXT_EVENT_WARLORD_CHOICE_GRUNGER,Grunger's Empire
-TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
 TEXT_EVENT_WARLORD_CHOICE_PRAJI,Imperial Kaikielius
+TEXT_EVENT_WARLORD_CHOICE_THORN,Daymon Thorn's Empire
 TEXT_GOVERNMENT_PROTEUS_MARKET_KUAT,KDY Market:
 TEXT_GOVERNMENT_PROTEUS_MARKET_OVERVIEW_KUAT,Every galactic cycle, new ships or ground vehicles may appear on the KDY market. These are units not typically available to the faction. You can see all units currently available and the amounts they're available in listed below.
 TEXT_GROUND_BISCUIT_BARON,Biscuit Baron
@@ -303,9 +305,9 @@ TEXT_STATBLOCK_TIE_AVENGER_WEAP5,1x Proton Rocket (AC): 1 / 50.0s / 3.0km
 TEXT_STATBLOCK_TIE_AVENGER_WEAP6,1x Light Concussion Bomb (AC): 1 / 37.5s / 0.8km
 TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE,Health: 225 | Unshielded
 TEXT_STATBLOCK_TIE_DEFENDER_RED_STAR_MOVE,Speed: 8.66 | Maneuverability: 5.5
-TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON,12x TIE Fighter Carrier Duty Refit
-TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE,24x TIE Fighter Carrier Duty Refit
-TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_HALF,6x TIE Fighter Carrier Duty Refit
+TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON,12x Special Missions TIE Fighter
+TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE,24x Special Missions TIE Fighter
+TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_HALF,6x Special Missions TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2,1x Fighter Proton Torpedo: 1 / 60.0s / 1.8km
 TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_SQUADRON,Squadron: 12x Missile Refit TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile Refit TIE Fighter
@@ -322,6 +324,10 @@ TEXT_STATBLOCK_TIE_GT_WEAP3,1x Heavy Fighter Proton Torpedo: 1 / 50.0s / 1.4km
 TEXT_STATBLOCK_TIE_GT_WEAP4,1x Proton Rocket (AC): 1 / 37.5s / 3.0km
 TEXT_STATBLOCK_TIE_GT_WEAP5,1x Concussion Bomb (AC): 1 / 37.5s / 0.8km
 TEXT_STATBLOCK_TIE_INTERCEPTOR_AS_MOVE,Speed: 7.5 | Maneuverability: 4.5
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON,Squadron: 12x Special Missions TIE Interceptor
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_DOUBLE,Squadron: 24x Special Missions TIE Interceptor
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_HALF,Squadron: 6x Special Missions TIE Interceptor
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON,Squadron: 12x Ion Refit TIE Interceptor
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON_DOUBLE,Squadron: 24x Ion Refit TIE Interceptor
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON_HALF,Squadron: 6x Ion Refit TIE Interceptor
@@ -363,10 +369,9 @@ TEXT_TIE_AVENGER_BOMBER_SQUADRON2,TIE Avenger Bomber Squadron x2
 TEXT_TIE_AVENGER_TORPS_SQUADRON,Torpedo TIE Avenger Squadron
 TEXT_TIE_AVENGER_TORPS_SQUADRON_HALF,Torpedo TIE Avenger Squadron 1/2
 TEXT_TIE_AVENGER_TORPS_SQUADRON2,Torpedo TIE Avenger Squadron x2
-TEXT_TIE_FIGHTER_BF2_SQUADRON,TIE Fighter Special Mission Refit Squadron
-TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF,TIE Fighter Special Mission Refit Squadron 1/2
-TEXT_TIE_FIGHTER_BF2_SQUADRON_THIRD,TIE Fighter Special Mission Refit Squadron 1/3
-TEXT_TIE_FIGHTER_BF2_SQUADRON2,TIE Fighter Special Mission Refit Squadron x2
+TEXT_TIE_FIGHTER_BF2_SQUADRON,Special Missions TIE Fighter Squadron
+TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF,Special Missions TIE Fighter Squadron 1/2
+TEXT_TIE_FIGHTER_BF2_SQUADRON2,Special Missions TIE Fighter Squadron x2
 TEXT_TIE_FIGHTER_MISSILE_SQUADRON,Missile TIE Fighter Squadron
 TEXT_TIE_FIGHTER_MISSILE_SQUADRON_HALF,Missile TIE Fighter Squadron 1/2
 TEXT_TIE_FIGHTER_MISSILE_SQUADRON2,Missile TIE Fighter Squadron x2
@@ -376,6 +381,9 @@ TEXT_TIE_GT_BOMBER_SQUADRON2,TIE/gt Bomber Squadron x2
 TEXT_TIE_GT_TORPS_SQUADRON,Torpedo TIE/gt Squadron
 TEXT_TIE_GT_TORPS_SQUADRON_HALF,Torpedo TIE/gt Squadron 1/2
 TEXT_TIE_GT_TORPS_SQUADRON2,Torpedo TIE/gt Squadron x2
+TEXT_TIE_INTERCEPTOR_BF2_SQUADRON,Special Missions TIE Interceptor
+TEXT_TIE_INTERCEPTOR_BF2_SQUADRON_HALF,Special Missions TIE Interceptor x2
+TEXT_TIE_INTERCEPTOR_BF2_SQUADRON2,Special Missions TIE Interceptor 1/2
 TEXT_TIE_INTERCEPTOR_ION_SQUADRON,Ion Refit TIE Interceptor Squadron
 TEXT_TIE_INTERCEPTOR_ION_SQUADRON_HALF,Ion Refit TIE Interceptor Squadron 1/2
 TEXT_TIE_INTERCEPTOR_ION_SQUADRON2,Ion Refit TIE Interceptor Squadron x2
@@ -423,6 +431,11 @@ TEXT_TOOLTIP_ATACT_REPAIR,1x Infantry Healing and Vehicle Repair: 5 / 1.0s / 150
 TEXT_TOOLTIP_ATACT_WEAP1,2x Heavy AV Blaster Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_ATAT_IC,The Ion refit Imperial AT-AT was an uncommon variation that replaced its super heavy laser cannons with heavy ion cannons. Although ion cannons were rarely found aboard ground walkers, some minor warlords converted a small number of their All Terrain Armored Transport fleets into mobile ion cannon platforms. 
 TEXT_TOOLTIP_ATAT_IC_WEAP1,1x Super Heavy AV Ion Cannon: 4 / 2.0s / 480m
+TEXT_TOOLTIP_ATKT,A variant of the common AT-ST often used by planetary garrison forces deployed on anti-insurgency operations. Also known as the AT-ST 'Hunter', the AT-KT features an array of weapons geared towards pacifying partisan resistance rather than battlefield engagements. Their most notable use was on Kashyyyk as part of the Imperial occupation forces, when they worked alongside AT-APs in bombarding Wookie settlements.
+TEXT_TOOLTIP_ATKT_HEALTH,Health: 155 (Light Vehicle)
+TEXT_TOOLTIP_ATKT_MOVE,Speed: 1 | Turn: 4.0 
+TEXT_TOOLTIP_ATKT_WEAP1,2x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
+TEXT_TOOLTIP_ATKT_WEAP2,1x FC-1 Flechette Launcher (AI): 1 / 10.0s / 240m
 TEXT_TOOLTIP_ATOT,Troop walker developed during the Clone Wars to bring a larger amount of troops into the battlefield than other Republic walkers. While best known as open-topped for behind-lines use, an armored cover is applied for combat or more varied environmental conditions. Able to deploy infantry.
 TEXT_TOOLTIP_ATOT_COMPANY,Company: 2x AT-OT Walker
 TEXT_TOOLTIP_ATOT_DEPLOY,Deploys: 1x Dragon Trooper Pack
@@ -818,6 +831,7 @@ TEXT_TOOLTIP_TEZRIN,Dongal Tezrin was the captain of the light cruiser Rintonne'
 TEXT_TOOLTIP_THETA_SQUADRON,TIE Bombers of the Theta Squadron, known for its effectiveness of well timed bombing runs both in space and land engagement. It was under command of Lumiya, Dark Lady of the Sith, following the decimation of her fleet in the Nagai–Tof War and assigned to EF76 Nebulon-B escort frigate "Revenant". Theta Squadron participated in the assault led by Lumiya on the Communications Research space station Epsilon Nine.
 TEXT_TOOLTIP_THORN_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_THORN_MOVE,Speed: 1.5
+TEXT_TOOLTIP_THORN_UPGRADE,Upgrade: Modified Assertor
 TEXT_TOOLTIP_THORN_WEAP1,1x Lightsaber: 1 / 0.3s / 1m
 TEXT_TOOLTIP_TIE_AVENGER_ASSAULT,An alternate loadout of the TIE Avenger equipped with assault concussion missiles instead of standard concussion missiles. Well equipped for facing clustered groups of enemy fighters or assisting bombers in actions against frigates and capital ships. Larger munitions lead to fewer missiles carried than on the standard model.
 TEXT_TOOLTIP_TIE_AVENGER_BOMBER,TIE Avenger model outfitted with as many rockets and liyyght bombs as possible for bomber duties without sacrificing the Avenger's impressive speed and manuverability. While not directly as effective as other bombers its impressive speed gives it a unique ability to excel in hit-and-run attacks on enemy capital ships.
@@ -827,6 +841,7 @@ TEXT_TOOLTIP_TIE_FIGHTER_BF2,A rare ad-hoc modification of the ubiquitous TIE Fi
 TEXT_TOOLTIP_TIE_FIGHTER_MISSILE,A modern iteration of a Clone Wars-era modification of earlier T.I.E. models. Due to its thinner frame, the TIE/ln can only carry a few missiles on external hardpoints, limiting the effectiveness of the upgrade but providing a modest improvement without affecting performance in other categories like a more extensive refit would. Originally rare sight, this configuration has become more common after the Battle of Endor; with Warlords scrambling to get the most out of their aging TIE fleets.
 TEXT_TOOLTIP_TIE_GT_BOMBER,An original Sienar bomber in the early days of the New Order. Its small payload made it unpopular, leading to its quick replacement by the TIE Bomber. Though uncommon, the original bomber configuration of the TIE/gt would still see service in parts of the Imperial Navy that didn't have easy access to the TIE Bomber, especially among Imperial Warlords in the Outer Rim.
 TEXT_TOOLTIP_TIE_GT_TORPS,An alternate loadout of the TIE/gt equipped with heavy proton torpedoes for higher single-target effectiveness than assault concussion missiles. Best used to assist bombers in actions against enemy capital ships.
+TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2,A rare modification of the TIE Interceptor made to complement the equally rare Advanced TIE/Ln. Based on a modification of the TIE X3, this version of the TIE Interceptor carried added missiles, shields and an engine boost capability at the cost of the vessel's base speed. Best used to engage enemy fighters and bombers.
 TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Interceptor, replacing the nose-mounted secondary lasers with fighter-grade ion cannons and upgrading the frame's power systems to compensate for the increased power draw. The end result is better at tackling shielded fighters and larger targets but otherwise retains the performance of the stock configuration. While undeniably an upgrade over the base model, the increased cost and maintenance load makes it a rare sight.
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TAGGE,Industrialist: TaggeCo (-20% cost, -20% time)
@@ -893,11 +908,11 @@ TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Secto
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
+TEXT_UNIT_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK, 1-H Repulsortank, Model B
-TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
-TEXT_UNIT_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
 TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
+TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
 TEXT_UNIT_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
@@ -1039,11 +1054,11 @@ TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
 TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger
 TEXT_UNIT_TIE_BOMBER_THETA,TIE Bomber, Theta Squadron
 TEXT_UNIT_TIE_DEFENDER_RED_STAR,Modified TIE Defender, Red Star Squadron
-TEXT_UNIT_TIE_FIGHTER_ALPHA,TIE Fighter, Alpha Squadron
-TEXT_UNIT_TIE_FIGHTER_BF2,TIE Fighter Special Mission Refit
+TEXT_UNIT_TIE_FIGHTER_BF2,Special Missions TIE Fighter
 TEXT_UNIT_TIE_FIGHTER_MISSILE,Missile Refit TIE Fighter
 TEXT_UNIT_TIE_GT_BOMBER,TIE/gt Bomber
 TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
+TEXT_UNIT_TIE_INTERCEPTOR_BF2,Special Missions TIE Interceptor
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
 TEXT_UNIT_TRANDOSHAN_ALPHA,Trandoshan Alpha
