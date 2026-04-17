@@ -40,7 +40,6 @@ TEXT_COMPANY_UBIQTORATE_BASE_DESCRIPTION,One of multiple large bases of the Impe
 TEXT_CONQUEST_PROTEUS_GRUNGER,Josef Grunger: Word has reached me of the Emperor’s death, and I do not intend to pass up such an opportunity. This region of space is ripe with lesser men to join my armada. They will not be difficult to "convince".
 TEXT_CONQUEST_PROTEUS_PRAJI;It was the right decision to retire to Kaikielius instead of following the Emperor to his final demise. Now we must build on our work, Commander, and secure our holdings against all the vultures descending.
 TEXT_CONQUEST_PROTEUS_THORN,
-TEXT_COYOTE_BOMBER_SQUADRON,Coyote Adva
 TEXT_COYOTE_BOMBER_SQUADRON,Coyote Advanced Droid Bomber Squadron
 TEXT_COYOTE_BOMBER_SQUADRON_HALF,Coyote Advanced Droid Bomber Squadron 1/2
 TEXT_COYOTE_BOMBER_SQUADRON2,Coyote Advanced Droid Bomber Squadron x2
@@ -908,10 +907,8 @@ TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran C
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
 TEXT_UNIT_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
-TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK, 1-H Repulsortank, Model B
 TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
-TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
 TEXT_UNIT_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
@@ -1053,6 +1050,7 @@ TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
 TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger
 TEXT_UNIT_TIE_BOMBER_THETA,TIE Bomber, Theta Squadron
 TEXT_UNIT_TIE_DEFENDER_RED_STAR,Modified TIE Defender, Red Star Squadron
+TEXT_UNIT_TIE_FIGHTER_ALPHA,TIE Fighter, Alpha Squadron
 TEXT_UNIT_TIE_FIGHTER_BF2,Special Missions TIE Fighter
 TEXT_UNIT_TIE_FIGHTER_MISSILE,Missile Refit TIE Fighter
 TEXT_UNIT_TIE_GT_BOMBER,TIE/gt Bomber

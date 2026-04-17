@@ -632,7 +632,18 @@ return {
 			LeaderEndingNames = {"Emperor Santhe"},
 			HeroList = {"Phillip_Santhe_Team", "Worhven_Dominator", "Imre_Talberenina_Ballista", "Verpalion_Warlord"},
 			RemoveList = {"Valles_Interdictor","Amatha_Fetz_Super_Transport_XI"},
-			UnlockList = {"TIE_Crawler_Company"},
+			UnlockList = {
+				-- Space
+				"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Galleon", "Patrol_Nebulon_B", "Strike_Cruiser_Light",
+				"Gladiator_II", "Acclamator_Patrol_Refit", "Vindicator_Cruiser", "Immobilizer_418", "Super_Transport_XI", "Victory_II_Star_Destroyer",
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier",
+				"Altor_Replenishment_Ship", "Mandator_II_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Security_Trooper_Company", "Imperial_Army_74Z_Bike_Company",
+				"RTT_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company",
+				"Imperial_UT_AA_Company", "TIE_Crawler_Company", "S_1_Firehawke_Company", "Imperial_Flashblind_Company",
+				"B5_Juggernaut_Company", "Lancet_Air_Artillery_Company"
+			},
 			LockList = {"GormTalquist_HQ"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_IMPERIAL_LIANNA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
