@@ -916,5 +916,7 @@ return {
 ["VICTORY_I_FLEET_STAR_DESTROYER"] = true,
 ["DHC_INTERDICTOR"] = true,
 ["VINDICATOR_CARRIER"] = true,
+["GRONN_ACROPORA"] = true,
+["GRONN_ACULEUS_DUMMY"] = true,
 
 }

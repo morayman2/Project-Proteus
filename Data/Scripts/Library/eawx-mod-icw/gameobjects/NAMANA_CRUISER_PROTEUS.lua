@@ -1,7 +1,7 @@
 return {
 	Ship_Crew_Requirement = 60,
 	Fighters = {
-		["LIGHT_FIGHTER_HALF"] = {
+		["FIGHTER_HALF"] = {
 			DEFAULT = {Initial = 1, Reserve = 1}
 		}
 	},

@@ -1090,6 +1090,39 @@ return {
 			,["6ABY"] = true
 		}
 	},
+
+	["PRAJI"] = {
+		
+		["FullSmall"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		},
+		["FullMedium"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		},
+		["FullLarge"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownSmall"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownMedium"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		,["KnownLarge"] = {
+			["11ABY"] = true
+			,["12ABY"] = true
+		}
+		-- ,["Proteus_Map_One"] = {
+		-- 	["4ABY"] = false
+		-- 	,["12ABY"] = true
+		-- }
+		
+	},
 	
 	["THORN"] = {
 		["WesternReaches"] = {
