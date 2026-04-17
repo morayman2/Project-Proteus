@@ -41786,40 +41786,7 @@
 		</Unit_Abilities_Data>
 	</UniqueUnit>
 
-	<!-- Royal Guard -->
-	
-    <UniqueUnit Name="Royal_Guard_Interceptor_Escort">
-		<Variant_Of_Existing_Type>Royal_Guard_Interceptor</Variant_Of_Existing_Type>
-
-		<Encyclopedia_Text>
-		TEXT_TOOLTIP_RG_INTERCEPTOR
-		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_ESCORT_BASE
-		TEXT_STATBLOCK_TIE_INTERCEPTOR_MOVE
-		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
-		TEXT_STATBLOCK_TIE_INTERCEPTORROYAL_WEAP2
-		</Encyclopedia_Text>
-
-		<Tactical_Health>120</Tactical_Health>
-		<Shield_Points>65</Shield_Points>
-		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
-
-		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
-
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> Fighter_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_DESCRIPTION_100</Alternate_Description_Text>
-				<Recharge_Seconds>55.0</Recharge_Seconds> 
-				<Expiration_Seconds>5.0</Expiration_Seconds>
-				<Effective_Radius>100.0</Effective_Radius>
-				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-			</Unit_Ability>
-		</Unit_Abilities_Data>
-	</UniqueUnit>
-
-		<SpaceUnit Name="Clone_Z95_Headhunter">
+	<SpaceUnit Name="Clone_Z95_Headhunter">
 		<Variant_Of_Existing_Type>Z95_Headhunter</Variant_Of_Existing_Type>
 
 		<Text_ID>TEXT_UNIT_REPUBLIC_Z95_HEADHUNTER</Text_ID>

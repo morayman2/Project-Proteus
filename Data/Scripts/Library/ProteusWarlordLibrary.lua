@@ -632,14 +632,18 @@ return {
 			LeaderEndingNames = {"Emperor Santhe"},
 			HeroList = {"Phillip_Santhe_Team", "Worhven_Dominator", "Imre_Talberenina_Ballista", "Verpalion_Warlord"},
 			RemoveList = {"Valles_Interdictor","Amatha_Fetz_Super_Transport_XI"},
-			UnlockList = {"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Galleon", "Patrol_Nebulon_B", "Strike_Cruiser_Light",
-			"Gladiator_II", "Acclamator_Patrol_Refit", "Vindicator_Cruiser", "Immobilizer_418", "Super_Transport_XI", "Victory_II_Star_Destroyer",
-			"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier",
-			"Altor_Replenishment_Ship", "Mandator_II_Dreadnought",
-			"Imperial_Army_Trooper_Company", "Security_Trooper_Company", "Imperial_Army_74Z_Bike_Company",
-			"RTT_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company",
-			"Imperial_UT_AA_Company", "TIE_Crawler_Company", "S_1_Firehawke_Company", "Imperial_Flashblind_Company",
-			"B5_Juggernaut_Company", "Lancet_Air_Artillery_Company",},
+			UnlockList = {
+				-- Space
+				"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate_PDF", "Marauder_Cruiser", "Galleon", "Patrol_Nebulon_B", "Strike_Cruiser_Light",
+				"Gladiator_II", "Acclamator_Patrol_Refit", "Vindicator_Cruiser", "Immobilizer_418", "Super_Transport_XI", "Victory_II_Star_Destroyer",
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Patrol", "Imperial_I_Star_Destroyer_Carrier",
+				"Altor_Replenishment_Ship", "Mandator_II_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Security_Trooper_Company", "Imperial_Army_74Z_Bike_Company",
+				"RTT_Company", "Imperial_ULAV_Company", "TIE_Mauler_Company",
+				"Imperial_UT_AA_Company", "TIE_Crawler_Company", "S_1_Firehawke_Company", "Imperial_Flashblind_Company",
+				"B5_Juggernaut_Company", "Lancet_Air_Artillery_Company"
+			},
 			LockList = {"GormTalquist_HQ"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_IMPERIAL_LIANNA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -1057,22 +1061,25 @@ return {
 		
 		
 		["THORN"] = {
-			FriendlyName = "Daymon Thorn's Empire",
+			FriendlyName = "Thorn's Empire",
 			Planets = {"GHORMAN"},
-			LeaderTable= {"DAYMON_THORN_TEAM"},
+			LeaderTable= {"THORN_TEAM"},
 			LeaderEndingNames = {"Emperor Thorn"},
-			HeroList = {"Daymon_Thron_Team"},
-			UnlockList = {"Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-			"Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
-			"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
+			HeroList = {"Thorn_Team"},
+			UnlockList = {
+		    "Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+		    "Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
+			"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
 			"Impellor_Carrier", "Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought", "Executor_Star_Dreadnought",
-			"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Imperial_Dark_Jedi_Company_Proteus", "Imperial_74Z_Bike_Company",
+			"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Imperial_74Z_Bike_Company",
 			"PX10_Company", "AT_ST_Company", "PX7_Company",
 			"AT_AA_Walker_Company", "MZ8_Tank_Company", "Imperial_TNT_Company", "SPMAG_Walker_Company", "Talon_Cloud_Car_Company", "Imperial_Dropship_Transport_Company", 
-			"Luxury_Barge_Proteus", },
+			"Luxury_Barge_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company", "Heavy_Recovery_Vehicle_Company",
+			},
 			FactionOverride = "Rebel",
-			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
-			IntroHolo = "Grunger_Loop"
+			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
+			IntroHolo = "Generic_Sith_Loop",
+			LegitimacyLock = "Dummy_Recruit_Group_Thorn",
 		},
 			
 		["PRAJI"] = {
