@@ -22,7 +22,6 @@
 	-----Project Proteus: additional variables -----
 	--ShipyardCapitalOverride gives the faction a space based capital structure, put "Imperial_Proteus_Capital" on the LockList and the new one one the UnlockList
 	--CapitalOverride works the same for ground
-	--LegitimacyLock locks specific legitimacy groups, used for Tier1 groups, where the hero is not under HeroList. use "Dummy_Recruit_Group_groupname", supports a single group lock
 
 return {
 		["LAMBDA"] = {
@@ -1031,57 +1030,6 @@ return {
 			IntroHolo = "Ennix_Devian_Loop",
 			PlanetParticle = "Restored_Allies",
 		},
-		["GRUNGER"] = {
-			FriendlyName = "Grunger's Empire",
-			Planets = {"ORDO"},
-			LeaderTable= {"GRUNGER_MAHLER"},
-			LeaderEndingNames = {"Emperor Grunger"},
-			HeroList = {"Grunger_Mahler", "Roek_Reckoning", "Jaeffis_Punisher"},
-			UnlockList = {
-				-- Space
-				"Pursuer_Enforcement_Ship_Group", "Crusader_Gunship", "Lancer_Frigate_PDF", "Arquitens_Refit", "Carrack_Cruiser", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-				"Immobilizer_Twin_Well", "Gladiator_II", "Acclamator_I_Carrier", "Lictor", "Victory_II_Star_Destroyer", "Venator_8X",
-				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
-				"Praetor_Carrier_Battlecruiser", "Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Executor_Star_Dreadnought",
-				-- Ground
-				"Imperial_Army_Trooper_Company", "Mandalorian_Commando_Company", "Imperial_Galactic_Marine_Company", "Imperial_Army_74Z_Bike_Company",
-				"Imperial_AT_PT_Company", "AT_DP_Company", "AT_ST_A_Company", "RTT_Company",
-				"AT_AA_Walker_Company", "Imperial_TX130S_Company", "MZ8_Tank_Company", "2M_Repulsor_Tank_Company", "AV_7_Company", "Imperial_Modified_LAAT_Company",
-				"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company",
-				-- Research
-				"GRU_Dummy_Research_Scimitar",
-			},
-			LastYear = 6,
-			LockList = {"Mandalorian_Commando_Influence_Company"},
-			FactionOverride = "Mandalorians",
-			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
-			IntroHolo = "Grunger_Loop",
-			LegitimacyLock = "Dummy_Recruit_Group_Grunger"
-		},
-		
-		
-		["THORN"] = {
-			FriendlyName = "Thorn's Empire",
-			Planets = {"GHORMAN"},
-			LeaderTable= {"THORN_TEAM"},
-			LeaderEndingNames = {"Emperor Thorn"},
-			HeroList = {"Thorn_Team"},
-			UnlockList = {
-		    "Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
-		    "Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
-			"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
-			"Impellor_Carrier", "Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought", "Executor_Star_Dreadnought",
-			"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Imperial_74Z_Bike_Company",
-			"PX10_Company", "AT_ST_Company", "PX7_Company",
-			"AT_AA_Walker_Company", "MZ8_Tank_Company", "Imperial_TNT_Company", "SPMAG_Walker_Company", "Talon_Cloud_Car_Company", "Imperial_Dropship_Transport_Company", 
-			"Luxury_Barge_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company", "Heavy_Recovery_Vehicle_Company",
-			},
-			FactionOverride = "Rebel",
-			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
-			IntroHolo = "Generic_Sith_Loop",
-			LegitimacyLock = "Dummy_Recruit_Group_Thorn",
-		},
-			
 		["PRAJI"] = {
 			FriendlyName = "Imperial Kaikielius",
 			Planets = {"KAIKIELIUS", "AARGAU"},
@@ -1107,5 +1055,53 @@ return {
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_PRAJI",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
+		},
+		["GRUNGER"] = {
+			FriendlyName = "Grunger's Empire",
+			Planets = {"ORDO"},
+			LeaderTable= {"GRUNGER_MAHLER"},
+			LeaderEndingNames = {"Emperor Grunger"},
+			HeroList = {"Grunger_Mahler", "Roek_Reckoning", "Jaeffis_Punisher"},
+			UnlockList = {
+				-- Space
+				"Pursuer_Enforcement_Ship_Group", "Crusader_Gunship", "Lancer_Frigate_PDF", "Arquitens_Refit", "Carrack_Cruiser", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+				"Immobilizer_Twin_Well", "Gladiator_II", "Acclamator_I_Carrier", "Lictor", "Victory_II_Star_Destroyer", "Venator_8X",
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer_Hero_Refit_Proteus", "Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
+				"Praetor_Carrier_Battlecruiser", "Sorannan_Star_Destroyer", "Bellator_Star_Dreadnought", "Executor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Mandalorian_Commando_Company", "Imperial_Galactic_Marine_Company", "Imperial_Army_74Z_Bike_Company",
+				"Imperial_AT_PT_Company", "AT_DP_Company", "AT_ST_A_Company", "RTT_Company",
+				"AT_AA_Walker_Company", "Imperial_TX130S_Company", "MZ8_Tank_Company", "2M_Repulsor_Tank_Company", "AV_7_Company", "Imperial_Modified_LAAT_Company",
+				"Canderous_Assault_Tank_Lasers_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company",
+				-- Research
+				"GRU_Dummy_Research_Scimitar",
+			},
+			LastYear = 6,
+			LockList = {"Mandalorian_Commando_Influence_Company"},
+			FactionOverride = "Mandalorians",
+			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
+			IntroHolo = "Grunger_Loop",
+		},
+		
+		
+		["THORN"] = {
+			FriendlyName = "Thorn's Empire",
+			Planets = {"GHORMAN"},
+			LeaderTable= {"THORN_TEAM"},
+			LeaderEndingNames = {"Emperor Thorn"},
+			HeroList = {"Thorn_Team"},
+			UnlockList = {
+		    "Gozanti_Cruiser_Group", "Raider_I_Corvette", "Lancer_Frigate", "Galleon", "Victory_II_Frigate", "Strike_Cruiser", "Ton_Falk_Escort_Carrier",
+		    "Immobilizer_418_Refit", "Gladiator_I", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Carrier",
+			"Aggressor_Star_Destroyer", "Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Maelstrom_Battlecruiser", "Imperial_II_Star_Destroyer",
+			"Impellor_Carrier", "Sorannan_Star_Destroyer", "Assertor_Star_Dreadnought", "Executor_Star_Dreadnought",
+			"Imperial_Army_Trooper_Company", "Incinerator_Stormtrooper_Company", "Royal_Guard_Stormtrooper_Company", "Darksider_Company", "Imperial_74Z_Bike_Company",
+			"PX10_Company", "AT_ST_Company", "PX7_Company",
+			"AT_AA_Walker_Company", "MZ8_Tank_Company", "Imperial_TNT_Company", "SPMAG_Walker_Company", "Talon_Cloud_Car_Company", "Imperial_Dropship_Transport_Company", 
+			"Luxury_Barge_Company", "A9_Floating_Fortress_Company", "Imperial_AT_AT_Walker_Company", "Heavy_Recovery_Vehicle_Company",
+			},
+			FactionOverride = "Rebel",
+			IntroText = "TEXT_CONQUEST_PROTEUS_THORN",
+			IntroHolo = "Generic_Sith_Loop",
 		},
 }
