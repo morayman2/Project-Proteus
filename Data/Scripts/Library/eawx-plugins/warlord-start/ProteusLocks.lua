@@ -132,5 +132,6 @@ return {
 		"SD_6_Droid_Company_Sellasas",
 		--I-Sector added units
 		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
-		
+		--Thorn added units
+		"Luxury_Barge_Company",
 }
