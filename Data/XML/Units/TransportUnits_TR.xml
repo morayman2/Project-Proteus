@@ -1125,6 +1125,10 @@
 		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
 	</TransportUnit>
 
+	<TransportUnit Name="Shuttle_Tyderium_Thorn">
+		<Variant_Of_Existing_Type>Shuttle_Tyderium</Variant_Of_Existing_Type>
+	</TransportUnit>
+
 	<TransportUnit Name="Gallofree_Transport_Commander_Hapes">
 		<Variant_Of_Existing_Type>Gallofree_Transport</Variant_Of_Existing_Type>
 		<Landing_Transport_Variant>Gallofree_Transport_Commander_Landing</Landing_Transport_Variant>

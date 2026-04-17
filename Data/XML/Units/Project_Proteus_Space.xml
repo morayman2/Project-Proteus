@@ -15243,4 +15243,303 @@
 		</Unit_Abilities_Data>
 	</Container>
 
+	<SpaceUnit Name="TIE_Interceptor_BF2">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_TIE_INTERCEPTOR_BF2</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE 
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2.tga</Icon_Name>
+
+		<HardPoints> HP_TIE_Interceptor_00, HP_TIE_Interceptor_01, HP_TIE_Interceptor_BF2_00 </HardPoints>
+
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, REVEAL, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN </SpaceBehavior>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<Squadron Name="TIE_Interceptor_BF2_Squadron">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor_Squadron</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_INTERCEPTOR_BF2_SQUADRON</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE  
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2_ONE.tga</Icon_Name>
+
+		<Create_Team_Type>TIE_Interceptor_BF2_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="TIE_Interceptor_BF2_Squadron_Container">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor_Squadron_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_INTERCEPTOR_BF2_SQUADRON</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE  
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2_ONE.tga</Icon_Name>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="TIE_Interceptor_BF2_Squadron_Double">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor_Squadron_Double</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_INTERCEPTOR_BF2_SQUADRON2</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE  
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2_TWO.tga</Icon_Name>
+
+		<Create_Team_Type>TIE_Interceptor_BF2_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="TIE_Interceptor_BF2_Squadron_Double_Container">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor_Squadron_Double_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_INTERCEPTOR_BF2_SQUADRON2</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_DOUBLE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE  
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2_TWO.tga</Icon_Name>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
+	<Squadron Name="TIE_Interceptor_BF2_Squadron_Half">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor_Squadron_Half</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_INTERCEPTOR_BF2_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2 
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE 
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2_HALF.tga</Icon_Name>
+
+		<Create_Team_Type>TIE_Interceptor_BF2_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+		<Squadron_Units>TIE_Interceptor_BF2, TIE_Interceptor_BF2, TIE_Interceptor_BF2</Squadron_Units>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Squadron>
+
+	<Container Name="TIE_Interceptor_BF2_Squadron_Half_Container">
+		<Variant_Of_Existing_Type>Shielded_TIE_Interceptor_Squadron_Half_Container</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_TIE_INTERCEPTOR_BF2_SQUADRON_HALF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_HALF
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_BASE
+		TEXT_STATBLOCK_TIE_INTERCEPTORSHIELD_MOVE
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_WEAP1
+		TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_TIE_INTERCEPTOR_BF2_HALF.tga</Icon_Name>
+
+		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>5</Expiration_Seconds>
+				<Recharge_Seconds>55</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SLAM_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SLAM_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_sprint.tga</Alternate_Icon_Name>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_TIE_Fighter</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</Container>
+
 </Imperial_Vehicle_Companies>
