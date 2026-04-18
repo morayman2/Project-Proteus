@@ -18,7 +18,7 @@ function State_Init(message)
 
         local owner = Object.Get_Owner()
         owner.Unlock_Tech(Find_Object_Type("Zeta_Strike"))
-        owner.Unlock_Tech(Find_Object_Type("Zeta_Carrack"))
+        owner.Unlock_Tech(Find_Object_Type("Carrack_Cruiser_Zeta"))
         owner.Unlock_Tech(Find_Object_Type("Aggressor_Star_Destroyer"))
         owner.Unlock_Tech(Find_Object_Type("Imperial_II_Star_Destroyer_Ion"))
         
