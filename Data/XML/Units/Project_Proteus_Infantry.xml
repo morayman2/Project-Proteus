@@ -3994,7 +3994,7 @@
 		<Build_Cost_Credits>195</Build_Cost_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
-		<Required_Special_Structures>R_Ground_Barracks</Required_Special_Structures>
+		<Required_Special_Structures>I_Ground_Barracks</Required_Special_Structures>
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 		<Build_Initially_Locked>no</Build_Initially_Locked>
@@ -4007,14 +4007,14 @@
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
 
-		<Affiliation>Trade_Federation, Rebel</Affiliation>
+		<Affiliation>Imperial_Proteus</Affiliation>
 		<Political_Control/>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Company_Units> Neimoidian_Guard_Company_Dummy</Company_Units>
-		<Company_Transport_Unit>Sheathipede_B_Type_Landing_Craft_Commando</Company_Transport_Unit>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Troops</Company_Transport_Unit>
 
 		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>

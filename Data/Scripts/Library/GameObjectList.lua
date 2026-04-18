@@ -544,6 +544,7 @@ return {
 ["MTC_SENSOR"] = true,
 ["MTC_SUPPORT"] = true,
 ["MULLINORE_BASILISK"] = true,
+["MUNIFEX"] = true,
 ["MUNIFICENT"] = true,
 ["MUNIFICENT_C3"] = true,
 ["MUNIFICENT_INFLUENCE"] = true,
@@ -925,7 +926,7 @@ return {
 ["CRUSADER_GUNSHIP_PIRATE"] = true,
 ["CARRACK_CRUISER_ZETA"] = true,
 ["SUPER_TRANSPORT_XI_MISSILE_PIRATE"] = true,
---["LUCREHULK_BATTLESHIP"] = true,
---["LUCREHULK_AUXILIARY"] = true,
+["LUCREHULK_BATTLESHIP"] = true,
+["LUCREHULK_AUXILIARY_PROTEUS"] = true,
 
 }

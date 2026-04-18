@@ -963,16 +963,15 @@ return {
 			HeroList = {"Erron_Irbian_Team", "TH313_Team"},
 			UnlockList = {
 				-- Space
-				"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate", "Strike_Cruiser", "Star_Galleon", "Ton_Falk_Escort_Carrier",
+				"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate", "Strike_Cruiser", "Star_Galleon", "Ton_Falk_Escort_Carrier", "Munifex",
 				"DHC_Interdictor", "Imperial_DHC", "Alliance_Assault_Frigate_II", "Captor", "Proficient", "Victory_I_Star_Destroyer", "Lucrehulk_Core_Destroyer", "Procursator_Star_Destroyer",
-				--insert base proteus capital roster
-				"Lucrehulk_Auxiliary", "Legator_Star_Dreadnought", "Executor_Star_Dreadnought",
-				-- Ground
-				"Imperial_Army_Trooper_Company", "Imperial_Infiltrator_Company", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company",
-				"AT_MP_Company", "PX7_Company", "Talon_Cloud_Car_Company", "SP9_Group",
-				"Imperial_AAT_Company", "Nemesis_Gunship_Company", "HAGM_Company", --add HAML
-				"UT_AT_Speeder_Company", "C10_Siege_Tower_Company", "A9_Floating_Fortress_Company"
-
+				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer",
+				"Lucrehulk_Auxiliary_Proteus", "Legator_Star_Dreadnought", "Executor_Star_Dreadnought",
+				-- Ground				
+				"Imperial_Army_Trooper_Company", "ISB_Infiltrator_Company", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company",
+				"AT_MP_Company", "PX7_Company", "Talon_Cloud_Car_Company", "1L_Tank_Company",
+				"Imperial_AAT_Company", "Nemesis_Gunship_Company", "HAGM_Company", "Imperial_UT_AA_Company",
+				"UT_AT_Speeder_Company", "C10_Siege_Tower_Company", "A9_Floating_Fortress_Company", "Neimoidia_Lucrehulk_Research_Proteus",
 			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_CATO_NEIMOIDIA",

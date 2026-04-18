@@ -666,6 +666,14 @@ TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [36.5/R] (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_SQUADRON,Fighters: 1 / 3 
 TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.6km
 TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP,Lucrehulk conversion that uses interior space normally reserved for complements/cargo for extra reactors, shield generators and bracing. Mounts a significant amount of turbolasers as a result, while maintaining a dangerous defensive laser grid. Compared to battle carriers it is much better at ship to ship combat but loses out in sheer fighter presence.
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_HULL,Hull: 26000 (Capital)
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_MOVE,Speed: 2.1 | Accel: 0.05 | Turn: 0.15
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_SHIELD,Shields: 30000 / [75/R] (Capital)
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_SQUADRON,Fighters: 3 / 10 | Bombers: 1 / 4
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP1,3x Heavy Turbolasers: 2 / 1.03s / 7.6km
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP2,28x Medium Turbolasers: 2 / 1.0s / 6.6km
+TEXT_TOOLTIP_LUCREHULKBATTLESHIP_WEAP3,40x Medium Quad Laser Cannons: 2 / 0.5s / 4.6km
 TEXT_TOOLTIP_LUPUS,Utilised by the Trade Federation prior to the Naboo Crisis, these missile frigates stayed in use for the early Clone Wars before being eventually phased out for more modern vessels, with the Lupus rarely seen in combat by the wars end. Their dense array of anti-fighter lasers and concussion missiles makes them a strong screener against fighters, with its relatively slow speed and lack of point-defense arrays being its only weaknesses for that role.
 TEXT_TOOLTIP_LUPUS_HULL,Hull: 850 (Frigate)
 TEXT_TOOLTIP_LUPUS_MOVE,Speed: 2.8 | Accel: 0.1 | Turn: 0.35
@@ -686,10 +694,38 @@ TEXT_TOOLTIP_MERILI,A Witch of Dathomir who was inducted into the Prophets of th
 TEXT_TOOLTIP_MERILI_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_MERILI_MOVE,Speed: 1.45
 TEXT_TOOLTIP_MERILI_WEAP1,1x Electroblade: 1 / 0.2s / 1m
+TEXT_TOOLTIP_MUNIFEX,Also known as the "Class 1000" for setting the modern KDY production batch size. A fragile but over-gunned frigate produced for the Trade Defence Force two centuries before the Clone Wars. Intended to eliminate similar-sized vessels while also being plentiful enough to mass-attack larger cruisers.
+TEXT_TOOLTIP_MUNIFEX_HULL,Hull: 900 (Frigate)
+TEXT_TOOLTIP_MUNIFEX_MOVE,Speed: 3.5 | Accel: 0.175 | Turn: 0.3
+TEXT_TOOLTIP_MUNIFEX_SHIELD,Shields: 900 / [13.5/R] (Frigate)
+TEXT_TOOLTIP_MUNIFEX_SQUADRON,Fighters: 0.5 / 0.5
+TEXT_TOOLTIP_MUNIFEX_WEAP1,2x Light Turbolasers: 2 / 0.71s / 5.1km
+TEXT_TOOLTIP_MUNIFEX_WEAP2,2x Light Ion Cannons: 2 / 1.67s / 5.1km
 TEXT_TOOLTIP_NAMMAN,Namman Cha was a Human male and an aspiring Dark Jedi in league with the Galactic Empire who believed that he could become a Dark Lord of the Sith through the discovery of ancient relics, like the Codex of Tython. He was an imposing warrior, calling for no quarter in a brutal attack. His hate had pushed him to learn to use a shoto, a short-bladed lightsaber.
 TEXT_TOOLTIP_NAMMAN_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_NAMMAN_MOVE,Speed: 1.2
 TEXT_TOOLTIP_NAMMAN_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD,Neimoidian soldiers originally drawn into service defending Neimoidia and its purse worlds. These Guard units could be transferred to defending worlds where droids were unusable along with serving as protection for Separatist officials. They are drawn from all aspects of Neimoidian society including mercenaries and convicts given promise of amnesty. The capabilities of these infantry are not to be underestimated; they are heavily armed and highly motivated enough to prove doubtful claims about Neimoidian mettle false.
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY,Company: 24x Neimoidian Guard
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP1,9x Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP2,3x AI Blaster Cannon: 2 / 1.0s / 280m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP3,6x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP4,6x Blaster Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_COMPANY_WEAP5,12x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_HEALTH,Health: 24 (Infantry)
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_MOVE,Speed: 0.8
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SGT_HEALTH,Health: 28 (Infantry)
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SQUAD,Squad: 6x Neimoidian Guard
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SQUAD1_WEAP1,3x Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SQUAD1_WEAP2,1x AI Blaster Cannon: 2 / 1.0s / 280m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SQUAD1_WEAP3,2x Heavy AV Missile Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SQUAD1_WEAP4,4x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_SQUAD2_WEAP1,6x Blaster Sniper Rifle: 1 / 3.0s / 320m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP1,1x Neimoidian Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP2,1x Neimoidian Blaster Stave: 1 / 1.0s / 240m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP3,1x MiniMag PTL Launcher: 1 / 9.0s / 320m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP4,1x Thermal Grenade: 1 / 15.0s / 200m
+TEXT_TOOLTIP_NEIMOIDIAN_GUARD_WEAP5,1x Neimoidian Sniper Rifle: 1 / 3.0s / 320m
 TEXT_TOOLTIP_NTB_630,A relatively popular joint Incom and Subpro design, the NTB-630 would be extensively used in the Clone Wars as a bomber craft focused on killing CIS capital ships. It was essentially a bomber version of the ubiquitous ARC-170 and a more agile and space capable PTB-625. The NTB-630 shares many of the same visual design elements of its sister designs.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID,A Baktoid-developed droid meant to enforce Commerce Guild whims, its body is little more than a reactor with armor plating and legs. Both anti-infantry and anti-vehicle weapons make this walker a versatile combatant.
 TEXT_TOOLTIP_OG9HOMINGSPIDERDROID_COMPANY,Company: 4x OG-9 Homing Spider Droid
@@ -974,10 +1010,22 @@ TEXT_UNIT_KZETA_RESEARCH,---TODO: TEXT_UNIT_KZETA_RESEARCH---
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
+TEXT_UNIT_LUCREHULKAUXILIARY,Lucrehulk Auxiliary Warship
+TEXT_UNIT_LUCREHULKBATTLESHIP,Lucrehulk Battleship
 TEXT_UNIT_LUPUS,Lupus Missile Frigate
 TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
+TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
+TEXT_UNIT_NEIMOIDIAN_GUARD,Neimoidian Guard
+TEXT_UNIT_NEIMOIDIAN_GUARD_AT_HEAVY,Neimoidian Guard Heavy AT
+TEXT_UNIT_NEIMOIDIAN_GUARD_GRENADIER,Neimoidian Guard Grenadier
+TEXT_UNIT_NEIMOIDIAN_GUARD_OFFICER,Neimoidian Guard Officer
+TEXT_UNIT_NEIMOIDIAN_GUARD_PLATOON,Neimoidian Guard Platoon
+TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER,Neimoidian Guard Sniper
+TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER_OFFICER,Neimoidian Guard Sniper Officer
+TEXT_UNIT_NEIMOIDIAN_GUARD_SNIPER_SQUAD,Neimoidian Guard Sniper Squad
+TEXT_UNIT_NEIMOIDIAN_GUARD_SQUAD,Neimoidian Guard Squad
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
 TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid

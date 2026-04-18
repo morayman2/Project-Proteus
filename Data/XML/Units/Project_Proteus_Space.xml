@@ -4645,7 +4645,7 @@
 
 	</SpaceUnit> 
 
-	<SpaceUnit Name="Lucrehulk_Auxiliary">
+	<SpaceUnit Name="Lucrehulk_Auxiliary_Proteus">
 		<Variant_Of_Existing_Type>Template_Lucrehulk_Carrier</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_LUCREHULKAUXILIARY</Text_ID>
 		<Encyclopedia_Text>  
@@ -4677,7 +4677,7 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_Four |
+		Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Dreadnought_Category_Dummy
 		</Required_Special_Structures>
 
@@ -4758,7 +4758,7 @@
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
 
-		<Affiliation>Rebel, Independent_Forces</Affiliation>
+		<Affiliation>Imperial_Proteus</Affiliation>
 		<Space_Model_Name>lucrehulk_bship.ALO</Space_Model_Name>
 		<Icon_Name>I_BUTTON_LUCREHULK_BATTLESHIP.TGA</Icon_Name>
 		<Tech_Level>0</Tech_Level>

@@ -132,4 +132,6 @@ return {
 		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
 		--Thorn added units
 		"Luxury_Barge_Company",
+		--Imperial Neimoidia added units
+		"Neimoidia_Lucrehulk_Research_Proteus", "Neimoidian_Guard_Company", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer",
 }

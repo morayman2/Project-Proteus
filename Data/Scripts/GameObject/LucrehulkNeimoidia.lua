@@ -17,15 +17,9 @@ function State_Init(message)
         end
 
         local owner = Object.Get_Owner()
-        owner.Unlock_Tech(Find_Object_Type("Zeta_Strike"))
-        owner.Unlock_Tech(Find_Object_Type("Carrack_Cruiser_Zeta"))
-        owner.Unlock_Tech(Find_Object_Type("Aggressor_Star_Destroyer"))
-        owner.Unlock_Tech(Find_Object_Type("Imperial_II_Star_Destroyer_Ion"))
-        
-        Set_Fighter_Research("KarrenthZeta")
-
-        owner.Unlock_Tech(Find_Object_Type("Tracked_Shield_Disabler_Company"))
-        owner.Unlock_Tech(Find_Object_Type("AT_AT_Walker_IC_Company"))
+        owner.Lock_Tech(Find_Object_Type("Lucrehulk_Auxiliary_Proteus"))
+        owner.Unlock_Tech(Find_Object_Type("Lucrehulk_Battleship"))
+        owner.Unlock_Tech(Find_Object_Type("Lucrehulk_CSA"))
         
         Object.Despawn()
         ScriptExit()

@@ -18434,5 +18434,239 @@
 		<Min_Pitch>77</Min_Pitch>
 		<Max_Pitch>77</Max_Pitch>
 	</SFXEvent>
+	
+	<!--***********************************************************-->
+	<!--**********************Neimoidian Guard************************-->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select5_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select7_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select8_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select9_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move5_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move7_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move8_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move9_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Move_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move8_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Guard\Neimoidian_Guard1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Guard\Neimoidian_Guard2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack5_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack7_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack8_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack9_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack10_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack11_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Attack_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Take_Cover_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Death_Neimoidian_Guard">
+		<Use_Preset>Preset_DTH</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Health\Neimoidian_Death1.wav
+			Data\Audio\Ground\Neimoidian_Guard\Health\Neimoidian_Death2.wav
+			Data\Audio\Ground\Neimoidian_Guard\Health\Neimoidian_Death3.wav
+		</Samples>
+	</SFXEvent>
+	
+	<!--***********************************************************-->
+	<!--*******************Lucrehulk (Neimoidian)******************--> <!-- GB Gunray lines -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S2_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S3_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S4_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S6_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S8_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S9_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Select\Gunray_S10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M2_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M3_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M4_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M6_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M8_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M9_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Move\Gunray_M10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Guard\Gunray_Guard1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Guard\Gunray_Guard2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Neimoidian_Lucrehulk">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A1_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A2_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A3_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A4_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A5_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A6_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A7_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A8_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A9_ENG.wav
+			Data\Audio\Space\Neimoidian_Lucrehulk\Attack\Gunray_A10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Lucrehulk </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
 
 </SFXEvents>

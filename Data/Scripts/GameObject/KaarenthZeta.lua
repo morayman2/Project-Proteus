@@ -17,11 +17,15 @@ function State_Init(message)
         end
 
         local owner = Object.Get_Owner()
-        owner.Lock_Tech(Find_Object_Type("Gladiator_II"))
-        owner.Lock_Tech(Find_Object_Type("Dauntless_Transport"))
-        owner.Unlock_Tech(Find_Object_Type("Liberator_Cruiser"))
-        owner.Unlock_Tech(Find_Object_Type("Dauntless"))
-        owner.Unlock_Tech(Find_Object_Type("Bulwark_III"))
+        owner.Unlock_Tech(Find_Object_Type("Zeta_Strike"))
+        owner.Unlock_Tech(Find_Object_Type("Carrack_Cruiser_Zeta"))
+        owner.Unlock_Tech(Find_Object_Type("Aggressor_Star_Destroyer"))
+        owner.Unlock_Tech(Find_Object_Type("Imperial_II_Star_Destroyer_Ion"))
+        
+        Set_Fighter_Research("KarrenthZeta")
+
+        owner.Unlock_Tech(Find_Object_Type("Tracked_Shield_Disabler_Company"))
+        owner.Unlock_Tech(Find_Object_Type("AT_AT_Walker_IC_Company"))
         
         Object.Despawn()
         ScriptExit()
