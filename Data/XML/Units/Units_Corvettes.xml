@@ -3483,6 +3483,23 @@
 		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
 	</SpaceUnit>
 
+		<SpaceUnit Name="Crusader_Gunship_Pirate">
+		<Variant_Of_Existing_Type>Template_Crusader_Gunship</Variant_Of_Existing_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures> 
+		Pirate_Base,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>405</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</SpaceUnit>
+
 	<SpaceUnit Name="IPV1">
 		<Variant_Of_Existing_Type>Template_IPV1</Variant_Of_Existing_Type>
 		<Affiliation>Eriadu_Authority, Empire, Imperial_Proteus</Affiliation>

@@ -98,17 +98,11 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "A9_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "Z95_HEADHUNTER_SQUADRON" 
-				if Get_Fighter_Research("KPreybird") then
-					fighter = "DREXL_SQUADRON"
-				end
+				fighter = "Z95_HEADHUNTER_SQUADRON" --TBC Replace with Drexl upon upgrade
 			elseif proteus == "TAMARIN" then
 				fighter = "Z95_HEADHUNTER_SQUADRON"
 			elseif proteus == "BAKURA" then
-				fighter = "TIE_FIGHTER_SQUADRON"
-				if Get_Fighter_Research("BGPA") then
-					fighter = "BAKURAN_GPA_SQUADRON"
-				end
+				fighter = "TIE_FIGHTER_SQUADRON" --TBC Add Upgrade to Bakura Fighter?
 			elseif proteus == "ANTEMERIDIAS" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SECTOR_5" then

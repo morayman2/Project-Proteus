@@ -135,7 +135,10 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "MANEUVER_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC Ion Upgrade to Ion Interceptor
+				fighter = "TIE_INTERCEPTOR_SQUADRON"
+				if Get_Fighter_Research("SkiprayZeta") then
+					fighter = "TIE_INTERCEPTOR_ION_SQUADRON"
+				end
 			elseif proteus == "TAMARIN" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "BAKURA" then

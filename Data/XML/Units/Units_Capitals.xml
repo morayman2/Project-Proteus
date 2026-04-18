@@ -4641,12 +4641,12 @@
 	<SpaceUnit Name="Lucrehulk_CSA">
 		<Variant_Of_Existing_Type>Template_Lucrehulk_Carrier</Variant_Of_Existing_Type>
 
-		<Affiliation>Corporate_Sector</Affiliation>
+		<Affiliation>Corporate_Sector, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 
 		<Required_Special_Structures>
-		CSA_Shipyard_Level_Four,
+		CSA_Shipyard_Level_Four | Imperial_Proteus_Shipyard_Level_Four,
 		AI_Category_Dummy | Dreadnought_Category_Dummy
 		</Required_Special_Structures>
 

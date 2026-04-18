@@ -2467,7 +2467,7 @@
 		Acclamator_Battleship,							Data\ShipNames\Acclamator_Battleship.txt,
 		Victory_I_Fleet_Star_Destroyer,					Data\ShipNames\victory_destroyer.txt,
 		Acclamator_I_Support,							Data\ShipNames\acclamator_I.txt,
-		Acclamator_I_Supercruiser,						Data\ShipNames\acclamator_I.txt,s
+		Acclamator_I_Supercruiser,						Data\ShipNames\acclamator_I.txt,
 		Venator_8X,										Data\ShipNames\Star_Destroyer.txt,
 		Procurator_Battlecruiser,						Data\ShipNames\Procurator.txt,
 		Imperial_II_Star_Destroyer_Ion,					Data\ShipNames\Star_Destroyer.txt,
@@ -2479,6 +2479,13 @@
 		Vindicator_Carrier,								Data\ShipNames\Vindicator.txt,
 		Victory_II_Carrier,								Data\ShipNames\victory_destroyer_II.txt,
 		Super_Transport_XI_Modified_Pirate,				Data\ShipNames\Super_Transport_XI.txt,
+		Lucrehulk_Battleship,							Data\ShipNames\Lucrehulk.txt
+		Lucrehulk_Auxiliary,							Data\ShipNames\Lucrehulk.txt
+		Super_Transport_XI_Missile_Pirate,				Data\ShipNames\Super_Transport_XI.txt
+		Carrack_Cruiser_Zeta,							Data\ShipNames\Carrack.txt
+		Crusader_Gunship_Pirate,						Data\ShipNames\Crusader.txt
+		Zeta_Strike,									Data\ShipNames\Strike_Cruiser.txt
+		Providence_Carrier_Destroyer_Pirate,			Data\ShipNames\Providence.txt
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->
