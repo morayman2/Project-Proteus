@@ -9646,12 +9646,14 @@
 		<Fire_SFXEvent>Unit_Turret_Fire</Fire_SFXEvent>
 
 		<Fire_Inaccuracy_Distance> Infantry, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> InfantryHero, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Vehicle, 20.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Air, 50.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirSpeeder, 50.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> AirGunship, 50.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Structure, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> LandHero, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> VehicleHero, 15.0 </Fire_Inaccuracy_Distance>
 		
-		<Fire_Category_Restrictions> Air </Fire_Category_Restrictions>
+		<Fire_Category_Restrictions> AirSpeeder | AirGunship </Fire_Category_Restrictions>
     </HardPoint>
 
 </HardPoints>

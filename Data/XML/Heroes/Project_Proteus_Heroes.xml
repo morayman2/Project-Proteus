@@ -666,7 +666,7 @@
 				<Single_Target_Heal>Yes</Single_Target_Heal>
 
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Igren_Demos</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Argor</Applicable_Unit_Types>
 				<Excluded_Unit_Types />
 				
 				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>

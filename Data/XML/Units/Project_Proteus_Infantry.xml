@@ -3692,34 +3692,6 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
 
 		<Presence_Induced_Animations>
-			Attention,
-				Dooku,
-				Sora_Bulq,
-				Yansu_Grjak,
-				Shaala_Doneeta,
-				General_Grievous,
-				Shaala_Doneeta,
-				Emperor_Palpatine,
-				Nute_Gunray,
-				Wat_Tambor,
-				General_Kalani,
-				Durge,
-			Celebrate,
-				AV7_Death_Clone,
-				AV7_Deployed_Death_Clone,
-				A4_Juggernaut_Death_Clone,
-				A5_Juggernaut_Death_Clone,
-				A6_Juggernaut_Death_Clone,
-				W_CORSENATE_Death_Clone,
-				EB_OfficerAcademy_Death_Clone,
-				Republic_Sector_Capital_Death_Clone,
-				W_HUTTPALACE_VARIANT_Death_Clone,
-				Cody_Death_Clone, Cody2_Death_Clone,
-				Rex_Death_Clone, Rex2_Death_Clone,
-				Keller_Death_Clone,
-				Fordo_Death_Clone, Fordo2_Death_Clone,
-				Boss_Death_Clone, Fixer_Death_Clone,
-				Sev_Death_Clone, Scorch_Death_Clone,
 		</Presence_Induced_Animations>
 
 		<MovementClass> Infantry </MovementClass>
