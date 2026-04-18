@@ -69,7 +69,7 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "ASSAULT_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "Z95ML_HEADHUNTER_SQUADRON" 
+				fighter = "Clone_Z95_Headhunter_Squadron" 
 			elseif proteus == "TAMARIN" then
 				fighter = "TIE_GT_SQUADRON"
 			elseif proteus == "BAKURA" then

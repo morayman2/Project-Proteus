@@ -3313,7 +3313,248 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 
 	</GroundCompany>
-	
+
+	<GroundVehicle Name="SP9">
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>35.0, 35.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Text_ID>TEXT_UNIT_SP9</Text_ID>
+
+		<Land_Model_Name>NV_SP9_MK2.alo</Land_Model_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.1</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Hover</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Empire, Greater_Maldrood, Pentastar, Zsinj_Empire, Eriadu_Authority, Imperial_Proteus, Warlords</Affiliation>
+		<Vehicle_Thief_Inside_Clone>SP9_Captured</Vehicle_Thief_Inside_Clone>
+
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Movement_Animation_Speed> 1.0 </Movement_Animation_Speed>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<OverrideAcceleration> .0333 </OverrideAcceleration>
+		<OverrideDeceleration> .2 </OverrideDeceleration>
+		<FormationSpacing> 1 </FormationSpacing>
+		<FormationOrder> 5 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+		<MinimumPushReturnDistance> 60 </MinimumPushReturnDistance>
+		<FormationRaggedness> 2.4 </FormationRaggedness>
+		<MaxJiggleDistance> 6 </MaxJiggleDistance>
+
+		<UseSecondaryFacing> true </UseSecondaryFacing>
+		<SecondaryTurnInPlaceROTCoefficient> .5 </SecondaryTurnInPlaceROTCoefficient>
+		<SecondaryTurnAngle> 90 </SecondaryTurnAngle>
+		<MinSecondaryTurnROTCoefficient> .2 </MinSecondaryTurnROTCoefficient>
+		<MaxSecondaryTurnROTCoefficient> .7 </MaxSecondaryTurnROTCoefficient>
+		<SecondaryTurnLookaheadDistance> 20 </SecondaryTurnLookaheadDistance>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Ranged_Target_Z_Adjust>4.0</Ranged_Target_Z_Adjust>
+
+		<Size_Value>60</Size_Value>
+		<Sensor_Range>80</Sensor_Range>
+		<Tactical_Health>125</Tactical_Health>
+		<Energy_Capacity>600</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+		<Garrison_Category> Vehicle </Garrison_Category>
+		<Armor_Type> ArmourG_Speeder </Armor_Type>
+
+		<Behavior> SELECTABLE </Behavior>
+		<LandBehavior> SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, HUNT, AFFECTED_BY_SHIELD, GARRISON_UNIT, DAMAGE_TRACKING</LandBehavior>
+
+		<Is_Affected_By_Gravity_Control_Field> Yes </Is_Affected_By_Gravity_Control_Field>
+
+		<SurfaceFX_Name>Hover</SurfaceFX_Name>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>20</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>RB_TURRET</Turret_Bone_Name>
+		<Barrel_Bone_Name>MUZZLEA_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Turret_Targets_Ground_Vehicles> 2 </Turret_Targets_Ground_Vehicles>
+		<Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
+		<Turret_Targets_Air_Vehicles> 4 </Turret_Targets_Air_Vehicles>
+		<Turret_Targets_Anything_Else> 3 </Turret_Targets_Anything_Else>
+		
+		<Target_Bones> RB_TURRET </Target_Bones>
+		
+		<HardPoints>
+			HP_SP9
+		</HardPoints>
+
+		<Land_FOW_Reveal_Range>400</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>250.0</Targeting_Max_Attack_Distance>
+		<Ranged_Target_Z_Adjust>10.0</Ranged_Target_Z_Adjust>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+		<Is_Squashable_By_Supercrusher>Yes</Is_Squashable_By_Supercrusher>
+
+		<CategoryMask> Vehicle | AntiInfantry </CategoryMask>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+		<Icon_Name>I_BUTTON_SP9_2.tga</Icon_Name>
+		<MovementClass>Hover</MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<Ground_Vehicle_Turret_Target> Yes </Ground_Vehicle_Turret_Target>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+
+		<Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.2</Wind_Disturbance_Sphere_Alpha>
+
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Fire>Unit_Tie_Crawler_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Swamp_Speeder</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Swamp_Speeder</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_Swamp_Speeder</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Swamp_Speeder</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Tank_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Assist_Move> Unit_Assist_Move_Swamp_Speeder </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_Swamp_Speeder</SFXEvent_Assist_Attack>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_1L_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_1L_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+
+		<Select_Box_Scale>50</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Overall_Length>40.0</Overall_Length> <!-- For vehicle pitching up and down on terrain -->
+		<Overall_Width>25.0</Overall_Width> <!-- For vehicle rolling left and right on terrain (30 by geometry)-->
+        <Has_Land_Evaluator>Yes</Has_Land_Evaluator>
+        <AI_Combat_Power>20</AI_Combat_Power>
+
+		<Weather_Category>Hover</Weather_Category>
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SP9
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SP9_HEALTH
+		TEXT_TOOLTIP_SP9_MOVE 
+		TEXT_TOOLTIP_SP9_WEAP1
+		</Encyclopedia_Text>
+
+		<Score_Cost_Credits> 300 </Score_Cost_Credits>
+
+		<Damage>15</Damage>
+
+		<Cheap_Bribe_Cost>0</Cheap_Bribe_Cost>
+		<Tactical_Bribe_Cost>300</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+	</GroundVehicle>
+
+	<GroundVehicle Name="SP9_Captured">
+		<Variant_Of_Existing_Type>SP9</Variant_Of_Existing_Type>
+		<Icon_Name>i_button_chewbacca_atat.tga</Icon_Name>
+		<!-- gth this behavior list matches the AT_AT_WALKER except for the deploy troopers ability -->
+		<LandBehavior>
+			EJECT_THIEF, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, POWERED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TELEKINESIS_TARGET, STUNNABLE, WIND_DISTURBANCE, SURFACE_FX, HUNT, AFFECTED_BY_SHIELD, GARRISON_UNIT, DAMAGE_TRACKING</LandBehavior>
+		<!-- MUST have same abilities PLUS EJECT_THIEF -->
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<!-- (gth) removing the deploy troopers ability for the captured version of the AT-AT
+            <Unit_Ability>
+				<Type>DEPLOY_TROOPERS</Type>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Spawned_Object_Type>Veers_Deployed_Imperial_Stormtrooper_Squad</Spawned_Object_Type>
+				<Max_Num_Spawned_Objects>2</Max_Num_Spawned_Objects>
+				<Owner_Attachment_Bone>B_Trooper_00, B_Trooper_01, B_Trooper_02 </Owner_Attachment_Bone>
+			</Unit_Ability>
+            -->
+			<Unit_Ability>
+				<Type>EJECT_VEHICLE_THIEF</Type>
+				<Recharge_Seconds>10</Recharge_Seconds>
+				<!-- time that the user can't eject thief, kicks in right away -->
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</GroundVehicle>
+
+
+	<GroundCompany Name="SP9_Group">
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>40</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures>I_Ground_Light_Vehicle_Factory</Required_Special_Structures>
+		<Required_Planets/>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Ship_Class>tank</Ship_Class>
+		<Company_Transport_Unit>Imperial_Landing_Craft_Light_Vehicles</Company_Transport_Unit>
+		<Company_Units>SP9, SP9, SP9, SP9, SP9, SP9</Company_Units>
+		<Max_Squad_Size> 1 </Max_Squad_Size>
+		<Icon_Name>I_BUTTON_SP9_2.tga</Icon_Name>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Swamp_Speeder</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Swamp_Speeder</SFXEvent_Fleet_Move>
+		<Score_Cost_Credits>500</Score_Cost_Credits>
+
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+			<Text_ID>TEXT_UNIT_SP9_COMPANY</Text_ID>
+			<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SP9
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SP9_COMPANY
+		TEXT_TOOLTIP_SP9_HEALTH
+		TEXT_TOOLTIP_SP9_MOVE
+		TEXT_TOOLTIP_SP9_WEAP1
+		</Encyclopedia_Text>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+
+		<Population_Value>1</Population_Value>
+	</GroundCompany>
+
 	<GroundVehicle Name="Imperial_AAT">
 		<Variant_Of_Existing_Type>AAT</Variant_Of_Existing_Type>
 
