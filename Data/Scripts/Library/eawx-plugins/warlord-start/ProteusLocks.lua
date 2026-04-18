@@ -111,7 +111,7 @@ return {
 		"Diamond_Frigate", "Providence_Carrier_Destroyer",
 		"Imperial_AAT_Company", "HAGM_Company",
 		--Kaarenth added units
-		"Hornet_Assault_Carrier",
+		"Hornet_Assault_Carrier", "Refit_Venator_Star_Destroyer_Proteus", "Super_Transport_XI_Missile_Pirate", "Carrack_Cruiser_Zeta", "Strike_Cruiser", "Crusader_Gunship_Pirate", "Providence_Carrier_Destroyer_Pirate",
 		--Antemeridiean Sector added units
 		"X4_Gunship_Group",
 		"New_Republic_T47_Airspeeder_Company",
@@ -120,7 +120,7 @@ return {
 		--Kashyyyk
 		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "IPV_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700",
 		--Imperial Neimoidia added units
-		"Munifex",
+		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary",
 		--Tamarin Sector added units
 		"Guardian_Cruiser_Lasers_Group", "Lupus_Missile_Frigate", "Class_C_Frigate", "Auxilia", "Dauntless_Transport",
 		"HAET_Company",
@@ -128,8 +128,6 @@ return {
 		"Mandalorian_Commando_Company",
 		--Sector 5 added units
 		"Acclamator_I_Supercruiser",
-		--Imperial Sellasas added units
-		"SD_6_Droid_Company_Sellasas",
 		--I-Sector added units
 		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
 		--Thorn added units

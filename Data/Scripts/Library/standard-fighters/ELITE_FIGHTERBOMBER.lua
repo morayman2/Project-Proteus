@@ -69,10 +69,7 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "DREXL_SQUADRON"
-				if Get_Fighter_Research("KPreybird") then
-					fighter = "PREYBIRD_SQUADRON"
-				end
+				fighter = "DREXL_SQUADRON" --TBC
 			elseif proteus == "TAMARIN" then
 				fighter = "BTLA4_YWING_STARFIGHTER_SQUADRON"
 			elseif proteus == "BAKURA" then

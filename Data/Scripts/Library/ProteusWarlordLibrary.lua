@@ -43,7 +43,6 @@ return {
 				"AT_AA_Walker_Company", "S_1_Firehawke_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
 				"PX4_Company", "B5_Juggernaut_Company", "Imperial_AT_AT_Walker_Company",
 			},
-			--LockList = {"Imperial_Army_Trooper_Company"},
 			IntroText = "TEXT_CONQUEST_LAMBDASECTOR_LAMBDA_INTRO_ONE",
 			IntroHolo = "Par_Lankin_Loop"
 		},
@@ -67,7 +66,6 @@ return {
 				-- Research
 				"Harrsk_Megador_Dummy_1", "Harrsk_Megador_Dummy_2", "Desanne_Dominion_Dummy",
 			},
-			--LockList = {"Imperial_A5_Juggernaut_Company"},
 			LastYear = 11,
 			FactionOverride = "Empire",
 			IntroText = {"TEXT_CONQUEST_HARRSK_DEEPCORE_E1_3", [5] = "TEXT_CONQUEST_HARRSK_DEEPCORE_E4", [11] = "TEXT_CONQUEST_HARRSK_DEEPCORE_E6"},
@@ -93,7 +91,6 @@ return {
 				-- Research
 				"ELR_Dummy_Research_Scimitar", "ELR_Dummy_Research_Armored_Interceptor",
 			},
-			--LockList = {"Imperial_Army_Guard_Company"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_ELROOD",
 			IntroHolo = "Afren_Hul_Loop"
 		},
@@ -171,16 +168,18 @@ return {
 			LeaderTable = {"YZU_CONSTITUTION"},
 			LeaderEndingNames = {"Emperor Yzu"},
 			HeroList = {"Yzu_Constitution", "Foga_Brill_Team", "Gann_Team", "Mallat_Team"},
-			UnlockList = {"Delta_JV7_Group", "Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser",
-			"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Immobilizer_418_Refit", "Victory_II_Carrier",
-			"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
-			"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought",
-			"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
-			"Imperial_AT_PT_Company", "AT_DP_Company", "INT4_Company", "PX7_Company", 
-			"Imperial_TNT_Company", "Swift_Assault_5_Company", "MAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Walker_Company", 
-			"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company"
+			UnlockList = {
+				-- Space
+				"Delta_JV7_Group", "Customs_Corvette", "Patrol_Nebulon_B", "Vigil", "Surveyor_Frigate", "Galleon", "Strike_Cruiser",
+				"Gladiator_I", "Acclamator_I_Supercruiser", "Imperial_II_Frigate", "Pursuit_Light_Cruiser", "Proteus_Cargo_Ship", "Immobilizer_418_Refit", "Victory_II_Carrier",
+				"Imperial_I_Star_Destroyer_Carrier", "Imperial_I_Star_Destroyer_Patrol", "Interdictor_Star_Destroyer",
+				"Communications_Battlecruiser", "Altor_Replenishment_Ship", "Vengeance_Star_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Citadel_Guardsman_Company", "Red_Police_Company", "64_Y_Swift_Repulsorlift_Sled_Company",
+				"Imperial_AT_PT_Company", "AT_DP_Company", "INT4_Company", "PX7_Company", 
+				"Imperial_TNT_Company", "Swift_Assault_5_Company", "MAAT_Company", "Imperial_Heavy_Mobile_Artillery_Company", "AT_AA_Walker_Company", 
+				"Imperial_AT_TE_Walker_Company", "AT_AT_Walker_IC_Company"
 			},
-			--LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_SECTOR_5",
@@ -206,7 +205,6 @@ return {
 				"Talon_Flamestrike_Cloud_Car_Company", "Imperial_TNT_Company", "TIE_Crawler_Company", "SPMAT_Company", "AT_AA_Flak_Walker_Company", 
 				"Imperial_AT_TE_Walker_Company", "T4A_Company",
 			},
-			--LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
 			StartYear = 12,
 			LastYear = 18,
@@ -260,7 +258,6 @@ return {
 				"AT_AA_Walker_Company","2M_Repulsor_Tank_Company","TIE_Crawler_Company","Imperial_Dropship_Transport_Company","SPMAG_Walker_Company",
 				"PX4_Company","B5_Juggernaut_Company","Imperial_AT_AT_Walker_Company",
 			},
-			--LockList = {},
 			FactionOverride = "Empire",
 			IntroText = {"TEXT_CONQUEST_PROTEUS_CIUTRIC_HEGEMONY", [9] = "TEXT_CONQUEST_ISARDSREVENGE_GE_INTRO_ONE"},
 			IntroHolo = "Krennel_Loop"
@@ -272,7 +269,6 @@ return {
 			LeaderEndingNames = {"a new Emperor"},
 			HeroList = {"Banjeer_Quasar","Teubbo_Team","Lanu_Pasiq_Team","Nabyl_Hawkbat","Raptor_Commando_Company","Raptor_Commando_Company"},
 			UnlockList = {"Raptor_Trooper_Company"},
-			--LockList = {"Imperial_Army_Guard_Company"},
 			StartYear = 7,
 			LastYear = 9,
 			IntroText = "TEXT_CONQUEST_ZSINJ_REMNANTS_INTRO_E3",
@@ -372,7 +368,6 @@ return {
 				"AT_AA_Walker_Company",  "Imperial_Light_Mobile_Artillery_Company", "Nemesis_Gunship_Company",  
 				"Heavy_Recovery_Vehicle_Company", "PX4_Company", "B5_Juggernaut_Company",
 			},
-			--LockList = {"Firebird_Stormtrooper_Company_Proteus"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAPANI",
 			IntroHolo = "Imperial_Army_Officer_Loop"
@@ -442,7 +437,6 @@ return {
 				"AT_AA_Flak_Walker_Company", "Shadow_Imperial_TX130S_Company", "SPMAG_Walker_Company", "Deathhawk_Company", "Imperial_Dropship_Transport_Company",
 				"A9_Floating_Fortress_Company", "Shadow_Imperial_AT_AT_Walker_Company",
 			},
-			-- LockList = {"Imperial_Army_Guard_Company"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_SHADOW_REALM",
 			IntroHolo = "Shadowspawn_Loop",
@@ -726,16 +720,22 @@ return {
 			LeaderTable = {["DARCC_TEAM"] = {"DARCC"}},
 			LeaderEndingNames = {"Emperor Darcc"},
 			HeroList = {"Krieg_Immobilizer", "Syn_Silooth", "Darcc_Team", "Pekt_Team", "Merili_Team", "Gurnst_Team"},
-			UnlockList = {"YZ_775_Freighter_Group", "Imperial_CR90", "Ipv1_Gunboat_Proteus", "Proteus_Kaloth", "Interceptor_Iv_Frigate", "Tartan_Patrol_Cruiser", "Starbolt", "Victory_I_Frigate", "CC700",
-			"Acclamator_Patrol_Refit", "Acclamator_II", "Pursuit_Light_Cruiser", "SUPER_TRANSPORT_XI_MODIFIED_PIRATE", "Lictor", "Neutron_Star", "Space_Arc_Cruiser", "Victory_I_Star_Destroyer", "Venator_Star_Destroyer",
-			"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", 
-			"Communications_Battlecruiser", "Executor_Star_Dreadnought",
-			"Imperial_Army_Trooper_Company", "Imperial_AT_AP_Walker_Company", "Trandoshan_Hunter_Company", "Imperial_Scout_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Republic_BARC_Company", 
-			"Imperial_AT_PT_Company", "Imperial_AT_RT_Company", "AT_KT_Company", "Arrow_23_Company", 
-			"Imperial_Light_Mobile_Artillery_Company", "Imperial_TX130T_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Missile_Walker_Company_Walker_Company", 
-			"Imperial_AT_AT_Walker_Company", "Proteus_A6_Company", "Camo_AT_TE_Walker_Company", "Hssissk_Location_Set",
-			-- Structures
-			"Pirate_Base"},
+			UnlockList = {
+				-- Space
+				"YE_4_Group", "YZ_775_Freighter_Group", "Imperial_CR90", "Ipv1_Gunboat_Proteus", "Proteus_Kaloth", "Interceptor_I_Frigate", "Interceptor_IV_Frigate", "Tartan_Patrol_Cruiser", "CEC_Light_Cruiser", "Starbolt", "Victory_I_Frigate", "CC7700",
+				"Acclamator_Patrol_Refit", "Acclamator_II", "Pursuit_Light_Cruiser", "Imperial_DHC", "Super_Transport_XI_Modified_Pirate", "Lictor", "Neutron_Star", "Space_Arc_Cruiser", "Victory_I_Star_Destroyer", "Venator_Star_Destroyer",
+				"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", 
+				"Communications_Battlecruiser", "Executor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Imperial_AT_AP_Walker_Company", "Trandoshan_Hunter_Company", "Imperial_Scout_Trooper_Company", "Imperial_Dwarf_Spider_Droid_Company", "Republic_BARC_Company", 
+				"Imperial_AT_PT_Company", "Imperial_AT_RT_Company", "AT_KT_Company", "Arrow_23_Company", 
+				"Imperial_Light_Mobile_Artillery_Company", "Imperial_TX130T_Company", "Imperial_Dropship_Transport_Company", "AT_AA_Flak_Walker_Company", 
+				"Imperial_AT_AT_Walker_Company", "Proteus_A6_Company", "Camo_AT_TE_Walker_Company",
+				-- Fighter Hero
+				"Hssissk_Location_Set",
+				-- Structures
+				"Pirate_Base"
+			},
 			FactionOverride = "Empire",
 			LastYear = 4,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KASHYYYK",
@@ -850,7 +850,6 @@ return {
 				"AT_AA_Flak_Walker_Company", "Imperial_Missile_Artillery_Company", "2M_Repulsor_Tank_Company", "Swift_Assault_5_Company", "MAAT_Company",
 				"Imperial_A5_Juggernaut_Company", "Heavy_Recovery_Vehicle_Company",
 			},
-			--LockList = {"Imperial_DHC"},
 			IntroText = "TEXT_CONQUEST_PROTEUS_PROTECTORATE",
 			IntroHolo = "Adalric_Brandl_Loop"
 		},
@@ -904,7 +903,6 @@ return {
 				-- Structure
 				"TransGalMeg_HQ",
 			},
-			--LockList = {"Victory_II_Star_Destroyer"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_RAYTER_SECTOR",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -963,9 +961,19 @@ return {
 			LeaderTable= {["ERRON_IRBIAN_TEAM"] = {"ERRON_IRBIAN"}},
 			LeaderEndingNames = {"Emperor Irbian"},
 			HeroList = {"Erron_Irbian_Team", "TH313_Team"},
-			UnlockList = {"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate",
-			"AT_MP_Company"},
-			--LockList = {"Imperial_AT_PT_Company"},
+			UnlockList = {
+				-- Space
+				"Guardian_Cruiser_Group", "IPV1", "Lancer_Frigate", "Strike_Cruiser", "Star_Galleon", "Ton_Falk_Escort_Carrier",
+				"DHC_Interdictor", "Imperial_DHC", "Alliance_Assault_Frigate_II", "Captor", "Proficient", "Victory_I_Star_Destroyer", "Lucrehulk_Core_Destroyer", "Procursator_Star_Destroyer",
+				--insert base proteus capital roster
+				"Lucrehulk_Auxiliary", "Legator_Star_Dreadnought", "Executor_Star_Dreadnought",
+				-- Ground
+				"Imperial_Army_Trooper_Company", "Imperial_Infiltrator_Company", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company",
+				"AT_MP_Company", "PX7_Company", "Talon_Cloud_Car_Company", "SP9_Group",
+				"Imperial_AAT_Company", "Nemesis_Gunship_Company", "HAGM_Company", --add HAML
+				"UT_AT_Speeder_Company", "C10_Siege_Tower_Company", "A9_Floating_Fortress_Company"
+
+			},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_CATO_NEIMOIDIA",
 			IntroHolo = "Imperial_Naval_Officer_Loop"
@@ -1000,8 +1008,22 @@ return {
 			LeaderTable= {["ENNIX_DEVIAN_TEAM"] = {"ENNIX_DEVIAN"}},
 			LeaderEndingNames = {"Emperor Devian"},
 			HeroList = {"Ennix_Devian_Team", "Ulcane_Dissension"},
-			UnlockList = {"IPV1_Zeta", "Hornet_Assault_Carrier", "Dummy_Research_KPreybird_Production",},
-			--LockList = {"IPV1"},
+			UnlockList = {
+				-- Space 
+				"Imperial_Boarding_Shuttle", "Delta_JV7_Group", "IPV1_Zeta", "Nebulon_B_Tender", "Carrack_Cruiser_Zeta", "Strike_Cruiser", "Quasar", "Crusader_Gunship_Pirate", "Proteus_Kaloth",
+				"Gladiator_II", "Super_Transport_XI_Missile_Pirate", "Immobilizer_418_Refit", "Hornet_Assault_Carrier", "Neutron_Star_Mercenary", "Victory_I_Star_Destroyer", "Refit_Venator_Star_Destroyer_Proteus","Dauntless_Transport", "Providence_Carrier_Destroyer_Pirate",
+				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer",
+				"Praetor_Carrier_Battlecruiser", "Bellator_Star_Dreadnought",
+				-- Land 
+				"Imperial_Army_Guard_Company", "Light_Mercenary_Platoon", "Republic_BARC_Company",
+				"Imperial_AT_PT_Company", "AT_XT_Company", "Gian_Rebel_Company", "008_Speeder_Company", "Imperial_Flashblind_Company", "New_Republic_MPTL_Company",
+				"Imperial_LAAT_Company", "MZ8_Tank_Company", "AT_AI_Walker_Company",
+		 		"Canderous_Assault_Tank_Lasers_Company", "Teklos_Company",
+				-- Structures
+				"Pirate_Base", "SoroSuub_HQ",
+				-- Research
+				"Kaarenth_Zeta_Research_Proteus", "Sorosuub_Research_Proteus",
+			},
 			LastYear = 10,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION",
 			IntroHolo = "Ennix_Devian_Loop",
@@ -1082,8 +1104,6 @@ return {
 			IntroText = "TEXT_CONQUEST_PROTEUS_GRUNGER",
 			IntroHolo = "Grunger_Loop",
 		},
-		
-		
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",
 			Planets = {"GHORMAN"},

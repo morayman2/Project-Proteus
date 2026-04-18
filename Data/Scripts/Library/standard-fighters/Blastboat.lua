@@ -77,7 +77,10 @@ return {
 			elseif proteus == "KUAT" then
 				fighter = "FIRESPRAY_GUNSHIP_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "SKIPRAY_SQUADRON" --TBC: Add Ion Skipray Upgrade
+				fighter = "SKIPRAY_SQUADRON"
+				if Get_Fighter_Research("SkiprayZeta") then
+					fighter = "SKIPRAY_ION_SQUADRON"
+				end
 			elseif proteus == "TAMARIN" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
 			elseif proteus == "BAKURA" then
@@ -87,7 +90,7 @@ return {
 			elseif proteus == "SECTOR_5" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "PRAKITH" then
-				fighter = "THETA_ASSAULT_SQUADRON" --TBC
+				fighter = "THETA_ASSAULT_SQUADRON" 
 			elseif proteus == "RADAMA" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "MAELSTROM" then

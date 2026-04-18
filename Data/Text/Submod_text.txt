@@ -330,7 +330,6 @@ TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON,Squadron: 12x Ion Refit TIE Interceptor
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON_DOUBLE,Squadron: 24x Ion Refit TIE Interceptor
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON_HALF,Squadron: 6x Ion Refit TIE Interceptor
-TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_WEAP1,1x Fighter Laser Cannon: 8 / 3.0s / 1.0km
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_WEAP2,1x Fighter Ion Cannon: 2 / 2.0s / 1.0km
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_MOVE,Speed: 7.0 | Maneuverability: 5.0
 TEXT_STATBLOCK_TIE_LIGHT_BOMBER_SQUADRON,12x TIE Light  Bomber
@@ -431,6 +430,7 @@ TEXT_TOOLTIP_ATACT_WEAP1,2x Heavy AV Blaster Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_ATAT_IC,The Ion refit Imperial AT-AT was an uncommon variation that replaced its super heavy laser cannons with heavy ion cannons. Although ion cannons were rarely found aboard ground walkers, some minor warlords converted a small number of their All Terrain Armored Transport fleets into mobile ion cannon platforms. 
 TEXT_TOOLTIP_ATAT_IC_WEAP1,1x Super Heavy AV Ion Cannon: 4 / 2.0s / 480m
 TEXT_TOOLTIP_ATKT,A variant of the common AT-ST often used by planetary garrison forces deployed on anti-insurgency operations. Also known as the AT-ST 'Hunter', the AT-KT features an array of weapons geared towards pacifying partisan resistance rather than battlefield engagements. Their most notable use was on Kashyyyk as part of the Imperial occupation forces, when they worked alongside AT-APs in bombarding Wookie settlements.
+TEXT_TOOLTIP_ATKT_COMPANY,Company: 4x AT-KT Walker
 TEXT_TOOLTIP_ATKT_HEALTH,Health: 155 (Light Vehicle)
 TEXT_TOOLTIP_ATKT_MOVE,Speed: 1 | Turn: 4.0 
 TEXT_TOOLTIP_ATKT_WEAP1,2x Heavy AI Blaster Cannon (AOE): 4 / 1.0s / 320m
@@ -494,6 +494,7 @@ TEXT_TOOLTIP_CAPITAL_TF6,Raider-I Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF7,Raider-II Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF8,Procursator Star Destroyer: 2 / 0
 TEXT_TOOLTIP_CAPITAL_TF9,Victory-II Star Destroyer: 2 / 0
+TEXT_TOOLTIP_CARRACK_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 1 / 5.0s / 8.4km
 TEXT_TOOLTIP_CEX,A Srrors'tok male who lived as a merchant with his family on Sellasas during the Galactic Civil War. His family was killed shortly after the Battle of Yavin, when the Rebel Alliance initiated a brutal siege of the planet's Imperial garrison, igniting a deep hatred for the Rebellion in him. Cex' life was saved by Amara Jedselk, daughter of the Imperial Governor of Sellasas, and he swore a life debt to her in return. Following the end of the siege, Tyionsis Cex became a bounty hunter under the patronage of Governor Jedselk, intent on repaying his debt to his new family.
 TEXT_TOOLTIP_CLASS_C,An unremarkable military escort vessel produced prior to the Clone Wars, carrying design lineages of both blocky escorts and sleeker triangular warships that would make up the Kuati product line in the decades to come. Predecessor to the Pelta and Nebulon series of vessels, it fills a similar tactical purpose to both as a multirole escort effective against a variety of target types.
 TEXT_TOOLTIP_CLASS_C_HULL,Hull: 1100 (Frigate)
@@ -645,8 +646,11 @@ TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
 TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
 TEXT_TOOLTIP_KILE_HANNAD_WEAP1,1x SE-14 Pistol: 2 / 1.5s / 220m
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
+TEXT_TOOLTIP_KLUCREHULK_RESEARCH,---TODO: TEXT_TOOLTIP_KLUCREHULK_RESEARCH---
 TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegally acquired by Kiara Schmog into production. This upgrade will replace all previous instances of the Drexl with Preybirds and all previous instances of Z-95s with Drexls.
-TEXT_TOOLTIP_KSM_RESEARCH,TODO
+TEXT_TOOLTIP_KSM_RESEARCH,---TODO: TEXT_TOOLTIP_KSM_RESEARCH---
+TEXT_TOOLTIP_KSOROSUUB_RESEARCH,--- TODO: TEXT_TOOLTIP_KSOROSUUB_RESEARCH---
+TEXT_TOOLTIP_KZETA_RESEARCH,---TODO: TEXT_TOOLTIP_KZETA_RESEARCH---
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_LAC,A semi-standard version of a modified CEC Consular-class cruiser that has long been popular with Republic Judicial Forces, serving in the Stark Hyperspace War and the Yinchorri Uprising. This specific configuration is excellent for anti-starfighter escort duty while other corvette models are more suited to missile loadouts or attacking larger ships.
@@ -819,6 +823,10 @@ TEXT_TOOLTIP_STAR_DESTROYER_TWO_ION,A variant more focused on taking down shield
 TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces it's rear turbolasers with more powerful batteries. Due to it's more expensive armament it is mostly used by higher ranking officers.
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
 TEXT_TOOLTIP_STARWING_FIGHTER,An alternate loadout of the XG-1 StarWing equipped with proton torpedoes and anti-fighter concussion missiles. This configuration is well suited to engage nearly any target.
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA,A modification of the Strike Cruiser which sacrificies its missile launcher and much of its shields for an increased ion cannon  
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_SHIELD,Shields: 1200 / [18.5/S] (Frigate)
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 2 / 3.33s / 8.4km
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP2,2x Medium Ion Cannons: 2 / 2.0s / 6.1km
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE,The Tapani-class Assault Frigate is the primary capital ship utilized in the Tapani Sector and can be found in the fleets of the Tapani Noble Families as well as the Freeworlds. Although they are slow, these heavily armored frigates are equipped with enough firepower to challenge heavier military warships.
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_HULL,Hull: 2275 (Heavy Frigate)
 TEXT_TOOLTIP_TAPANI_ASSAULT_FRIGATE_MOVE,Speed: 2.8 | Accel: 0.02 | Turn: 0.25
@@ -906,19 +914,18 @@ TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Secto
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
 TEXT_TOOLTIP_YV929,A heavily armed corellian freighter that became popular with the pirates and rebels which it was designed to ward off. This "flying brick" as it is often called also made its way to the Corporate Sector Authority. The heavy armor and armament make it well suited to engaging hard targets like cruisers.
 TEXT_UNIT_008_SPEEDER,008 Heavy Landspeeder
-TEXT_UNIT_008_SPEEDER_COMPANY,Company: 4x 008 Heavy Landspeeder
+TEXT_UNIT_008_SPEEDER_COMPANY,008 Heavy Landspeeder Company
 TEXT_UNIT_1HB_TANK, 1-H Repulsortank, Model B
-TEXT_UNIT_1HB_TANK,Imperial-class 1-H Repulsortank, Model B
-TEXT_UNIT_1HB_TANK_COMPANY,Company: 2x 1-HB Repulsortank
+TEXT_UNIT_1HB_TANK_COMPANY,1-HB Repulsortank Company
 TEXT_UNIT_ACCLAMATOR_BATTLESHIP,Acclamator Battleship
 TEXT_UNIT_ACCLAMATOR_DESTROYER,Acclamator Destroyer
 TEXT_UNIT_ACCLAMATOR_I_SUPPORT,Acclamator Cargo Ship
 TEXT_UNIT_AT_ACT_WALKER,AT-ACT Walker
 TEXT_UNIT_AT_AT_WALKER_IC,Ion Refit AT-AT Walker
 TEXT_UNIT_AT_KT_WALKER,AT-KT Walker
-TEXT_UNIT_AT_KT_WALKER_COMPANY,Company: 4x AT-KT Walker
+TEXT_UNIT_AT_KT_WALKER_COMPANY,AT-KT Walker Company
 TEXT_UNIT_AT_OT_WALKER,AT-OT Walker
-TEXT_UNIT_AT_OT_WALKER_COMPANY,Company: 2x AT-OT Walker
+TEXT_UNIT_AT_OT_WALKER_COMPANY,AT-OT Walker Company
 TEXT_UNIT_AT_XT_WALKER,AT-XT Walker
 TEXT_UNIT_ATACT,AT-ACT Walker
 TEXT_UNIT_AUXILIA,Auxilia Pursuit Destroyer
@@ -930,6 +937,7 @@ TEXT_UNIT_BELBULLAB24,Belbullab-24
 TEXT_UNIT_BRAK_FIGHTERS_RESEARCH,Fighter Modernization Program
 TEXT_UNIT_BTLA2_Y_WING,BTL-A2 Y-wing
 TEXT_UNIT_CARRACK_LASERS,Carrack Cruiser (Lasers)
+TEXT_UNIT_CARRACK_ZETA,Carrack Cruiser Zeta One Refit
 TEXT_UNIT_CLASS_C,Class-C Frigate
 TEXT_UNIT_CONSULAR,Consular Transport Cruiser
 TEXT_UNIT_CONSULAR_REFIT,Consular Armed Cruiser
@@ -950,7 +958,7 @@ TEXT_UNIT_FAUX_STORMTROOPER_PLATOON,Faux Stormtrooper Platoon
 TEXT_UNIT_FAUX_STORMTROOPER_SERGEANT,Faux Stormtrooper Sergeant
 TEXT_UNIT_FAUX_STORMTROOPER_SQUAD,Faux Stormtrooper Squad
 TEXT_UNIT_GAT,Ground Armored Tank
-TEXT_UNIT_GAT_COMPANY,Company: 4x GAT
+TEXT_UNIT_GAT_COMPANY,GAT Company
 TEXT_UNIT_GPA_RESEARCH,General Purpose Attack Fighter Research
 TEXT_UNIT_H60,H-60 Tempest
 TEXT_UNIT_HAET,HAET-221
@@ -958,8 +966,11 @@ TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
+TEXT_UNIT_KLUCREHULK_RESEARCH,---TODO: TEXT_UNIT_KLUCREHULK_RESEARCH---
 TEXT_UNIT_KPREYBIRD_PRODUCTION,Begin Illegal Preybird Production
 TEXT_UNIT_KSM_RESEARCH,Upgrade TIE Fighters
+TEXT_UNIT_KSOROSUUB_RESEARCH,---TODO: TEXT_UNIT_KSOROSUUB_RESEARCH---
+TEXT_UNIT_KZETA_RESEARCH,---TODO: TEXT_UNIT_KZETA_RESEARCH---
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
@@ -968,7 +979,7 @@ TEXT_UNIT_MANSK_FRIGATE,Mansk Escort Frigate
 TEXT_UNIT_MANTA_FIGHTER,Manta Assault Fighter
 TEXT_UNIT_MUNIFEX,Munifex Light Cruiser
 TEXT_UNIT_NTB_630,NTB-630 Naval Bomber
-TEXT_UNIT_OG9_COMPANY,Company: 4x OG-9 Homing Spider Droid Company
+TEXT_UNIT_OG9_COMPANY,OG-9 Homing Spider Droid Company
 TEXT_UNIT_OG9HOMINGSPIDERDROID,OG-9 Homing Spider Droid
 TEXT_UNIT_PHASE_TWO_AT_HEAVY,Republic Surplus Trooper Heavy AT 
 TEXT_UNIT_PHASE_TWO_AT_LIGHT,Republic Surplus Trooper Light AT 
@@ -1006,9 +1017,9 @@ TEXT_UNIT_SHADOW_SCOUT_TROOPER_SNIPER,Shadow Scout Trooper Sniper
 TEXT_UNIT_SHADOW_SCOUT_TROOPER_SNIPER_SQUAD,Shadow Scout Trooper Sniper Squad
 TEXT_UNIT_SHADOW_STAR_DESTROYER_CARRIER,Shadow Imperial-I Star Destroyer (Carrier)
 TEXT_UNIT_SHADOW_TX130S,Shadow TX-130S Fighter Tank
-TEXT_UNIT_SHADOW_TX130S_COMPANY,Company: 3x Shadow TX-130S Fighter Tank
+TEXT_UNIT_SHADOW_TX130S_COMPANY,Shadow TX-130S Fighter Tank Company
 TEXT_UNIT_SHADOW_ULAV,Shadow Ultra-Light Assault Vehicle
-TEXT_UNIT_SHADOW_ULAV_COMPANY,Company: 4x Shadow ULAV Company
+TEXT_UNIT_SHADOW_ULAV_COMPANY,Shadow ULAV Company
 TEXT_UNIT_SHADOW_VENGEANCE_DREADNOUGHT,Shadow Vengeance Star Dreadnought
 TEXT_UNIT_SHADOW_VIGIL,Shadow Vigil Corvette
 TEXT_UNIT_SHIELDED_ARMORED_INTERCEPTOR_ELITE,Elite Heavy TIE Interceptor
@@ -1023,9 +1034,9 @@ TEXT_UNIT_SITH_MARAUDER,Sith Marauder
 TEXT_UNIT_SITH_SLAYER,Sith Slayer
 TEXT_UNIT_SITH_SORCERER,Sith Sorcerer
 TEXT_UNIT_SITH_STRIDER,Sith Strider
-TEXT_UNIT_SITH_STRIDER_COMPANY,Company: 3x Sith Strider
+TEXT_UNIT_SITH_STRIDER_COMPANY,Sith Strider Company
 TEXT_UNIT_SITH_WAR_MAMMOTH,Sith War Mammoth
-TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Company: 2x Sith War Mammoth
+TEXT_UNIT_SITH_WAR_MAMMOTH_COMPANY,Sith War Mammoth Company
 TEXT_UNIT_SITHSPAWN,Sithspawn
 TEXT_UNIT_SKIPRAYK,Skipray Blastboat GAT-12k
 TEXT_UNIT_SKIPRAYK_SQUADRON,Skipray Blastboat GAT-12k Squadron
@@ -1044,6 +1055,7 @@ TEXT_UNIT_STAR_DESTROYER_TWO_ION,Imperial-II Star Destroyer Ion Refit
 TEXT_UNIT_STAR_DESTROYER_X,Upgunned Imperial-I Star Destroyer
 TEXT_UNIT_STARWING_ASSAULT,Xg-1 Star Wing Assault
 TEXT_UNIT_STARWING_FIGHTER,Xg-1 Star Wing Fighter
+TEXT_UNIT_STRIKE_CRUISER_ZETA,Strike Cruiser Zeta Two Refit
 TEXT_UNIT_TAPANI_ASSAULT_FRIGATE,Tapani Assault Frigate
 TEXT_UNIT_TIE_AVENGER_ASSAULT,Assault TIE Avenger
 TEXT_UNIT_TIE_AVENGER_BOMBER,TIE Avenger Bomber
