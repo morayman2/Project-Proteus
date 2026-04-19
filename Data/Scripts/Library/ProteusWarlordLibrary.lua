@@ -1006,14 +1006,14 @@ return {
 			Planets = {"RZ7"},
 			LeaderTable= {["ENNIX_DEVIAN_TEAM"] = {"ENNIX_DEVIAN"}},
 			LeaderEndingNames = {"Emperor Devian"},
-			HeroList = {"Ennix_Devian_Team", "Ulcane_Dissension"},
+			HeroList = {"Ennix_Devian_Team", "Ulcane_Dissension", "Kiara_Schmong", "Ree_Shala_Team", "T11", "Mahkkar"},
 			UnlockList = {
 				-- Space 
 				"Imperial_Boarding_Shuttle", "Delta_JV7_Group", "IPV1_Zeta", "Nebulon_B_Tender", "Carrack_Cruiser_Zeta", "Strike_Cruiser", "Quasar", "Crusader_Gunship_Pirate", "Proteus_Kaloth",
 				"Gladiator_II", "Super_Transport_XI_Missile_Pirate", "Immobilizer_418_Refit", "Hornet_Assault_Carrier", "Neutron_Star_Mercenary", "Victory_I_Star_Destroyer", "Refit_Venator_Star_Destroyer_Proteus","Dauntless_Transport", "Providence_Carrier_Destroyer_Pirate",
 				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer",
 				"Praetor_Carrier_Battlecruiser", "Bellator_Star_Dreadnought",
-				-- Land 
+				-- Land
 				"Imperial_Army_Guard_Company", "Light_Mercenary_Platoon", "Republic_BARC_Company",
 				"Imperial_AT_PT_Company", "AT_XT_Company", "Gian_Rebel_Company", "008_Speeder_Company", "Imperial_Flashblind_Company", "New_Republic_MPTL_Company",
 				"Imperial_LAAT_Company", "MZ8_Tank_Company", "AT_AI_Walker_Company",
