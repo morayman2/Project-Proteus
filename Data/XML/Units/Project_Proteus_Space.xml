@@ -544,7 +544,7 @@
 		<Text_ID>TEXT_UNIT_CARRACK_ZETA</Text_ID>
 		
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_CARRACK_LASERS
+		TEXT_TOOLTIP_CARRACK_ZETA
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_CARRACK_LASERS_HULL
 		TEXT_TOOLTIP_CARRACK_LASERS_SHIELD
@@ -556,6 +556,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CARRACK_ZETA.tga</Icon_Name>
 		
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -574,7 +575,6 @@
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Build_Cost_Credits>1040</Build_Cost_Credits>
 
-		
 		<HardPoints>
 			HP_Carrack_Weapon_01_Laser, HP_Carrack_Weapon_02_Laser, HP_Carrack_Weapon_03, HP_Carrack_Weapon_04, HP_Carrack_Hangar, HP_Carrack_Zeta_00
 		</HardPoints>
@@ -4052,7 +4052,7 @@
 		<Ship_Class>frigate</Ship_Class>
 		<CategoryMask> Frigate | AntiCorvette | Boardable </CategoryMask>
 		<Ranking_In_Category>6</Ranking_In_Category>
-		<Property_Flags/>
+		<Property_Flags>Boardable</Property_Flags>
 		<Formation_Priority>3</Formation_Priority>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Escort>yes</Is_Escort>

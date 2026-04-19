@@ -1023,7 +1023,7 @@ return {
 				-- Structures
 				"Pirate_Base", "SoroSuub_HQ",
 				-- Research
-				"Kaarenth_Zeta_Research_Proteus", "Sorosuub_Research_Proteus",
+				"Kaarenth_Zeta_Research_Proteus", "Sorosuub_Research_Proteus", "Dummy_Research_KPreybird_Production",
 			},
 			LastYear = 10,
 			IntroText = "TEXT_CONQUEST_PROTEUS_KAARENTH_DISSENSION",
