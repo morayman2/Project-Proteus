@@ -635,6 +635,8 @@ TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
 TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
 TEXT_TOOLTIP_KILE_HANNAD_WEAP1,1x SE-14 Pistol: 2 / 1.5s / 220m
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
+TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research option replaces the Gladiator-II Star Destroyer and Dauntless Transport Cruiser with the Liberator Cruiser and Dauntless Cruiser, and enables the Bulwark-III Battlecruiser.
+TEXT_TOOLTIP_KZETA_RESEARCH,Completing this research option replaces the Strike and Carrack Cruisers with Zeta variants, and enables the Aggressor Star Destroyer, Imperial-II Star Destroyer Ion Refit, Tracked Shield Disabler and AT-AT Walker Ion Refit.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_LAC,A semi-standard version of a modified CEC Consular-class cruiser that has long been popular with Republic Judicial Forces, serving in the Stark Hyperspace War and the Yinchorri Uprising. This specific configuration is excellent for anti-starfighter escort duty while other corvette models are more suited to missile loadouts or attacking larger ships.
@@ -929,6 +931,8 @@ TEXT_UNIT_HAG,HAG-M
 TEXT_UNIT_HORNET,Hornet-class Carrier
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
 TEXT_UNIT_IXIYEN_FIGHTER,Ixiyen Fighter
+TEXT_UNIT_KSOROSUUB_RESEARCH,SoroSuub Contract
+TEXT_UNIT_KZETA_RESEARCH,Expand Zeta Program
 TEXT_UNIT_LAAT_IMPERIAL,Imperial Spec Ops Gunship
 TEXT_UNIT_LAC,Light Assault Cruiser
 TEXT_UNIT_LICTOR,Lictor Dungeon Ship
