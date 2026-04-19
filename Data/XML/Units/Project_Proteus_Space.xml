@@ -4050,7 +4050,7 @@
 		<Maintenance_Cost>20</Maintenance_Cost>
 
 		<Ship_Class>frigate</Ship_Class>
-		<CategoryMask> Frigate | AntiCorvette | Boardable </CategoryMask>
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Property_Flags>Boardable</Property_Flags>
 		<Formation_Priority>3</Formation_Priority>
