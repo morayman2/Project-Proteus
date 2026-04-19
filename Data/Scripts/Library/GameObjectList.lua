@@ -929,5 +929,6 @@ return {
 ["SUPER_TRANSPORT_XI_MISSILE_PIRATE"] = true,
 ["LUCREHULK_BATTLESHIP"] = true,
 ["LUCREHULK_AUXILIARY_PROTEUS"] = true,
+["T11"] = true,
 
 }
