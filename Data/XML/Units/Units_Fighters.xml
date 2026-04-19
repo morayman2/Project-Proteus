@@ -41561,7 +41561,7 @@
 	<!-- Z95 -->
 
 	<SpaceUnit Name="Z95_Hero">
-		<Text_ID>TEXT_UNIT_Z95_HERO</Text_ID>
+		<Text_ID>TEXT_UNIT_Z95</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_Z95_HERO 
@@ -44321,7 +44321,7 @@
 		</Unit_Abilities_Data>
 	</Container>
 
-<SpaceUnit Name="Vulture_Brown">
+	<SpaceUnit Name="Vulture_Brown">
 		<Variant_Of_Existing_Type>Vulture_Droid</Variant_Of_Existing_Type>
 		<Icon_Name>i_button_vulture_brown.tga</Icon_Name>
 		<Space_Model_Name>CIS_VultureTRF.ALO</Space_Model_Name>
@@ -45697,7 +45697,7 @@
 		
 	</Container>
 
-	<SpaceUnit Name="THETA_ASSAULT_SHUTTLE">
+	<SpaceUnit Name="Theta_Assault_Shuttle">
 
 		<Text_ID>TEXT_UNIT_THETA_ASSAULT_SHUTTLE</Text_ID>
 		<Encyclopedia_Text>
@@ -45836,7 +45836,7 @@
 
 	</SpaceUnit>
 
-	<Squadron Name="THETA_ASSAULT_SQUADRON">
+	<Squadron Name="Theta_Assault_Squadron">
 		<Text_ID>TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -45924,7 +45924,7 @@
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
 	</Squadron>
 
-	<Container Name="THETA_ASSAULT_SQUADRON_Container">
+	<Container Name="Theta_Assault_Squadron_Container">
 		<Text_ID>TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
@@ -45999,7 +45999,7 @@
 		
 	</Container>
 
-	<Squadron Name="THETA_ASSAULT_SQUADRON_DOUBLE">
+	<Squadron Name="Theta_Assault_Squadron_Double">
 		<Text_ID>TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON2</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -46021,13 +46021,13 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Create_Team_Type>THETA_ASSAULT_Squadron_Double_Container</Create_Team_Type>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
+		<Create_Team_Type>Theta_Assault_Squadron_Double_Container</Create_Team_Type>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
 
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
@@ -46214,9 +46214,9 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures>Non_Capital_Category_Dummy</Required_Special_Structures>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Create_Team_Type>THETA_ASSAULT_Squadron_Half_Container</Create_Team_Type>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
-		<Squadron_Units>THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE, THETA_ASSAULT_SHUTTLE</Squadron_Units>
+		<Create_Team_Type>Theta_Assault_Squadron_Half_Container</Create_Team_Type>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
+		<Squadron_Units>Theta_Assault_Shuttle, Theta_Assault_Shuttle, Theta_Assault_Shuttle</Squadron_Units>
 
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>55.0,10.0,0.0</Squadron_Offsets>
@@ -46274,7 +46274,7 @@
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
 	</Squadron>
 
-	<Container Name="THETA_ASSAULT_Squadron_Half_Container">
+	<Container Name="Theta_Assault_Squadron_Half_Container">
 		<Text_ID>TEXT_THETA_ASSAULT_SHUTTLE_SQUADRON_HALF</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_FBHEAVY </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>

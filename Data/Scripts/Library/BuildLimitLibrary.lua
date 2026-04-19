@@ -32,4 +32,7 @@ return {
 	["FIREBIRD_STORMTROOPER_COMPANY"] = {
 		current_limit = 1,
 	},
+	["ROYAL_GUARD_STORMTROOPER_COMPANY"] = {
+		current_limit = 5,
+	},
 }

@@ -48,8 +48,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "EARLY_SKIPRAY_SQUADRON"
-			--elseif proteus == "PRAJI" then
-				--fighter = ""
+			elseif proteus == "PRAJI" then
+				fighter = "SKIPRAY_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -96,7 +96,7 @@ return {
 			elseif proteus == "MAELSTROM" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "PROPHETS" then
-				fighter = "THETA_ASSAULT_SQUADRON" --TBC
+				fighter = "THETA_ASSAULT_SQUADRON"
 			elseif proteus == "RAYTER" then
 				fighter = "SKIPRAY_SQUADRON"
 			elseif proteus == "WESSEX" then
@@ -123,8 +123,8 @@ return {
 				fighter = "FIRESPRAY_GUNSHIP_SQUADRON"
 			elseif proteus == "GRUNGER" then
 				fighter = "ADVANCED_SKIPRAY_SQUADRON"
-			--elseif proteus == "THORN" then
-				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "THETA_ASSAULT_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 

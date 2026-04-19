@@ -120,7 +120,7 @@ return {
 		--Kashyyyk
 		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "IPV_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
 		--Imperial Neimoidia added units
-		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary",
+		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer", "Neimoidia_Lucrehulk_Research_Proteus",
 		--Tamarin Sector added units
 		"Guardian_Cruiser_Lasers_Group", "Lupus_Missile_Frigate", "Class_C_Frigate", "Auxilia", "Dauntless_Transport",
 		"HAET_Company",
@@ -132,6 +132,4 @@ return {
 		"Hutt_Personnel_Skiff_IV_Company", "Canderous_Assault_Tank_Company_Proteus",
 		--Thorn added units
 		"Luxury_Barge_Company",
-		--Imperial Neimoidia added units
-		"Neimoidia_Lucrehulk_Research_Proteus", "Neimoidian_Guard_Company", "Lucrehulk_Auxiliary_Proteus", "Lucrehulk_CSA", "Lucrehulk_Core_Destroyer",
 }

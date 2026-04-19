@@ -538,7 +538,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 	</SpaceUnit>
 
-		<SpaceUnit Name="Carrack_Cruiser_Zeta">
+	<SpaceUnit Name="Carrack_Cruiser_Zeta">
 		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>
 		
 		<Text_ID>TEXT_UNIT_CARRACK_ZETA</Text_ID>
@@ -605,7 +605,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
         TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
-		<Icon_Name>i_button_strike_gorath.tga</Icon_Name>
+		<Icon_Name>i_button_strike_zeta.tga</Icon_Name>
 
 		<Space_Model_Name>EV_Strike_Cruiser.alo</Space_Model_Name>
 		<No_Colorization_Color/>
@@ -3125,7 +3125,6 @@
 			</Force_Healing_Ability>
 		</Abilities>
 	</SpaceUnit>
-	
 	
 	<SpaceUnit Name="Acclamator_I_Supercruiser">	<!-- Used for heroes -->
 		<Variant_Of_Existing_Type>Acclamator_I_Carrier</Variant_Of_Existing_Type>
