@@ -1,7 +1,7 @@
 return {
 	Ship_Crew_Requirement = 270,
 	Fighters = {
-		["BELBULLAB_22_SQUADRON"] = {
+		["BELBULLAB22_SQUADRON"] = {
 			DEFAULT = {Initial = 1, Reserve = 2}
 		},
 		["ELITE_INTERCEPTOR"] = {

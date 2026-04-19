@@ -55,7 +55,8 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-				<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 + Intel Focus -->
+
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 + Intel Focus -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -72,18 +73,17 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
+
+			<Reduce_Production_Price_Ability Name="Agent_Tier_Agent_02_Spec_Reduce_Production_Price">
+    			<Applicable_Unit_Types>
+        			IPV1_Zeta, Carrack_Cruiser_Zeta, Zeta_Strike, Refit_Venator_Star_Destroyer, Refit_Venator_Star_Destroyer_Proteus,
+        			Aggressor_Star_Destroyer, Imperial_II_Star_Destroyer_Ion, Tracked_Shield_Disabler_Company, AT_AT_Walker_IC_Company,
+        			Quasar, Hornet_Assault_Carrier, Dauntless_Transport, Dauntless, Bulwark_III, Gian_Company, Imperial_Flashblind_Company
+    			</Applicable_Unit_Types>
+    			<Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+    			<Stacking_Category>50</Stacking_Category>
+			</Reduce_Production_Price_Ability>
 		</Abilities>
-
-	<Reduce_Production_Price_Ability Name="Agent_Tier_Agent_02_Spec_Reduce_Production_Price">
-    <Applicable_Unit_Types>
-        IPV1_Zeta, Carrack_Cruiser_Zeta, Zeta_Strike, Refit_Venator_Star_Destroyer, Refit_Venator_Star_Destroyer_Proteus,
-        Aggressor_Star_Destroyer, Imperial_II_Star_Destroyer_Ion, Tracked_Shield_Disabler_Company, AT_AT_Walker_IC_Company,
-        Quasar, Hornet_Assault_Carrier, Dauntless_Transport, Dauntless, Bulwark_III, Gian_Company, Imperial_Flashblind_Company
-    </Applicable_Unit_Types>
-    <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-    <Stacking_Category>50</Stacking_Category>
-</Reduce_Production_Price_Ability>
-
 	</UniqueUnit>
 
 	<UniqueUnit Name="T11">
@@ -135,8 +135,8 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-				<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 subtract one for being reprogrammed -->
-
+		
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -158,7 +158,7 @@
 
 	</UniqueUnit>
 
-		<UniqueUnit Name="Mahkkar">
+	<UniqueUnit Name="Mahkkar">
 		<Variant_Of_Existing_Type>Bayonet_Cruiser</Variant_Of_Existing_Type>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_MAHKKAR</Text_ID>
@@ -841,37 +841,6 @@
 
 	<HeroCompany Name="Argor_Team">
 		<Text_ID>TEXT_HERO_DEMOS</Text_ID>
-		<Icon_Name>i_button_demos.tga</Icon_Name>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Damage>50</Damage>
-		<Affiliation>Imperial_Proteus</Affiliation>
-		
-		<Ranking_In_Category> 1 </Ranking_In_Category>
-	
-		<Tech_Level>99</Tech_Level>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Star_Courier</Company_Transport_Unit>
-		<Company_Units>Argor</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
-
-
-		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-
-
-		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
-		
-
-		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
-		<Population_Value>1</Population_Value>
-		
 		<Encyclopedia_Text>
 		TEXT_TOOLTIP_SEPARATOR_TRAITS_BLOCK 
 		TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02
@@ -890,6 +859,33 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_MAJORDOMO </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_demos.tga</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>50</Damage>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		
+		<Ranking_In_Category> 1 </Ranking_In_Category>
+	
+		<Tech_Level>99</Tech_Level>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Argor</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Available_In_Skirmish>yes</Available_In_Skirmish>
+		<Can_Be_Only_One>true</Can_Be_Only_One>
+
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		
+		<SFXEvent_Build_Started>RHD_Request_Assistance</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Request_Canceled</SFXEvent_Build_Cancelled>		
+		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
+		<SFXEvent_Fleet_Move></SFXEvent_Fleet_Move>
+		<Population_Value>1</Population_Value>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1315</Tactical_Build_Cost_Multiplayer>
@@ -898,7 +894,6 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
-		
 		
 	</HeroCompany>
 
@@ -942,7 +937,6 @@
 		
 		<Projectile_Appearance_Delay_Frames> 10 </Projectile_Appearance_Delay_Frames>
 		
-		
 		<!-- Deadly Sight Passive-->
 		<HardPoints>HP_Hero_Special_Deadly_Sight_11</HardPoints>
 
@@ -968,13 +962,13 @@
 
 		<Unit_Abilities_Data SubObjectList="Yes"> 
 			<Unit_Ability>
-			<Type>AREA_EFFECT_CONVERT</Type>
-			<Recharge_Seconds>120.0</Recharge_Seconds>
-			<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> 
-			<Spawned_Object_Type> Proj_Special_Area_Effect_Convert </Spawned_Object_Type>
-			<Supports_Autofire>True</Supports_Autofire>
-        <SFXEvent_Target_Ability> Unit_Summon_Silri </SFXEvent_Target_Ability>
-		</Unit_Ability>
+				<Type>AREA_EFFECT_CONVERT</Type>
+				<Recharge_Seconds>120.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name> 
+				<Spawned_Object_Type> Proj_Special_Area_Effect_Convert </Spawned_Object_Type>
+				<Supports_Autofire>True</Supports_Autofire>
+		        <SFXEvent_Target_Ability> Unit_Summon_Silri </SFXEvent_Target_Ability>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>FORCE_SIGHT</Type>
@@ -1532,7 +1526,7 @@
 		<Icon_Name>i_button_Jace_Yiaso.tga</Icon_Name>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Star_Courier</Company_Transport_Unit>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Jace_Yiaso</Company_Units>
 		
 		<Population_Value>1</Population_Value>
@@ -1660,8 +1654,6 @@
 				<Apply_To_All_Allies>Yes</Apply_To_All_Allies>
 				<Stacking_Category>0</Stacking_Category>
 			</Battlefield_Modifier_Ability>
-			
-
 		</Abilities>
 	</HeroUnit>
 
@@ -1683,7 +1675,6 @@
 		TEXT_TOOLTIP_GURNST_SHIELD
 		TEXT_TOOLTIP_GURNST_MOVE
 		TEXT_TOOLTIP_ELITE_MERCENARY_WEAP2
-		TEXT_TOOLTIP_GURNST_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -2315,8 +2306,6 @@
 		<Affiliation>Imperial_Proteus</Affiliation>
 	</HeroCompany>
 
-
-
 	<!-- ============================ Spy ============================= -->
 	
 	<HeroUnit Name="Rbann">
@@ -2391,7 +2380,7 @@
 		TEXT_TOOLTIP_MALLAT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_ZEVEN_MALLAT.tga</Icon_Name> <!-- Insert Icon here -->
+		<Icon_Name>I_BUTTON_ZEVEN_MALLAT.tga</Icon_Name>
 		
 		<Ranking_In_Category>10</Ranking_In_Category>
 		
@@ -2427,7 +2416,7 @@
 		TEXT_TOOLTIP_MALLAT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTON_ZEVEN_MALLAT.tga</Icon_Name> <!-- Insert Icon here -->
+		<Icon_Name>I_BUTTON_ZEVEN_MALLAT.tga</Icon_Name>
 
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
 		<Company_Units>Zeven_Mallat</Company_Units>
@@ -2896,7 +2885,7 @@
 				<Applicable_Unit_Types />
 				<Excluded_Unit_Types> Ground_Ion_Cannon, Ground_Hypervelocity_Gun </Excluded_Unit_Types>
 				<Damage_Bonus_Percentage>0.18</Damage_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.24</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.18</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
@@ -4443,6 +4432,7 @@
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_THORN_UPGRADE
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARDOG </Encyclopedia_Unit_Class>
@@ -4466,9 +4456,7 @@
 		<OverrideAcceleration> 1.5 </OverrideAcceleration>
 		<OverrideDeceleration> 1.5 </OverrideDeceleration>
 		
-		<Affiliation>Empire, Pentastar, Zsinj_Empire, Greater_Maldrood, Eriadu_Authority, Imperial_Proteus</Affiliation>
-
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit> <!-- Stealth heroes spawn in orbit -->
+		<Affiliation>Imperial_Proteus</Affiliation>
 		
 		<Tactical_Health>200</Tactical_Health>
 		
@@ -4502,7 +4490,7 @@
 		</Unit_Abilities_Data>
 
 
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Force Sensitive + Spy -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 + Force Sensitive -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -4678,6 +4666,7 @@
 		TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL
 		TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_THORN_UPGRADE
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_WARDOG </Encyclopedia_Unit_Class>
@@ -4686,7 +4675,7 @@
 		<Company_Transport_Unit>Shuttle_Tyderium_Thorn</Company_Transport_Unit>
 		<Company_Units>Thorn</Company_Units>
 		
-		<Affiliation>Empire, Pentastar, Zsinj_Empire, Greater_Maldrood, Eriadu_Authority, Imperial_Proteus, EmpireoftheHand</Affiliation>
+		<Affiliation>Imperial_Proteus</Affiliation>
 		
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>

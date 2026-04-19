@@ -1956,13 +1956,13 @@
 		<Text_ID>TEXT_UNIT_RED_POLICE</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_Red_Police
+		TEXT_TOOLTIP_RED_POLICE
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
-		TEXT_TOOLTIP_Red_Police_HEALTH
-		TEXT_TOOLTIP_Red_Police_MOVE
-		TEXT_TOOLTIP_Red_Police_WEAP1
-		TEXT_TOOLTIP_Red_Police_WEAP2
-		TEXT_TOOLTIP_Red_Police_WEAP6
+		TEXT_TOOLTIP_RED_POLICE_HEALTH
+		TEXT_TOOLTIP_RED_POLICE_MOVE
+		TEXT_TOOLTIP_RED_POLICE_WEAP1
+		TEXT_TOOLTIP_RED_POLICE_WEAP2
+		TEXT_TOOLTIP_RED_POLICE_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
@@ -2019,7 +2019,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, DEMOLITION</LandBehavior>
 
-		<HardPoints>HP_Red_Police_Carbine, HP_Red_Police_Grenade</HardPoints>
+		<HardPoints>HP_Defiler_Carbine, HP_Defiler_Grenade</HardPoints>
 
 		<Garrison_Category> Infantry </Garrison_Category>
 		<Garrison_Value>1</Garrison_Value>
@@ -2384,7 +2384,7 @@
 		
 		<Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
 
-		<Affiliation>Rebel, Sith_Warlords</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		
 		<SFXEvent_Select>Unit_Dark_Jedi_Select</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Dark_Jedi_Move</SFXEvent_Move>
@@ -2533,7 +2533,7 @@
 
 		<Projectile_Fire_Recharge_Seconds>0.3</Projectile_Fire_Recharge_Seconds>
 
-		<Affiliation>Rebel, Sith_Warlords</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		
 		<SFXEvent_Select>Unit_Dark_Jedi_Select</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Dark_Jedi_Move</SFXEvent_Move>
@@ -2674,7 +2674,7 @@
 		<Tactical_Health>70</Tactical_Health>
 		<AI_Combat_Power>90</AI_Combat_Power>
 
-		<Affiliation>Rebel, Sith_Warlords</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		
 		<SFXEvent_Select>Unit_Dark_Jedi_Select</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Dark_Jedi_Move</SFXEvent_Move>
@@ -2903,8 +2903,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</GroundCompany>
 
-	<!-- Trandoshans -->
-	
 	<GroundInfantry Name="Trandoshan_Rifleman">
 		<Variant_Of_Existing_Type>Template_Trooper</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_TRANDOSHAN_RIFLEMAN</Text_ID>
@@ -3146,7 +3144,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD.tga</Icon_Name>
 
 		<Land_Model_Name>NI_Soldier_Trandoshan_M_Green.alo</Land_Model_Name>
 		<Land_Terrain_Model_Mapping>
@@ -3200,7 +3198,6 @@
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
@@ -3208,7 +3205,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_HUNTER.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SOLDIER.TGA</Icon_Name>
 		<Damage>18</Damage>
 
 		<Ship_Class>infantry</Ship_Class>
@@ -3277,14 +3274,13 @@
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD.tga</Icon_Name>
 
 		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
@@ -3305,7 +3301,6 @@
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
@@ -3313,7 +3308,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD.tga</Icon_Name>
 		<Tech_Level>99</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 
@@ -3334,7 +3329,6 @@
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
@@ -3342,7 +3336,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_SQUAD.tga</Icon_Name>
 
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
@@ -3413,7 +3407,6 @@
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_MOVE 
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP1
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP2
-		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP3
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5
 		TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6
@@ -3421,7 +3414,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE 
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD</Icon_Name>
+		<Icon_Name>I_BUTTON_TRANDOSHAN_COMMAND_SQUAD.tga</Icon_Name>
 
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
@@ -3573,9 +3566,6 @@
 
 	</GroundCompany>
 
-	<!-- Neimodian Guard -->
-
-	<!-- Technically a Template since no non-sniper or non-grenadier units-->
 	<GroundInfantry Name="Neimoidian_Guard">
 		<Text_ID>TEXT_UNIT_NEIMOIDIAN_GUARD</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
