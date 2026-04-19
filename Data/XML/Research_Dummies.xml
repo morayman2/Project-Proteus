@@ -1261,7 +1261,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures>AI_Category_Dummy | Story_Category_Dummy</Required_Special_Structures>
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Cost_Credits>35000</Build_Cost_Credits>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 
 		<Lua_Script>KaarenthSoroSuubProteus</Lua_Script>

@@ -1014,8 +1014,8 @@ return {
 				"Maelstrom_Battlecruiser", "Imperial_I_Star_Destroyer",
 				"Praetor_Carrier_Battlecruiser", "Bellator_Star_Dreadnought",
 				-- Land
-				"Imperial_Army_Guard_Company", "Light_Mercenary_Platoon", "Republic_BARC_Company",
-				"Imperial_AT_PT_Company", "AT_XT_Company", "Gian_Rebel_Company", "008_Speeder_Company", "Imperial_Flashblind_Company", "New_Republic_MPTL_Company",
+				"Imperial_Army_Guard_Company", "Light_Mercenary_Company", "Republic_BARC_Company",
+				"Imperial_AT_PT_Company", "AT_XT_Company", "Gian_Company", "008_Speeder_Company", "Imperial_Flashblind_Company", "New_Republic_MPTL_Company",
 				"Imperial_LAAT_Company", "MZ8_Tank_Company", "AT_AI_Walker_Company",
 		 		"Canderous_Assault_Tank_Lasers_Company", "Teklos_Company",
 				-- Structures

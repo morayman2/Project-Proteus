@@ -23,9 +23,6 @@ function State_Init(message)
         owner.Unlock_Tech(Find_Object_Type("Carrack_Cruiser_Zeta"))
         owner.Unlock_Tech(Find_Object_Type("Aggressor_Star_Destroyer"))
         owner.Unlock_Tech(Find_Object_Type("Imperial_II_Star_Destroyer_Ion"))
-        
-        Set_Fighter_Research("SkiprayZeta")
-
         owner.Unlock_Tech(Find_Object_Type("Tracked_Shield_Disabler_Company"))
         owner.Unlock_Tech(Find_Object_Type("AT_AT_Walker_IC_Company"))
         

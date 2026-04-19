@@ -26,7 +26,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ARMS_DEALER </Encyclopedia_Unit_Class>
-		<Icon_Name>I_BUTTTON_SCHMONG.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_SCHMONG.tga</Icon_Name>
 
 		<CategoryMask> SpaceHero | AntiFighter </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>

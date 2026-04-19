@@ -111,14 +111,14 @@ return {
 		"Diamond_Frigate", "Providence_Carrier_Destroyer",
 		"Imperial_AAT_Company", "HAGM_Company",
 		--Kaarenth added units
-		"Hornet_Assault_Carrier", "Refit_Venator_Star_Destroyer_Proteus", "Super_Transport_XI_Missile_Pirate", "Carrack_Cruiser_Zeta", "Strike_Cruiser", "Crusader_Gunship_Pirate", "Providence_Carrier_Destroyer_Pirate",
+		"Hornet_Assault_Carrier", "Refit_Venator_Star_Destroyer_Proteus", "Super_Transport_XI_Missile_Pirate", "Carrack_Cruiser_Zeta", "Strike_Cruiser", "Crusader_Gunship_Pirate", "Providence_Carrier_Destroyer_Pirate", "Dauntless", "Liberator_Cruiser",
 		--Antemeridiean Sector added units
 		"X4_Gunship_Group",
 		"New_Republic_T47_Airspeeder_Company",
 		--Imperial Garos added units
 		"Imperial_AT_ACT_Walker_Company", "GAT_Company", "Imperial_I_Star_Destroyer_Stealth", "JX30_Company", "Hutt_AA_Skiff_Company",
 		--Kashyyyk
-		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "IPV_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700",
+		"Trandoshan_Hunter_Company", "Camo_AT_TE_Walker_Company", "IPV_Gunboat_Proteus", "Proteus_A6_Company", "Proteus_Kaloth", "Pirate_Base", "CC7700", "Space_Arc_Cruiser", "Super_Transport_XI_Modified_Pirate",
 		--Imperial Neimoidia added units
 		"Munifex", "SP9_Group", "CSA_Destroyer_Droid_Company", "Neimoidian_Guard_Company", "Lucrehulk_Battleship", "Lucrehulk_Auxiliary",
 		--Tamarin Sector added units
