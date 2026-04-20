@@ -336,6 +336,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -1211,6 +1212,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
@@ -2435,6 +2437,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3189,6 +3192,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -3961,6 +3965,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -4731,6 +4736,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -5501,6 +5507,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -6467,6 +6474,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Red </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7123,6 +7131,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Gold </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -7642,6 +7651,7 @@
 			Victory_II_Carrier,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Blue </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>
@@ -9762,11 +9772,12 @@
 			MTC_Sensor,
 			Victory_II_Carrier,
 			Gronn_Acropora,
-			Lucrehulk_Auxiliary,
+			Lucrehulk_Auxiliary_Proteus,
 			Lucrehulk_Battleship,
 			Carrack_Cruiser_Zeta,
 			Zeta_Strike,
 			Providence_Carrier_Destroyer_Pirate,
+			Refit_Venator_Star_Destroyer_Proteus,
 		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Bombardment_Turbolaser_Green </Bombardment_Projectile>
 		<Bombardment_Particle> Bombard_Particle_Effect </Bombardment_Particle>

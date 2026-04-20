@@ -370,4 +370,42 @@
 		<Specific_Death_Anim_Index/>
 	</Death_Clone>
 
+	<Death_Clone Name="Rusur_Death_Clone">
+		<Space_Model_Name>Mando_Rusur_D.alo</Space_Model_Name>
+		<Scale_Factor>0.83</Scale_Factor>
+		<Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</Death_Clone>
+
+	<Death_Clone Name="HAG_Death_Clone">
+		<Variant_Of_Existing_Type>HAG</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED, IMPOSING_PRESENCE</LandBehavior>
+		<Custom_Hard_XExtent> 30.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 20.0 </Custom_Hard_YExtent>
+		<Death_Persistence_Duration> 10 </Death_Persistence_Duration>
+		<Death_Explosions_End>Medium_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Tank_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+		<IsDeathClone> true </IsDeathClone>
+		<Presence_Range>200.0</Presence_Range>
+	</Death_Clone>
+	<Death_Clone Name="HAG_Deployed_Death_Clone">
+		<Variant_Of_Existing_Type>HAG</Variant_Of_Existing_Type>
+		<CategoryMask>None</CategoryMask>
+		<Specific_Death_Anim_Type>DEPLOYED_DIE</Specific_Death_Anim_Type>
+		<Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+		<LandBehavior>HIDE_WHEN_FOGGED, IMPOSING_PRESENCE, LAND_OBSTACLE</LandBehavior>
+		<Obstacle_Width>40.0</Obstacle_Width>
+		<Obstacle_Height>40.0</Obstacle_Height>
+		<Obstacle_X_Offset>0.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-20.0</Obstacle_Y_Offset>
+		<Death_Persistence_Duration> 20 </Death_Persistence_Duration>
+		<Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+		<Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
+		<IsDeathClone> true </IsDeathClone>
+		<Presence_Range>200.0</Presence_Range>
+	</Death_Clone>
+
 </Death_Clones_Space>

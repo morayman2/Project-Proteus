@@ -78,8 +78,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "TIE_GT_SQUADRON"
-			--elseif proteus == "PRAJI" then
-				--fighter = ""
+			elseif proteus == "PRAJI" then
+				fighter = "STARWING_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_DEFENDER_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -97,7 +97,7 @@ return {
 			elseif proteus == "JARDEEN" then
 				fighter = "STARWING_FIGHTER_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "BELBULLAB_22_SQUADRON"
+				fighter = "BELBULLAB22_SQUADRON"
 			elseif proteus == "LUMIYA" then
 				fighter = "TIE_SENTINEL_SQUADRON"
 			elseif proteus == "ARDA" then
@@ -150,8 +150,8 @@ return {
 				fighter = "TOSCAN_GUNSHIP_SQUADRON"
 			elseif proteus == "GRUNGER" then
 				fighter = "TIE_AVENGER_SQUADRON"
-			--elseif proteus == "THORN" then
-				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "TIE_AVENGER_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

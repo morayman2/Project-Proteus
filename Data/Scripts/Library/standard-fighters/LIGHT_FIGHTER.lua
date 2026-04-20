@@ -82,8 +82,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
-			--elseif proteus == "PRAJI" then
-				--fighter = ""
+			elseif proteus == "PRAJI" then
+				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_X3_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -102,6 +102,9 @@ return {
 				fighter = "TIE_DROID_SQUADRON"
 			elseif proteus == "KASHYYYK" then
 				fighter = "TIE_FIGHTER_SQUADRON" --TBC Upgrade to BF2 Fighter
+				if Get_Fighter_Research("KSM") then
+					fighter = "TIE_FIGHTER_BF2_SQUADRON"
+				end
 			elseif proteus == "LUMIYA" then
 				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "ARDA" then
@@ -154,8 +157,8 @@ return {
 				fighter = "STARVIPER_SQUADRON"
 			elseif proteus == "GRUNGER" then
 				fighter = "NIMBUS_V_WING_ESK_SQUADRON"
-			--elseif proteus == "THORN" then
-				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "NIMBUS_V_WING_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

@@ -100,8 +100,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "SHIELDED_TIE_INTERCEPTOR_SQUADRON"
-			--elseif proteus == "PRAJI" then
-				--fighter = ""
+			elseif proteus == "PRAJI" then
+				fighter = "SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_PHANTOM_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -115,7 +115,7 @@ return {
 				fighter = "TIE_X2_SQUADRON"
 			elseif proteus == "ELROOD" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON"
-			if Get_Fighter_Research("ELRArmoredTIE") then
+				if Get_Fighter_Research("ELRArmoredTIE") then
 					fighter = "ARMORED_TIE_INTERCEPTOR_SQUADRON"
 				end
 			elseif proteus == "WILD_SPACE" then
@@ -126,6 +126,9 @@ return {
 				fighter = "TIE_INTERCEPTOR_ION_SQUADRON"
 			elseif proteus == "KASHYYYK" then
 				fighter = "TIE_INTERCEPTOR_SQUADRON" --TBC Custom spawn of Eta2s on SSD
+				if Get_Fighter_Research("KSM") then
+					fighter = "TIE_INTERCEPTOR_BF2_SQUADRON"
+				end
 			elseif proteus == "LUMIYA" then
 				fighter = "ASSAULT_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "ARDA" then
@@ -181,8 +184,8 @@ return {
 				fighter = "V38_SQUADRON"
 			elseif proteus == "GRUNGER" then
 				fighter = "SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
-			--elseif proteus == "THORN" then
-				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "TIE_INTERCEPTOR_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

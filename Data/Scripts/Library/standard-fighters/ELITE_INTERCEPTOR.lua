@@ -57,8 +57,8 @@ return {
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "TIE_X7_SQUADRON"
-			--elseif proteus == "PRAJI" then
-				--fighter = ""
+			elseif proteus == "PRAJI" then
+				fighter = "TIE_X7_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_X7_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -129,10 +129,10 @@ return {
 				fighter = "TIE_X2_SQUADRON"
 			--elseif proteus == "LAMBDA" then
 				--fighter = ""
-			--elseif proteus == "THORN" then
-				--fighter = ""
-			--elseif proteus == "GRUNGER" then
-				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "ASSAULT_ETA2_ACTIS_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "TIE_X2_SQUADRON"
 			--elseif proteus == "X1" then
 				--fighter = ""
 			end

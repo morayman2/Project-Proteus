@@ -2754,7 +2754,6 @@
 	</GroundCompany>
 	
 	<!--008 Heavy Landspeeder, stats by Bucman and Coyote, model by Kubli and Kalani-->
-	
 	<GroundVehicle Name="008_Speeder">
 
 		<Text_ID>TEXT_UNIT_008_SPEEDER</Text_ID>
@@ -2938,7 +2937,7 @@
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-   	<!-- Values for overcharge main gun are in 008 hardpoints -->
+   		<!-- Values for overcharge main gun are in 008 hardpoints -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0</Mod_Multiplier>
@@ -4194,7 +4193,6 @@
 
 	</GroundCompany>
 
-
 	<GroundCompany Name="Camo_AT_TE_Walker_Company">
 
 		<Text_ID>TEXT_UNIT_AT_TE_WALKER</Text_ID>
@@ -4467,9 +4465,9 @@
 				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
 			</Force_Healing_Ability>
 		</Abilities>
-		</GroundVehicle>
+	</GroundVehicle>
 		
-			<GroundVehicle Name="GAT">
+	<GroundVehicle Name="GAT">
 
 		<Text_ID>TEXT_UNIT_GAT</Text_ID>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_VEHICLE</Encyclopedia_Unit_Class>
@@ -4755,8 +4753,8 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_SUPER_TRANSPORT
 		TEXT_TOOLTIP_CAPABILITY_SUPER_CRUSH
-	TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
-	TEXT_TOOLTIP_BUILDLIMIT_A6
+		TEXT_TOOLTIP_SEPARATOR_LIMITS_BLOCK
+		TEXT_TOOLTIP_BUILDLIMIT_A6
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_a6_juggernaut.tga</Icon_Name>
 
@@ -4768,12 +4766,12 @@
 		<Is_Escort>yes</Is_Escort>
 
 		<GUI_Row> 1 </GUI_Row>
-	<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
-    <Build_Initially_Locked>Yes</Build_Initially_Locked>
-    <Build_Cost_Credits>2100</Build_Cost_Credits>
-    <Build_Time_Seconds>120</Build_Time_Seconds>
-    <Slice_Cost_Credits>1400</Slice_Cost_Credits>
-    <Required_Special_Structures> I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+	    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    	<Build_Cost_Credits>2100</Build_Cost_Credits>
+	    <Build_Time_Seconds>120</Build_Time_Seconds>
+    	<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+    	<Required_Special_Structures> I_Ground_Advanced_Vehicle_Factory | KDY_HQ | KDY_HQ_Cheap | KDY_Branch | KDY_Branch_Cheap</Required_Special_Structures>
 
 		<Piracy_Value_Credits>1</Piracy_Value_Credits>
 		<Score_Cost_Credits>600</Score_Cost_Credits>
@@ -5037,8 +5035,8 @@
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Clone_Gunship</SFXEvent_Build_Complete>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Clone_Gunship</SFXEvent_Fleet_Move>
+		<SFXEvent_Build_Complete>Unit_Complete_Troop_Carrier</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Troop_Carrier</SFXEvent_Fleet_Move>
 
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
 		<Required_Planets/>

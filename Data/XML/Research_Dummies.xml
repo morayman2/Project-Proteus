@@ -875,7 +875,7 @@
 		<Encyclopedia_Text>TEXT_RESEARCH_SELLASAS_SWAP1_DESCRIPTION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_SWITCH_TO_SUPPORT_LOADOUT_COMMAND.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_SELLASAS_SWAP_BLUE.TGA</Icon_Name>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -896,7 +896,7 @@
 		<Encyclopedia_Text>TEXT_RESEARCH_SELLASAS_SWAP2_DESCRIPTION</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STORYEVENT </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_SWITCH_TO_COMBAT_LOADOUT_COMMAND.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_SELLASAS_SWAP_BLUE.TGA</Icon_Name>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1281,7 +1281,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_KZETA_RESEARCH</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_ISD_TWO_ION.TGA</Icon_Name>
+		<Icon_Name>I_BUTTON_RESEARCH_ZETA.TGA</Icon_Name>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1306,8 +1306,7 @@
 		<Text_ID>TEXT_UNIT_KLUCREHULK_RESEARCH</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_KLUCREHULK_RESEARCH</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
-
-		<Icon_Name>I_BUTTON_LUCREHULK_AUXILIARY_UPGRADE.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RESEARCH_LUCREHULK.tga</Icon_Name>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
