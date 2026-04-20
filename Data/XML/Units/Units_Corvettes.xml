@@ -13355,10 +13355,11 @@
 
 	<SpaceUnit Name="Imperial_Boarding_Shuttle">
 		<Variant_Of_Existing_Type>Template_Boarding_Shuttle</Variant_Of_Existing_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
