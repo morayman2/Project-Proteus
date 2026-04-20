@@ -2381,21 +2381,21 @@
 		<Space_Model_Name>triumph_class_star_destroyer.ALO</Space_Model_Name>
 		
 		<Shield_Points>7000</Shield_Points>
-		<Tactical_Health>8500</Tactical_Health>
+		<Tactical_Health>8580</Tactical_Health>
 
-		<AI_Combat_Power>3427</AI_Combat_Power>
+		<AI_Combat_Power>2884</AI_Combat_Power>
 		<Damage>70</Damage>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
 		<Property_Flags>Boardable</Property_Flags>
-		<Build_Cost_Credits>6350</Build_Cost_Credits>
+		<Build_Cost_Credits>5800</Build_Cost_Credits>
 		<Build_Time_Seconds>105</Build_Time_Seconds>
 		<Required_Special_Structures>
 			Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
 			AI_Category_Dummy | Capital_Category_Dummy
 		</Required_Special_Structures>
-		<Population_Value>34</Population_Value>
+		<Population_Value>29</Population_Value>
 
 		<HardPoints>
 			HP_Triumph_Engines,

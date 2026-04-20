@@ -6289,7 +6289,7 @@
 
 	</SpaceUnit>
 
-<!--Carrier VSD-->
+	<!--Carrier VSD-->
 
 	<SpaceUnit Name="Victory_II_Carrier">
 		<Variant_Of_Existing_Type>Template_Victory_II_Star_Destroyer</Variant_Of_Existing_Type>
@@ -6313,13 +6313,14 @@
 		<Icon_Name>i_button_victory_ii_carrier.tga</Icon_Name>
 
 		<Shield_Points>3000</Shield_Points>
+		<Population_Value>17</Population_Value>
+		<Build_Cost_Credits>3400</Build_Cost_Credits>
+		<AI_Combat_Power>1217</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-
-		<Build_Cost_Credits>3300</Build_Cost_Credits>
 
 		<Required_Special_Structures>
 		Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four | Tierfon_Shipyard_Capital,

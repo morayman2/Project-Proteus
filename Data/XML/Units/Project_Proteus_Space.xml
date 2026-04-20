@@ -632,14 +632,14 @@
 
 		<Shield_Armor_Type>ShieldS_Frigate</Shield_Armor_Type>
 		<Shield_Points>1200</Shield_Points>
-		<Shield_Refresh_Rate>18.5</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>21</Shield_Refresh_Rate>
 		<Armor_Type> ArmourS_Frigate </Armor_Type>
 		<Tactical_Health>1500</Tactical_Health>
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-		<AI_Combat_Power>694</AI_Combat_Power>
+		<AI_Combat_Power>742</AI_Combat_Power>
 		<Damage>40</Damage>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
@@ -664,7 +664,7 @@
 		<Required_Planets/>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Build_Cost_Credits>1750</Build_Cost_Credits>
+		<Build_Cost_Credits>1600</Build_Cost_Credits>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Required_Special_Structures>
@@ -2328,14 +2328,14 @@
 
 		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
 		<Shield_Points>3900</Shield_Points>
-		<Shield_Refresh_Rate>36.5</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>29.25</Shield_Refresh_Rate>
 		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
-		<Tactical_Health>4200</Tactical_Health>
+		<Tactical_Health>4550</Tactical_Health>
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-		<AI_Combat_Power>2156</AI_Combat_Power>
+		<AI_Combat_Power>1756</AI_Combat_Power>
 		<Autoresolve_Health>3456</Autoresolve_Health>
 		<Damage>30</Damage>
 
@@ -2365,7 +2365,7 @@
 
 		<GUI_Row> 0 </GUI_Row>
 
-		<Build_Cost_Credits>2450</Build_Cost_Credits>
+		<Build_Cost_Credits>4200</Build_Cost_Credits>
 		<Build_Time_Seconds>80</Build_Time_Seconds>
 
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
@@ -2376,7 +2376,7 @@
 		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>1</Piracy_Value_Credits>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
-		<Population_Value>20</Population_Value>
+		<Population_Value>19</Population_Value>
 		<Space_Override_Population_Value/>
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
@@ -3065,11 +3065,9 @@
 		AI_Category_Dummy | Heavy_Frigate_Category_Dummy</Required_Special_Structures>
 		<Required_Planets/>
 		
-		<Shield_Armor_Type>ShieldS_Frigate</Shield_Armor_Type>
-		<Shield_Points>1800</Shield_Points>
-		<Shield_Refresh_Rate>18</Shield_Refresh_Rate>
-		<Armor_Type> ArmourS_Frigate </Armor_Type>
 		<Tactical_Health>1925</Tactical_Health>
+		<Population_Value>8</Population_Value>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
@@ -3215,11 +3213,13 @@
 
 		<Shield_Points>2600</Shield_Points>
 		<Shield_Refresh_Rate>26</Shield_Refresh_Rate>
+		<Build_Cost_Credits>3800</Build_Cost_Credits>
+		<Population_Value>19</Population_Value>
 		<Max_Speed>4.0</Max_Speed>
 		
 		<Space_Model_Name>venator_octuple_refit.alo</Space_Model_Name>
 
-		<AI_Combat_Power>1127</AI_Combat_Power>
+		<AI_Combat_Power>1496</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Damage>35</Damage>
@@ -3521,7 +3521,7 @@
 		TEXT_TOOLTIP_STAR_DESTROYER_X
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
 		TEXT_TOOLTIP_STAR_DESTROYER_X_HULL
-		TEXT_TOOLTIP_STAR_DESTROYER_X_SHIELD 
+		TEXT_TOOLTIP_STAR_DESTROYER_X_SHIELD
 		TEXT_TOOLTIP_STAR_DESTROYER_MOVE
 		TEXT_TOOLTIP_STAR_DESTROYER_SQUADRON
 		TEXT_TOOLTIP_STAR_DESTROYER_TWO_WEAP2
@@ -3635,7 +3635,7 @@
 
 		<GUI_Row> 1 </GUI_Row>
 		<GUI_Bracket_Size>0</GUI_Bracket_Size>
-		<Build_Cost_Credits>870</Build_Cost_Credits>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
 
@@ -4040,7 +4040,7 @@
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>	
 		
-		<AI_Combat_Power>662</AI_Combat_Power>
+		<AI_Combat_Power>681</AI_Combat_Power>
 		<Autoresolve_Health>2800</Autoresolve_Health>
 		<Damage>30</Damage>
 		
@@ -4066,7 +4066,7 @@
 		<Required_Planets/>
 
 		<GUI_Row> 0 </GUI_Row>
-		<Build_Cost_Credits>2600</Build_Cost_Credits>
+		<Build_Cost_Credits>2800</Build_Cost_Credits>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Slice_Cost_Credits/>
 		<Required_Special_Structures>AI_Category_Dummy | Heavy_Frigate_Category_Dummy</Required_Special_Structures>
@@ -4083,7 +4083,7 @@
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Score_Cost_Credits> 1800</Score_Cost_Credits>
-		<Population_Value>13</Population_Value>
+		<Population_Value>14</Population_Value>
 		<Space_Override_Population_Value/>
 
 		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
@@ -4555,7 +4555,11 @@
 		</HardPoints>
 
 		<Shield_Points>2150</Shield_Points>
-		<Tactical_Health>1875</Tactical_Health>
+		<Shield_Refresh_Rate>21.5</Shield_Refresh_Rate>
+		<Tactical_Health>1900</Tactical_Health>
+		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Population_Value>6</Population_Value>
+		<AI_Combat_Power>500</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 
@@ -4629,9 +4633,12 @@
 
 		<Max_Speed>3.85</Max_Speed>
 
-		<Shield_Points>1890</Shield_Points>
-		<Shield_Refresh_Rate>27.9</Shield_Refresh_Rate>
-		<Tactical_Health>1944</Tactical_Health>
+		<Shield_Points>1900</Shield_Points>
+		<Shield_Refresh_Rate>28.5</Shield_Refresh_Rate>
+		<Tactical_Health>1960</Tactical_Health>
+		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<Population_Value>12</Population_Value>
+		<AI_Combat_Power>803</AI_Combat_Power>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 

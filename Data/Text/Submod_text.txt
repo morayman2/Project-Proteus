@@ -483,8 +483,8 @@ TEXT_TOOLTIP_BAYONET,An outdated Sienar light cruiser released shortly after the
 TEXT_TOOLTIP_BAYONET_HULL,Hull: 800 (Frigate)
 TEXT_TOOLTIP_BAYONET_MOVE,Speed: 3.0 | Accel: 0.175 | Turn: 0.3
 TEXT_TOOLTIP_BAYONET_SHIELD,Shields: 752 (12.5R) (Frigate)
-TEXT_TOOLTIP_BAYONET_WEAP1,4x Heavy Turbolasers: 2 / 5.0s / 8.1km
-TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.835s / 4.1km
+TEXT_TOOLTIP_BAYONET_WEAP1,4x Heavy Turbolasers: 2 / 5.0s / 7.1km
+TEXT_TOOLTIP_BAYONET_WEAP2,1x Medium Laser Cannon: 2 / 0.85s / 4.1km
 TEXT_TOOLTIP_BELBULLAB22,Fighter created by the Techno Union in preparation for the Clone Wars to serve as a bulkier and hardier support and escort element within CIS fighter groups. Famously used in a modified form by General Grievous as his personal starfighter, the design had mild continuity among mercenary groups, Force users and resistance cells afterwards.
 TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault craft. Armed with heavier weaponry, it is well suited to engage Republic fighters such as the ARC-170, but is more rarely sighted compared to the more standard fighter and bomber Belbullab starfighters.
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
@@ -592,8 +592,8 @@ TEXT_TOOLTIP_DOMINA_TAGGE,The youngest child of Sanya Tagge, Domina was sent awa
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADE,Upgrade: Dreadnaught Carrier
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADEABLE,Refits a PDF Dreadnaught with respectable hangars while still maintaining armament near the stock levels.
 TEXT_TOOLTIP_DREADNAUGHT_I,One of the many conversions of the ubiquitous Dreadnaught-Class hull to adapt it for a specialized purpose once it was no longer a prime frontline combatant. This version rearranges most of the interior space to fit a single gravity field generator into the hull, safely tucked away behind heavier armor plating than most other interdictors of the time. The huge power draw of the gravity field generator however requires the main armament and shield coverage to be scaled down, though the vessel is still capable of fending off smaller corvettes and gunships that try to knock out its interdiction field.
-TEXT_TOOLTIP_DREADNAUGHT_I_HULL,Hull: 2150 (Heavy Frigate)
-TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD,Shields: 1875 / [36/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_I_HULL,Hull: 1900 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD,Shields: 2150 / [21.5/R] (Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_I_SQUADRON,Fighters: 0.5 / 0.5
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP1,2x Light Dual Turbolasers: 2 / 4.0s / 5.1km
 TEXT_TOOLTIP_DREADNAUGHT_I_WEAP2,3x Medium Laser Cannons: 2 / 0.75s / 4.1km
@@ -651,11 +651,11 @@ TEXT_TOOLTIP_HORNET_HULL,Hull: 2090 (Frigate)
 TEXT_TOOLTIP_HORNET_MOVE,Speed: 2.0 | Accel: 0.03 | Turn: 0.25
 TEXT_TOOLTIP_HORNET_SHIELD,Shields: 2000 / [20.0/R] (Frigate)
 TEXT_TOOLTIP_HORNET_SQUADRON,Fighters: 3 / 3 | Bombers: 2 / 2
-TEXT_TOOLTIP_HORNET_WEAP1,2x Medium Turbolasers: 2 / 5.0s / 6.1km
-TEXT_TOOLTIP_HORNET_WEAP2,2x Light Dual Turbolasers: 2 / 1.25s / 5.6km
-TEXT_TOOLTIP_HORNET_WEAP3,1x Heavy Dual Laser Cannon: 2 / 2.5s / 4.1km
-TEXT_TOOLTIP_HORNET_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.6km
-TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 5.6km
+TEXT_TOOLTIP_HORNET_WEAP1,2x Medium Turbolasers: 2 / 5.0s / 6.0km
+TEXT_TOOLTIP_HORNET_WEAP2,2x Light Dual Turbolasers: 2 / 1.25s / 5.0km
+TEXT_TOOLTIP_HORNET_WEAP3,1x Heavy Dual Laser Cannon: 2 / 2.5s / 4.5km
+TEXT_TOOLTIP_HORNET_WEAP4,2x Light Dual Laser Cannons: 2 / 1.0s / 3.5km
+TEXT_TOOLTIP_HORNET_WEAP5,2x Concussion Missiles: 6 / 15.0s / 4.0km
 TEXT_TOOLTIP_HSSISSK,Hssissk is a member of the "Zssik Clan", a small Trandoshan family relegated to minor slaving duties by the ruling clan of Kashyyyk, the Blackscales. Stationed originally outside of the city of Kachirho of Kashyyyk, Hssissk would arrange the transfer of captured Wookiee slaves to the Blackscale Avatar Platform. For a while, Hsssissk has had his eyes set on overthrowing the Blackscale clan and taking over the planet of Kashyyyk for his own family.
 TEXT_TOOLTIP_INCOME_BISCUIT_BARON,Credit Income: +20%
 TEXT_TOOLTIP_IRAN_RYAD,Countess Iran Ryad was a human politician who used her wealth and influence to indulge her interest in starfighters and eventually used her connections to take up pilot training. Following the events at Endor, Ryad would requisition a TIE Defender to serve as her personal starfighter 'Red Star 1' and modify its capabilities and appearance. In time, Ryad became a starfighter ace and would form her own squadron, known as Red Star Squadron, which went on to hunt any starships that entered Imperial space without permission; her actions led to her being accused of treason and eventually defeated by Soontir Fel.
@@ -681,9 +681,9 @@ TEXT_TOOLTIP_LAC_PD,Point-Defense: 1 / 0.45s / 1.5km
 TEXT_TOOLTIP_LAC_SHIELD,Shields: 450 / [9/R] (Corvette)
 TEXT_TOOLTIP_LAC_WEAP1,5x Medium Dual Rapid Laser Cannons: 6 / 5.0s / 3.5km
 TEXT_TOOLTIP_LICTOR,The Lictor-Class were specialized prison ships built by Rendili StarDrive and reminiscent of older Mandalorian designs, to the point of sometimes being called "Mandalorian Dungeon Ships." They were introduced at the end of the Clone Wars to aid in the Great Jedi Purge by providing a secure way to transport captured Jedi and other force sensitives. When not in use as prisoner transports, they could fulfill other support roles in a fleet, but were rarely used as such due to the intentional limitations placed on their nav-computer.
-TEXT_TOOLTIP_LICTOR_HULL,Hull: 4200 (Heavy Frigate)
+TEXT_TOOLTIP_LICTOR_HULL,Hull: 4550 (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_MOVE,Speed: 3.85 | Accel: 0.5 | Turn: 0.4
-TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [36.5/R] (Heavy Frigate)
+TEXT_TOOLTIP_LICTOR_SHIELD,Shields: 3900 / [29.25/R] (Heavy Frigate)
 TEXT_TOOLTIP_LICTOR_SQUADRON,Fighters: 1 / 3 
 TEXT_TOOLTIP_LICTOR_TENDER,Fleet Tender: 100 / 1.0s / 2.6km
 TEXT_TOOLTIP_LICTOR_WEAP1,10x Light Quad Turbolasers: 2 / 2.5s / 2.6km
@@ -875,11 +875,13 @@ TEXT_TOOLTIP_SP9,---TODO: TEXT_TOOLTIP_SP9---
 TEXT_TOOLTIP_STAR_DESTROYER_STEALTH,The Imperial Stealth Destroyer was a rare modification of the standard ISD, adapted for unconventional warfare and covert strike operations. Outfitted with a prototype Hybridium stealth drive, the vessel could mask its emissions and reduce sensor visibility for limited durations, allowing it to reposition undetected and execute sudden, high intensity attacks. Retaining the full armament and intimidation factor of a standard Imperial Star Destroyer, this variant was uniquely suited for hit and run tactics. Though highly effective in ambush operations and rapid strikes against vulnerable targets, the complexity and cost of the stealth systems limited widespread adoption, leaving only a handful of such modified destroyers in service.
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_ION,A variant more focused on taking down shields than crushing hulls, this star destroyer utilizes octuple ion cannons over octuple turbolasers. Despite losing a good amount of lethal firepower, it still is a great danger to encounter on the battlefield.
 TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces its rear turbolasers with more powerful batteries found on the Imperial-II. Due to its more expensive armament it is mostly used by higher ranking officers.
+TEXT_TOOLTIP_STAR_DESTROYER_X_HULL,Hull: 8194 (Capital)
+TEXT_TOOLTIP_STAR_DESTROYER_X_SHIELD,Shields: 7850 / [39.25/R] (Capital)
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
 TEXT_TOOLTIP_STARWING_FIGHTER,An alternate loadout of the XG-1 StarWing equipped with proton torpedoes and anti-fighter concussion missiles. This configuration is well suited to engage nearly any target.
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA,A rare variant of the Loronar Strike Cruiser developed and deployed by the Kaarenth Dissension. Taking advantage of the vessel's modular nature, the Dissension engineers managed to fit it with powerful ion cannons for disabling capital ships in addition to a more conventional combat loadout. While this configuration has weaker protection than comparable versions, its ability to strip the shields of enemy ships in short order more than makes up for it.
-TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_SHIELD,Shields: 1200 / [18.5/S] (Frigate)
-TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 2 / 3.33s / 8.4km
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_SHIELD,Shields: 1200 / [21/R] (Frigate)
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 2 / 3.33s / 8.1km
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP2,2x Medium Ion Cannons: 2 / 2.0s / 6.1km
 TEXT_TOOLTIP_T11,T-11 was an JV-Z1/S DataBank Droid, the Republic counterpart to the Separatist's Tactical Droid line. Following the end of the Clone Wars, T-11 was reassigned to command a garbage scowl and became the subject of a failed reprogramming. T-11's programming started to behave in a manner similar to organics afflicted with psychosis, flashing between his older personality and a slough of new ones.  
 TEXT_TOOLTIP_T11_SQAUDRON, 0.5 / 0 GAT-12Z Skipray Blastboats
@@ -928,8 +930,8 @@ TEXT_TOOLTIP_TRIUMPH_HERO_WEAP1,4x Heavy Dual Turbolasers: 2 / 4.0s / 7.3km
 TEXT_TOOLTIP_TRIUMPH_HERO_WEAP2,4x Medium Quad Turbolasers: 2 / 4.0s / 6.3km
 TEXT_TOOLTIP_TRIUMPH_HERO_WEAP3,6x Medium Dual Turbolasers: 2 / 2.0s / 6.3km
 TEXT_TOOLTIP_TRIUMPH_HERO_WEAP4,7x Assault Concussion Missiles: 5 / 12.5s / 7.3km
-TEXT_TOOLTIP_TRIUMPH_HULL,Hull: 8500 (Capital)
-TEXT_TOOLTIP_TRIUMPH_SHIELD,Shields: 7000 / [45/R] (Capital)
+TEXT_TOOLTIP_TRIUMPH_HULL,Hull: 8580 (Capital)
+TEXT_TOOLTIP_TRIUMPH_SHIELD,Shields: 7000 / [35/R] (Capital)
 TEXT_TOOLTIP_TRIUMPH_WEAP1,5x Heavy Dual Turbolasers: 2 / 5.0s / 7.3km
 TEXT_TOOLTIP_TRIUMPH_WEAP2,4x Medium Dual Turbolasers: 2 / 2.0s / 6.3km
 TEXT_TOOLTIP_TRIUMPH_WEAP3,4x Light Dual Turbolasers: 2 / 1.0s / 5.3km
@@ -959,15 +961,15 @@ TEXT_TOOLTIP_VENATOR_8X_WEAP3,2x Light Dual Turbolasers: 2 / 5.0s / 5.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP4,2x Heavy Dual Ion Cannons: 1 / 5.0s / 6.2km
 TEXT_TOOLTIP_VENATOR_8X_WEAP5,2x Proton Torpedoes: 2 / 20.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_CARRIER,A refitted star destroyer for system patrol and anti-piracy duties in remote sectors using the common Victory II-Class hull as a base. With much of the onboard cargo capacity converted to housing fighter craft and support systems, the operational range is lower than usual for patrol ships, so they mostly guard Imperial outposts and transit hubs. While the firepower is scaled back to accommodate the increased power usage of the command and control systems, this variant can still defend itself well from attackers in a lower weight class while supporting allied forces with its complement.
-TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER,Shields: 3000 / [40/R] (Heavy Frigate)
+TEXT_TOOLTIP_VICTORY2_SHIELD_CARRIER,Shields: 3000 / [38/R] (Heavy Frigate)
 TEXT_TOOLTIP_VICTORY2_SQUADRON_CARRIER,Fighters: 2 / 4 | Bombers: 1 / 2
 TEXT_TOOLTIP_VICTORY2_WEAP1_CARRIER,4x Light Dual Turbolasers: 2 / 2.0s / 5.2km
 TEXT_TOOLTIP_VICTORY2_WEAP2_CARRIER,4x Light Ion Cannons: 2 / 1.0s / 5.2km
-TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
+TEXT_TOOLTIP_VICTORY2_WEAP3_CARRIER,2x Light Quad Laser Cannons: 2 / 0.5s / 3.7km
 TEXT_TOOLTIP_VINDICATOR_CARRIER,A modified variant of the common Vindicator hull that boasts heavier weaponry while at the same time carrying a larger fighter complement. While potent, the vessels sacrificed a lot of their utility and anti-fighter defense capabilities in the process.
 TEXT_TOOLTIP_VINDICATOR_CARRIER_HULL,Hull: 1944 (Frigate)
 TEXT_TOOLTIP_VINDICATOR_CARRIER_MOVE,Speed: 3.5 | Accel: 0.125 | Turn: 0.35
-TEXT_TOOLTIP_VINDICATOR_CARRIER_SHIELD,Shields: 1890 / [27.9/R] (Heavy Frigate)
+TEXT_TOOLTIP_VINDICATOR_CARRIER_SHIELD,Shields: 1900 / [28/R] (Heavy Frigate)
 TEXT_TOOLTIP_VINDICATOR_CARRIER_SQUADRON,Fighters: 1 / 2 | Bombers: 1 / 2
 TEXT_TOOLTIP_YARNAR,A TIE Fighter pilot stationed on Celanon in the D'Asta Sector during the later phases of Galactic Civil War.
 TEXT_TOOLTIP_YEORG_CAPTISON,Yeorg Captison was a member of the notable Bakuran Captison family of politicians and was married to Tiree Captison. Yeorg was elected to the Bakuran Senate as Prime Minister around four years before the beginning of the Clone Wars. After the Empire took control over Bakura they allowed him to remain as Prime Minister, though the post held little authority, as it was now subservient to the Imperial governor, Wilek Nereus.
