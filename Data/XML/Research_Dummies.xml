@@ -1307,7 +1307,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_KLUCREHULK_RESEARCH</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TECHUPGRADE </Encyclopedia_Unit_Class>
 
-		<Icon_Name>I_BUTTON_SOROSUUB.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_LUCREHULK_AUXILIARY_UPGRADE.tga</Icon_Name>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
