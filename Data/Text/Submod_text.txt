@@ -120,7 +120,7 @@ TEXT_NTB_630_SQUADRON_HALF,NTB-630 Squadron 1/2
 TEXT_NTB_630_SQUADRON2,NTB-630 Squadron x2
 TEXT_PROTEUS_DESCRIPTION_GRUNGER,One of the original twelve Grand Admirals, Grunger wasted no time consolidating his powerbase and making a play for control of the Imperial Remnant once he learned of Palpatine's death. Aggressive and capable, he was one of the main contenders for the Imperial Throne, and his growing strength worried the Central Committee of Grand Moffs and other Imperial warlords.
 TEXT_PROTEUS_DESCRIPTION_PRAJI,After conquering his ancient family home world of Kaikielius, Nahdonnis Praji met with the reborn Emperor Palpatine in person for the first time, and upon experiencing the Emperor's apparent madness first hand, decided to retire to governorship of the planet. This saved him from the immolation of the Dark Empire shortly thereafter, but left him and his new fiefdom isolated as a resurgent New Republic and vengeful Imperial warlords all laid claim to the core and deep core regions.
-TEXT_PROTEUS_DESCRIPTION_THORN,---TODO: TEXT_PROTEUS_DESCRIPTION_THORN for Nova?---
+TEXT_PROTEUS_DESCRIPTION_THORN,A secretive dark jedi who pledged his allegiance to the Emperor while serving his own agenda, Daymon Thorn, also known as the Wardog of the Empire, has returned from his sujourn at the news of the Emperor's death. With a small army of followers and the power of a set of ancient crystals at his disposal, he seeks to claim the Imperial Throne for himself, and himself alone.
 TEXT_PROTEUS_ROSTER_LAMBDA,Moff Lankin's forces are versatile and unspecialized, with a significant ISB contingent among their ranks to help keep the restive population in line. In space, a roster of efficient vessels can react to any situation and provide support to the massive battlecruisers that serve as anchors of the fleet. On the ground, their armies are adaptable, with a noticeable focus on mechanized assaults.
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON,Republic Z-95 Squadron
 TEXT_REPUBLIC_HEADHUNTER_SQUADRON_DOUBLE,Republic Z-95 Squadron x2
@@ -317,9 +317,9 @@ TEXT_STATBLOCK_TIE_AVENGER_WEAP5,1x Proton Rocket (AC): 1 / 50.0s / 3.0km
 TEXT_STATBLOCK_TIE_AVENGER_WEAP6,1x Light Concussion Bomb (AC): 1 / 37.5s / 0.8km
 TEXT_STATBLOCK_TIE_BOMBER_THETA_BASE,Health: 225 | Unshielded
 TEXT_STATBLOCK_TIE_DEFENDER_RED_STAR_MOVE,Speed: 8.66 | Maneuverability: 5.5
-TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON,12x Special Missions TIE Fighter
-TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE,24x Special Missions TIE Fighter
-TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_HALF,6x Special Missions TIE Fighter
+TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON,12x Special Mission Refit TIE Fighter
+TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_DOUBLE,24x Special Mission Refit TIE Fighter
+TEXT_STATBLOCK_TIE_FIGHTER_BF2_SQUADRON_HALF,6x Special Mission Refit TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_BF2_WEAP2,1x Fighter Proton Torpedo: 1 / 60.0s / 1.8km
 TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_SQUADRON,Squadron: 12x Missile Refit TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_MISSILE_SQUADRON_DOUBLE,Squadron: 24x Missile Refit TIE Fighter
@@ -336,9 +336,9 @@ TEXT_STATBLOCK_TIE_GT_WEAP3,1x Heavy Fighter Proton Torpedo: 1 / 50.0s / 1.4km
 TEXT_STATBLOCK_TIE_GT_WEAP4,1x Proton Rocket (AC): 1 / 37.5s / 3.0km
 TEXT_STATBLOCK_TIE_GT_WEAP5,1x Concussion Bomb (AC): 1 / 37.5s / 0.8km
 TEXT_STATBLOCK_TIE_INTERCEPTOR_AS_MOVE,Speed: 7.5 | Maneuverability: 4.5
-TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON,Squadron: 12x Special Missions TIE Interceptor
-TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_DOUBLE,Squadron: 24x Special Missions TIE Interceptor
-TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_HALF,Squadron: 6x Special Missions TIE Interceptor
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON,Squadron: 12x Special Mission Refit TIE Interceptor
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_DOUBLE,Squadron: 24x Special Mission Refit TIE Interceptor
+TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_SQUADRON_HALF,Squadron: 6x Special Mission Refit TIE Interceptor
 TEXT_STATBLOCK_TIE_INTERCEPTOR_BF2_WEAP2,1x Fighter Proton Torpedo: 1 / 50.0s / 1.8km
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON,Squadron: 12x Ion Refit TIE Interceptor
 TEXT_STATBLOCK_TIE_INTERCEPTOR_ION_SQUADRON_DOUBLE,Squadron: 24x Ion Refit TIE Interceptor
@@ -383,10 +383,10 @@ TEXT_TIE_AVENGER_BOMBER_SQUADRON2,TIE Avenger Bomber Squadron x2
 TEXT_TIE_AVENGER_TORPS_SQUADRON,Torpedo TIE Avenger Squadron
 TEXT_TIE_AVENGER_TORPS_SQUADRON_HALF,Torpedo TIE Avenger Squadron 1/2
 TEXT_TIE_AVENGER_TORPS_SQUADRON2,Torpedo TIE Avenger Squadron x2
-TEXT_TIE_FIGHTER_BF2_SQUADRON,Special Missions TIE Fighter Squadron
-TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF,Special Missions TIE Fighter Squadron 1/2
-TEXT_TIE_FIGHTER_BF2_SQUADRON_THIRD,Special Missions TIE Fighter Squadron 1/3
-TEXT_TIE_FIGHTER_BF2_SQUADRON2,Special Missions TIE Fighter Squadron x2
+TEXT_TIE_FIGHTER_BF2_SQUADRON,Special Mission Refit TIE Fighter Squadron
+TEXT_TIE_FIGHTER_BF2_SQUADRON_HALF,Special Mission Refit TIE Fighter Squadron 1/2
+TEXT_TIE_FIGHTER_BF2_SQUADRON_THIRD,Special Mission Refit TIE Fighter Squadron 1/3
+TEXT_TIE_FIGHTER_BF2_SQUADRON2,Special Mission Refit TIE Fighter Squadron x2
 TEXT_TIE_FIGHTER_MISSILE_SQUADRON,Missile TIE Fighter Squadron
 TEXT_TIE_FIGHTER_MISSILE_SQUADRON_HALF,Missile TIE Fighter Squadron 1/2
 TEXT_TIE_FIGHTER_MISSILE_SQUADRON2,Missile TIE Fighter Squadron x2
@@ -396,9 +396,9 @@ TEXT_TIE_GT_BOMBER_SQUADRON2,TIE/gt Bomber Squadron x2
 TEXT_TIE_GT_TORPS_SQUADRON,Torpedo TIE/gt Squadron
 TEXT_TIE_GT_TORPS_SQUADRON_HALF,Torpedo TIE/gt Squadron 1/2
 TEXT_TIE_GT_TORPS_SQUADRON2,Torpedo TIE/gt Squadron x2
-TEXT_TIE_INTERCEPTOR_BF2_SQUADRON,Special Missions TIE Interceptor Squadron
-TEXT_TIE_INTERCEPTOR_BF2_SQUADRON_HALF,Special Missions TIE Interceptor Squadron 1/2
-TEXT_TIE_INTERCEPTOR_BF2_SQUADRON2,Special Missions TIE Interceptor Squadron x2
+TEXT_TIE_INTERCEPTOR_BF2_SQUADRON,Special Mission Refit TIE Interceptor Squadron
+TEXT_TIE_INTERCEPTOR_BF2_SQUADRON_HALF,Special Mission Refit TIE Interceptor Squadron 1/2
+TEXT_TIE_INTERCEPTOR_BF2_SQUADRON2,Special Mission Refit TIE Interceptor Squadron x2
 TEXT_TIE_INTERCEPTOR_ION_SQUADRON,Ion Refit TIE Interceptor Squadron
 TEXT_TIE_INTERCEPTOR_ION_SQUADRON_HALF,Ion Refit TIE Interceptor Squadron 1/2
 TEXT_TIE_INTERCEPTOR_ION_SQUADRON2,Ion Refit TIE Interceptor Squadron x2
@@ -489,7 +489,7 @@ TEXT_TOOLTIP_BELBULLAB22,Fighter created by the Techno Union in preparation for 
 TEXT_TOOLTIP_BELBULLAB23,Variant Belbullab design that acts as a heavy assault craft. Armed with heavier weaponry, it is well suited to engage Republic fighters such as the ARC-170, but is more rarely sighted compared to the more standard fighter and bomber Belbullab starfighters.
 TEXT_TOOLTIP_BELBULLAB24,Derivative of the Belbullab design spun into an average-performance bomber. Used as a more individually powerful asset compared to swarms of lighter droid bombers, and remained more popular with holdouts and small cells afterwards due to the pilotable nature. At least one instance was taken by Imperial forces for study.
 TEXT_TOOLTIP_BENJO,Benjo, also known as ST-1-2 is one of the original members of Alpha Squadron. Benjo previously flew under the command of Villian Dance as his right panelman and second-in-command. Dance later defected to the Rebel Alliance, at which time Benjo unofficially took command of Alpha Squadron due to his rank. Despite the betrayal of his previous squadron leader, Benjo kept his call sign and still admires Dance for their piloting skill witnessed during their mission in the Horuz system.
-TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings, ARC-170s and NTB-630s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Defender models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
+TEXT_TOOLTIP_BRAK_FIGHTERS_RESEARCH,Upgrade the aging fighters of the Brak Sector Fleet with newer, more powerful models procured from Sienar despite ongoing difficulties. Phases out Cloakshape, Warpod, TIE/ln and TIE/gt fighters, pushes V-Wings and ARC-170s into support roles, and adds various TIE Interceptor, TIE Advanced and TIE Avenger models to serve as top-end models. Due to the situation in the galaxy, this process will be expensive and time consuming, but Admiral Trier assures us that it will be worth it.
 TEXT_TOOLTIP_BRELLAR,Alecs Brellar served as captain of the Onslaught. He was sent to Bakura to bring the system under Imperial control, and later presented Wilek Nereus with the official badges of office as Bakura's governor, amid anti-Imperial protests.
 TEXT_TOOLTIP_BTLA2_Y_WING,Early model of Y-wing tuned more towards a multirole fighter than assault bomber role. Reduced shield strength provides an increase in engine power and the weapon loadout is optimized for both its combat role and control by a single pilot. This variant lacks even the fixed-forward ions that later attempts at the concept will include.
 TEXT_TOOLTIP_BUILDLIMIT_A6,Build Limit: 2 | Total: ∞
@@ -512,7 +512,7 @@ TEXT_TOOLTIP_CAPITAL_TF6,Raider-I Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF7,Raider-II Corvette: 4 / 0
 TEXT_TOOLTIP_CAPITAL_TF8,Procursator Star Destroyer: 2 / 0
 TEXT_TOOLTIP_CAPITAL_TF9,Victory-II Star Destroyer: 2 / 0
-TEXT_TOOLTIP_CARRACK_ZETA,---TODO: TEXT_TOOLTIP_CARRACK_ZETA for Colonel---
+TEXT_TOOLTIP_CARRACK_ZETA,A variant of the common Carrack-Class Frigate utilized by the Kaarenth Dissension. It features an advanced Ion cannon in addition to its stock turbolaser armament and is an excellent raiding and ambush vessel.
 TEXT_TOOLTIP_CARRACK_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 1 / 5.0s / 8.4km
 TEXT_TOOLTIP_CEX,A Srrors'tok male who lived as a merchant with his family on Sellasas during the Galactic Civil War. His family was killed shortly after the Battle of Yavin, when the Rebel Alliance initiated a brutal siege of the planet's Imperial garrison, igniting a deep hatred for the Rebellion in him. Cex' life was saved by Amara Jedselk, daughter of the Imperial Governor of Sellasas, and he swore a life debt to her in return. Following the end of the siege, Tyionsis Cex became a bounty hunter under the patronage of Governor Jedselk, intent on repaying his debt to his new family.
 TEXT_TOOLTIP_CLASS_C,An unremarkable military escort vessel produced prior to the Clone Wars, carrying design lineages of both blocky escorts and sleeker triangular warships that would make up the Kuati product line in the decades to come. Predecessor to the Pelta and Nebulon series of vessels, it fills a similar tactical purpose to both as a multirole escort effective against a variety of target types.
@@ -591,7 +591,7 @@ TEXT_TOOLTIP_DIAMOND_WEAP2,4x Medium Rapid Laser Cannons: 6 / 1.67s / 3.6km
 TEXT_TOOLTIP_DOMINA_TAGGE,The youngest child of Sanya Tagge, Domina was sent away by her oldest brother Orman at a young age to shield her from galactic politics, but during the Galactic Civil War she was nonetheless drawn into TaggeCo's machinations, eventually seeking revenge on both Darth Vader and Luke Skywalker after the death of Orman and Silas Tagge. Following the Battle of Endor, Domina took the title of Baroness Tagge and largely retreated from galactic affairs, vanishing at an unspecified later date under mysterious circumstances.
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADE,Upgrade: Dreadnaught Carrier
 TEXT_TOOLTIP_DREADNAUGHT_CARRIER_UPGRADEABLE,Refits a PDF Dreadnaught with respectable hangars while still maintaining armament near the stock levels.
-TEXT_TOOLTIP_DREADNAUGHT_I,One of the many conversions of the ubiquitous Dreadnaught-Class hull to adapt it for a specialized purpose once it was no longer a prime frontline combatant. This version rearranges most of the interior space to fit a single gravity field generator into the hull, safely tucked away behind heavier armor plating than most other interdictors of the time. The huge power draw of the gravity field generator however requires the main armament and shield coverage to be scaled down, though the vessel is still capable of fending off smaller frigates and gunships that try to knock out its interdiction field.
+TEXT_TOOLTIP_DREADNAUGHT_I,One of the many conversions of the ubiquitous Dreadnaught-Class hull to adapt it for a specialized purpose once it was no longer a prime frontline combatant. This version rearranges most of the interior space to fit a single gravity field generator into the hull, safely tucked away behind heavier armor plating than most other interdictors of the time. The huge power draw of the gravity field generator however requires the main armament and shield coverage to be scaled down, though the vessel is still capable of fending off smaller corvettes and gunships that try to knock out its interdiction field.
 TEXT_TOOLTIP_DREADNAUGHT_I_HULL,Hull: 2150 (Heavy Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_I_SHIELD,Shields: 1875 / [36/R] (Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_I_SQUADRON,Fighters: 0.5 / 0.5
@@ -672,7 +672,6 @@ TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegall
 TEXT_TOOLTIP_KSM_RESEARCH,---TODO: TEXT_TOOLTIP_KSM_RESEARCH for Colonel---
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
 TEXT_TOOLTIP_KZETA_RESEARCH,TEXT_UNIT_KZETA_RESEARCH,Completing this research unlocks the Zeta Strike Cruiser, Corona Frigate, Imperial-II Star Destroyer II Ion Refit, Aggressor Star Destroyer, Tracked Shield Disabler Company and AT-AT Walker Ion Refit. Retires the Strike Cruiser.
-TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL,A modified variant of the common LAAT/i specifically designed for special operations and ISB enforcement actions, using the obscure LAAT/s from the Clone Wars as a proof-of-concept. Features a black paintjob for intimidation and an enhanced EW suite, but otherwise has the same capabilities as the stock version. It also inherits the maintenance requirements of the base model, leading to it being largely confined to special forces use, with the IDT and MAAT being far more common in frontline military service.
 TEXT_TOOLTIP_LAAT_IMPERIAL_COMPANY,Company: 1x Imperial Spec Ops Gunship
 TEXT_TOOLTIP_LAC,A semi-standard version of a modified CEC Consular-class cruiser that has long been popular with Republic Judicial Forces, serving in the Stark Hyperspace War and the Yinchorri Uprising. This specific configuration is excellent for anti-starfighter escort duty while other corvette models are more suited to missile loadouts or attacking larger ships.
@@ -875,10 +874,10 @@ TEXT_TOOLTIP_SKIPRAYZ,---TODO: TEXT_TOOLTIP_SKIPRAYZ for Colonel---
 TEXT_TOOLTIP_SP9,---TODO: TEXT_TOOLTIP_SP9---
 TEXT_TOOLTIP_STAR_DESTROYER_STEALTH,The Imperial Stealth Destroyer was a rare modification of the standard ISD, adapted for unconventional warfare and covert strike operations. Outfitted with a prototype Hybridium stealth drive, the vessel could mask its emissions and reduce sensor visibility for limited durations, allowing it to reposition undetected and execute sudden, high intensity attacks. Retaining the full armament and intimidation factor of a standard Imperial Star Destroyer, this variant was uniquely suited for hit and run tactics. Though highly effective in ambush operations and rapid strikes against vulnerable targets, the complexity and cost of the stealth systems limited widespread adoption, leaving only a handful of such modified destroyers in service.
 TEXT_TOOLTIP_STAR_DESTROYER_TWO_ION,A variant more focused on taking down shields than crushing hulls, this star destroyer utilizes octuple ion cannons over octuple turbolasers. Despite losing a good amount of lethal firepower, it still is a great danger to encounter on the battlefield.
-TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces it's rear turbolasers with more powerful batteries. Due to it's more expensive armament it is mostly used by higher ranking officers.
+TEXT_TOOLTIP_STAR_DESTROYER_X,A variant of the venerable Imperial-I Star Destroyer that replaces its rear turbolasers with more powerful batteries found on the Imperial-II. Due to its more expensive armament it is mostly used by higher ranking officers.
 TEXT_TOOLTIP_STARWING_ASSAULT,An alternate loadout of the XG-1 StarWing equipped with assault concussion missiles. This configuration is well suited to engage clustered groups of enemy fighters or assist bombers in actions against frigates and capital ships.
 TEXT_TOOLTIP_STARWING_FIGHTER,An alternate loadout of the XG-1 StarWing equipped with proton torpedoes and anti-fighter concussion missiles. This configuration is well suited to engage nearly any target.
-TEXT_TOOLTIP_STRIKE_CRUISER_ZETA,A modification of the Strike Cruiser which sacrifices its missile launcher and much of its shields for an increased amount of ion cannons.
+TEXT_TOOLTIP_STRIKE_CRUISER_ZETA,A rare variant of the Loronar Strike Cruiser developed and deployed by the Kaarenth Dissension. Taking advantage of the vessel's modular nature, the Dissension engineers managed to fit it with powerful ion cannons for disabling capital ships in addition to a more conventional combat loadout. While this configuration has weaker protection than comparable versions, its ability to strip the shields of enemy ships in short order more than makes up for it.
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_SHIELD,Shields: 1200 / [18.5/S] (Frigate)
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP1,1x Ultraheavy Ion Cannon: 2 / 3.33s / 8.4km
 TEXT_TOOLTIP_STRIKE_CRUISER_ZETA_WEAP2,2x Medium Ion Cannons: 2 / 2.0s / 6.1km
@@ -902,11 +901,11 @@ TEXT_TOOLTIP_TIE_AVENGER_ASSAULT,An alternate loadout of the TIE Avenger equippe
 TEXT_TOOLTIP_TIE_AVENGER_BOMBER,TIE Avenger model outfitted with as many rockets and liyyght bombs as possible for bomber duties without sacrificing the Avenger's impressive speed and manuverability. While not directly as effective as other bombers its impressive speed gives it a unique ability to excel in hit-and-run attacks on enemy capital ships.
 TEXT_TOOLTIP_TIE_AVENGER_TORPS,An alternate loadout of the TIE Avenger equipped with proton torpedoes instead of concussion missiles. Still well suited for all situations.
 TEXT_TOOLTIP_TIE_DEFENDER_RED_STAR,Created a year after the disaster at Endor, Red Star Squadron was formed by starfighter ace Iran Ryad along with like-minded pilots who shared Ryad's idea of a zero-tolerance border policy. These Imperial pilots would relentlessly pursue any starships that entered Imperial space without permission.
-TEXT_TOOLTIP_TIE_FIGHTER_BF2,A rare ad-hoc modification of the ubiquitous TIE Fighter, almost always operating from the equally rare Imperial Carrier Conversion Star Destroyers. It featured shields and a small proton torpedo magazine to keep up with the heavier X-Wings of the Rebellion and be a more versatile platform in carrier-to-carrier combat and anti-insurgency missions. However, despite upgraded components and the engineers' best tuning efforts, the additional systems impacted the flight performance significantly, making the normally nimble craft much more sluggish. The increased cost, reduced agility, and susceptibility to component sabotage made this variant a rare sight outside its original duties.
+TEXT_TOOLTIP_TIE_FIGHTER_BF2,A rare ad-hoc modification of the ubiquitous TIE Fighter, almost always operating from the equally rare Imperial Carrier Conversion Star Destroyers. It featured shields and a small proton torpedo magazine to keep up with the heavier X-Wings of the Rebellion and be a more versatile platform in carrier-to-carrier combat and anti-insurgency missions. However, despite upgraded components and the engineers' best tuning efforts, the additional systems impacted the flight performance significantly, making the normally nimble craft much more sluggish. The increased cost, reduced agility, and susceptibility to component sabotage made this variant a rare sight outside its original duties. Most famous for its service with naval forces attached to the 501st Legion.
 TEXT_TOOLTIP_TIE_FIGHTER_MISSILE,A modern iteration of a Clone Wars-era modification of earlier T.I.E. models. Due to its thinner frame, the TIE/ln can only carry a few missiles on external hardpoints, limiting the effectiveness of the upgrade but providing a modest improvement without affecting performance in other categories like a more extensive refit would. Originally rare sight, this configuration has become more common after the Battle of Endor; with Warlords scrambling to get the most out of their aging TIE fleets.
 TEXT_TOOLTIP_TIE_GT_BOMBER,An original Sienar bomber in the early days of the New Order. Its small payload made it unpopular, leading to its quick replacement by the TIE Bomber. Though uncommon, the original bomber configuration of the TIE/gt would still see service in parts of the Imperial Navy that didn't have easy access to the TIE Bomber, especially among Imperial Warlords in the Outer Rim.
 TEXT_TOOLTIP_TIE_GT_TORPS,An alternate loadout of the TIE/gt equipped with heavy proton torpedoes for higher single-target effectiveness than assault concussion missiles. Best used to assist bombers in actions against enemy capital ships.
-TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2,A rare modification of the TIE Interceptor made to complement the equally rare Advanced TIE/Ln. Based on a modification of the TIE X3, this version of the TIE Interceptor carried added missiles, shields and an engine boost capability at the cost of the vessel's base speed. Best used to engage enemy fighters and bombers.
+TEXT_TOOLTIP_TIE_INTERCEPTOR_BF2,A rare modification of the TIE Interceptor made to complement the equally rare Special Mission Refit TIE/Ln. Based on a modification of the TIE X3, this version of the TIE Interceptor carried added missiles, shields and an engine boost capability at the cost of the vessel's base speed. Very good at engaging enemy fighters and bombers, but vulnerable to sabotage. Most famous for its service with naval forces attached to the 501st Legion.
 TEXT_TOOLTIP_TIE_INTERCEPTOR_ION,A somewhat obscure modification of the TIE Interceptor, replacing the nose-mounted secondary lasers with fighter-grade ion cannons and upgrading the frame's power systems to compensate for the increased power draw. The end result is better at tackling shielded fighters and larger targets but otherwise retains the performance of the stock configuration. While undeniably an upgrade over the base model, the increased cost and maintenance load makes it a rare sight.
 TEXT_TOOLTIP_TIE_LIGHT_BOMBER,A post-Endor modification of the common TIE/sa with a tongue-in-cheek name. Originally an improvisation by garrisons and task forces with stressed or threatened supply lines; the flight mechanics removed the secondary launchers and support systems and reduced the primary payload to reduce mass and complexity, as well as tuning the power systems for speed. While less versatile or threatening as the base model, these stripped variants proved much easier to maintain and boasted a higher mission survival rate in certain scenarios due to their improved flight performance.
 TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC_SCHMONG,Agent Spec 02 (-20% price and time on all SoroSuub and Zeta Project products),  
@@ -922,7 +921,7 @@ TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP4,Thermal Grenades: 1 / 15.0s / 200m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP5,3x Oppressor Flamethrowers: 10 / 5.0s / 275m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP6,3x Concussion Rifles: 3 / 3.0s / 300m
 TEXT_TOOLTIP_TRANDOSHAN_HUNTER_WEAP7,1x Underslung Concussion Grenade Launcher: 1 / 3.0s / 300m
-TEXT_TOOLTIP_TRIUMPH,An uncommon variant of older Imperial and Tector-class vessels by Rendili StarDrive. Sometimes identified as being an Imperial-class variant, the Triumph's loadout and appearance is based on its Victory-class forebearers.
+TEXT_TOOLTIP_TRIUMPH,A rare capital ship that is technically part of the Imperial Star Destroyer lineage, with an obscure design and deployment history. It features elements of both Tector- and Victory-class hulls and reuses many of the weapons used in various Victory Star Destroyer loadouts, leading to rumors that these ships were assembled in Rendili yards from surplus Tector and Victory modules and components. Regardless of their true origin, their armament makes this class of Star Destroyer a dangerous frontline combatant, able to engage targets of any size at any range, but the lack of point defense cannons and an on-board starfighter complement makes them exceedingly vulnerable to small craft.
 TEXT_TOOLTIP_TRIUMPH_HERO_HULL,Hull: 8250 (Capital)
 TEXT_TOOLTIP_TRIUMPH_HERO_SHIELD,Shields: 8250 / [41.25/R] (Capital)
 TEXT_TOOLTIP_TRIUMPH_HERO_WEAP1,4x Heavy Dual Turbolasers: 2 / 4.0s / 7.3km
@@ -1148,11 +1147,11 @@ TEXT_UNIT_TIE_AVENGER_TORPS,Torpedo TIE Avenger
 TEXT_UNIT_TIE_BOMBER_THETA,TIE Bomber, Theta Squadron
 TEXT_UNIT_TIE_DEFENDER_RED_STAR,Modified TIE Defender, Red Star Squadron
 TEXT_UNIT_TIE_FIGHTER_ALPHA,TIE Fighter, Alpha Squadron
-TEXT_UNIT_TIE_FIGHTER_BF2,Special Missions TIE Fighter
+TEXT_UNIT_TIE_FIGHTER_BF2,Special Mission Refit TIE Fighter
 TEXT_UNIT_TIE_FIGHTER_MISSILE,Missile Refit TIE Fighter
 TEXT_UNIT_TIE_GT_BOMBER,TIE/gt Bomber
 TEXT_UNIT_TIE_GT_TORPS,Torpedo TIE/gt Starfighter
-TEXT_UNIT_TIE_INTERCEPTOR_BF2,Special Missions TIE Interceptor
+TEXT_UNIT_TIE_INTERCEPTOR_BF2,Special Mission Refit TIE Interceptor
 TEXT_UNIT_TIE_INTERCEPTOR_ION,Ion Refit TIE Interceptor
 TEXT_UNIT_TIE_LIGHT_BOMBER,Tie Light Bomber
 TEXT_UNIT_TRANDOSHAN_ALPHA,Trandoshan Alpha
