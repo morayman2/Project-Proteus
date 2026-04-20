@@ -718,8 +718,8 @@ return {
 			HeroList = {"Krieg_Immobilizer", "Syn_Silooth", "Darcc_Team", "Pekt_Team", "Merili_Team", "Gurnst_Team"},
 			UnlockList = {
 				-- Space
-				"YE_4_Group", "YZ_775_Freighter_Group", "Imperial_CR90", "Ipv1_Gunboat_Proteus", "Proteus_Kaloth", "Interceptor_I_Frigate", "Interceptor_IV_Frigate", "Tartan_Patrol_Cruiser", "CEC_Light_Cruiser", "Starbolt", "Victory_I_Frigate", "CC7700",
-				"Acclamator_Patrol_Refit", "Acclamator_II", "Pursuit_Light_Cruiser", "Imperial_DHC", "Super_Transport_XI_Modified_Pirate", "Lictor", "Neutron_Star", "Space_Arc_Cruiser", "Victory_I_Star_Destroyer", "Venator_Star_Destroyer",
+				"YZ_775_Freighter_Group", "Imperial_CR90", "Ipv1_Gunboat_Proteus", "Proteus_Kaloth", "Interceptor_I_Frigate", "Interceptor_IV_Frigate", "Tartan_Patrol_Cruiser", "Starbolt", "Victory_I_Frigate", "CC7700",
+				"Acclamator_Patrol_Refit", "Acclamator_II", "Pursuit_Light_Cruiser", "Super_Transport_XI_Modified_Pirate", "Lictor", "Neutron_Star", "Space_Arc_Cruiser", "Victory_I_Star_Destroyer", "Venator_Star_Destroyer",
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Tector_Star_Destroyer", "Secutor_Star_Destroyer", 
 				"Communications_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
