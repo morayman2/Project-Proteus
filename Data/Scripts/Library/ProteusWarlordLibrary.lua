@@ -446,7 +446,7 @@ return {
 			Planets = {"KORRIBAN"},
 			LeaderTable = {["KADANN_TEAM"] = {"KADANN"}},
 			LeaderEndingNames = {"the Supreme Prophet"},
-			HeroList = {"Kadann_Team","Jedgar_Team", "Argor_Team"},
+			HeroList = {"Kadann_Team","Jedgar_Team",},
 			UnlockList = {
 				-- Space
 				"Delta_JV7_Group", "Star_Galleon", "Patrol_Nebulon_B", "Action_VI_Refit", "Arquitens_Refit", 
@@ -942,10 +942,10 @@ return {
 			HeroList = {"Wessex_Redoubt", "Wessex_Dauntless"},
 			UnlockList = {
 				-- Space	
-				"Guardian_Cruiser_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Victory_II_Frigate", "Arquitens", "Strike_Cruiser",
+				"Guardian_Cruiser_Group", "Raider_I_Corvette", "Raider_II_Corvette", "Victory_II_Frigate", "Arquitens", "Eidolon",
 				"Pursuit_Light_Cruiser", "DHC_Carrier", "Proteus_Cargo_Ship", "Acclamator_I_Assault", "Acclamator_II", "Victory_I_Star_Destroyer", "Venator_Star_Destroyer",
 				"Interdictor_Star_Destroyer", "Imperial_I_Star_Destroyer", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
-				"Allegiance_Battlecruiser", "Executor_Star_Dreadnought",
+				"Allegiance_Battlecruiser", "Communications_Battlecruiser", "Executor_Star_Dreadnought",
 				-- Ground
 				"Imperial_Army_Guard_Company", "Navy_Commando_Company", "Imperial_Army_74Z_Bike_Company",
 				"Imperial_ISP_Company", "RTT_Company", "Chariot_LAV_Company", "AT_ST_Company", 
