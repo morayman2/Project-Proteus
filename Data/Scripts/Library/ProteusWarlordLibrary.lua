@@ -730,9 +730,7 @@ return {
 				-- Structures
 				"Pirate_Base",
 				-- Fighter Hero
-				"Hssissk_Location_Set",
-				-- Reserach
-				"Dummy_Research_KSpecialMissions",	
+				"Hssissk_Location_Set",	
 			},
 			FactionOverride = "Empire",
 			LastYear = 4,
@@ -1062,13 +1060,13 @@ return {
 			UnlockList = {
 				-- Space 
 				"Guardian_Cruiser_Group", "Customs_Corvette", "Raider_II_Corvette", "Lancer_Frigate", "Patrol_Nebulon_B", "Ton_Falk_Escort_Carrier", "Marauder_Picket_Cruiser",
-				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Cruiser", "Victory_II_Carrier", 
+				"DHC_Carrier", "Immobilizer_Twin_Well", "Gladiator_II", "Proteus_Cargo_Ship", "Vindicator_Carrier", "Victory_II_Carrier", 
 				"Imperial_I_Star_Destroyer_Carrier", "Imperial_II_Star_Destroyer", "Secutor_Star_Destroyer",
 				"Praetor_Carrier_Battlecruiser", "Mandator_III_Dreadnought",
 				-- Ground
 				"Navy_Commando_Company", "Imperial_Scout_Trooper_Company", "EVO_Trooper_Company", "Imperial_74Z_Bike_Company", 
 				"AT_ST_Company", "AT_DP_Company", "Chariot_LAV_Company",
-				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Walker_Company", "AT_AA_Missile_Walker_Company", "PX7_Company",
+				"Imperial_Dropship_Transport_Company", "S_1_Firehawke_Company", "SPMAT_Company", "AT_AA_Missile_Walker_Company", "PX7_Company",
 				"Imperial_AT_AT_Walker_Company", "A9_Floating_Fortress_Company",
 			},
 			LockList = {"DHC_Carrier_Upgrade"},

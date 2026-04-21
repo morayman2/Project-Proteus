@@ -667,7 +667,7 @@ TEXT_TOOLTIP_KILE_HANNAD_HEALTH,Health: 160 (Hero)
 TEXT_TOOLTIP_KILE_HANNAD_MOVE,Speed: 1.1
 TEXT_TOOLTIP_KILE_HANNAD_WEAP1,1x SE-14 Pistol: 2 / 1.5s / 220m
 TEXT_TOOLTIP_KLEMP,Klemp was an Imperial Officer of low rank, despite this he became one of the leaders of the Restored Empire by 13 ABY. He complimented Kir Kanos during his visit to RZ7-6113-23 which caused General Vota to rebuke him.
-TEXT_TOOLTIP_KLUCREHULK_RESEARCH,---TODO: TEXT_TOOLTIP_KLUCREHULK_RESEARCH for Colonel---
+TEXT_TOOLTIP_KLUCREHULK_RESEARCH,Take inspiration from the old Confederacy and uparm your Lucrehulks into formidible warships. Locks Lucrehulk Auxiliary Warship. Enables Lucrehulk Battlecarrier and Lucrehulk Battleship.
 TEXT_TOOLTIP_KPREYBIRD_PRODUCTION,Begin putting the Preybird schematics illegally acquired by Kiara Schmog into production. This upgrade will replace all previous instances of the Drexl with Preybirds and all previous instances of Z-95s with Drexls.
 TEXT_TOOLTIP_KSM_RESEARCH,---TODO: TEXT_TOOLTIP_KSM_RESEARCH for Colonel---
 TEXT_TOOLTIP_KSOROSUUB_RESEARCH,Completing this research unlocks the Dauntless Heavy Cruiser, Liberator Cruiser and Bulwark-III Battlecruiser. Retires the Gladiator-I Star Destroyer and Dauntless Transport Cruiser.
@@ -789,7 +789,7 @@ TEXT_TOOLTIP_RED_POLICE_WEAP3,1x T-21 Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_RED_POLICE_WEAP4,1x DXR-6 Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_RED_POLICE_WEAP5,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_RED_POLICE_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_REE_SHALA,---TODO: TEXT_TOOLTIP_REE_SHALA for Colonel---
+TEXT_TOOLTIP_REE_SHALA,Ree Shala worked the majority of her life as a smuggler. She began by running spice, but after many unsuccessful ventures she established an operation where she was responsible for setting up deals, while others ran the space lanes. Through her hard work she was able to create a mid-sized smuggling ring based out of the Corva sector.
 TEXT_TOOLTIP_REFORM_PRAETORIAN,Reform Praetorian Squadron
 TEXT_TOOLTIP_REPUBLIC_TIE,The first general production model in a famous line of fighters with roots in the Sienar Advanced Project Vessel. It was created to fill space aboard older warships but was pressed into greater service due to efficiency compared to more expensive Kuati interceptors. It is sturdier than its successor designs but less maneuverable.
 TEXT_TOOLTIP_REPUBLIC_Z95,A variant of the popular Z-95 Headhunter, the clone Z-95 starfighter boasted speed and maneuverability on account of its sleek design. It was equipped with recessed torpedo launchers and a pair of wingtip laser cannons, and its shielding allowed it to endure much damage, though it lacked a hyperdrive.
