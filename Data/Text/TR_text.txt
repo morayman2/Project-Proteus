@@ -3034,6 +3034,7 @@ TEXT_HERO_ISARD,Ysanne Isard
 TEXT_HERO_ISOLDER,Isolder
 TEXT_HERO_IVPIKKIS,Ivpikkis
 TEXT_HERO_JAALIB_BRANDL,Jaalib Brandl
+TEXT_HERO_JACE_YIASO,Jace Yiaso
 TEXT_HERO_JAG,Jai'galaar "Jag"
 TEXT_HERO_JAGGED_FEL,Jagged Fel
 TEXT_HERO_JAKE_FARRELL,Jake Farrell
@@ -4136,7 +4137,7 @@ TEXT_PROTEUS_DESCRIPTION_KAARENTH_DISSENSION,Radical hardliners under the author
 TEXT_PROTEUS_DESCRIPTION_KAMINO,After the termination of the Clone Army contract, Kamino served as a site for several of Darth Vader's secret projects.
 TEXT_PROTEUS_DESCRIPTION_KASHYYYK,Kashyyyk had always been oppressed under the Empire, but after Endor the governor Hindane Darcc engaged in a lightning campaign of brutality with the aid of Trandoshan slavers and Wookiee traitors to cement his rule, while the Grand Admiral Peccati Syn used the area as a retreat as he turned to mysticism. Once the Wookiees managed to get word to the New Republic, the atrocities and meditations on the Dark Side were both ended in fire.
 TEXT_PROTEUS_DESCRIPTION_KUAT,One of the crown jewels of the Empire, Kuat is the home of Kuat Drive Yards, chief supplier of the Empire's warships. It continued to be an Imperial fortress world for years after the Battle of Endor, relying on its latest designs for self-defense as the Empire collapsed around it.
-TEXT_PROTEUS_DESCRIPTION_LAMBDA,The Lambda Sector was bypassed by the New Republic's early advances as they seized control of key hyperways, leaving a substantial base for Moff Par Lankin to consolidate. He was largely ignored for a few years while he waged his low intensity war against the New Republic and competed with his neighbors.
+TEXT_PROTEUS_DESCRIPTION_LAMBDA,The strategically important Lambda Sector became the personal fiefdom of Moff Par Lankin, a capable and cunning military leader who commands great respect from subordinates and enemies alike. After the splintering of the Empire, Lankin managed to hold onto control of important worlds in the sector despite widespread unrest and incursions by the New Republic, creating a stable rump state from which to assemble his forces and size up the fortifications of his enemies. Driven by his own ambition and that of his subordinates, Lankin prepares to strike out and show the New Republic and the other warlords that they made a fatal mistake in thinking him contained.
 TEXT_PROTEUS_DESCRIPTION_LUMIYA,Shira Brie was one of Darth Vader's secret apprentices. After Endor, she declared herself the Dark Lady of the Sith Lumiya and carried out attacks and clandestine plots across the galaxy.
 TEXT_PROTEUS_DESCRIPTION_MAELSTROM,The Albarrio and Relgim sectors bordering the Maelstrom Nebula were driven to work closely by the pirate threats lurking in the starry mists.
 TEXT_PROTEUS_DESCRIPTION_NABOO,Palpatine's homeworld was viewed as a propaganda tool by some, but as home to Chommel Sector's own Moff Panaka. He remembered the slow procedure of the Republic with no fondness, the decisive reign of his former Senator with approval, and was unwilling to let his planet suffer another invasion from those he viewed as outsiders.

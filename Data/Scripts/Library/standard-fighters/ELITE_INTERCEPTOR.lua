@@ -45,7 +45,7 @@ return {
 			elseif proteus == "TIERFON" then
 				fighter = "V38_SQUADRON"
 			elseif proteus == "SELLASAS" then
-				fighter = "V38_SQUADRON"
+				fighter = "STARWING_FIGHTER_SQUADRON"
 			elseif proteus == "DASTA" then
 				fighter = "PREYBIRD_SQUADRON"
 			elseif proteus == "VOGEL" then
@@ -56,7 +56,9 @@ return {
 					fighter = "TIE_AVENGER_SQUADRON"
 				end
 			elseif proteus == "ISECTOR" then
-				fighter = "ARMORED_INTERCEPTOR_SQUADRON"
+				fighter = "TIE_X7_SQUADRON"
+			elseif proteus == "PRAJI" then
+				fighter = "TIE_X7_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_X7_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -66,29 +68,73 @@ return {
 			elseif proteus == "ZAARIN_REMNANTS" then
 				fighter = "TIE_X7_SQUADRON"
 			elseif proteus == "ELROOD" then
-				fighter = "TIE_AVENGER_SQUADRON"
+				fighter = "TIE_AVENGER_TORPS_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
-				fighter = "ARC_170_SQUADRON"
+				fighter = "DEFENSIVE_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
 				fighter = "TRIFIGHTER_SQUADRON"
 			elseif proteus == "JARDEEN" then
 				fighter = "V38_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "TIE_X7_SQUADRON"
+				fighter = "MISSILE_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "LUMIYA" then
-				fighter = "TIE_AVENGER_SQUADRON"
+				fighter = "ROYAL_GUARD_INTERCEPTOR_SQUADRON"
 			elseif proteus == "ARDA" then
-				fighter = "TIE_SENTINEL_SQUADRON"
+				fighter = "MANEUVER_ETA2_ACTIS_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "TIE_AVENGER_SQUADRON"
 			elseif proteus == "KUAT" then
-				fighter = "V38_SQUADRON"
+				fighter = "NIMBUS_V_WING_ESK_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "V38_SQUADRON"
+				fighter = "T_WING_SQUADRON"
 			elseif proteus == "TAMARIN" then
 				fighter = "T_WING_SQUADRON"
 			elseif proteus == "BAKURA" then
 				fighter = "TOSCAN_INTERCEPTOR_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "V38_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "TIE_X7_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "EAT2_ACTIS_SQUADRON"
+			elseif proteus == "RADAMA" then
+				fighter = "V38_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "MISSILE_TIE_INTERCEPTOR_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "TIE_AVENGER_SQUADRON"
+			elseif proteus == "WESSEX" then
+				fighter = "ELITE_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "SHIELDED_ARMORED_ION_INTERCEPTOR_SQUADRON"
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "TIE_X7_SQUADRON"
+			elseif proteus == "GAROS" then
+				fighter = "V38_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "V38_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "MISSILE_ETA2_ACTIS_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "TIE_X7_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "TIE_X7_SQUADRON"
+			elseif proteus == "PROTECTORATE" then
+				fighter = "TIE_AVENGER_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "TIE_X2_SQUADRON"
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "ASSAULT_ETA2_ACTIS_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "TIE_X2_SQUADRON"
+			--elseif proteus == "X1" then
+				--fighter = ""
 			end
 		end
 		

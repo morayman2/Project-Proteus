@@ -109,6 +109,12 @@ function TechHandler:new(galactic_conquest, human_player, planets)
 		nil,
 		"MON_CALAMARI"
 		)
+		
+	self.ZCoronaResearch = GenericResearch(self.galactic_conquest,
+		"KUAT_CORONA_RESEARCH",
+		"KUAT_Dummy_Research_Corona", {"Imperial_Proteus"},
+		{"Corona"},
+		{"Imperial_Nebulon_B"})
 
 	self.ZCoronaResearch = GenericResearch(self.galactic_conquest,
 		"Z_CORONA_RESEARCH",
@@ -134,13 +140,6 @@ function TechHandler:new(galactic_conquest, human_player, planets)
 		"Z_Research_MTC",
 		{"Imperial_Proteus"},
 		{"MTC_Sensor"}
-		)
-
-	self.ZGloryResearch = GenericResearch(self.galactic_conquest,
-		"Z_GLORY_RESEARCH",
-		"Z_Research_Glory",
-		{"Imperial_Proteus"},
-		{"Glory_Star_Destroyer"}
 		)
 end
 

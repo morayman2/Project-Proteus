@@ -827,10 +827,12 @@ function Get_Hero_Entries(upgrade_object)
 			}
 		},
 
-	-- Project Proteus Submission
+		-- Project Proteus
+
 		["RED_STAR_LOCATION_SET"] = {
 			Hero_Squadron = "RED_STAR_SQUADRON",
 			PopupBody = "RED_STAR_SELECTOR_BODY",
+			NoInit = true,
 			Options = {
 				{"DARIUS", Locations = {"DARIUS_SHIELD_BREAKER"}},
 				{"EXECUTOR", Locations = {"EXECUTOR_STAR_DREADNOUGHT"}},
@@ -842,6 +844,68 @@ function Get_Hero_Entries(upgrade_object)
 				{"COMEG", Locations = {"COMEG_BELLATOR"}},
 				{"X1", Locations = {"X1_EXECUTOR"}},
 				{"THORN", Locations = {"THORN_ASSERTOR"}},
+			}
+		},
+
+		["BENJO_ALPHA_LOCATION_SET"] = {
+			Hero_Squadron = "BENJO_ALPHA_SQUADRON",
+			PopupBody = "BENJO_ALPHA_SELECTOR_BODY",
+			NoInit = true,
+			Options = {
+				{"VALEK", Locations = {"VALEK_REVENANT"}},
+				{"BETHROGG", Locations = {"BETHROGG_BEHEMOTH"}},
+				{"DAALA", Locations = {"DAALA_SCYLLA"}},
+				{"PELLAEON", Locations = {"PELLAEON_CHIMAERA_CAPTAIN","PELLAEON_CHIMAERA_GRAND","PELLAEON_REAPER","PELLAEON_MEGADOR"}},
+				{"SHADOW_VENGEANCE", Locations = {"SHADOW_VENGEANCE_STAR_DREADNOUGHT"}},
+			}
+		},
+
+		["KILE_HANNAD_LOCATION_SET"] = {
+		 	Hero_Squadron = "PRAETORIAN_SQUADRON",
+			Factions = {"Imperial_Proteus"},
+		 	PopupBody = "KILE_HANNAD_SELECTOR_BODY",
+			NoInit = true,
+		 	Options = {
+				{"BETHROGG", Locations = {"BETHROGG_BEHEMOTH"}, GroundPerception = "Bethrogg_In_Orbit"},
+				{"VALEK", Locations = {"VALEK_REVENANT"}, GroundPerception = "Valek_In_Orbit"},
+				{"PELLAEON", Locations = {"PELLAEON_CHIMAERA_CAPTAIN","PELLAEON_CHIMAERA_GRAND","PELLAEON_REAPER","PELLAEON_MEGADOR"}, GroundPerception = "Pellaeon_In_Orbit"},
+		 	},
+		 	GroundCompany = "KILE_HANNAD_TEAM",
+			Enabler = "REFORM_PRAETORIAN",
+			DeathMessage = "Kile Hannad has sustained heavy injuries and needs medical treatment.",
+		},
+
+		["YARNAR_LOCATION_SET"] = {
+			Hero_Squadron = "YARNAR_SQUADRON",
+			PopupBody = "YARNAR_SELECTOR_BODY",
+			NoInit = true,
+			Options = {
+				{"RAGEZ", Locations = {"RAGEZ_DASTA_MARAUDER"}},
+				{"MNISTA", Locations = {"MNISTA_QUASAR"}},
+				{"MANDATOR_III", Locations = {"MANDATOR_III_DREADNOUGHT"}},
+				{"GRUNGER", Locations = {"GRUNGER_AGGRESSOR"}},
+				{"BALAN", Locations = {"BALAN_JAVELIN"}},
+				{"DROMMEL", Locations = {"DROMMEL_GUARDIAN"}},
+				{"GRONN", Locations = {"GRONN_ACULEUS"}},
+				{"KIEZ", Locations = {"KIEZ_WHELM"}},
+				{"COMEG", Locations = {"COMEG_BELLATOR"}},
+				{"X1", Locations = {"X1_EXECUTOR"}},
+				{"THORN", Locations = {"THORN_ASSERTOR"}},
+			}
+		},
+
+		["HSSISSK_LOCATION_SET"] = {
+			Hero_Squadron = "HSSISSK_SQUADRON",
+			Factions = {"Imperial_Proteus"},
+			PopupBody = "HSSISSK_SELECTOR_BODY",
+			NoInit = true,
+			Options = {
+				{"KRIEG", Locations = {"KRIEG_IMMOBILIZER"}},
+				{"ZANN", Locations = {"TYBER_ZANN_MERCILESS"}},
+				{"SYKES", Locations = {"SYKES_ENDOFDAYS"}},
+				{"SCREED", Locations = {"SCREED_DEMOLISHER"}},
+				{"TAVIRA", Locations = {"TAVIRA_INVIDIOUS"}},
+				{"SLAGORTH", Locations = {"SLAGORTH_ARC"}},
 			}
 		},
 	}

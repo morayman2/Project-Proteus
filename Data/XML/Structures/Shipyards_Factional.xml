@@ -2592,7 +2592,7 @@
 		TEXT_TOOLTIP_SHIPYARD_ALL_BOOTANA
 		</Encyclopedia_Text>
 
- 		<Affiliation>Zsinj_Empire, Hutt_Cartels</Affiliation>
+ 		<Affiliation>Zsinj_Empire, Hutt_Cartels, Imperial_Proteus</Affiliation>
 
 		<Tactical_Buildable_Objects_Campaign> 
 			Hutt_Cartels,
@@ -2630,7 +2630,7 @@
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Price_Ability Name="No_Piratical_Spam">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Interceptor_IV_Frigate, Action_VI_Support, Space_ARC_Cruiser, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, PDF_DHC, Refit_Venator_Star_Destroyer </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Interceptor_IV_Frigate, Action_VI_Support, Space_ARC_Cruiser, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, PDF_DHC, Refit_Venator_Star_Destroyer, Proteus_Kaloth, Super_Transport_XI_Modified_Pirate, Crusader_Gunship_Pirate, Providence_Carrier_Destroyer_Pirate, Super_Transport_XI_Missile_Pirate </Applicable_Unit_Types>
 				<Price_Reduction_Percentage>-0.01</Price_Reduction_Percentage>
 				<Stacking_Category>8</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>
@@ -2638,7 +2638,7 @@
 
 			<Reduce_Production_Time_Ability Name="No_Piratical_Spam2">
 				<Applicable_Unit_Categories/>
-				<Applicable_Unit_Types> Interceptor_IV_Frigate, Action_VI_Support, Space_ARC_Cruiser, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, PDF_DHC, Refit_Venator_Star_Destroyer </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Interceptor_IV_Frigate, Action_VI_Support, Space_ARC_Cruiser, Super_Transport_XI_Modified, IPV1_Gunboat, Marauder_Missile_Cruiser, PDF_DHC, Refit_Venator_Star_Destroyer, Proteus_Kaloth, Super_Transport_XI_Modified_Pirate, Crusader_Gunship_Pirate, Providence_Carrier_Destroyer_Pirate, Super_Transport_XI_Missile_Pirate </Applicable_Unit_Types>
 				<Time_Reduction_Percentage>-9</Time_Reduction_Percentage>
 				<Stacking_Category>10</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

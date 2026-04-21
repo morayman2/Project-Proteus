@@ -15374,7 +15374,7 @@
     <!--**********************General Otto*************************-->
     <!--***********************************************************-->
    
-   <SFXEvent Name="Unit_Complete_General_Otto">
+    <SFXEvent Name="Unit_Complete_General_Otto">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\General_Otto\Otto_Select3_ENG.wav
@@ -15384,7 +15384,7 @@
         <Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
     </SFXEvent>
 
-   <SFXEvent Name="Unit_Select_General_Otto">
+    <SFXEvent Name="Unit_Select_General_Otto">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\General_Otto\Otto_Select1_ENG.wav
@@ -15491,7 +15491,7 @@
         <Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
     </SFXEvent>
 
-   <SFXEvent Name="Unit_Select_Tia_Ghia">
+    <SFXEvent Name="Unit_Select_Tia_Ghia">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\Tia_Ghia\S1_ENG.wav
@@ -15808,7 +15808,7 @@
     <!--****************Prophets of the Dark Side******************-->
     <!--***********************************************************-->
    
-   <SFXEvent Name="Unit_Complete_Prophet">
+    <SFXEvent Name="Unit_Complete_Prophet">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\Prophets\Select\S2_ENG.wav
@@ -15819,7 +15819,7 @@
         <Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
     </SFXEvent>
 
-   <SFXEvent Name="Unit_Select_Prophet">
+    <SFXEvent Name="Unit_Select_Prophet">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\Prophets\Select\S1_ENG.wav
@@ -15921,7 +15921,7 @@
     <!--******************Hero Stormtrooper (1)********************--> <!-- FOCOM Stormtrooper -->
     <!--***********************************************************-->
    
-   <SFXEvent Name="Unit_Complete_Hero_Stormtrooper">
+    <SFXEvent Name="Unit_Complete_Hero_Stormtrooper">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\Hero_Stormtrooper\Select\Stormtrooper_S6_ENG.wav
@@ -15932,7 +15932,7 @@
         <Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
     </SFXEvent>
 
-   <SFXEvent Name="Unit_Select_Hero_Stormtrooper">
+    <SFXEvent Name="Unit_Select_Hero_Stormtrooper">
         <Use_Preset>Preset_UR</Use_Preset>
         <Samples>
 			Data\Audio\Heroes\Hero_Stormtrooper\Select\Stormtrooper_S1_ENG.wav
@@ -17998,6 +17998,1119 @@
 		<Localize> Yes </Localize>
 		<Overlap_Test> Unit_Maul_Health </Overlap_Test>
 		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	
+	<!--***********************************************************-->
+	<!--*********************Ground Assault Tank*******************--> <!-- The Clone Wars game SFX -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_GAT_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Fire.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_GAT_Idle_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land_Idle</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Engine_Loop.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_GAT_Moving_Engine_Loop">
+		<Use_Preset>Preset_EGL_Land</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Engine_Loop.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_GAT_Cinematic_Engine_Loop">  <!-- Used by cinematic camera focus -->
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\GAT\GAT_Engine_Loop.wav
+		</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***********************Control Ship************************--> <!-- Starfighter games droid VO -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Control_Ship">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Control_Ship\Select\TF_S6_ENG.wav
+			Data\Audio\Space\Control_Ship\Select\TF_S14_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Control_Ship </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Defend_Control_Ship">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Control_Ship\Ability\TF_Shield1_ENG.wav
+			Data\Audio\Space\Control_Ship\Ability\TF_Shield2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Control_Ship </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***************************C-9979***************************-->
+	<!--***********************************************************-->
+	<SFXEvent Name="CIS_C9979_Complete">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Select\S3_ENG.wav
+			Data\Audio\Space\C9979\Select\S4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="CIS_C9979_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\C9979\Select\S1_ENG.wav
+			Data\Audio\Space\C9979\Select\S2_ENG.wav
+			Data\Audio\Space\C9979\Select\S3_ENG.wav
+			Data\Audio\Space\C9979\Select\S4_ENG.wav
+			Data\Audio\Space\C9979\Select\S5_ENG.wav
+			Data\Audio\Space\C9979\Select\S6_ENG.wav
+			Data\Audio\Space\C9979\Select\S7_ENG.wav
+			Data\Audio\Space\C9979\Select\S8_ENG.wav
+			Data\Audio\Space\C9979\Select\S9_ENG.wav
+			Data\Audio\Space\C9979\Select\S10_ENG.wav
+			Data\Audio\Space\C9979\Select\S11_ENG.wav
+			Data\Audio\Space\C9979\Select\S12_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_C9979 </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***************************Auxilia***************************-->
+	<!--***********************************************************-->
+	<SFXEvent Name="CIS_Auxilia_Destroyer_Complete">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Auxilia_Destroyer\S5_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_CIS_Auxilia_Destroyer </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!-- Republic bomber Y-wing  -->
+	<SFXEvent Name="Unit_Assist_Move_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M16_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Move\M17_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Attack_Rep_y_wing">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A1_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A2_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A3_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A4_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A5_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A6_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A7_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A8_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A9_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A10_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A11_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A12_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A13_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A14_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A15_ENG.wav
+			Data\Audio\Space\Fighters\REP_Y_Wing\Attack\A16_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Rep_y_wing </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--*************************Speeders**************************-->
+	<!--***********************************************************-->
+	<SFXEvent Name="Unit_Fleet_Move_Speeders">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Speeders\move\coming_in_fast_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Speeders </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--***************************Lupus***************************--> <!-- Starfighter SFX -->
+	<!--***********************************************************-->
+	
+	<SFXEvent Name="Unit_Lupus_Laser_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Lupus\Lupus_Laser_Fire.wav
+		</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+	<!--*************************Vulture***************************--> <!-- Laser fire from Starfighter, engine SFX from Battlefront 2017 -->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Vulture_Laser_Fire">
+		<Use_Preset>Preset_GUNV</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Vulture\Vulture_Laser.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Vulture_Fly_By">
+		<Use_Preset>Preset_EGB</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Vulture\Vulture_Engine1.wav
+			Data\Audio\SFX\Vulture\Vulture_Engine2.wav
+		</Samples>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Vulture_Cinematic_Engine_Loop"> <!-- Used by cinematic camera focus -->
+		<Use_Preset>Preset_EGL_CIN</Use_Preset>
+		<Samples>Data\Audio\SFX\Vulture\Vulture_Engine_Loop.wav</Samples>
+	</SFXEvent>
+
+	<!--***********************************************************-->
+    <!--*******************Sith Alchemy Droids*********************-->
+    <!--***********************************************************-->
+	
+	<SFXEvent Name="Unit_Complete_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS2.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Select_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS1.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS2.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS3.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS4.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS5.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Move_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Attack_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Attack_Alchemy_Droid">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Alchemy_Droid">
+		<Use_Preset>Preset_FSI</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG1.wav
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG2.wav
+		</Samples>
+		<Overlap_Test>Unit_Alchemy_Droid</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+	</SFXEvent>
+	
+    <!--*******************Sith Slayer*********************-->
+	<!-- Deeper pitch shift of the above for the Slayer --> 
+	
+	<SFXEvent Name="Unit_Complete_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS1.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS3.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Select_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS1.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS2.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS3.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS4.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS5.wav
+			Data\Audio\Ground\Alchemy_Droid\Select\SDS6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Move_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM1.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM3.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM5.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM6.wav
+		</Samples>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Fleet_Move_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM2.wav
+			Data\Audio\Ground\Alchemy_Droid\Move\SDM4.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Attack_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially>Yes</Play_Sequentially>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Assist_Attack_Sith_Slayer">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist1.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist2.wav
+			Data\Audio\Ground\Alchemy_Droid\Assist\SDAssist3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA1.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA2.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA3.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA4.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA5.wav
+			Data\Audio\Ground\Alchemy_Droid\Attack\SDA6.wav
+		</Samples>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Guard_Sith_Slayer">
+		<Use_Preset>Preset_FSI</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG1.wav
+			Data\Audio\Ground\Alchemy_Droid\Guard\SDG2.wav
+		</Samples>
+		<Overlap_Test>Unit_Sith_Slayer</Overlap_Test>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Min_Pitch>77</Min_Pitch>
+		<Max_Pitch>77</Max_Pitch>
+	</SFXEvent>
+	
+	<!--***********************************************************-->
+	<!--**********************Neimoidian Guard************************-->
+	<!--***********************************************************-->
+
+	<SFXEvent Name="Unit_Complete_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select5_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select7_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select8_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select9_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Select\Neimoidian_Select10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move5_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move7_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move8_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move9_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move10_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Move_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move8_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Guard_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Guard\Neimoidian_Guard1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Guard\Neimoidian_Guard2_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack1_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack3_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack4_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack5_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack7_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack8_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack9_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack10_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack11_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Assist_Attack_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack2_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack6_ENG.wav
+			Data\Audio\Ground\Neimoidian_Guard\Attack\Neimoidian_Attack9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Probability>60</Probability>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Take_Cover_Neimoidian_Guard">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Move\Neimoidian_Move6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> No </Play_Sequentially>
+		<Overlap_Test> Unit_Neimoidian_Guard </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Death_Neimoidian_Guard">
+		<Use_Preset>Preset_DTH</Use_Preset>
+		<Samples>
+			Data\Audio\Ground\Neimoidian_Guard\Health\Neimoidian_Death1.wav
+			Data\Audio\Ground\Neimoidian_Guard\Health\Neimoidian_Death2.wav
+			Data\Audio\Ground\Neimoidian_Guard\Health\Neimoidian_Death3.wav
+		</Samples>
+	</SFXEvent>
+
+	<!-- Scarab Fighter -->
+	<SFXEvent Name="Unit_Complete_Scarab">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\Select\S4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Select\S6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_hunt_Scarab">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\Attack\A4_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Scarab">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\Select\S1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Select\S2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Select\S3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Select\S4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Select\S5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Select\S6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Scarab">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Move\M9_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Scarab">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\Attack\A1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Attack\A2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Attack\A3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Attack\A4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Attack\A5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Attack\A6_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\Attack\A7_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_low_health_Scarab">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\loosing\L1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L6_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L7_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L8_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L9_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L10_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L11_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L12_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L13_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L14_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L15_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L16_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L17_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L18_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L19_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L20_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L21_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L22_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L23_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L24_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L25_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L26_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L27_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L28_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L29_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L30_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L31_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L32_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L33_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L34_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L35_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L36_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L37_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L38_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L39_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L40_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L41_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L42_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L43_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L44_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L45_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L46_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L47_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L48_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L49_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_critical_health_Scarab">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\loosing\L1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L6_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L7_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L8_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L9_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L10_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L11_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L12_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L13_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L14_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L15_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L16_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L17_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L18_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L19_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L20_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L21_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L22_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L23_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L24_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L25_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L26_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L27_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L28_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L29_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L30_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L31_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L32_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L33_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L34_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L35_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L36_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L37_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L38_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L39_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L40_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L41_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L42_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L43_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L44_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L45_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L46_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L47_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L48_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\loosing\L49_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_enemy_low_health_Scarab">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\winning\W1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W6_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W7_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W8_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W9_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W10_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W11_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W12_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W13_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W14_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W15_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W16_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W17_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W18_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W19_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W20_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_enemy_critical_health_Scarab">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Scarab\winning\W1_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W2_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W3_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W4_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W5_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W6_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W7_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W8_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W9_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W10_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W11_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W12_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W13_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W14_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W15_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W16_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W17_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W18_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W19_ENG.wav
+			Data\Audio\Space\Fighters\Scarab\winning\W20_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Scarab </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<!-- Tri Droid Fighter -->
+	<SFXEvent Name="Unit_Complete_Tri_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S6_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_hunt_Tri_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A23_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Fleet_Move_Tri_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M19_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Select_Tri_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S19_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Select\S20_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Move_Tri_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M19_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M20_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M21_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M22_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Move\M23_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_Attack_Tri_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A19_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A20_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A21_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A22_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\Attack\A23_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_low_health_Tri_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L19_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L20_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L21_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L22_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L23_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L24_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L25_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L26_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L27_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L28_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L29_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<probability>15</probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_critical_health_Tri_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L19_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L20_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L21_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L22_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L23_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L24_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L25_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L26_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L27_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L28_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\loosing\L29_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<probability>15</probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_enemy_low_health_Tri_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W19_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+	<SFXEvent Name="Unit_enemy_critical_health_Tri_Fighter">
+		<Use_Preset>Preset_URC</Use_Preset>
+		<Samples>
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W1_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W2_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W3_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W4_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W5_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W6_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W7_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W8_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W9_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W10_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W11_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W12_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W13_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W14_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W15_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W16_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W17_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W18_ENG.wav
+			Data\Audio\Space\Fighters\Tri_Fighter\winning\W19_ENG.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Overlap_Test> Unit_Tri_Fighter </Overlap_Test>
+		<Probability>15</Probability>
+		<Text_ID>TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS, TEXT_SFX_GO_AWAY_ERRORS</Text_ID>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Hyena_Fly_By_Land">
+		<Use_Preset>Preset_EGBL</Use_Preset>
+		<Samples>
+			Data\Audio\SFX\Hyena\Hyena_Engine1.wav
+			Data\Audio\SFX\Hyena\Hyena_Engine2.wav
+		</Samples>
 	</SFXEvent>
 
 </SFXEvents>

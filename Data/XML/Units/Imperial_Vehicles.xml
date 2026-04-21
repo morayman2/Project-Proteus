@@ -2769,7 +2769,8 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</GroundVehicle>
-<!--
+	
+	<!--
 	<Death_Clone Name="TIE_Mauler_Death_Clone">
 		<Variant_Of_Existing_Type>TIE_Mauler</Variant_Of_Existing_Type>
 		<CategoryMask>None</CategoryMask>
@@ -2785,7 +2786,8 @@
 		<Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
 		<IsDeathCloneObstacle> true </IsDeathCloneObstacle>
 		<Land_Model_Name>EV_TIECRAWLER_D.ALO</Land_Model_Name>
-	</Death_Clone> -->
+	</Death_Clone> 
+	-->
 
 	<!-- Heavy Vehicle Factory -->
 
@@ -6902,7 +6904,7 @@
 
 		<SFXEvent_Select>Unit_Select_Troop_Carrier</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Troop_Carrier</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Troop_Carrier</SFXEvent_Fleet_Move>
+		<SFXEvent_Fleet_Move>Unit_Complete_Troop_Carrier</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Troop_Carrier</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Troop_Carrier</SFXEvent_Guard>
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Troop_Carrier</SFXEvent_Assist_Move>

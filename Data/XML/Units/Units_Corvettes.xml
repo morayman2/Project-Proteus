@@ -1289,7 +1289,7 @@
 
 		<AI_Combat_Power>420</AI_Combat_Power>
 
-		<Affiliation>Independent_Forces, Warlords</Affiliation>
+		<Affiliation>Independent_Forces, Warlords, Imperial_Proteus</Affiliation>
 
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Create_Team>No</Create_Team>
@@ -1299,7 +1299,10 @@
 		<Maintenance_Cost>8</Maintenance_Cost>
 		<Population_Value>4</Population_Value>
 
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row> 1 </GUI_Row>
@@ -1986,7 +1989,8 @@
 
 		<AI_Combat_Power>440</AI_Combat_Power>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
 
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Create_Team>No</Create_Team>
@@ -1995,6 +1999,7 @@
 		<Build_Time_Seconds>14</Build_Time_Seconds>
 
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
@@ -3457,7 +3462,7 @@
 
 	<SpaceUnit Name="Crusader_Gunship">
 		<Variant_Of_Existing_Type>Template_Crusader_Gunship</Variant_Of_Existing_Type>
-		<Affiliation>Empire, Corporate_Sector</Affiliation>
+		<Affiliation>Empire, Corporate_Sector, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Special_Structures> 
 		CSA_Ship_Market |
@@ -3467,6 +3472,23 @@
 		Eriadu_Shipyard_Level_One | Eriadu_Shipyard_Level_Two | Eriadu_Shipyard_Level_Three | Eriadu_Shipyard_Level_Four |
 		Greater_Maldrood_Shipyard_Level_One | Greater_Maldrood_Shipyard_Level_Two | Greater_Maldrood_Shipyard_Level_Three | Greater_Maldrood_Shipyard_Level_Four |
 		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy
+		</Required_Special_Structures>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<!-- SURVIVAL -->
+		<Tactical_Build_Cost_Multiplayer>405</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+	</SpaceUnit>
+
+		<SpaceUnit Name="Crusader_Gunship_Pirate">
+		<Variant_Of_Existing_Type>Template_Crusader_Gunship</Variant_Of_Existing_Type>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Special_Structures> 
+		Pirate_Base,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -3673,13 +3695,15 @@
 	
 	<SpaceUnit Name="Interceptor_I_Frigate">
 		<Variant_Of_Existing_Type>Template_Interceptor_I_Frigate</Variant_Of_Existing_Type>
-		<Affiliation/>
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Tech_Level>99</Tech_Level>
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
-		<Required_Special_Structures/>
+		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four,
+		AI_Category_Dummy | Non_Capital_Category_Dummy</Required_Special_Structures>		
 		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<Starting_Spawned_Units_Tech_0>Z95_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -3771,14 +3795,13 @@
 
 	<SpaceUnit Name="Interceptor_IV_Frigate">
 		<Variant_Of_Existing_Type>Template_Interceptor_IV_Frigate</Variant_Of_Existing_Type>
-		<Affiliation>Zsinj_Empire</Affiliation>
+		<Affiliation>Zsinj_Empire, Imperial_Proteus</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets/>
 		<Required_Special_Structures>
-		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Pirate_Base,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>
@@ -6929,12 +6952,12 @@
 				<Expiration_Seconds>30.0</Expiration_Seconds>
 				<Recharge_Seconds>75.0</Recharge_Seconds>
 				<!-- <Active_By_Default>Yes</Active_By_Default> -->
-				<GUI_Activated_Ability_Name>Shadow_Imperial_I_Star_Destroyer_Carrier_Stealth</GUI_Activated_Ability_Name> 
+				<GUI_Activated_Ability_Name>Shadow_Vigil_Stealth</GUI_Activated_Ability_Name> 
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
-			<Stealth_Ability Name="Shadow_Imperial_I_Star_Destroyer_Carrier_Stealth">
+			<Stealth_Ability Name="Shadow_Vigil_Stealth">
 				<Activation_Style> User_Input </Activation_Style>
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Stealth_Color>255, 255, 255, 235</Stealth_Color>
@@ -10438,7 +10461,7 @@
 		<AI_Combat_Power>266</AI_Combat_Power>
 		<Damage>20</Damage>
 
-		<Affiliation>Corporate_Sector</Affiliation>
+		<Affiliation>Corporate_Sector, Imperial_Proteus</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Override_Bounty_SP>5</Override_Bounty_SP>
 		<Maintenance_Cost>7</Maintenance_Cost>
@@ -10464,6 +10487,7 @@
 		<Build_Time_Seconds>11</Build_Time_Seconds>
 		<Slice_Cost_Credits>640</Slice_Cost_Credits>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		NewRepublic_Shipyard_Level_One | NewRepublic_Shipyard_Level_Two | NewRepublic_Shipyard_Level_Three | NewRepublic_Shipyard_Level_Four |
 		CSA_Shipyard_Level_One | CSA_Shipyard_Level_Two | CSA_Shipyard_Level_Three | CSA_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
@@ -13331,10 +13355,11 @@
 
 	<SpaceUnit Name="Imperial_Boarding_Shuttle">
 		<Variant_Of_Existing_Type>Template_Boarding_Shuttle</Variant_Of_Existing_Type>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Imperial_Proteus</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Lua_Script>GenericGameObject</Lua_Script>
 		<Required_Special_Structures>
+		Imperial_Proteus_Shipyard_Level_One | Imperial_Proteus_Shipyard_Level_Two | Imperial_Proteus_Shipyard_Level_Three | Imperial_Proteus_Shipyard_Level_Four |
 		Empire_Shipyard_Level_One | Empire_Shipyard_Level_Two | Empire_Shipyard_Level_Three | Empire_Shipyard_Level_Four,
 		AI_Category_Dummy | Non_Capital_Category_Dummy
 		</Required_Special_Structures>

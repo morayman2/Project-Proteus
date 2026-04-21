@@ -2330,6 +2330,7 @@
 		Shuttle_Tyderium_Troops,							Data\ShipNames\Dropship_Troops.txt,
 		Shuttle_Tyderium_Commando,							Data\ShipNames\Dropship_Commando.txt,
 
+
 		Gozanti_Landing_Craft_Troops,						Data\ShipNames\Dropship_Troops.txt,
 		Gozanti_Landing_Craft_Commando,						Data\ShipNames\Dropship_Commando.txt,
 
@@ -2357,6 +2358,7 @@
 		Imperial_Dropship_Transport_Landing_Craft,			Data\ShipNames\Dropship_Air.txt,
 		MAAT_Landing_Craft,									Data\ShipNames\Dropship_Air.txt,
 		VAAT_Landing_Craft,									Data\ShipNames\Dropship_Air.txt,
+		HAET_Landing_Craft,						            Data\ShipNames\Dropship_Air.txt,
 	</ShipNameTextFiles>
 
 <!-- Data\ShipNames\Cadet_GE_Space.txt, -->
@@ -2437,12 +2439,54 @@
 	<!-- Project Proteus units -->
 	<ShipNameTextFiles>
 		Proteus_Cargo_Ship, 							Data\ShipNames\Imperial_Cargo_Ship.txt,
-		Z_Glory_Star_Destroyer, 						Data\ShipNames\ISD_G.txt,
+		Imperial_I_Star_Destroyer_Stealth, 				Data\ShipNames\Star_Destroyer.txt,
 		Shadow_Customs_Corvette, 						Data\ShipNames\shadow_Customs_Corvette.txt,
 		Shadow_Vigil, 									Data\ShipNames\shadow_Vigil.txt,
 		Shadow_Acclamator_I_Carrier, 					Data\ShipNames\shadow_acclamator_I.txt,
 		Shadow_Imperial_I_Star_Destroyer_Carrier, 		Data\ShipNames\shadow_Star_Destroyer.txt,
 		Shadow_Vengeance_Star_Dreadnought, 				Data\ShipNames\shadow_Vengeance.txt,
+		Triumph_Star_Destroyer, 						Data\ShipNames\Triumph_SD.txt,
+		Triumph_Star_Destroyer_Hero_Refit, 				Data\ShipNames\Triumph_SD.txt,
+		DHC_Interdictor,								Data\ShipNames\CC7700E.txt,
+		Consular_Refit,									Data\ShipNames\LAC.txt,
+		IPV1_Gunboat_Proteus,							Data\ShipNames\IPV.txt,
+		Namana_Cruiser_Proteus,							Data\ShipNames\Namana.txt,
+		Carrack_Cruiser_Laser,							Data\ShipNames\Carrack.txt,
+		Class_C_Frigate,								Data\ShipNames\Class_C_Escort.txt,
+		Pelta_Assault,									Data\ShipNames\Pelta_assault.txt,
+		Diamond_Frigate,								Data\ShipNames\Diamond.txt,
+		Lupus_Missile_Frigate,							Data\ShipNames\Lupus.txt,
+		Munifex,										Data\ShipNames\Munifex.txt,
+		Proteus_Kaloth,									Data\ShipNames\Kaloth.txt,
+		Galleon_Minelayer,								Data\ShipNames\Star_Galleon.txt,
+		Bakura_Destroyer_Proteus,						Data\ShipNames\Bakura.txt,
+		Acclamator_Destroyer,							Data\ShipNames\Acclamator_Destroyer.txt,
+		Auxilia,										Data\ShipNames\Auxilia.txt,
+		Lictor,											Data\ShipNames\Rusur.txt,
+		Praetor_I_Battlecruiser,						Data\ShipNames\Praetor.txt,
+		Acclamator_Battleship,							Data\ShipNames\Acclamator_Battleship.txt,
+		Victory_I_Fleet_Star_Destroyer,					Data\ShipNames\victory_destroyer.txt,
+		Acclamator_I_Support,							Data\ShipNames\acclamator_I.txt,
+		Acclamator_I_Supercruiser,						Data\ShipNames\acclamator_I.txt,
+		Venator_8X,										Data\ShipNames\Star_Destroyer.txt,
+		Procurator_Battlecruiser,						Data\ShipNames\Procurator.txt,
+		Imperial_II_Star_Destroyer_Ion,					Data\ShipNames\Star_Destroyer.txt,
+		Imperial_I_Star_Destroyer_Hero_Refit_Proteus,	Data\ShipNames\Star_Destroyer.txt,
+		<!-- Bayonet_Cruiser,								
+		Mansk_Frigate,									
+		Hornet_Assault_Carrier,							-->
+		Tapani_Assault_Frigate,							Data\ShipNames\Tapani_Assault_Frigate.txt,
+		Vindicator_Carrier,								Data\ShipNames\Vindicator.txt,
+		Victory_II_Carrier,								Data\ShipNames\victory_destroyer_II.txt,
+		Super_Transport_XI_Modified_Pirate,				Data\ShipNames\Super_Transport_XI.txt,
+		Lucrehulk_Battleship,							Data\ShipNames\Lucrehulk.txt,
+		Lucrehulk_Auxiliary_Proteus,					Data\ShipNames\Lucrehulk.txt,
+		Super_Transport_XI_Missile_Pirate,				Data\ShipNames\Super_Transport_XI.txt,
+		Carrack_Cruiser_Zeta,							Data\ShipNames\Carrack.txt,
+		Crusader_Gunship_Pirate,						Data\ShipNames\Crusader.txt,
+		Zeta_Strike,									Data\ShipNames\Strike_Cruiser.txt,
+		Providence_Carrier_Destroyer_Pirate,			Data\ShipNames\Providence.txt,
+		Refit_Venator_Star_Destroyer_Proteus,			Data\ShipNames\Venator.txt,
 	</ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->

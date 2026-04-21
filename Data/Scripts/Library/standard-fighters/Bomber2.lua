@@ -58,46 +58,99 @@ return {
 			elseif proteus == "DASTA" then
 				fighter = "Z95_BOMBER_SQUADRON"			
 			elseif proteus == "VOGEL" then
-				fighter = "MISSILE_BOAT_SQUADRON"
+				fighter = "TIE_GT_BOMBER_SQUADRON"
 			elseif proteus == "BRAK" then
 				fighter = "2_WARPOD_SQUADRON"
 				if Get_Fighter_Research("BrakFighters") then
-					fighter = "NTB_630_SQUADRON"
+					fighter = "SHIELDED_TIE_BOMBER_SQUADRON"
 				end
 			elseif proteus == "ISECTOR" then
 				fighter = "Z95_BOMBER_SQUADRON"
+			elseif proteus == "PRAJI" then
+				fighter = "TIE_OPPRESSOR_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_OPPRESSOR_SQUADRON"
 			elseif proteus == "TAPANI" then
 				fighter = "Z95_BOMBER_SQUADRON"
 			elseif proteus == "RESTORED_EMPIRE" then
 				fighter = "H60_TEMPEST_SQUADRON"
-			elseif Get_Fighter_Research("ZMB") then
-				fighter = "MISSILE_BOAT_SQUADRON"
+			elseif proteus == "ZAARIN_REMNANTS" then
+				fighter = "STARWING_SQUADRON"
+				if Get_Fighter_Research("ZMB") then
+					fighter = "MISSILE_BOAT_SQUADRON"
+				end
 			elseif proteus == "ELROOD" then
 				fighter = "STARWING_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
-				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
+				fighter = "TIE_GT_BOMBER_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
 				fighter = "SCIMITAR_SQUADRON"
 			elseif proteus == "JARDEEN" then
-				fighter = "HYENA_SQUADRON"
+				fighter = "TIE_OPPRESSOR_SQUADRON"
 			elseif proteus == "KASHYYYK" then
-				fighter = "TIE_OPPRESSOR_SQUADRON"
+				fighter = "Z95_BOMBER_SQUADRON"
 			elseif proteus == "LUMIYA" then
-				fighter = "TIE_OPPRESSOR_SQUADRON"
+				fighter = "SCIMITAR_SQUADRON"
+				-- if Get_Fighter_Research("ScimitarMKIIFighters") then
+				-- 	fighter = "Scimitar_MKII_SQUADRON"
+				-- end
 			elseif proteus == "ARDA" then
-				fighter = "BTLB_Y_WING_SQUADRON"
+				fighter = "Z95_BOMBER_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
-				fighter = "TIE_OPPRESSOR_SQUADRON"
+				fighter = "TIE_BOMBER_SQUADRON"
 			elseif proteus == "KUAT" then
-				fighter = "STARWING_SQUADRON"
+				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "STARWING_SQUADRON"
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
 			elseif proteus == "TAMARIN" then
 				fighter = "BTLS1_Y_WING_SQUADRON"
+				if Get_Fighter_Research("TAMSC") then
+					fighter = "SCIMITAR_SQUADRON"
+				end
 			elseif proteus == "BAKURA" then
 				fighter = "TIE_BOMBER_SQUADRON"
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "Z95_BOMBER_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
+			elseif proteus == "RADAMA" then
+				fighter = "2_WARPOD_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "2_WARPOD_SQUADRON"
+			elseif proteus == "PROPHETS" then
+				fighter = "2_WARPOD_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "2_WARPOD_SQUADRON"
+			elseif proteus == "WESSEX" then
+				fighter = "TIE_OPPRESSOR_SQUADRON"
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "TIE_GT_BOMBER_SQUADRON"
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "SHIELDED_TIE_BOMBER_SQUADRON"
+			elseif proteus == "GAROS" then
+				fighter = "TIE_LIGHT_BOMBER_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "Z95_BOMBER_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "NIMBUS_V_WING_BOMBER_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "STARWING_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "ALPHA_NIMBUS_VWING_BOMBER_SQUADRON"
+			elseif proteus == "PROTECTORATE" then
+				fighter = "TIE_AVENGER_BOMBER_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "STARWING_SQUADRON"
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+			elseif proteus == "THORN" then
+				fighter = "STARWING_SQUADRON"
+			--elseif proteus == "X1" then
+				--fighter = ""
 			end
 		end
 		

@@ -449,7 +449,7 @@ function GovernmentEmpire:initialize_legitimacy()
                     end
                 end
             end
-            if uselocale then
+           if uselocale then
                 local first = true
                 local text = ""
                 for planet, bool in pairs(locale) do
@@ -714,20 +714,20 @@ function GovernmentEmpire:on_production_finished(planet, game_object_type_name)
 	if game_object_type_name == "SELLASAS_LOADOUT_SWAP1" then
         --locks first loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser",
+            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
         }, false)
         --unlocks second
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser",
+            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
         })
     elseif game_object_type_name == "SELLASAS_LOADOUT_SWAP2" then
         --locks second loadout
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser",
+            "Sellasas_Loadout_Swap2", "Rep_DHC", "Neutron_Star", "Carrack_Cruiser_Laser", "Victory_I_Star_Destroyer", "Victory_II_Carrier", "Imperial_I_Star_Destroyer_Patrol"
         }, false)
         --unlocks first
         UnitUtil.SetLockList("IMPERIAL_PROTEUS", {
-            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser",
+            "Sellasas_Loadout_Swap1", "Imperial_DHC", "Neutron_Star_Mercenary", "Carrack_Cruiser", "Victory_I_Fleet_Star_Destroyer", "Victory_II_Star_Destroyer", "Imperial_I_Star_Destroyer"
         })
     end
 
@@ -976,12 +976,18 @@ function GovernmentEmpire:group_joins(faction_name)
     -- }
 
     local index = self.legitimacy_groups[level][group_number].name
-    for _,docentry in pairs(self.legitimacy_documentation[level]) do
-        if index == docentry.name then
-            docentry.state = " / [ " .. CONSTANTS.ALL_FACTION_NAMES[string.upper(faction_name)] .. " ]"
-            break
+
+    if self.legitimacy_documentation[level] == nil then
+        StoryUtil.ShowScreenText(GetCurrentTime().." Attempted to recruit legitimacy group of level "..tostring(level).." but failed. Please report this bug!", 30, nil, {r = 217, g = 2, b = 125}, false)
+    else
+        for _,docentry in pairs(self.legitimacy_documentation[level]) do
+            if index == docentry.name then
+                docentry.state = " / [ " .. CONSTANTS.ALL_FACTION_NAMES[string.upper(faction_name)] .. " ]"
+                break
+            end
         end
     end
+
     table.insert(self.imperial_table[faction_name].joined_groups, self.legitimacy_groups[level][group_number].unlocks[1])
     table.remove(self.legitimacy_groups[level], group_number)
     if level == 5 then
@@ -1261,7 +1267,5 @@ function GovernmentEmpire:UpdateDisplay()
 
     Story_Event("GOVERNMENT_DISPLAY")
 end
-
-
 
 return GovernmentEmpire

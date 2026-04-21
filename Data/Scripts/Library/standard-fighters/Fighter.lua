@@ -53,22 +53,24 @@ return {
 		if owner == "IMPERIAL_PROTEUS" then
 			local proteus = GlobalValue.Get("PROTEUS_GROUP_NAME")
 			if proteus == "TAGGE" then
-				fighter = "TIE_FIGHTER_SQUADRON"
+				fighter = "HOWLRUNNER_SQUADRON"
 			elseif proteus == "TIERFON" then
-				fighter = "TIE_INTERCEPTOR_ION_SQUADRON"
+				fighter = "UPGUNNED_TIE_INTERCEPTOR_SQUADRON"
 			elseif proteus == "SELLASAS" then
-				fighter = "SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
+				fighter = "UPGUNNED_SHIELDED_ARMORED_INTERCEPTOR_SQUADRON"
 			elseif proteus == "DASTA" then
 				fighter = "HOWLRUNNER_SQUADRON"
 			elseif proteus == "VOGEL" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
+				fighter = "MISSILE_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "BRAK" then
-				fighter = "TIE_FIGHTER_SQUADRON"
+				fighter = "TWIN_ION_ENGINE_STARFIGHTER_SQUADRON"
 				if Get_Fighter_Research("BrakFighters") then
 					fighter = "TIE_INTERCEPTOR_SQUADRON"
 				end
 			elseif proteus == "ISECTOR" then
-				fighter = "TIE_FIGHTER_SQUADRON"
+				fighter = "HOWLRUNNER_SQUADRON"
+			elseif proteus == "PRAJI" then
+				fighter = "SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON"
 			elseif proteus == "SHADOWSPAWN" then
 				fighter = "TIE_FIGHTER_BF2_SQUADRON"
 			elseif proteus == "TAPANI" then
@@ -78,7 +80,7 @@ return {
 			elseif proteus == "ZAARIN_REMNANTS" then
 				fighter = "TIE_X1_SQUADRON"
 			elseif proteus == "ELROOD" then
-				fighter = "TIE_FIGHTER_SQUADRON"
+				fighter = "HOWLRUNNER_SQUADRON"
 			elseif proteus == "WILD_SPACE" then
 				fighter = "NIMBUS_V_WING_SQUADRON"
 			elseif proteus == "PRENTIOCH" then
@@ -88,19 +90,67 @@ return {
 			elseif proteus == "KASHYYYK" then
 				fighter = "Z95_HEADHUNTER_SQUADRON"
 			elseif proteus == "LUMIYA" then
-				fighter = "SHIELDED_TIE_FIGHTER_SQUADRON"
+				fighter = "HOWLRUNNER_SQUADRON"
 			elseif proteus == "ARDA" then
-				fighter = "ATL_INTERCEPTOR_SQUADRON"
+				fighter = "TIE_POD_SQUADRON"
 			elseif proteus == "CATO_NEIMOIDIA" then
 				fighter = "R41_STARCHASER_SQUADRON"
 			elseif proteus == "KUAT" then
-				fighter = "HOWLRUNNER_SQUADRON"
+				fighter = "A9_SQUADRON"
 			elseif proteus == "KAARENTH_DISSENSION" then
-				fighter = "Z95_HEADHUNTER_SQUADRON"
+				fighter = "Z95_HEADHUNTER_SQUADRON" --TBC Replace with Drexl upon upgrade
+				if Get_Fighter_Research("KPreybird") then
+				fighter = "DREXL_SQUADRON"
+				end
 			elseif proteus == "TAMARIN" then
 				fighter = "Z95_HEADHUNTER_SQUADRON"
 			elseif proteus == "BAKURA" then
+				fighter = "TIE_FIGHTER_SQUADRON" 
+				if Get_Fighter_Research("BGPA") then
+					fighter = "BAKURAN_GPA_SQUADRON"
+				end
+			elseif proteus == "ANTEMERIDIAS" then
+				fighter = "TIE_INTERCEPTOR_SQUADRON"
+			elseif proteus == "SECTOR_5" then
+				fighter = "TIE_FIGHTER_BF2_SQUADRON"
+			elseif proteus == "PRAKITH" then
+				fighter = "HOWLRUNNER_SQUADRON"
+			elseif proteus == "RADAMA" then
+				fighter = "R41_STARCHASER_SQUADRON"
+			elseif proteus == "MAELSTROM" then
+				fighter = "R41_STARCHASER_SQUADRON"
+			elseif proteus == "PROPHETS" then
 				fighter = "TIE_FIGHTER_SQUADRON"
+			elseif proteus == "RAYTER" then
+				fighter = "TIE_FIGHTER_SQUADRON"
+			elseif proteus == "WESSEX" then
+				fighter = "HOWLRUNNER_SQUADRON"
+			--elseif proteus == "HAMMERS" then
+				--fighter = ""
+			elseif proteus == "QUINTAD" then
+				fighter = "Z95_HEADHUNTER_SQUADRON"
+			elseif proteus == "IMPERIAL_LIANNA" then
+				fighter = "TIE_X1_SQUADRON"
+			elseif proteus == "GAROS" then
+				fighter = "HOWLRUNNER_SQUADRON"
+			elseif proteus == "NABOO" then
+				fighter = "N1_STARFIGHTER_SQUADRON"
+			elseif proteus == "KAMINO" then
+				fighter = "CLONE_Z95_HEADHUNTER_SQUADRON"
+			elseif proteus == "CIUTRIC_HEGEMONY" then
+				fighter = "MISSILE_TIE_FIGHTER_SQUADRON"
+			elseif proteus == "ZERO_COMMAND" then
+				fighter = "SHIELDED_MISSILE_TIE_FIGHTER_SQUADRON"
+			--elseif proteus == "LAMBDA" then
+				--fighter = ""
+			elseif proteus == "PROTECTORATE" then
+				fighter = "STARVIPER_II_SQUADRON"
+			elseif proteus == "GRUNGER" then
+				fighter = "TWIN_ION_ENGINE_STARFIGHTER_SQUADRON"
+			elseif proteus == "THORN" then
+				fighter = "TIE_FIGHTER_BF2_SQUADRON"
+			--elseif proteus == "X1" then
+				--fighter = ""
 			end
 		end
 		

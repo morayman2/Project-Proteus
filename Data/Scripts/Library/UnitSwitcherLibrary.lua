@@ -33,6 +33,9 @@ return {
 	["HARRSK_MEGADOR_DUMMY_2"] = {"Harrsk_Shockwave","Harrsk_Megador"},
 	["DESANNE_DOMINION_DUMMY"] = {"Desanne_Redemption","Desanne_Dominion"},
 	["PARCK_CHAF_DESTROYER_UPGRADE"] = {"Parck_Strikefast","Parck_Chaf_Destroyer"},
+	["GRUNGER_AGGRESSOR_DUMMY"] = {"Grunger_Mahler","Grunger_Aggressor"},
+	["GRONN_ACULEUS_DUMMY"] = {"Gronn_Acropora","Gronn_Aculeus"},
+	["THORN_ASSERTOR_DUMMY"] = {"Thorn","Thorn_Assertor"},
 
 	-- CSA Corporate Hire
 	["DUMMY_RECRUIT_GROUP_SIIN_SUUB_CSA"] = {nil,{"Siin_Suub_Proclamation"}},
@@ -107,4 +110,6 @@ return {
 	["DUMMY_RECRUIT_GROUP_PRAJI"] = {nil,{"Praji_Secutor"}},
 	["DUMMY_RECRUIT_GROUP_JANARA"] = {nil,{"Brandei_Judicator"}},
 	["DUMMY_RECRUIT_GROUP_THORN"] = {nil,{"Thorn_Assertor"}},
+	--Unit upgrades for generics
+	["DHC_CARRIER_UPGRADE"] = {"PDF_DHC","DHC_CARRIER",["location_check"] = true},
 }
