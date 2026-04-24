@@ -758,6 +758,18 @@ return {
 						order = 32,
 					},
 					
+					["STAR_GALLEON"] = {
+						locked = false,
+						gc_locked = false,
+						amount = 0,
+						chance = 50,
+						perception_modifier = nil,
+						association = nil,
+						readable_name =  "Star Galleon",
+						text_requirement = "",
+						order = 33,
+					},
+					
 					["SURVEYOR_FRIGATE"] = {
 						locked = false,
 						gc_locked = false,
@@ -767,7 +779,7 @@ return {
 						association = nil,
 						readable_name =  "Surveyor Frigate",
 						text_requirement = "",
-						order = 33,
+						order = 34,
 					},
 					
 					["ACTIVE_FRIGATE"] = {
@@ -779,7 +791,7 @@ return {
 						association = nil,
 						readable_name =  "Active Frigate",
 						text_requirement = "",
-						order = 34,
+						order = 35,
 					},
 					
 					["VIGIL"] = {
@@ -791,7 +803,7 @@ return {
 						association = nil,
 						readable_name =  "Vigil Corvette",
 						text_requirement = "",
-						order = 35,
+						order = 36,
 					},
 					
 					["RAIDER_II_CORVETTE"] = {
@@ -803,7 +815,7 @@ return {
 						association = nil,
 						readable_name =  "Raider II Corvette",
 						text_requirement = "",
-						order = 36,
+						order = 37,
 					},
 					
 					["IMPERIAL_A5_JUGGERNAUT_COMPANY"] = {
@@ -815,7 +827,7 @@ return {
 						association = nil,
 						readable_name =  "A5 Juggernaut",
 						text_requirement = "",
-						order = 37,
+						order = 38,
 					},
 					
 					["IMPERIAL_A5RX_COMPANY"] = {
@@ -827,7 +839,7 @@ return {
 						association = nil,
 						readable_name =  "A5RX Juggernaut",
 						text_requirement = "",
-						order = 38,
+						order = 39,
 					},
 					
 					["A9_FLOATING_FORTRESS_COMPANY"] = {
@@ -839,7 +851,7 @@ return {
 						association = nil,
 						readable_name =  "A9 Floating Fortress",
 						text_requirement = "",
-						order = 39,
+						order = 40,
 					},
 				
 					["C10_SIEGE_TOWER_COMPANY"] = {
@@ -851,7 +863,7 @@ return {
 						association = nil,
 						readable_name =  "C10 Siege Tower",
 						text_requirement = "",
-						order = 40,
+						order = 41,
 					},
 					
 					["IMPERIAL_AT_AP_WALKER_COMPANY"] = {
@@ -863,7 +875,7 @@ return {
 						association = nil,
 						readable_name =  "AT AP",
 						text_requirement = "",
-						order = 41,
+						order = 42,
 					},
 					
 										
@@ -876,7 +888,7 @@ return {
 						association = nil,
 						readable_name =  "MAAT",
 						text_requirement = "",
-						order = 42,
+						order = 43,
 					},
 					
 										
@@ -889,7 +901,7 @@ return {
 						association = nil,
 						readable_name =  "Imperial Modified LAAT",
 						text_requirement = "",
-						order = 43,
+						order = 44,
 					},
 					
 										
@@ -902,7 +914,7 @@ return {
 						association = nil,
 						readable_name =  "INT4 Interceptor",
 						text_requirement = "",
-						order = 44,
+						order = 45,
 					},
 					
 					["IMPERIAL_UT_AA_COMPANY"] = {
@@ -914,7 +926,7 @@ return {
 						association = nil,
 						readable_name =  "UT AA",
 						text_requirement = "",
-						order = 45,
+						order = 46,
 					},
 					
 					["SPMAT_COMPANY"] = {
@@ -924,9 +936,9 @@ return {
 						chance = 20,
 						perception_modifier = nil,
 						association = nil,
-						readable_name =  "SPAMA-T",
+						readable_name =  "SPAMAT",
 						text_requirement = "",
-						order = 46,
+						order = 47,
 					},
 					
 					["2M_REPULSOR_TANK_COMPANY"] = {
@@ -938,7 +950,19 @@ return {
 						association = nil,
 						readable_name =  "2M Repulsortank",
 						text_requirement = "",
-						order = 47,
+						order = 48,
+					},
+					
+					["IMPERIAL_TX130S_COMPANY"] = {
+						locked = false,
+						gc_locked = false,
+						amount = 0,
+						chance = 20,
+						perception_modifier = nil,
+						association = nil,
+						readable_name =  "TX130S Sabretank",
+						text_requirement = "",
+						order = 49,
 					},
 					
 					["IMPERIAL_TX130T_COMPANY"] = {
@@ -950,7 +974,7 @@ return {
 						association = nil,
 						readable_name =  "TX130T Sabretank",
 						text_requirement = "",
-						order = 48,
+						order = 50,
 					},
 					
 					["1H_TANK_COMPANY"] = {
@@ -962,7 +986,7 @@ return {
 						association = nil,
 						readable_name =  "1H Repulsortank",
 						text_requirement = "",
-						order = 49,
+						order = 51,
 					},
 					
 									
@@ -975,7 +999,7 @@ return {
 						association = nil,
 						readable_name =  "AT MP",
 						text_requirement = "",
-						order = 50,				
+						order = 52,				
 					},
 				},
 			},
