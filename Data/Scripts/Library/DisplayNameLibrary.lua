@@ -45,6 +45,6 @@ return {
 	["LEGATOR_STAR_DREADNOUGHT"] = "Legator",
 	-- Project Proteus
 	["SHADOW_VENGEANCE_STAR_DREADNOUGHT"] = "Shadow Vengeance",
-	["HARRSK_MEGADOR"] = "Megador",
-	["DESANNE_DOMINION"] = "Dominion",
+	["HARRSK_MEGADOR"] = "Megador (Harrsk)",
+	["DESANNE_DOMINION"] = "Dominion (Desanne)",
 }
