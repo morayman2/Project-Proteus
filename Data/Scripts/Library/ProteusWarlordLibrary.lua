@@ -368,6 +368,7 @@ return {
 				-- Fighter Hero
 				"Red_Star_Location_Set",
 			},
+			LockList = {"Firebird_Stormtrooper_Company"},
 			FactionOverride = "Empire",
 			IntroText = "TEXT_CONQUEST_PROTEUS_TAPANI",
 			IntroHolo = "Imperial_Army_Officer_Loop"
