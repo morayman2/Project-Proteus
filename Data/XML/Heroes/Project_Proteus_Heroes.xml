@@ -4590,7 +4590,7 @@
 				<Target_Particle_Bone_Name>Turret_00, B_Turret_00, B_Turret, B_Turret_Base, ROOT</Target_Particle_Bone_Name>
 			</Force_Telekinesis_Ability>
 
-			<Force_Whirlwind_Ability Name="Thorn_Whirlwind">
+			<Force_Whirlwind_Ability Name="Thorn_Force_Whirlwind">
 				<!-- <Activation_Style>Special_Attack</Activation_Style> -->
 				<Activation_Style> User_Input </Activation_Style>
 				<!-- We need to be within this distance of the clicked target to consider activating Force Whirlwind -->

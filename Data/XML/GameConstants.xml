@@ -2472,9 +2472,9 @@
 		Procurator_Battlecruiser,						Data\ShipNames\Procurator.txt,
 		Imperial_II_Star_Destroyer_Ion,					Data\ShipNames\Star_Destroyer.txt,
 		Imperial_I_Star_Destroyer_Hero_Refit_Proteus,	Data\ShipNames\Star_Destroyer.txt,
-		<!-- Bayonet_Cruiser,								
-		Mansk_Frigate,									
-		Hornet_Assault_Carrier,							-->
+		Bayonet_Cruiser,								Data\ShipNames\tartan_patrol_cruiser.txt,
+		Mansk_Frigate,									Data\ShipNames\Pursuit.txt,
+		Hornet_Assault_Carrier,							Data\ShipNames\Beta_Cruiser.txt,
 		Tapani_Assault_Frigate,							Data\ShipNames\Tapani_Assault_Frigate.txt,
 		Vindicator_Carrier,								Data\ShipNames\Vindicator.txt,
 		Victory_II_Carrier,								Data\ShipNames\victory_destroyer_II.txt,
