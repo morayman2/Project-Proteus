@@ -4715,7 +4715,7 @@
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
 		</Encyclopedia_Text>
-		<Icon_Name>I_BUTTON_DAYMON_THORN.TGA_SSD.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_DAYMON_THORN_SSD.tga</Icon_Name>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
 
