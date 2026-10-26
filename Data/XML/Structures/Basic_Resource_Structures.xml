@@ -93,6 +93,90 @@
 		<Starting_Spawned_Units_Tech_0>Police_Responder_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
 	</SpecialStructure>
 
+	<SpecialStructure Name="Slave_Market">
+		<Variant_Of_Existing_Type>Template_Labour_Camp</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_GROUND_SLAVE_MARKET</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SLAVE_MARKET
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LABOUR_CAMP_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_LABOUR_CAMP_GARRISON
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_INCOME_TAX_2
+		TEXT_TOOLTIP_BONUS_LABOUR_CAMP_PARTISAN_EFFECT
+		TEXT_TOOLTIP_BONUS_INFLUENCE_MINUS_2
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_slave_market.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Starting_Spawned_Units_Tech_0>Police_Responder_Assault_Squad, 1</Starting_Spawned_Units_Tech_0>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Build_Limit_Current_Per_Player> -1 </Build_Limit_Current_Per_Player>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Tax_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TAX_COLLECTION_AGENCIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>2.0</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Slave_Barracks">
+		<Variant_Of_Existing_Type>Template_Labour_Camp</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_GROUND_SLAVE_BARRACKS</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SLAVE_BARRACKS
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_LABOUR_CAMP_HEALTH
+		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
+		TEXT_TOOLTIP_SLAVE_BARRACKS_SE1
+		TEXT_TOOLTIP_SLAVE_BARRACKS_SE2
+		TEXT_TOOLTIP_SLAVE_BARRACKS_SE3
+		TEXT_TOOLTIP_SLAVE_BARRACKS_SE4
+		TEXT_TOOLTIP_SLAVE_BARRACKS_SE5
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_BONUS_LABOUR_CAMP_PARTISAN_EFFECT
+		TEXT_TOOLTIP_BONUS_INFLUENCE_MINUS_2
+		TEXT_TOOLTIP_UPKEEP_100
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_slave_market.tga</Icon_Name>
+
+		<Affiliation>Imperial_Proteus</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+
+		<!--Using Scavs as a placeholder for slave soldiers-->
+		<Starting_Spawned_Units_Tech_0>Scavenger_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Scavenger_Squad, 6</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Heavy_Scavenger_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Heavy_Scavenger_Squad, 6</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Hutt_Desert_Sail20, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hutt_Desert_Sail20, 8</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>WLO5_Tank, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>WLO5_Tank, 4</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>AT_AP_Walker, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_AP_Walker, 3</Reserve_Spawned_Units_Tech_0>
+		
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Maintenance_Cost">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_LABOUR_CAMP_UPKEEP</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.0</Percentage_Income_Modifier> <!-- X percent of base planetary income -->
+				<Absolute_Income_Modifier>-100</Absolute_Income_Modifier> <!-- plus flat Y credits -->
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies> <!-- multiply by Z on mining planets  -->
+				<!-- Total bonus credits per cycle = ((base * X) + Y) * Z -->
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+	</SpecialStructure>
+
 	<SpecialStructure Name="TradeStation">
 		<Variant_Of_Existing_Type>Template_TradeStation</Variant_Of_Existing_Type>
 
@@ -101,9 +185,11 @@
 
 	<SpecialStructure Name="Dasta_TradeStation">
 		<Variant_Of_Existing_Type>Template_TradeStation</Variant_Of_Existing_Type>
-
+		
+		<Text_ID>TEXT_UNIT_TRADESTATION_DASTA</Text_ID>
+		
 		<Encyclopedia_Text>
-		TEXT_TOOLTIP_TRADESTATION
+		TEXT_TOOLTIP_DASTATRADESTATION
 		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
 		TEXT_TOOLTIP_XQ5_HULL
 		TEXT_TOOLTIP_XQ5_SHIELD 
@@ -111,6 +197,7 @@
 		TEXT_TOOLTIP_XQ5_WEAP2
 		TEXT_TOOLTIP_SEPARATOR_GARRISON_BLOCK
 		TEXT_TOOLTIP_TRADESTATION_SQUADRON
+		TEXT_TOOLTIP_DASTATRADESTATION_GARRISON
 		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
 		TEXT_TOOLTIP_INCOME_TRADE_STATION
 		TEXT_TOOLTIP_BONUS_FIGHTER_POOL
@@ -124,6 +211,9 @@
         <Build_Cost_Credits>2500</Build_Cost_Credits>
 
 		<Affiliation>Imperial_Proteus</Affiliation>
+		
+		<Starting_Spawned_Units_Tech_0>Marauder_Picket_Cruiser, 1</Starting_Spawned_Units_Tech_0>
+		
 	</SpecialStructure>
 
 <!-- needs to be completed -->

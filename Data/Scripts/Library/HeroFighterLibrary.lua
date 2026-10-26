@@ -855,7 +855,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"THORN", Locations = {"THORN_ASSERTOR"}},
 			}
 		},
-
 		["BENJO_ALPHA_LOCATION_SET"] = {
 			Hero_Squadron = "BENJO_ALPHA_SQUADRON",
 			PopupBody = "BENJO_ALPHA_SELECTOR_BODY",
@@ -868,7 +867,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"SHADOW_VENGEANCE", Locations = {"SHADOW_VENGEANCE_STAR_DREADNOUGHT"}},
 			}
 		},
-
 		["KILE_HANNAD_LOCATION_SET"] = {
 		 	Hero_Squadron = "PRAETORIAN_SQUADRON",
 			Factions = {"Imperial_Proteus"},
@@ -883,7 +881,6 @@ function Get_Hero_Entries(upgrade_object)
 			Enabler = "REFORM_PRAETORIAN",
 			DeathMessage = "Kile Hannad has sustained heavy injuries and needs medical treatment.",
 		},
-
 		["YARNAR_LOCATION_SET"] = {
 			Hero_Squadron = "YARNAR_SQUADRON",
 			PopupBody = "YARNAR_SELECTOR_BODY",
@@ -902,7 +899,6 @@ function Get_Hero_Entries(upgrade_object)
 				{"THORN", Locations = {"THORN_ASSERTOR"}},
 			}
 		},
-
 		["HSSISSK_LOCATION_SET"] = {
 			Hero_Squadron = "HSSISSK_SQUADRON",
 			Factions = {"Imperial_Proteus"},
@@ -916,6 +912,40 @@ function Get_Hero_Entries(upgrade_object)
 				{"TAVIRA", Locations = {"TAVIRA_INVIDIOUS"}},
 				{"SLAGORTH", Locations = {"SLAGORTH_ARC"}},
 			}
+		},
+		["PHENNIR_BETA_SQUADRON_LOCATION_SET"] = {
+			Hero_Squadron = "PHENNIR_BETA_SQUADRON",
+			PopupBody = "PHENNIR_BETA_SQUADRON_SELECTOR_BODY",
+			Options = {
+				{"FEL", Locations = {"FEL_EVISCERATOR"}},
+				--Isard + CCOGM regime
+				{"ROGRISS", Locations = {"ROGRISS_AGONIZER","ROGRISS_AURORA","ROGRISS_DOMINION"}},
+				--Thrawn regime
+				{"BRANDEI", Locations = {"BRANDEI_JUDICATOR"}},
+				{"DORJA", Locations = {"DORJA_RELENTLESS"}},
+				--Palpatine, Jax, Daala, & Pellaeon regime assignments shared w/ Fel
+				{"PELLAEON", Locations = {"PELLAEON_CHIMAERA_CAPTAIN","PELLAEON_CHIMAERA_GRAND","PELLAEON_REAPER","PELLAEON_MEGADOR"}},
+				{"KLEV", Locations = {"KLEV_SILENCER_7_FRIGATE","KLEV_SILENCER_7_DESTROYER","KLEV_SILENCER_7_BATTLECRUISER"}},
+				{"WESSEL", Locations = {"WESSEL_EMPERORS_REVENGE"}},
+				{"ARDAX", Locations = {"ARDAX_VENDETTA"}},
+				{"EXECUTOR", Locations = {"EXECUTOR_STAR_DREADNOUGHT"}}
+			}
+		},
+		["REBUILD_TAX"] = {
+			NoInit = true,
+			GroundReinforcementPerception = "Tax_In_Orbit",
+			GroundCompany = "TAXEVADER_TEAM",
+			Factions = {"Imperial_Proteus"},
+			NoSpawnFlag = "TAXEVADER_MPTL_DEAD",
+			DeathMessage = "xXTaxEvaderXx's MPTL has been destroyed and must be replaced."
+		},
+		["VICTOR_STRANG_GROUND_NOREBUILD"] = {
+			NoInit = true,
+			GroundReinforcementPerception = "Strang_In_Orbit",
+			GroundCompany = "STRANG_TEAM_DEPLOYED",
+			Factions = {"Imperial_Proteus"},
+			NoSpawnFlag = "DEPLOYED_VICTOR_STRANG_DEAD",
+			DeathMessage = "Victor Strang has been wounded and can no longer fight on land."
 		},
 	}
 
