@@ -1255,7 +1255,7 @@ return {
 		},
 		["COMPNOR"] = {
 			FriendlyName = "COMPNOR",
-			Planets = {"BRENTAAL", "ALSAKAN", "IXTLAR"},
+			Planets = {"BRENTAAL"},
 			LeaderTable = {["CRUEYA_VANDRON_TEAM"] = {"CRUEYA_VANDRON"}},
 			LeaderEndingNames = {"Emperor Vandron"},
 			HeroList = {{"Crueya_Vandron_Team", "Il_Raz_EmperorsDisciple"}, [6] = {"Crueya_Vandron_Team"}},
@@ -1268,7 +1268,6 @@ return {
 				
 			},
 			FactionOverride = "Empire",
-			FactionOverride2 = "Rebel",
 			StartYear = 4,
 			LastYear = 11,
 			IntroText = "TEXT_CONQUEST_PROTEUS_COMPNOR",
@@ -1611,7 +1610,7 @@ return {
 		["THORN"] = {
 			FriendlyName = "Thorn's Empire",
 			Planets = {"GHORMAN"},
-			LeaderTable = {["THORN_TEAM"] = {"THORN"}},
+			LeaderTable= {"THORN_TEAM"},
 			LeaderEndingNames = {"Emperor Thorn"},
 			HeroList = {"Thorn_Team"},
 			UnlockList = {
